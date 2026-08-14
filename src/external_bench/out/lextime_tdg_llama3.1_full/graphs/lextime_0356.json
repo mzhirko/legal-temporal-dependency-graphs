@@ -1,0 +1,66 @@
+{
+ "id": "lextime_0356",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "IP Martinez's advice about the office closure and relocation",
+ "event2": "the event of the office functioning importantly due to its proximity",
+ "relation": "BEFORE",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "office_closure",
+   "role": "CONTAINS",
+   "value": "2021-01-26",
+   "raw_text": "by letter dated January 26, 2021",
+   "timex_type": "DATE",
+   "sentence": "eda770ab1d6e1f54e29f4aa2d2d10f65",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2021-01-26"
+  },
+  {
+   "id": "e2",
+   "entity": "office_closure_and_move",
+   "role": "DURATION",
+   "value": "P30D",
+   "raw_text": "ten days later, by letter dated january 26, 2021",
+   "timex_type": "DURATION",
+   "sentence": "eda770ab1d6e1f54e29f4aa2d2d10f65",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "duration_days": 30
+  },
+  {
+   "id": "e3",
+   "entity": "office_closure_and_move",
+   "role": "DURATION",
+   "value": "P1M",
+   "raw_text": "by march of 2021",
+   "timex_type": "DURATION",
+   "sentence": "eda770ab1d6e1f54e29f4aa2d2d10f65",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "duration_days": 30
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e2",
+   "to_id": "e3",
+   "constraint_type": "ordering",
+   "constraint_expr": "e3 = e2 + 10 days",
+   "delta_days": 10,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "summary": {
+  "condition": "v3EL",
+  "n": 3,
+  "coverage": 0.3333,
+  "acc_answered": 1.0,
+  "acc_all": 0.3333,
+  "converted": 0,
+  "acc_converted": null,
+  "edges_downgraded": 0,
+  "by_case": {
+   "2026_EAT_76": {
+    "n": 1,
+    "answered": 0,
+    "correct": 0,
+    "converted": 0,
+    "conv_correct": 0
+   },
+   "kj_2026_EAT_46": {
+    "n": 1,
+    "answered": 0,
+    "correct": 0,
+    "converted": 0,
+    "conv_correct": 0
+   },
+   "2026_EAT_64_s123": {
+    "n": 1,
+    "answered": 1,
+    "correct": 1,
+    "converted": 0,
+    "conv_correct": 0
+   }
+  }
+ },
+ "rows": [
+  {
+   "pred": null,
+   "explanation": "Could not match anchor 'date of the act' in instance",
+   "pred_anchor": null,
+   "pred_deadline": null,
+   "edge_audit": {
+    "summary": "2026_EAT_76: 0 additive edge(s), 0 supported, 0 downgraded, 0 unverifiable",
+    "applied": 0,
+    "downgraded": []
+   },
+   "v3l": {
+    "converted": false
+   },
+   "id": "2026_EAT_76",
+   "case": "2026_EAT_76",
+   "gold": "LATE",
+   "match": false
+  },
+  {
+   "pred": null,
+   "explanation": "Anchor ambiguous — 3 distinct-dated candidates for 'date of the act': harassment (2021-04-30); harassment (2021-08-04); continuing state of affairs (2021-11-22). Anchor selection is a legal judgment; abstaining.",
+   "pred_anchor": null,
+   "pred_deadline": null,
+   "edge_audit": {
+    "summary": "kj_2026_EAT_46: 0 additive edge(s), 0 supported, 0 downgraded, 0 unverifiable",
+    "applied": 0,
+    "downgraded": []
+   },
+   "v3l": {
+    "converted": false
+   },
+   "id": "kj_2026_EAT_46",
+   "case": "kj_2026_EAT_46",
+   "gold": "TIMELY",
+   "match": false
+  },
+  {
+   "pred": "LATE",
+   "explanation": "anchor=dismissal (2022-06-08) + [date of the act + 3m - 1 day] = deadline 2022-09-07. action=et1 claim forms (2023-01-10, via action-cue) -> 125d after deadline -> LATE",
+   "pred_anchor": "2022-06-08",
+   "pred_deadline": "2022-09-07",
+   "edge_audit": {
+    "summary": "2026_EAT_64_s123: 0 additive edge(s), 0 supported, 0 downgraded, 0 unverifiable",
+    "applied": 0,
+    "downgraded": []
+   },
+   "v3l": null,
+   "id": "2026_EAT_64_s123",
+   "case": "2026_EAT_64_s123",
+   "gold": "LATE",
+   "match": true
+  }
+ ]
+}

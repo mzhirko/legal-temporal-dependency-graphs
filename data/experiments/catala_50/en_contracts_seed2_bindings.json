@@ -1,0 +1,28 @@
+{
+ "document_id": "en_contracts_seed2",
+ "scope_name": "AgreementTimeline",
+ "bindings": {
+  "entry_into_force_date": {
+   "fact_id": "e2",
+   "entity": "Agreement",
+   "role": "START",
+   "score": 3.0,
+   "value": "1996-01-01",
+   "raw_text": "entered into force on 1 January 1996"
+  },
+  "notification_period": {
+   "fact_id": "e4",
+   "entity": "Art.1 Notification",
+   "role": "DURATION",
+   "score": 1.5,
+   "value": {
+    "years": 0,
+    "months": 1,
+    "days": 0
+   },
+   "raw_text": "within one month after the entry into force of this Agreement."
+  }
+ },
+ "unbound": [],
+ "llm_fallback_used": false
+}

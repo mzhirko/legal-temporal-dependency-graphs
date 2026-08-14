@@ -1,0 +1,150 @@
+{
+ "document_id": "en_contracts_seed7",
+ "document_type": "legal",
+ "source_text": "L 183/84 EN Official Journal of the European Union 20.5.2004 AGREEMENT between the European Community and the United States of America on the processing and transfer of PNR data by air carriers to the United States Department of Homeland Security, Bureau of Customs and Border Protection THE EUROPEAN COMMUNITY AND THE UNITED STATES OF AMERICA, RECOGNISING the importance of respecting fundamental rights and freedoms, notably privacy, and the importance of respecting these values, while preventing and combating terrorism and related crimes and other serious crimes that are transnational in nature, including organised crime, HAVING REGARD to US statutes and regulations requiring each air carrier operating passenger flights in foreign air transportation to or from the United States to provide the Department of Homeland Security (hereinafter ‘DHS’), Bureau of Customs and Border Protection (hereinafter ‘CBP’) with electronic access to Passenger Name Record (hereinafter ‘PNR’) data to the extent it is collected and contained in the air carrier's automated reservation/departure control systems, HAVING REGARD to Directive 95/46/EC of the European Parliament and of the Council of 24 October 1995 on the protection of individuals with regard to the processing of personal data and on the free movement of such data, and in particular Article 7(c) thereof, HAVING REGARD to the Undertakings of CBP issued on 11 May 2004, which will be published in the Federal Register (hereinafter ‘the Undertakings’), HAVING REGARD to Commission Decision C (2004) 1799 adopted on 17 May 2004, pursuant to Article 25(6) of Directive 95/46/EC, whereby CBP is considered as providing an adequate level of protection for PNR data transferred from the European Community (hereinafter ‘Community’) concerning flights to or from the US in accordance with the Undertakings, which are annexed thereto (hereinafter ‘the Decision’), NOTING that air carriers with reservation/departure control systems located within the territory of the Member States of the European Community should arrange for transmission of PNR data to CBP as soon as this is technically feasible but that, until then, the US authorities should be allowed to access the data directly, in accordance with the provisions of this Agreement, AFFIRMING that this Agreement does not constitute a precedent for any future discussions and negotiations between the United States and the European Community, or between either of the Parties and any State regarding the transfer of any other form of data, HAVING REGARD to the commitment of both sides to work together to reach an appropriate and mutually satisfactory solution, without delay, on the processing of Advance Passenger Information (API) data from the Community to the US, HAVE AGREED AS FOLLOWS: (1) CBP may electronically access the PNR data from air carriers' reservation/departure control systems (‘reservation systems’) located within the territory of the Member States of the European Community strictly in accordance with the Decision and for so long as the Decision is applicable and only until there is a satisfactory system in place allowing for transmission of such data by the air carriers. ---pagebreak--- 20.5.2004 EN Official Journal of the European Union L 183/85 (2) Air carriers operating passenger flights in foreign air transportation to or from the United States shall process PNR data contained in their automated reservation systems as required by CBP pursuant to US law and strictly in accordance with the Decision and for so long as the Decision is applicable. (3) CBP takes note of the Decision and states that it is implementing the Undertakings annexed thereto. (4) CBP shall process PNR data received and treat data subjects concerned by such processing in accordance with applicable US laws and constitutional requirements, without unlawful discrimination, in particular on the basis of nationality and country of residence. (5) CBP and the European Commission shall jointly and regularly review the implementation of this Agreement. (6) In the event that an airline passenger identification system is implemented in the European Union which requires air carriers to provide authorities with access to PNR data for persons whose current travel itinerary includes a flight to or from the European Union, DHS shall, in so far as practicable and strictly on the basis of reciprocity, actively promote the cooperation of airlines within its jurisdiction. (7) This Agreement shall enter into force upon signature. Either Party may terminate this Agreement at any time by notification through diplomatic channels. The termination shall take effect ninety (90) days from the date of notification of termination to the other Party. This Agreement may be amended at any time by mutual written agreement. (8) This Agreement is not intended to derogate from or amend legislation of the Parties; nor does this Agreement create or confer any right or benefit on any other person or entity, private or public. Signed at …, on … This Agreement is drawn up in duplicate in the Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Greek, Hungarian, Italian, Latvian, Lithuanian, Maltese, Polish, Portuguese, Slovak, Slovenian, Spanish and Swedish languages, each text being equally authentic. In case of divergence, the English version shall prevail. for the European Community for the United States of America … Tom RIDGE … Secretary of the United States Department of Homeland Security",
+ "facts": [
+  {
+   "id": "f1",
+   "entity": "the European Community",
+   "role": "UNKNOWN",
+   "value": "2004-05-20",
+   "raw_text": "20.5.2004",
+   "timex_type": "DATE",
+   "sentence": "b01a0c655ae1deb765d472562e2ae198",
+   "confidence": 0.2,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2004-05-20"
+  },
+  {
+   "id": "f2",
+   "entity": "the European Parliament",
+   "role": "UNKNOWN",
+   "value": "1995-10-24",
+   "raw_text": "24 October 1995",
+   "timex_type": "DATE",
+   "sentence": "b01a0c655ae1deb765d472562e2ae198",
+   "confidence": 0.2,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "1995-10-24"
+  },
+  {
+   "id": "f3",
+   "entity": "CBP",
+   "role": "UNKNOWN",
+   "value": "2004-05-11",
+   "raw_text": "11 May 2004",
+   "timex_type": "DATE",
+   "sentence": "b01a0c655ae1deb765d472562e2ae198",
+   "confidence": 0.3,
+   "signal_verb": null,
+   "signal_prep": "on",
+   "temporal_content": true,
+   "date_parsed": "2004-05-11"
+  },
+  {
+   "id": "f4",
+   "entity": "the Federal Register",
+   "role": "UNKNOWN",
+   "value": "2004",
+   "raw_text": "2004",
+   "timex_type": "DATE",
+   "sentence": "b01a0c655ae1deb765d472562e2ae198",
+   "confidence": 0.2,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2004-08-01"
+  },
+  {
+   "id": "f5",
+   "entity": "the Federal Register",
+   "role": "UNKNOWN",
+   "value": "1799",
+   "raw_text": "1799",
+   "timex_type": "DATE",
+   "sentence": "b01a0c655ae1deb765d472562e2ae198",
+   "confidence": 0.2,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "1799-08-01"
+  },
+  {
+   "id": "f6",
+   "entity": "the Federal Register",
+   "role": "UNKNOWN",
+   "value": "2004-05-17",
+   "raw_text": "17 May 2004",
+   "timex_type": "DATE",
+   "sentence": "b01a0c655ae1deb765d472562e2ae198",
+   "confidence": 0.3,
+   "signal_verb": null,
+   "signal_prep": "on",
+   "temporal_content": true,
+   "date_parsed": "2004-05-17"
+  },
+  {
+   "id": "f7",
+   "entity": "the United States",
+   "role": "UNKNOWN",
+   "value": "2004-05-20",
+   "raw_text": "20.5.2004",
+   "timex_type": "DATE",
+   "sentence": "3d83467bdcb1c8328d2aa77c6196480d",
+   "confidence": 0.2,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2004-05-20"
+  },
+  {
+   "id": "f8",
+   "entity": "whose current travel itinerary",
+   "role": "DURATION",
+   "value": "PRESENT_REF",
+   "raw_text": "current",
+   "timex_type": "DATE",
+   "sentence": "c7bd5d3496ea1da1c8742e636ca9404c",
+   "confidence": 0.75,
+   "signal_verb": null,
+   "signal_prep": "for",
+   "temporal_content": true
+  }
+ ],
+ "dependencies": [],
+ "edit_scenarios": [],
+ "_provenance": {
+  "extractor_backend": "heideltime",
+  "environment": {
+   "java": "openjdk version \"17.0.20\" 2026-07-21",
+   "py_heideltime": "unknown",
+   "spacy": "3.7.6",
+   "spacy_model": "en_core_web_trf",
+   "heideltime_probe": "2 spans, types=['DATE', 'DURATION']",
+   "python": "3.9.25"
+  },
+  "git": "861887f-dirty",
+  "reference_date": "2020-01-01",
+  "spacy_model": "en_core_web_trf",
+  "document_type": "legal",
+  "stage_counts": {
+   "document_id": "en_contracts_seed7",
+   "source_file": "../data/results_contracts_50/en_contracts_seed7.json",
+   "chars": 5516,
+   "raw_timex": 8,
+   "timex_by_type": {
+    "DATE": 8
+   },
+   "unique_offsets": 8,
+   "facts": 8,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 4.74
+  },
+  "input_file": "../data/results_contracts_50/en_contracts_seed7.json"
+ }
+}

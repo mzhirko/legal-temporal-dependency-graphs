@@ -1,0 +1,11 @@
+{
+ "id": "lextime_0407",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "Ms. Salome's agreement to Ms. Reed's advice is",
+ "event2": "with her decision to issue the written discipline and speak with Rivera",
+ "relation": "AFTER",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [],
+ "dependencies": []
+}

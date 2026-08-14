@@ -1,0 +1,19 @@
+# Cotonou Agreement Expiration and Successor Deadline
+
+This scope checks the relationship between the expiration of the Cotonou trade preferences and the required deadline for a WTO compatible successor trade arrangement.
+
+```catala
+declaration scope CotonouExpirationCheck:
+  input cotonou_expiry_date content date
+  input successor_deadline content date
+  output successor_required content boolean
+```
+
+The successor trade arrangement must be in place by the deadline following the expiration of the Cotonou trade preferences.
+
+```catala
+scope CotonouExpirationCheck:
+  date round down
+  definition successor_required equals
+    (cotonou_expiry_date < successor_deadline)
+```

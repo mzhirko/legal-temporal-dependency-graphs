@@ -1,0 +1,121 @@
+[
+ {
+  "case_id": "2026_EAT_64_s111",
+  "presented": "2023-01-10",
+  "deadline": "2023-01-10",
+  "last_date": "2022-09-08",
+  "verdict": "out_of_time",
+  "delta_days": 124,
+  "complied": false,
+  "statuses": {
+   "presented": "ok",
+   "deadline": "ok",
+   "last_date": "ok",
+   "verdict": "ok",
+   "delta_days": "ok",
+   "complied": "ok"
+  }
+ },
+ {
+  "case_id": "2026_EAT_64_s123",
+  "presented": "2023-01-10",
+  "deadline": "2023-01-10",
+  "last_date": "2022-09-08",
+  "verdict": "out_of_time",
+  "delta_days": 124,
+  "complied": false,
+  "statuses": {
+   "presented": "ok",
+   "deadline": "ok",
+   "last_date": "ok",
+   "verdict": "ok",
+   "delta_days": "ok",
+   "complied": "ok"
+  }
+ },
+ {
+  "case_id": "2025_EAT_155",
+  "presented": "2020-12-10",
+  "deadline": "2020-10-10",
+  "last_date": "2020-10-11",
+  "verdict": "out_of_time",
+  "delta_days": 61,
+  "complied": true,
+  "statuses": {
+   "presented": "ok",
+   "deadline": "ok",
+   "last_date": "ok",
+   "verdict": "ok",
+   "delta_days": "ok",
+   "complied": "ok"
+  }
+ },
+ {
+  "case_id": "2026_EAT_14",
+  "presented": "2023-02-06",
+  "deadline": "2023-02-08",
+  "last_date": "2023-02-08",
+  "verdict": "out_of_time",
+  "delta_days": -2,
+  "complied": false,
+  "statuses": {
+   "presented": "ok",
+   "deadline": "ok",
+   "last_date": "ok",
+   "verdict": "ok",
+   "delta_days": "ok",
+   "complied": "ok"
+  }
+ },
+ {
+  "case_id": "2026_EAT_76",
+  "presented": "2020-02-28",
+  "deadline": "2020-05-14",
+  "last_date": "2020-05-14",
+  "verdict": null,
+  "delta_days": 0,
+  "complied": null,
+  "statuses": {
+   "presented": "ok",
+   "deadline": "ok",
+   "last_date": "ok",
+   "verdict": "unparseable",
+   "delta_days": "ok",
+   "complied": "unparseable"
+  }
+ },
+ {
+  "case_id": "2026_EAT_59",
+  "presented": "2024-07-09",
+  "deadline": "2024-05-18",
+  "last_date": "2024-05-18",
+  "verdict": "out_of_time",
+  "delta_days": 52,
+  "complied": false,
+  "statuses": {
+   "presented": "ok",
+   "deadline": "ok",
+   "last_date": "ok",
+   "verdict": "ok",
+   "delta_days": "ok",
+   "complied": "ok"
+  }
+ },
+ {
+  "case_id": "kj_2026_EAT_46",
+  "presented": "2022-02-17",
+  "deadline": "2021-07-30",
+  "last_date": null,
+  "verdict": "out_of_time",
+  "delta_days": 201,
+  "complied": false,
+  "statuses": {
+   "presented": "ok",
+   "deadline": "ok",
+   "last_date": "no_json",
+   "verdict": "ok",
+   "delta_days": "ok",
+   "complied": "ok"
+  }
+ }
+]

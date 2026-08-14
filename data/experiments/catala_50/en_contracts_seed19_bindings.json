@@ -1,0 +1,9 @@
+{
+ "document_id": "en_contracts_seed19",
+ "scope_name": "DenunciationEffectivity",
+ "bindings": {},
+ "unbound": [
+  "notification_receipt_date"
+ ],
+ "llm_fallback_used": true
+}

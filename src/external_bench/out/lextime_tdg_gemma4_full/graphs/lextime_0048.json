@@ -1,0 +1,11 @@
+{
+ "id": "lextime_0048",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "Ms. Arvan noticing Rivera's unsafe behavior",
+ "event2": "her decision to approach him",
+ "relation": "BEFORE",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [],
+ "dependencies": []
+}

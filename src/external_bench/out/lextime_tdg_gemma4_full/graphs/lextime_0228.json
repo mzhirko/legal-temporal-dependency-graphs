@@ -1,0 +1,53 @@
+{
+ "id": "lextime_0228",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "The misuse of union funds",
+ "event2": "the attachment of the complaint as exhibit",
+ "relation": "AFTER",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "misuse of union funds",
+   "role": "CONTAINS",
+   "value": "2021-03",
+   "raw_text": "the applicant sandra gardner learned of the misuse of union funds only in march 2021",
+   "timex_type": "DATE",
+   "sentence": "030df877904bfbfecec9045d3d82f1a0",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2021-03-01"
+  },
+  {
+   "id": "e2",
+   "entity": "copies of weekly expense reports",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "sito pantoja, the iam vice president at the time, obtained copies of her weekly expense reports from 2015 through united states district court for the district of connecticut women &amp; infants hospital of rhode island, plaintiff, vs. c.a. no. new england health care employees union, district 1199, seiu, defendant.",
+   "timex_type": "DATE",
+   "sentence": "030df877904bfbfecec9045d3d82f1a0",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e3",
+   "entity": "union engaging in conduct",
+   "role": "START",
+   "value": "2022-05",
+   "raw_text": "beginning in may 2022",
+   "timex_type": "DATE",
+   "sentence": "f106259cf52fe376d61b66b206426743",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2022-05-01"
+  }
+ ],
+ "dependencies": []
+}

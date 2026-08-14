@@ -1,0 +1,118 @@
+{
+ "document_id": "en_contracts_seed7",
+ "document_type": "legal",
+ "source_text": "L 183/84 EN Official Journal of the European Union 20.5.2004 AGREEMENT between the European Community and the United States of America on the processing and transfer of PNR data by air carriers to the United States Department of Homeland Security, Bureau of Customs and Border Protection THE EUROPEAN COMMUNITY AND THE UNITED STATES OF AMERICA, RECOGNISING the importance of respecting fundamental rights and freedoms, notably privacy, and the importance of respecting these values, while preventing and combating terrorism and related crimes and other serious crimes that are transnational in nature, including organised crime, HAVING REGARD to US statutes and regulations requiring each air carrier operating passenger flights in foreign air transportation to or from the United States to provide the Department of Homeland Security (hereinafter ‘DHS’), Bureau of Customs and Border Protection (hereinafter ‘CBP’) with electronic access to Passenger Name Record (hereinafter ‘PNR’) data to the extent it is collected and contained in the air carrier's automated reservation/departure control systems, HAVING REGARD to Directive 95/46/EC of the European Parliament and of the Council of 24 October 1995 on the protection of individuals with regard to the processing of personal data and on the free movement of such data, and in particular Article 7(c) thereof, HAVING REGARD to the Undertakings of CBP issued on 11 May 2004, which will be published in the Federal Register (hereinafter ‘the Undertakings’), HAVING REGARD to Commission Decision C (2004) 1799 adopted on 17 May 2004, pursuant to Article 25(6) of Directive 95/46/EC, whereby CBP is considered as providing an adequate level of protection for PNR data transferred from the European Community (hereinafter ‘Community’) concerning flights to or from the US in accordance with the Undertakings, which are annexed thereto (hereinafter ‘the Decision’), NOTING that air carriers with reservation/departure control systems located within the territory of the Member States of the European Community should arrange for transmission of PNR data to CBP as soon as this is technically feasible but that, until then, the US authorities should be allowed to access the data directly, in accordance with the provisions of this Agreement, AFFIRMING that this Agreement does not constitute a precedent for any future discussions and negotiations between the United States and the European Community, or between either of the Parties and any State regarding the transfer of any other form of data, HAVING REGARD to the commitment of both sides to work together to reach an appropriate and mutually satisfactory solution, without delay, on the processing of Advance Passenger Information (API) data from the Community to the US, HAVE AGREED AS FOLLOWS: (1) CBP may electronically access the PNR data from air carriers' reservation/departure control systems (‘reservation systems’) located within the territory of the Member States of the European Community strictly in accordance with the Decision and for so long as the Decision is applicable and only until there is a satisfactory system in place allowing for transmission of such data by the air carriers. ---pagebreak--- 20.5.2004 EN Official Journal of the European Union L 183/85 (2) Air carriers operating passenger flights in foreign air transportation to or from the United States shall process PNR data contained in their automated reservation systems as required by CBP pursuant to US law and strictly in accordance with the Decision and for so long as the Decision is applicable. (3) CBP takes note of the Decision and states that it is implementing the Undertakings annexed thereto. (4) CBP shall process PNR data received and treat data subjects concerned by such processing in accordance with applicable US laws and constitutional requirements, without unlawful discrimination, in particular on the basis of nationality and country of residence. (5) CBP and the European Commission shall jointly and regularly review the implementation of this Agreement. (6) In the event that an airline passenger identification system is implemented in the European Union which requires air carriers to provide authorities with access to PNR data for persons whose current travel itinerary includes a flight to or from the European Union, DHS shall, in so far as practicable and strictly on the basis of reciprocity, actively promote the cooperation of airlines within its jurisdiction. (7) This Agreement shall enter into force upon signature. Either Party may terminate this Agreement at any time by notification through diplomatic channels. The termination shall take effect ninety (90) days from the date of notification of termination to the other Party. This Agreement may be amended at any time by mutual written agreement. (8) This Agreement is not intended to derogate from or amend legislation of the Parties; nor does this Agreement create or confer any right or benefit on any other person or entity, private or public. Signed at …, on … This Agreement is drawn up in duplicate in the Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Greek, Hungarian, Italian, Latvian, Lithuanian, Maltese, Polish, Portuguese, Slovak, Slovenian, Spanish and Swedish languages, each text being equally authentic. In case of divergence, the English version shall prevail. for the European Community for the United States of America … Tom RIDGE … Secretary of the United States Department of Homeland Security",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "Agreement",
+   "role": "START",
+   "value": null,
+   "raw_text": "AGREEMENT between the European Community and the United States of America on the processing and transfer of PNR data by air carriers to the United States Department of Homeland Security, Bureau of Customs and Border Protection",
+   "timex_type": "DATE",
+   "sentence": "186b8c048f632f0a62870b894408bd34",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null
+  },
+  {
+   "id": "e2",
+   "entity": "Undertakings",
+   "role": "CONTAINS",
+   "value": "2004-05-11",
+   "raw_text": "Undertakings of CBP issued on 11 May 2004",
+   "timex_type": "DATE",
+   "sentence": "8b1ecf93037f9a7b0292745bccca24a9",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2004-05-11"
+  },
+  {
+   "id": "e3",
+   "entity": "Commission Decision",
+   "role": "CONTAINS",
+   "value": "2004-05-17",
+   "raw_text": "Commission Decision C (2004) 1799 adopted on 17 May 2004",
+   "timex_type": "DATE",
+   "sentence": "f9834805ab83d4a8ca19cbcaebb0d690",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2004-05-17"
+  },
+  {
+   "id": "e4",
+   "entity": "Art.7 Agreement",
+   "role": "START",
+   "value": null,
+   "raw_text": "This Agreement shall enter into force upon signature",
+   "timex_type": "DATE",
+   "sentence": "7b737886d42bd729bdf086bc20e9b3fd",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null
+  },
+  {
+   "id": "e5",
+   "entity": "Art.7 Agreement",
+   "role": "END",
+   "value": null,
+   "raw_text": "Either Party may terminate this Agreement at any time by notification through diplomatic channels.",
+   "timex_type": "DATE",
+   "sentence": "e065064c3f8c23f66e15b98a54e05aa9",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null
+  },
+  {
+   "id": "e6",
+   "entity": "Art.7 Agreement",
+   "role": "DURATION",
+   "value": "P90D",
+   "raw_text": "The termination shall take effect ninety (90) days from the date of notification of termination to the other Party.",
+   "timex_type": "DURATION",
+   "sentence": "a8d2b6a61a1245fafb4eed3b652f8b71",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "duration_days": 90
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e1",
+   "to_id": "e6",
+   "constraint_type": "additive",
+   "constraint_expr": "duration P90D from Agreement",
+   "delta_days": 90,
+   "confidence": 0.5,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e6",
+   "to_id": "e5",
+   "constraint_type": "additive",
+   "constraint_expr": "Art.7 Agreement = start + P90D",
+   "delta_days": 90,
+   "confidence": 0.5,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e5",
+   "to_id": "e6",
+   "constraint_type": "additive",
+   "constraint_expr": "e6 = e5 + 90 days",
+   "delta_days": 90,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ],
+ "edit_scenarios": []
+}

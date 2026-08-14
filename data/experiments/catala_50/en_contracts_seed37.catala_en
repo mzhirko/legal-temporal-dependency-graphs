@@ -1,0 +1,18 @@
+# Cooperation Period Calculation
+
+This scope calculates the expected end date of the cooperation period by adding a specified duration to the agreement's effective date.
+
+```catala
+declaration scope CooperationPeriod:
+  input agreement_date content date   # The date the cooperation agreement was established
+  input review_duration content duration # The duration for which cooperation is expected
+  output end_date content date       # The calculated end date of the cooperation period
+```
+
+The end date of the cooperation period is determined by adding the review duration to the agreement date.
+
+```catala
+scope CooperationPeriod:
+  date round down
+  definition end_date equals agreement_date + review_duration
+```

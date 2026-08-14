@@ -1,0 +1,27 @@
+# Agreement Duration and Termination
+
+This scope calculates the initial expiry date and the deadline for requesting termination or renegotiation of the agreement.
+
+```catala
+declaration scope AgreementDuration:
+  input entry_date content date
+  input initial_term content duration
+  input notice_period content duration
+  output initial_expiry_date content date
+  output termination_deadline content date
+```
+
+## Initial Expiry Date
+
+The agreement remains in force for an initial period of 10 years from the date it enters into force.
+
+```catala
+scope AgreementDuration:
+  date round down
+  definition initial_expiry_date equals entry_date + initial_term
+  definition termination_deadline equals initial_expiry_date - notice_period
+```
+
+## Termination Deadline
+
+The agreement must be terminated or renegotiated not later than six months prior to the expiry date.

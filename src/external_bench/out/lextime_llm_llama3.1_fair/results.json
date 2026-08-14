@@ -1,0 +1,5204 @@
+{
+ "dataset": "lextime",
+ "split": "smoke",
+ "mode": "endpoint",
+ "model": "llama3.1:8b",
+ "meta": {
+  "data_path": "./lextime.csv",
+  "n": 514,
+  "seed": 20240517,
+  "limit": 0,
+  "system": "llm",
+  "tdg_fallback": "none",
+  "fallback_used": 0,
+  "gold_distribution": {
+   "YES": 259,
+   "NO": 255
+  },
+  "split_sha256": "7dd111a996cb8dcc"
+ },
+ "summary": {
+  "n": 514,
+  "answered": 513,
+  "coverage": 0.9981,
+  "call_errors_infra": 0,
+  "unparseable_or_abstained": 1,
+  "accuracy_answered": 0.6238,
+  "accuracy_all": 0.6226,
+  "correct": 320,
+  "by_pair_type": {
+   "both-explicit": {
+    "n": 275,
+    "answered": 274,
+    "coverage": 0.9964,
+    "call_errors_infra": 0,
+    "unparseable_or_abstained": 1,
+    "accuracy_answered": 0.6058,
+    "accuracy_all": 0.6036,
+    "correct": 166
+   },
+   "both-implicit": {
+    "n": 12,
+    "answered": 12,
+    "coverage": 1.0,
+    "call_errors_infra": 0,
+    "unparseable_or_abstained": 0,
+    "accuracy_answered": 0.4167,
+    "accuracy_all": 0.4167,
+    "correct": 5
+   },
+   "one-implicit-one-explicit": {
+    "n": 227,
+    "answered": 227,
+    "coverage": 1.0,
+    "call_errors_infra": 0,
+    "unparseable_or_abstained": 0,
+    "accuracy_answered": 0.6564,
+    "accuracy_all": 0.6564,
+    "correct": 149
+   }
+  }
+ },
+ "rows": [
+  {
+   "id": "lextime_0132",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0347",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0225",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0300",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0045",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0237",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0344",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0475",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0431",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0290",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0380",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0238",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0507",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0071",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0117",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0490",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0478",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0006",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0213",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0022",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0298",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0235",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0287",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0210",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0031",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0446",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0443",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0474",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-implicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0398",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0427",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0035",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0041",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0293",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0095",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0339",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0159",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0047",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0382",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0464",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0099",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0421",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0327",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0370",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0295",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0430",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0405",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0323",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0384",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0351",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0063",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0153",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0448",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0281",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0032",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0373",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0069",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0100",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0209",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0257",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0175",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0460",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0115",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0278",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0160",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0247",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0407",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0495",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0240",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0260",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0269",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0357",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0501",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0311",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-implicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0113",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0172",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0030",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0231",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0039",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0016",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0444",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0409",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0142",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0259",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0389",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0328",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0227",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0392",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0177",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0348",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0187",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0179",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0154",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0262",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0423",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-implicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0058",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0241",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0396",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0509",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0105",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0272",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0498",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0491",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0387",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0138",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0305",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0252",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0017",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0077",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0458",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0432",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0199",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0067",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0150",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0171",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0463",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0512",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0230",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0025",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0233",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0242",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": null,
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0207",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0191",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0412",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0133",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0294",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0353",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0224",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0090",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0473",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0147",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0124",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0211",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0335",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0212",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0054",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0263",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0114",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0251",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0284",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0029",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0341",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0084",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0009",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0454",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0013",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0066",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0164",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0002",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0087",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-implicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0291",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0504",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0435",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0346",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0400",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0111",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0161",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0436",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0214",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0465",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0255",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0280",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0236",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0033",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0404",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0125",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0447",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0361",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0158",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0434",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0057",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0196",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0307",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0128",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0467",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0312",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0486",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0360",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0329",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0426",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0122",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0429",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0321",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0469",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0080",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0376",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0075",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0425",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0381",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0118",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-implicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0302",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0074",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0218",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0183",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0136",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0420",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0130",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0073",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0462",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0182",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0442",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0416",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0244",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0200",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0121",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0082",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0314",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0141",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0378",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0215",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0309",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-implicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0438",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0439",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0119",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0316",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0140",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0275",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0379",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0178",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0232",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0270",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0479",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0368",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0024",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0034",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0399",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0174",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0096",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0304",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0148",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0076",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0317",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0234",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0319",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0083",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0131",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0264",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0338",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0162",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0107",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0169",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0027",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0038",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0091",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0330",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0393",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0354",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0452",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-implicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0108",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0120",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0092",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0194",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0325",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0332",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0188",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0021",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0151",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0402",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0192",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0152",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0028",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0137",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0418",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0055",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0349",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0060",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0249",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0397",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0488",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-implicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0048",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0220",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0334",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0267",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0265",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0313",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0248",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0470",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0094",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0484",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0145",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0481",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0144",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0204",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-implicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0363",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0336",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0485",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0089",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-implicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0059",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0112",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0020",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0286",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0015",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0411",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0461",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0451",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0362",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0358",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0315",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0001",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0410",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0510",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-implicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0365",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0037",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0135",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0167",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0098",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0157",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0497",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0276",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0487",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0433",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0372",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0000",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0318",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0106",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0301",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0085",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0104",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0296",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0324",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0489",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0202",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0061",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0506",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0292",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0040",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0184",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0450",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0390",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0056",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0445",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0355",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0386",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0190",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0385",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0377",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0065",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0285",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0500",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0261",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0004",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0129",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0333",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0197",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0246",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0388",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0078",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0036",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0186",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0356",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0403",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0005",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0070",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0139",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0046",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0279",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0374",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0256",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0109",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0051",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0110",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0050",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0163",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0014",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0508",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0254",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0253",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0003",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0406",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0366",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0468",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0042",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0185",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0273",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0088",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0176",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0415",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0068",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0437",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0019",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0367",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0250",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0011",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0310",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0383",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0320",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0340",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-implicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0288",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0134",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0189",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0228",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0274",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0195",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0482",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0222",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0428",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0326",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0369",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0206",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0422",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0173",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0155",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0455",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0226",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0345",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0494",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0359",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0064",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0480",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0166",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0223",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0441",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0342",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0322",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0193",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0424",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0453",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0072",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0271",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0306",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0243",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0201",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0221",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0503",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0198",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0331",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0472",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0413",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0229",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0103",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0394",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0216",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0023",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0102",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0456",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0499",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0364",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0502",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0062",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0143",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0477",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0007",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0283",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0375",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0203",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0417",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0440",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0168",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0079",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0297",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0149",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0511",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0010",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0181",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0350",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0018",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0282",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0496",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0127",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0126",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0239",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0026",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0343",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0266",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0303",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0180",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0217",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0008",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0258",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0476",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0493",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0049",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0352",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0513",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0505",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0466",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0408",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0308",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0299",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0395",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0170",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0081",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0044",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0277",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0449",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0419",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0205",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0012",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0371",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0492",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0268",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0459",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0471",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0123",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0219",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0101",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0093",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0146",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0053",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0414",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0245",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0457",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0483",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0097",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0401",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0391",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0337",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0208",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0289",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "lextime_0156",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0052",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0043",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0116",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0086",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "both-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "lextime_0165",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "one-implicit-one-explicit",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  }
+ ]
+}

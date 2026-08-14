@@ -1,0 +1,21 @@
+# Ecopoints Validity Period
+
+This scope calculates the start and end dates for which ecopoints are valid.
+
+```catala
+declaration scope EcopointsValidity:
+  input attribution_start_date content date # 1 January of the attribution year
+  output valid_start_date content date
+  output valid_end_date content date
+```
+
+## Ecopoints Validity
+
+Ecopoints are valid from 1 January of the year for which they are attributed and 31 January of the following year.
+
+```catala
+scope EcopointsValidity:
+  date round down
+  definition valid_start_date equals attribution_start_date
+  definition valid_end_date equals (attribution_start_date + 1 year) - 1 day
+```

@@ -1,0 +1,57 @@
+{
+ "document_id": "en_contracts_seed47",
+ "catala_status": "success",
+ "scope_name": "EcopointsValidity",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 0,
+  "mismatch": 0,
+  "tdg_only": 4,
+  "catala_only": 2,
+  "match_rate": null
+ },
+ "fields": [
+  {
+   "variable_name": "valid_start_date",
+   "status": "catala_only",
+   "tdg_value": null,
+   "catala_value": "1999-01-01",
+   "delta_days": null
+  },
+  {
+   "variable_name": "valid_end_date",
+   "status": "catala_only",
+   "tdg_value": null,
+   "catala_value": "1999-12-31",
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Agreement:START",
+   "status": "tdg_only",
+   "tdg_value": "1999-01-01",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:ecopoints system:START",
+   "status": "tdg_only",
+   "tdg_value": "2002-01-01",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:ecopoints validity period:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "null",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:COP document requirement:START",
+   "status": "tdg_only",
+   "tdg_value": "1990-10-01",
+   "catala_value": null,
+   "delta_days": null
+  }
+ ]
+}

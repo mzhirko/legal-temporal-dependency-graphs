@@ -1,0 +1,68 @@
+{
+ "id": "lextime_0368",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "BCBSIL's statement that Audrey required daily skilled nursing services",
+ "event2": "the event of BCBSIL reviewing the case",
+ "relation": "BEFORE",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "denial reversal",
+   "role": "CONTAINS",
+   "value": "2021-09-20",
+   "raw_text": "on september 20, 2021, bcbsil reversed its denial of benefits",
+   "timex_type": "DATE",
+   "sentence": "ae3b602e3605c4226df9b1dfe1734e2d",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2021-09-20"
+  },
+  {
+   "id": "e2",
+   "entity": "claims period",
+   "role": "DURATION",
+   "value": "P4M",
+   "raw_text": "from january 22, 2021 through april 30",
+   "timex_type": "DURATION",
+   "sentence": "cc6923015ff616d359098effce03f38e",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "duration_days": 120
+  },
+  {
+   "id": "e3",
+   "entity": "claims period",
+   "role": "DURATION",
+   "value": "P6M",
+   "raw_text": "from may 1, 2021 through october 31",
+   "timex_type": "DURATION",
+   "sentence": "cc6923015ff616d359098effce03f38e",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "duration_days": 180
+  },
+  {
+   "id": "e4",
+   "entity": "claims period",
+   "role": "DURATION",
+   "value": "P2M",
+   "raw_text": "from november 1, 2021 through december 31",
+   "timex_type": "DURATION",
+   "sentence": "cc6923015ff616d359098effce03f38e",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "duration_days": 60
+  }
+ ],
+ "dependencies": []
+}

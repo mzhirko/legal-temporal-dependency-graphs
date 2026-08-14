@@ -1,0 +1,57 @@
+{
+ "document_id": "en_contracts_seed40",
+ "catala_status": "success",
+ "scope_name": "AgreementMilestones",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 0,
+  "mismatch": 0,
+  "tdg_only": 3,
+  "catala_only": 2,
+  "match_rate": null
+ },
+ "fields": [
+  {
+   "variable_name": "info_deadline",
+   "status": "catala_only",
+   "tdg_value": null,
+   "catala_value": "1998-06-01",
+   "delta_days": null
+  },
+  {
+   "variable_name": "review_date",
+   "status": "catala_only",
+   "tdg_value": null,
+   "catala_value": "2000-09-01",
+   "delta_days": null
+  },
+  {
+   "variable_name": "effective_date",
+   "status": "placeholder",
+   "tdg_value": null,
+   "catala_value": "1970-03-01",
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:application for participation:CONTAINS",
+   "status": "tdg_only",
+   "tdg_value": "1994-03-01",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:decision of the Luxembourg European Council:CONTAINS",
+   "status": "tdg_only",
+   "tdg_value": "1997-12-01",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:accession negotiations:START",
+   "status": "tdg_only",
+   "tdg_value": "1998-03-01",
+   "catala_value": null,
+   "delta_days": null
+  }
+ ]
+}

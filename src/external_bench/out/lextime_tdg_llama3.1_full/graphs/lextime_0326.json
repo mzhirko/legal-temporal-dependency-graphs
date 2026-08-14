@@ -1,0 +1,63 @@
+{
+ "id": "lextime_0326",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "The event of Audrey requiring twelve hours of skilled nursing care daily is",
+ "event2": "with the daily professional medical care, clinical assessment, and exercise of clinical judgment by licensed nurses",
+ "relation": "AFTER",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "skilled_nursing_care",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "audrey requires twelve hours of skilled nursing care daily for the ongoing clinical assessment of her respiratory needs and her overall health.",
+   "timex_type": "DATE",
+   "sentence": "b818b74e38fab800cff78912cbbcd184",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e2",
+   "entity": "skilled_nursing_care_claims",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "bcbsil accepted and paid all claims for audreys daily skilled nursing care from april 2019 through january 22",
+   "timex_type": "DATE",
+   "sentence": "624bdcd4072653e47d8d90ccc4b91800",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e3",
+   "entity": "accentures_health_plan",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "mr. lou was hired by accenture in april 2019 through january 22",
+   "timex_type": "DATE",
+   "sentence": "5a6ea31ddf2eef0c9b2fd175895fa047",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e2",
+   "to_id": "e3",
+   "constraint_type": "ordering",
+   "constraint_expr": "Accenture's health plan covers Audrey's daily skilled nursing care after Mr. Lou was hired by Accenture.",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

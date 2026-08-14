@@ -1,0 +1,13 @@
+The Second ACP-EEC Convention was signed on 31 October 1979.
+
+```catala
+declaration scope ACP_EEC_Signing:
+  output signing_date content date
+```
+
+The signing date of the Second ACP-EEC Convention is 31 October 1979.
+```catala
+scope ACP_EEC_Signing:
+  date round down
+  definition signing_date equals |1979-10-31|
+```

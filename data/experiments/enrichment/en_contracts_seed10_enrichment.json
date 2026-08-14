@@ -1,0 +1,20 @@
+{
+ "document_id": "en_contracts_seed10",
+ "catala_status": "success",
+ "actions": [
+  {
+   "variable": "initial_expiry_date",
+   "action": "fill",
+   "catala_value": "2015-06-07",
+   "tdg_value": null,
+   "delta_days": null
+  },
+  {
+   "variable": "termination_deadline",
+   "action": "fill",
+   "catala_value": "2014-12-07",
+   "tdg_value": null,
+   "delta_days": null
+  }
+ ]
+}

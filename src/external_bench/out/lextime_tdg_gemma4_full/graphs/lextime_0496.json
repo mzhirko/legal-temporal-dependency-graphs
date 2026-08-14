@@ -1,0 +1,11 @@
+{
+ "id": "lextime_0496",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "Rivera rolling his eyes at Ms. Arvan is",
+ "event2": "with him becoming more agitated and disrespectful, and it follows Ms. Arvan's advice about using a roll pusher",
+ "relation": "BEFORE",
+ "pair_type": "both-explicit",
+ "facts": [],
+ "dependencies": []
+}

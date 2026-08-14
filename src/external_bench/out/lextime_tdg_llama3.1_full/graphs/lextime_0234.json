@@ -1,0 +1,91 @@
+{
+ "id": "lextime_0234",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "Silverthorn's request for an extension",
+ "event2": "PBGC's follow-up email regarding the Safety Light subpoena",
+ "relation": "BEFORE",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "information_request_letter",
+   "role": "CONTAINS",
+   "value": "2022-03-09",
+   "raw_text": "PBGG requested by letter dated March 9, 2022, that safety light provide to PBGG certain documents and information relating to the plan and the financial condition of safety light (information request letter).",
+   "timex_type": "DATE",
+   "sentence": "95c860dc0035bb5f6d02655b2db5a06b",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2022-03-09"
+  },
+  {
+   "id": "e2",
+   "entity": "safety_light_subpoena",
+   "role": "CONTAINS",
+   "value": "2022-04-12",
+   "raw_text": "on april 12, 2022, PBGG issued a subpoena to safety light under 29 u.s.c. 1303(b) requiring production of the previously requested documents and information on or before may 3, 2022 (safety light subpoena).",
+   "timex_type": "DATE",
+   "sentence": "329cd4a9c6b50f4bf13ea2be19a63330",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2022-04-12"
+  },
+  {
+   "id": "e3",
+   "entity": "response_deadline",
+   "role": "DURATION",
+   "value": "P30D",
+   "raw_text": "respondents failed to respond to the safety light subpoena within the time prescribed.",
+   "timex_type": "DURATION",
+   "sentence": "3eeef07e8ccccff24790afcaad9b9b64",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "duration_days": 30
+  },
+  {
+   "id": "e4",
+   "entity": "silverthorn_extension_request",
+   "role": "CONTAINS",
+   "value": "2022-05-04",
+   "raw_text": "however, on may 4, 2022, after an email following up on the safety light subpoena, silverthorn requested an extension to respond until the end of may.",
+   "timex_type": "DATE",
+   "sentence": "5894fd0c497b7edbc7d9c7103ddadc38",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2022-05-04"
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e1",
+   "to_id": "e3",
+   "constraint_type": "additive",
+   "constraint_expr": "e3 = e1 + 30 days",
+   "delta_days": 30,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e2",
+   "to_id": "e3",
+   "constraint_type": "additive",
+   "constraint_expr": "e3 = e2 + 21 days",
+   "delta_days": 21,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

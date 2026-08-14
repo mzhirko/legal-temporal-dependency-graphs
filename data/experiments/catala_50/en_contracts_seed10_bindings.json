@@ -1,0 +1,23 @@
+{
+ "document_id": "en_contracts_seed10",
+ "scope_name": "AgreementDuration",
+ "bindings": {
+  "notice_period": {
+   "fact_id": "e5",
+   "entity": "Art.11 Agreement",
+   "role": "DURATION",
+   "score": 2.0,
+   "value": {
+    "years": 10,
+    "months": 0,
+    "days": 0
+   },
+   "raw_text": "for an initial period of 10 years"
+  }
+ },
+ "unbound": [
+  "entry_date",
+  "initial_term"
+ ],
+ "llm_fallback_used": true
+}

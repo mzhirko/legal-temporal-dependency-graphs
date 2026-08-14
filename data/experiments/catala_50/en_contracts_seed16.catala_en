@@ -1,0 +1,42 @@
+# Agreement Lifecycle and Provisional Termination
+
+This scope computes key dates related to the lifecycle of the trade agreement, including the denunciation deadline, automatic extension end, and the earliest date for provisional termination.
+
+```catala
+declaration scope AgreementLifecycle:
+  input initial_agreement_date content date
+  input expiry_date content date
+  input provisional_start_date content date
+  input termination_notice_period content duration
+  output denunciation_deadline content date
+  output automatic_extension_end content date
+  output provisional_termination_date content date
+```
+
+## Denunciation Deadline
+
+The agreement must be denounced at least six months before 31 December 1998.
+
+```catala
+scope AgreementLifecycle:
+  date round down
+  definition denunciation_deadline equals |1998-12-31| - 6 month
+```
+
+## Automatic Extension End
+
+The application of the provisions is automatically extended for one more year up to 31 December 1999.
+
+```catala
+scope AgreementLifecycle:
+  definition automatic_extension_end equals |1999-12-31|
+```
+
+## Provisional Termination Date
+
+The earliest date on which the de facto application can be terminated is the provisional start date plus the required notice period.
+
+```catala
+scope AgreementLifecycle:
+  definition provisional_termination_date equals provisional_start_date + termination_notice_period
+```

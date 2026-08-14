@@ -1,0 +1,168 @@
+{
+ "description": "Ground truth for synthetic evaluation documents. Created from seed0 (Kazakhstan steel) and seed10 (nuclear cooperation) patterns with deliberate modifications.",
+ "documents": {
+  "synth_steel_ukraine": {
+   "based_on": "en_contracts_seed0 (Kazakhstan steel)",
+   "key_temporal_facts": {
+    "entry_into_force": "day of signature (2007-03-12 from OJ reference)",
+    "applicability_end": "2008-12-31",
+    "denunciation_notice": "P3M",
+    "consultation_period": "15 days (seed0 has 30 days)",
+    "carryover_limit": "15% (seed0 has 10%)",
+    "notification_deadline": "31 March"
+   }
+  },
+  "synth_nuclear_amendment": {
+   "based_on": "en_contracts_seed10 (nuclear cooperation)",
+   "key_temporal_facts": {
+    "amendment_entry_into_force": "2010-11-15",
+    "initial_period": "5 years (seed10 has 10 years)",
+    "renewal_period": "3 years (seed10 has 5 years)",
+    "termination_notice": "120 days (seed10 has 6 months)",
+    "initial_expiry_date": "2015-11-14",
+    "original_agreement_date": "2005-06-07"
+   }
+  },
+  "synth_fisheries_senegal": {
+   "based_on": "original (no seed)",
+   "key_temporal_facts": {
+    "entry_into_force": "2018-07-01",
+    "duration": "4 years",
+    "expiry_date": "2022-06-30",
+    "denunciation_notice": "90 days",
+    "denunciation_deadline": "2022-04-01",
+    "negotiation_period": "60 days",
+    "protocol_start": "2018-07-01",
+    "protocol_end": "2020-06-30",
+    "protocol_duration": "2 years",
+    "first_payment_deadline": "2018-09-28",
+    "second_payment_deadline": "2019-07-01",
+    "review_deadline": "2019-12-31",
+    "review_offset": "18 months",
+    "suspension_notice": "30 days",
+    "max_suspension": "180 days"
+   },
+   "verifiable_arithmetic": [
+    "entry_into_force + 4 years = expiry_date (2018-07-01 + 4y = 2022-06-30)",
+    "expiry_date - 90 days = denunciation_deadline (2022-06-30 - 90d = 2022-04-01)",
+    "entry_into_force + 90 days = first_payment_deadline (2018-07-01 + 90d = 2018-09-28)",
+    "entry_into_force + 18 months = review_deadline (2018-07-01 + 18m ~ 2019-12-31)",
+    "protocol_start + 2 years = protocol_end (2018-07-01 + 2y = 2020-06-30)"
+   ]
+  },
+  "synth_fisheries_extension": {
+   "based_on": "synth_fisheries_senegal",
+   "key_temporal_facts": {
+    "protocol_start": "2020-07-01",
+    "protocol_end": "2023-06-30",
+    "protocol_duration": "3 years (original says 2 years per protocol period)",
+    "denunciation_notice": "60 days (original says 90 days)",
+    "denunciation_deadline": "2023-05-01",
+    "first_payment_deadline": "2020-09-28",
+    "review_deadline": "2021-12-31",
+    "max_suspension": "120 days (original says 180 days)",
+    "transitional_end": "2020-09-30"
+   }
+  }
+ },
+ "expected_contradictions": [
+  {
+   "doc_a": "en_contracts_seed0",
+   "doc_b": "synth_steel_ukraine",
+   "concept": "denunciation notice period",
+   "value_a": "P6M",
+   "value_b": "P3M",
+   "clause_a": "at least six months' notice",
+   "clause_b": "at least three months' notice",
+   "expected_sentence_overlap": "high (same clause structure)"
+  },
+  {
+   "doc_a": "en_contracts_seed0",
+   "doc_b": "synth_steel_ukraine",
+   "concept": "consultation failure period",
+   "value_a": "30 days",
+   "value_b": "15 days",
+   "clause_a": "within 30 days of the Community's request",
+   "clause_b": "within 15 days of the Community's request",
+   "expected_sentence_overlap": "high (same clause structure)"
+  },
+  {
+   "doc_a": "synth_fisheries_senegal",
+   "doc_b": "synth_fisheries_extension",
+   "concept": "denunciation notice period",
+   "value_a": "90 days",
+   "value_b": "60 days",
+   "clause_a": "written notice of at least 90 days",
+   "clause_b": "written notice of at least 60 days",
+   "expected_sentence_overlap": "high"
+  },
+  {
+   "doc_a": "synth_fisheries_senegal",
+   "doc_b": "synth_fisheries_extension",
+   "concept": "maximum suspension period",
+   "value_a": "180 days",
+   "value_b": "120 days",
+   "clause_a": "maximum suspension period shall be 180 days",
+   "clause_b": "maximum suspension period shall be 120 days",
+   "expected_sentence_overlap": "moderate"
+  },
+  {
+   "doc_a": "en_contracts_seed0",
+   "doc_b": "synth_steel_ukraine",
+   "concept": "agreement applicability end date",
+   "value_a": "2006-12-31",
+   "value_b": "2008-12-31",
+   "clause_a": "applicable until 31 December 2006",
+   "clause_b": "applicable until 31 December 2008"
+  }
+ ],
+ "expected_coreferences": [
+  {
+   "doc_a": "en_contracts_seed10",
+   "doc_b": "synth_nuclear_amendment",
+   "concept": "original agreement date",
+   "value": "2005-06-07",
+   "evidence": "amendment explicitly references 'Agreement signed on 7 June 2005'"
+  },
+  {
+   "doc_a": "synth_fisheries_senegal",
+   "doc_b": "synth_fisheries_extension",
+   "concept": "agreement entry into force",
+   "value": "2018-07-01",
+   "evidence": "extension references 'entered into force on 1 July 2018'"
+  },
+  {
+   "doc_a": "synth_fisheries_senegal",
+   "doc_b": "synth_fisheries_extension",
+   "concept": "first protocol end date",
+   "value": "2020-06-30",
+   "evidence": "both documents state protocol period ends 30 June 2020"
+  }
+ ],
+ "expected_self_consistency": [
+  {
+   "doc": "synth_fisheries_senegal",
+   "rule": "entry_into_force + 4 years = expiry_date",
+   "anchor": "2018-07-01",
+   "expected": "2022-06-30",
+   "delta_days": 1460,
+   "should_pass": true
+  },
+  {
+   "doc": "synth_fisheries_senegal",
+   "rule": "expiry_date - 90 days = denunciation_deadline",
+   "anchor": "2022-06-30",
+   "expected": "2022-04-01",
+   "delta_days": 90,
+   "should_pass": true
+  },
+  {
+   "doc": "synth_fisheries_senegal",
+   "rule": "entry_into_force + 90 days = first_payment_deadline",
+   "anchor": "2018-07-01",
+   "expected": "2018-09-28",
+   "delta_days": 89,
+   "should_pass": true
+  }
+ ]
+}

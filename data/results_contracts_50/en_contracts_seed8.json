@@ -1,0 +1,35 @@
+{
+ "document_id": "en_contracts_seed8",
+ "document_type": "legal",
+ "source_text": "Avis juridique important | 21986A0517(03) Agreement in the form of an exchange of letters concerning an extension of the Protocol annexed to the Agreement between the European Economic Community and the Government of the Republic of Guinea-Bissau on fishing off the coast of Guinea-Bissau Official Journal L 131 , 17/05/1986 P. 0052 *****AGREEMENT in the form of an exchange of letters concerning an extension of the Protocol annexed to the Agreement between the European Economic Community and the Government of the Republic of Guinea-Bissau on fishing off the coast of Guinea-Bissau A. Letter from the Community . . . . . ., . . . . . . Sir, I have the honour to confirm that we have agreed on the following interim arrangements to ensure the continued application of the Agreement on fishing between the Government of the Republic of Guinea-Bissau and the European Economic Community pending the conclusion of the negotiations on the amendments to be agreed to the protocol annexed to the agreement on fishing: 1. The arrangements applicable during the last three years shall be extended for a period of three months from 15 March 1986. The compensation to be paid by the Community and its contribution to the financing of a Guinean scientific programme under the interim arrangements shall correspond pro rata temporis to that provided for in Articles 2 and 5 of the current Protocol. The same pro rata temporis rule shall apply to the arrangements for training grants provided for under point C of the Annex to the Agreement. 2. Licences shall be granted during the interim period within the limits fixed in Article 1 of the current Protocol subject to payment of the fees which correspond pro rata temporis to those laid down in part A of the Annex to the Agreement. 3. The rights and obligations that derive from the Agreements on fishing concluded by the Government of the Republic of Guinea-Bissau, on the one hand, with the Government of the Portuguese Republic and, on the other hand, with the Government of the Kingdom of Spain, which the Community is responsible for managing as from 1 January 1986, shall not be affected by this interim extension. I should be obliged if you would acknowledge receipt of this letter. Please accept, Sir, the assurance of my highest consideration. On behalf of the Council of the European Communities B. Letter from the Government of the Republic of Guinea-Bissau . . . . . ., . . . . . . Sir, I have the honour to acknowledge receipt of your letter of today's date, which reads as follows: 'I have the honour to confirm that we have agreed on the following interim arrangements to ensure the continued application of the Agreement on fishing between the Government of the Republic of Guinea-Bissau and the European Economic Community pending the conclusion of the negotiations on the amendments to be agreed to the Protocol annexed to the Agreement on fishing: 1. The arrangements applicable during the last three years shall be extended for a period of three months from 15 March 1986. The compensation to be paid by the Community and its contribution to the financing of a Guinean scientific programme under the interim arrangements shall correspond pro rata temporis to that provided for in Articles 2 and 5 of the current Protocol. The same pro rata temporis rule shall apply to the arrangements for training grants provided for under point C of the Annex to the Agreement. 2. Licences shall be granted during the interim period within the limits fixed in Article 1 of the current Protocol subject to payment of the fees which correspond pro rata temporis to those laid down in part A of the Annex to the Agreement. 3. The rights and obligations that derive from the Agreements on fishing concluded by the Government of the Republic of Guinea-Bissau, on the one hand, with the Government of the Portuguese Republic and, on the other hand, with the Government of the Kingdom of Spain, which the Community is responsible for managing as from 1 January 1986, shall not be affected by this interim extension. I should be obliged if you would acknowledge receipt of this letter.' I have the honour to confirm that the content of your letter is acceptable to the Government of the Republic of Guinea-Bissau and that your letter and this letter constitute an Agreement in accordance with your proposal. Please accept, Sir, the assurance of my highest consideration. For the Government of the Republic of Guinea-Bissau",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "interim arrangements",
+   "role": "DURATION",
+   "value": "1986-03-15",
+   "raw_text": "extended for a period of three months from 15 March 1986",
+   "timex_type": "DATE",
+   "sentence": "de32bffa0330681095e12dd96e4cef69",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "1986-03-15"
+  },
+  {
+   "id": "e2",
+   "entity": "Agreement on fishing",
+   "role": "START",
+   "value": "1986-01-01",
+   "raw_text": "as from 1 January 1986",
+   "timex_type": "DATE",
+   "sentence": "0688c95e73968dde27500a8a6f1d9e5f",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "1986-01-01"
+  }
+ ],
+ "dependencies": [],
+ "edit_scenarios": []
+}

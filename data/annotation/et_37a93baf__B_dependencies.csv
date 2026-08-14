@@ -1,0 +1,3 @@
+row_id,document_id,dependency,claim_to_check,based_on_sentences_sha256,our_relation,correct (Y/N/Unsure),comment
+et_37a93baf-B01,et_37a93baf,e9 -> e17,"""time limit"" is 99 days after ""effective date of termination (EDT)"".",705fe7afae4111533eec29225ec6877d,e17 = e9 + 99 days,,
+et_37a93baf-B02,et_37a93baf,e13 -> e17,"""time limit"" is 31 days after ""appeal outcome was sent"".",81b63042da25a9d601cfb16318fdc260,e17 = e13 + 31 days,,

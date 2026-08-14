@@ -1,0 +1,89 @@
+{
+ "id": "lextime_0386",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "Mr. Lou being hired by Accenture",
+ "event2": "the coverage of Audrey's daily skilled nursing care under Accenture's health benefit plan",
+ "relation": "AFTER",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "skilled_nursing_care",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "audrey requires twelve hours of skilled nursing care daily for the ongoing clinical assessment of her respiratory needs and her overall health.",
+   "timex_type": "DATE",
+   "sentence": "d897f02ecb4ea0d2dc68f629dd4f2a87",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e2",
+   "entity": "skilled_nursing_care_claims",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "bcbsil accepted and paid all claims for audreys daily skilled nursing care from april 2019 through january 22",
+   "timex_type": "DATE",
+   "sentence": "997eae5ba34b458e61e487d301afc5b6",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e3",
+   "entity": "mr_lou_hiring",
+   "role": "START",
+   "value": "2019-04-01",
+   "raw_text": "the date mr. lou was hired by accenture in april 2019",
+   "timex_type": "DATE",
+   "sentence": "d52496429ffd4702eeb6c636716703ea",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2019-04-01"
+  },
+  {
+   "id": "e4",
+   "entity": "skilled_nursing_care_claims",
+   "role": "END",
+   "value": "2022-01-22",
+   "raw_text": "bcbsil accepted and paid all claims for audreys daily skilled nursing care from april 2019 through january 22",
+   "timex_type": "DATE",
+   "sentence": "997eae5ba34b458e61e487d301afc5b6",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2022-01-22"
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e3",
+   "to_id": "e2",
+   "constraint_type": "additive",
+   "constraint_expr": "",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e2",
+   "to_id": "e4",
+   "constraint_type": "ordering",
+   "constraint_expr": "",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

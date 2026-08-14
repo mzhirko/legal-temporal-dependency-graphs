@@ -1,0 +1,31 @@
+{
+ "document_id": "en_contracts_seed31",
+ "document_type": "legal",
+ "source_text": "Avis juridique important | 21994A0218(02) Agreement in the form of agreed minutes on certain oil seeds between the European Community and Brazil pursuant to Article XXVIII of the General Agreement on Tariffs and Trade (GATT) Official Journal L 047 , 18/02/1994 P. 0008 - 0013 Finnish special edition: Chapter 11 Volume 29 P. 0052 Swedish special edition: Chapter 11 Volume 29 P. 0052 AGREED MINUTESNegotiations under GATT, Article XXVIII (4), relating to Schedule LXXX - European Communities In the negotiations conducted under GATT, Article XXVIII (4), the delegations of the Commission of the European Communities and Brazil reached an agreement as indicated in the Annex.The Delegations of the Commission of the European Communities and Brazil will submit this Agreement for approval to their respective authorities.For the Delegation of the Commission of the European CommunitiesFor the Delegation of BrazilANNEX A Director-GeneralGATTGenevaNEGOTIATIONS RELATING TO SCHEDULE LXXX - EUROPEAN COMMUNITIESThe Delegations of the Commission of the European Communities and Brazil have concluded their negotiations pursuant to Article XXVIII for the modification or withdrawal of concessions provided for in Schedule LXXX - European Communities as set out in the report attached.For the Delegation of the Commission of the European CommunitiesFor the Delegation of BrazilANNEX B Results of negotiations pursuant to Article XXVIII for the modification or withdrawal of concessions in the schedule of the European Communities initially negotiated with Brazil CHANGES IN SCHEDULE LXXX - EUROPEAN COMMUNITIESA. Concessions to be withdrawn>TABLE>B. Bound rates to be increased>TABLE>C. Reduction of rates bound in the existing schedules>TABLE>D. New concessions>TABLE>",
+ "facts": [],
+ "dependencies": [],
+ "edit_scenarios": [],
+ "_provenance": {
+  "extractor_backend": "llm:gemma4:e4b",
+  "environment": {
+   "model": "gemma4:e4b",
+   "base_url": "http://localhost:11434/v1",
+   "temperature": 0.0,
+   "max_tokens": 8192,
+   "python": "3.9.25",
+   "git": "861887f-dirty"
+  },
+  "stage_counts": {
+   "document_id": "en_contracts_seed31",
+   "chars": 1761,
+   "facts": 0,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 14.01,
+   "status": "extract-zero-events",
+   "input_file": "../data/results_contracts_50/en_contracts_seed31.json"
+  },
+  "llm_status": "extract-zero-events",
+  "input_file": "../data/results_contracts_50/en_contracts_seed31.json"
+ }
+}

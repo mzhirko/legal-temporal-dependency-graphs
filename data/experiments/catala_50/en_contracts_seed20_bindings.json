@@ -1,0 +1,10 @@
+{
+ "document_id": "en_contracts_seed20",
+ "scope_name": "DeliveryArrival",
+ "bindings": {},
+ "unbound": [
+  "expected_arrival_date",
+  "transit_duration"
+ ],
+ "llm_fallback_used": true
+}

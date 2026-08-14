@@ -1,0 +1,17 @@
+# Formalization of the Exchange of Letters amending the trade agreement.
+
+```catala
+declaration scope AmendmentDateScope:
+  input original_agreement_date content date
+  input amendment_duration content duration
+  output effective_date content date
+```
+
+## Determining the effective date of the amended agreement.
+
+```catala
+scope AmendmentDateScope:
+  date round down
+  definition effective_date equals
+    original_agreement_date + amendment_duration
+```

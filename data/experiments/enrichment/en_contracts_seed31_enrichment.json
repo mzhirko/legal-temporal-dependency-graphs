@@ -1,0 +1,13 @@
+{
+ "document_id": "en_contracts_seed31",
+ "catala_status": "success",
+ "actions": [
+  {
+   "variable": "agreement_date",
+   "action": "fill",
+   "catala_value": "1994-02-18",
+   "tdg_value": null,
+   "delta_days": null
+  }
+ ]
+}

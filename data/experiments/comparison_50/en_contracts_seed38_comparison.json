@@ -1,0 +1,78 @@
+{
+ "document_id": "en_contracts_seed38",
+ "catala_status": "success",
+ "scope_name": "TerminationNotice",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 0,
+  "mismatch": 0,
+  "tdg_only": 8,
+  "catala_only": 0,
+  "match_rate": null
+ },
+ "fields": [
+  {
+   "variable_name": "termination_date",
+   "status": "placeholder",
+   "tdg_value": null,
+   "catala_value": "1970-03-01",
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Joint Action 2002/210/CFSP:CONTAINS",
+   "status": "tdg_only",
+   "tdg_value": "2002-03-11",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Agreement on EUPM activities:CONTAINS",
+   "status": "tdg_only",
+   "tdg_value": "2002-10-04",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Art.3.1 Secondment period coverage:END",
+   "status": "tdg_only",
+   "tdg_value": "2002-12-31",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Art.3.1 Secondment period coverage:START",
+   "status": "tdg_only",
+   "tdg_value": "2003-01-01",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Art.2.1 Minimum secondment duration:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "P1Y",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Art.6.3 Formal communication of contribution:CONTAINS",
+   "status": "tdg_only",
+   "tdg_value": "2002-11-15",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Art.6.3 Financial arrangement conclusion:CONTAINS",
+   "status": "tdg_only",
+   "tdg_value": "2002-12-15",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Art.7 Termination of agreement:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "P60D",
+   "catala_value": null,
+   "delta_days": null
+  }
+ ]
+}

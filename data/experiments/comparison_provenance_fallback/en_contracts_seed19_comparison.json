@@ -1,0 +1,36 @@
+{
+ "document_id": "en_contracts_seed19",
+ "catala_status": "success",
+ "scope_name": "AgreementDates",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 0,
+  "mismatch": 1,
+  "tdg_only": 0,
+  "catala_only": 0,
+  "match_rate": 0.0
+ },
+ "fields": [
+  {
+   "variable_name": "date_entry_into_force",
+   "status": "mismatch",
+   "tdg_value": "1974-09-17",
+   "catala_value": "1974-10-17",
+   "delta_days": 30
+  },
+  {
+   "variable_name": "date_accession_effect",
+   "status": "placeholder",
+   "tdg_value": "1974-09-17",
+   "catala_value": "1970-02-01",
+   "delta_days": null
+  },
+  {
+   "variable_name": "date_denunciation_effect",
+   "status": "placeholder",
+   "tdg_value": "1974-09-17",
+   "catala_value": "1970-07-01",
+   "delta_days": null
+  }
+ ]
+}

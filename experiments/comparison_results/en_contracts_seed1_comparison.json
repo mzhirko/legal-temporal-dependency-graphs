@@ -1,0 +1,22 @@
+{
+ "document_id": "en_contracts_seed1",
+ "catala_status": "success",
+ "scope_name": "AmendmentDateScope",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 0,
+  "mismatch": 0,
+  "tdg_only": 0,
+  "catala_only": 1,
+  "match_rate": null
+ },
+ "fields": [
+  {
+   "variable_name": "effective_date",
+   "status": "catala_only",
+   "tdg_value": null,
+   "catala_value": "1970-01-01",
+   "delta_days": null
+  }
+ ]
+}

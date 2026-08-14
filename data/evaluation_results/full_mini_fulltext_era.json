@@ -1,0 +1,79 @@
+{
+ "statute": "era_1996_s111",
+ "rule": "s. 111(2) complaint = effective date of termination + 3m - 1 day",
+ "minus_one_day": null,
+ "scored": 3,
+ "correct": 2,
+ "indeterminate": 1,
+ "accuracy": 0.6666666666666666,
+ "cases": [
+  {
+   "case": "2026_EAT_64_s111",
+   "split": "real",
+   "expected": "LATE",
+   "verdict": "LATE",
+   "match": true,
+   "days_over": 125,
+   "deadline": "2022-09-07",
+   "anchor_date": "2022-06-08",
+   "action_date": "2023-01-10",
+   "acas_applied": false,
+   "confidence": 0.47,
+   "explanation": "anchor=dismissal (2022-06-08) + [effective date of termination + 3m - 1 day] = deadline 2022-09-07. action=et1 claim form (2023-01-10, via action-cue) -> 125d after deadline -> LATE"
+  },
+  {
+   "case": "2026_EAT_64_s123",
+   "status": "missing_tdg"
+  },
+  {
+   "case": "2025_EAT_155",
+   "split": "real",
+   "expected": "LATE",
+   "verdict": "LATE",
+   "match": true,
+   "days_over": 62,
+   "deadline": "2020-10-09",
+   "anchor_date": "2020-07-10",
+   "action_date": "2020-12-10",
+   "acas_applied": false,
+   "confidence": 0.63,
+   "explanation": "anchor=effective date of termination (2020-07-10) + [effective date of termination + 3m - 1 day] = deadline 2020-10-09. action=claim form (2020-12-10, via action-cue) -> 62d after deadline -> LATE"
+  },
+  {
+   "case": "2026_EAT_14",
+   "split": "real",
+   "expected": "LATE",
+   "verdict": "INDETERMINATE",
+   "match": false,
+   "days_over": null,
+   "deadline": null,
+   "anchor_date": null,
+   "action_date": null,
+   "acas_applied": false,
+   "confidence": 0.1,
+   "explanation": "Anchor ambiguous — 2 distinct-dated candidates for 'effective date of termination': dismissal (2022-09-29); dismissal date (2022-11-08). Anchor selection is a legal judgment; abstaining."
+  },
+  {
+   "case": "2026_EAT_76",
+   "status": "missing_tdg"
+  },
+  {
+   "case": "2026_EAT_59",
+   "split": "real",
+   "expected": "TIMELY",
+   "verdict": "LATE",
+   "match": false,
+   "days_over": 53,
+   "deadline": "2024-05-17",
+   "anchor_date": "2024-02-18",
+   "action_date": "2024-07-09",
+   "acas_applied": false,
+   "confidence": 0.63,
+   "explanation": "anchor=effective date of termination (2024-02-18) + [effective date of termination + 3m - 1 day] = deadline 2024-05-17. action=et1 form (2024-07-09, via action-cue) -> 53d after deadline -> LATE"
+  },
+  {
+   "case": "kj_2026_EAT_46",
+   "status": "missing_tdg"
+  }
+ ]
+}

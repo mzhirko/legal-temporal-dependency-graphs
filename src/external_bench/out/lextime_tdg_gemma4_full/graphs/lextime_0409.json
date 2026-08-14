@@ -1,0 +1,65 @@
+{
+ "id": "lextime_0409",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "The acceptance and payment of all claims for Audrey's daily skilled nursing care by BCBSIL",
+ "event2": "Mr. Lou's hiring by Accenture",
+ "relation": "BEFORE",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "skilled nursing care",
+   "role": "DURATION",
+   "value": null,
+   "raw_text": "requires twelve hours of skilled nursing care daily for the ongoing clinical assessment of her respiratory needs and her overall health.",
+   "timex_type": "DATE",
+   "sentence": "7969451d8c6ccccd9f4d635b56f486b5",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e2",
+   "entity": "employer-provided health benefit plans coverage",
+   "role": "START",
+   "value": "2019-04-01",
+   "raw_text": "from the date mr. lou was hired by accenture in april 2019",
+   "timex_type": "DATE",
+   "sentence": "ac5246253296881a36432e0c7e9c6028",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2019-04-01"
+  },
+  {
+   "id": "e3",
+   "entity": "employer-provided health benefit plans coverage",
+   "role": "END",
+   "value": "2022-01-22",
+   "raw_text": "through january 22",
+   "timex_type": "DATE",
+   "sentence": "ac5246253296881a36432e0c7e9c6028",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2022-01-22"
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e2",
+   "to_id": "e3",
+   "constraint_type": "ordering",
+   "constraint_expr": "e2 precedes e3 by 1027 days",
+   "delta_days": 1027,
+   "confidence": 0.7,
+   "verified": true,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

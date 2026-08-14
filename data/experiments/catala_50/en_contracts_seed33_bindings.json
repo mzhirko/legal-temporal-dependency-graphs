@@ -1,0 +1,28 @@
+{
+ "document_id": "en_contracts_seed33",
+ "scope_name": "InitialExpiryCalculation",
+ "bindings": {
+  "initial_term": {
+   "fact_id": "e5",
+   "entity": "Art.11 Agreement",
+   "role": "DURATION",
+   "score": 1.25,
+   "value": {
+    "years": 10,
+    "months": 0,
+    "days": 0
+   },
+   "raw_text": "for an initial period of 10 years"
+  },
+  "entry_into_force_date": {
+   "fact_id": "e1",
+   "entity": "Agreement",
+   "role": "START",
+   "score": 1.0,
+   "value": "1995-01-23",
+   "raw_text": "the Agreement on Partnership and Cooperation was signed on 23 January 1995"
+  }
+ },
+ "unbound": [],
+ "llm_fallback_used": false
+}

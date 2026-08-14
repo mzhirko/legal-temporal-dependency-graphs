@@ -1,0 +1,101 @@
+{
+ "id": "lextime_0312",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "The engagement in a partial or complete cessation of work, strike, slowdown, or work stoppage by union members",
+ "event2": "the union inducing, encouraging, and directing union members",
+ "relation": "BEFORE",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "complaint",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "the complaint attached as exhibit 1 on its face, or within its four corners, meets the good cause standard described above.",
+   "timex_type": "DATE",
+   "sentence": "9374e90838af72d74d56f6014b81a5f6",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e2",
+   "entity": "union_funds_misuse",
+   "role": "CONTAINS",
+   "value": "2021-03",
+   "raw_text": "the applicant sandra gardner learned of the misuse of union funds only in march 2021, when sito pantoja, the iam vice president at the time, obtained copies of her weekly expense reports from 2015 through",
+   "timex_type": "DATE",
+   "sentence": "ac27679717da2ac4e9134acf46542838",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2021-03-01"
+  },
+  {
+   "id": "e3",
+   "entity": "union_conduct",
+   "role": "START",
+   "value": "2022-05",
+   "raw_text": "the union has engaged in such conduct beginning in may 2022 and as recently as march 15,",
+   "timex_type": "DATE",
+   "sentence": "540f6a7f93f975d64050fc1121cf6086",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2022-05-01"
+  },
+  {
+   "id": "e4",
+   "entity": "union_conduct",
+   "role": "END",
+   "value": "2023-04-13",
+   "raw_text": "venue is proper in this court because the union maintains a principal office in and regularly transacts business in the district of connecticut.",
+   "timex_type": "DATE",
+   "sentence": "4dc40c4b58a04add99f8f14512610019",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2023-04-13"
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e3",
+   "to_id": "e4",
+   "constraint_type": "ordering",
+   "constraint_expr": "e3 precedes e4 by 347 days",
+   "delta_days": 347,
+   "confidence": 0.7,
+   "verified": true,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e3",
+   "to_id": "e2",
+   "constraint_type": "ordering",
+   "constraint_expr": "e2 = e3 + 30 days",
+   "delta_days": 30,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e4",
+   "to_id": "e1",
+   "constraint_type": "ordering",
+   "constraint_expr": "e1 < e4",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

@@ -1,0 +1,312 @@
+{
+ "dataset": "uscis",
+ "split": "hard",
+ "mode": "endpoint",
+ "model": "llama3.1:8b",
+ "meta": {
+  "data_path": "./DeonticBench",
+  "n": 28,
+  "seed": 20240517,
+  "limit": 0,
+  "system": "llm",
+  "tdg_fallback": "none",
+  "fallback_used": 0,
+  "gold_distribution": {
+   "ACCEPTED": 14,
+   "DISMISSED": 14
+  },
+  "split_sha256": "2527a1d7750137a7"
+ },
+ "summary": {
+  "n": 28,
+  "answered": 28,
+  "coverage": 1.0,
+  "call_errors_infra": 0,
+  "unparseable_or_abstained": 0,
+  "accuracy_answered": 0.4643,
+  "accuracy_all": 0.4643,
+  "correct": 13
+ },
+ "rows": [
+  {
+   "id": "uscis_e2f62d25",
+   "kind": "binary",
+   "gold": "ACCEPTED",
+   "pair_type": "",
+   "pred": "ACCEPTED",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "uscis_d036757e",
+   "kind": "binary",
+   "gold": "ACCEPTED",
+   "pair_type": "",
+   "pred": "ACCEPTED",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "uscis_0ce54e09",
+   "kind": "binary",
+   "gold": "ACCEPTED",
+   "pair_type": "",
+   "pred": "ACCEPTED",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "uscis_0d94f1cb",
+   "kind": "binary",
+   "gold": "DISMISSED",
+   "pair_type": "",
+   "pred": "ACCEPTED",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "uscis_cbcadc1b",
+   "kind": "binary",
+   "gold": "DISMISSED",
+   "pair_type": "",
+   "pred": "ACCEPTED",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "uscis_4a944215",
+   "kind": "binary",
+   "gold": "DISMISSED",
+   "pair_type": "",
+   "pred": "ACCEPTED",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "uscis_f067f697",
+   "kind": "binary",
+   "gold": "ACCEPTED",
+   "pair_type": "",
+   "pred": "DISMISSED",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "uscis_0f7acbb7",
+   "kind": "binary",
+   "gold": "ACCEPTED",
+   "pair_type": "",
+   "pred": "DISMISSED",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "uscis_9774ab30",
+   "kind": "binary",
+   "gold": "ACCEPTED",
+   "pair_type": "",
+   "pred": "ACCEPTED",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "uscis_e3f48ef6",
+   "kind": "binary",
+   "gold": "ACCEPTED",
+   "pair_type": "",
+   "pred": "ACCEPTED",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "uscis_fbfd1fe8",
+   "kind": "binary",
+   "gold": "DISMISSED",
+   "pair_type": "",
+   "pred": "ACCEPTED",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "uscis_054bb9c0",
+   "kind": "binary",
+   "gold": "ACCEPTED",
+   "pair_type": "",
+   "pred": "ACCEPTED",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "uscis_e2ec2a0e",
+   "kind": "binary",
+   "gold": "DISMISSED",
+   "pair_type": "",
+   "pred": "ACCEPTED",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "uscis_11c5b710",
+   "kind": "binary",
+   "gold": "DISMISSED",
+   "pair_type": "",
+   "pred": "ACCEPTED",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "uscis_86108351",
+   "kind": "binary",
+   "gold": "ACCEPTED",
+   "pair_type": "",
+   "pred": "ACCEPTED",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "uscis_681f96e2",
+   "kind": "binary",
+   "gold": "ACCEPTED",
+   "pair_type": "",
+   "pred": "ACCEPTED",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "uscis_3ea42a14",
+   "kind": "binary",
+   "gold": "DISMISSED",
+   "pair_type": "",
+   "pred": "ACCEPTED",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "uscis_b703c22c",
+   "kind": "binary",
+   "gold": "DISMISSED",
+   "pair_type": "",
+   "pred": "ACCEPTED",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "uscis_9cde868d",
+   "kind": "binary",
+   "gold": "ACCEPTED",
+   "pair_type": "",
+   "pred": "ACCEPTED",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "uscis_b299cdcf",
+   "kind": "binary",
+   "gold": "DISMISSED",
+   "pair_type": "",
+   "pred": "DISMISSED",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "uscis_2136ba08",
+   "kind": "binary",
+   "gold": "DISMISSED",
+   "pair_type": "",
+   "pred": "ACCEPTED",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "uscis_b2ea0966",
+   "kind": "binary",
+   "gold": "DISMISSED",
+   "pair_type": "",
+   "pred": "ACCEPTED",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "uscis_2512fafd",
+   "kind": "binary",
+   "gold": "DISMISSED",
+   "pair_type": "",
+   "pred": "ACCEPTED",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "uscis_979c1db1",
+   "kind": "binary",
+   "gold": "ACCEPTED",
+   "pair_type": "",
+   "pred": "ACCEPTED",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "uscis_d9377ea9",
+   "kind": "binary",
+   "gold": "DISMISSED",
+   "pair_type": "",
+   "pred": "ACCEPTED",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "uscis_4ffc62f6",
+   "kind": "binary",
+   "gold": "DISMISSED",
+   "pair_type": "",
+   "pred": "ACCEPTED",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "uscis_7710d382",
+   "kind": "binary",
+   "gold": "ACCEPTED",
+   "pair_type": "",
+   "pred": "ACCEPTED",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "uscis_59de5644",
+   "kind": "binary",
+   "gold": "ACCEPTED",
+   "pair_type": "",
+   "pred": "ACCEPTED",
+   "note": "",
+   "fallback": false,
+   "match": true
+  }
+ ]
+}

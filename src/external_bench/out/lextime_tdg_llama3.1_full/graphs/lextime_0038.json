@@ -1,0 +1,38 @@
+{
+ "id": "lextime_0038",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "Safety Light's neglect of their payment responsibilities",
+ "event2": "their failure to pay pension plan premiums",
+ "relation": "BEFORE",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "pension plan premiums",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "since 2018 and has also failed to make required pension plan contributions",
+   "timex_type": "DATE",
+   "sentence": "99d772e198a24c425550542ccd6a8f7a",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e2",
+   "entity": "investigation into safety lights failure to make necessary payments",
+   "role": "START",
+   "value": null,
+   "raw_text": "in response to this finding, pbgc commenced an investigation into safety lights failure to make necessary payments to the pension plan",
+   "timex_type": "DATE",
+   "sentence": "99d772e198a24c425550542ccd6a8f7a",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  }
+ ],
+ "dependencies": []
+}

@@ -1,0 +1,19 @@
+{
+ "document_id": "en_contracts_seed40",
+ "scope_name": "AgreementMilestones",
+ "bindings": {
+  "entry_date": {
+   "fact_id": "e3",
+   "entity": "accession negotiations",
+   "role": "START",
+   "score": 1.0,
+   "method": "role_unique",
+   "value": "1998-03-01",
+   "raw_text": "accession negotiations started in March 1998"
+  }
+ },
+ "unbound": [
+  "last_notification_date"
+ ],
+ "llm_fallback_used": true
+}

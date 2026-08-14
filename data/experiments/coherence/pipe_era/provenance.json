@@ -1,0 +1,58 @@
+{
+ "2026_EAT_64_s111": {
+  "anchor_date": null,
+  "rule_description": null,
+  "match_confidence": 0.0,
+  "acas_applied": false,
+  "raw_verdict": "INDETERMINATE",
+  "explanation": "Could not match anchor 'effective date of termination' in instance"
+ },
+ "2026_EAT_64_s123": {
+  "anchor_date": null,
+  "rule_description": null,
+  "match_confidence": null,
+  "acas_applied": null,
+  "raw_verdict": null,
+  "explanation": null
+ },
+ "2025_EAT_155": {
+  "anchor_date": null,
+  "rule_description": null,
+  "match_confidence": 0.0,
+  "acas_applied": false,
+  "raw_verdict": "INDETERMINATE",
+  "explanation": "Could not match anchor 'effective date of termination' in instance"
+ },
+ "2026_EAT_14": {
+  "anchor_date": "2022-08-26",
+  "rule_description": null,
+  "match_confidence": 0.29,
+  "acas_applied": false,
+  "raw_verdict": "LATE",
+  "explanation": "anchor=employment termination date (2022-08-26) + [effective date of termination + 3m - 1 day] = deadline 2022-11-25. action=complaint submission to et (2023-02-06, via action-cue) -> 73d after deadline -> LATE"
+ },
+ "2026_EAT_76": {
+  "anchor_date": null,
+  "rule_description": null,
+  "match_confidence": null,
+  "acas_applied": null,
+  "raw_verdict": null,
+  "explanation": null
+ },
+ "2026_EAT_59": {
+  "anchor_date": null,
+  "rule_description": null,
+  "match_confidence": 0.0,
+  "acas_applied": false,
+  "raw_verdict": "INDETERMINATE",
+  "explanation": "Could not match anchor 'effective date of termination' in instance"
+ },
+ "kj_2026_EAT_46": {
+  "anchor_date": null,
+  "rule_description": null,
+  "match_confidence": null,
+  "acas_applied": null,
+  "raw_verdict": null,
+  "explanation": null
+ }
+}

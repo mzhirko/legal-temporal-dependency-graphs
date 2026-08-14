@@ -1,0 +1,21 @@
+# Provisional application of the fishing agreement between the EEC and Seychelles.
+
+This scope calculates the duration of the provisional application period for the fishing agreement.
+
+```catala
+declaration scope ProvisionalApplication:
+  input initial_agreement_date content date
+  input provisional_start_date content date
+  input entry_into_force_date content date
+  input payment_deadline content date
+  output provisional_duration content duration
+```
+
+The duration of the provisional application is calculated by finding the difference between the entry into force date and the provisional start date.
+
+```catala
+scope ProvisionalApplication:
+  date round down
+  definition provisional_duration equals
+    entry_into_force_date - provisional_start_date
+```

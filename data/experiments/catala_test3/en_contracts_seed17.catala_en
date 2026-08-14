@@ -1,0 +1,16 @@
+# Association Timeline Determination
+
+This scope calculates the end dates for the preparatory and transitional stages of the Association based on a starting date.
+```catala
+declaration scope AssociationTimeline:
+  input start_date content date
+  output prep_end content date
+  output trans_end content date
+```
+The preparatory stage must last five years.
+```catala
+scope AssociationTimeline:
+  date round down
+  definition prep_end equals start_date + 5 year
+  definition trans_end equals start_date + 12 year
+```

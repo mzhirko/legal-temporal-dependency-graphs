@@ -1,0 +1,52 @@
+# Allen Relation: FINISHES / FINISHED-BY
+#
+# FINISHES: A and B end at the same time, but A starts later.
+#   A finishes B  iff  A.start > B.start and A.end = B.end
+#
+# FINISHED-BY: the symmetric inverse — B and A end together, B starts later.
+#   B finished-by A  iff  B.start > A.start and B.end = A.end
+#
+# Legal patterns that trigger FINISHES:
+#   "until the expiry of the agreement" applied to multiple obligations
+#   two protocols both terminating on the same fixed date
+#   "all obligations under both X and Y cease on [date]"
+#   a specific annex expiring when the main agreement expires
+#   "the quota year ends on 31 December" for multiple product categories
+#
+# Grounded example (en_contracts_seed3):
+#   Fishing opportunities protocol [1990-05-03, 1992-05-02] FINISHES
+#   provisional application period [earlier_start, 1992-05-02].
+#   Both end on 2 May 1992; the fishing protocol starts later.
+
+```catala
+declaration scope AllenFinishes:
+  input interval_a_start content date   # start of the later-starting period
+  input interval_a_end content date     # end of the later-starting period
+  input interval_b_start content date   # start of the earlier-starting period
+  input interval_b_end content date     # end of the earlier-starting period
+  output is_finishes content boolean    # A starts later but ends at same time as B
+  output is_finished_by content boolean # B starts later but ends at same time as A
+```
+
+## FINISHES
+
+A starts after B but they share the same end date.
+
+```catala
+scope AllenFinishes:
+  date round down
+  definition is_finishes equals
+    (interval_a_start > interval_b_start) and
+    (interval_a_end = interval_b_end)
+```
+
+## FINISHED-BY
+
+B starts after A but they share the same end date.
+
+```catala
+scope AllenFinishes:
+  definition is_finished_by equals
+    (interval_b_start > interval_a_start) and
+    (interval_b_end = interval_a_end)
+```

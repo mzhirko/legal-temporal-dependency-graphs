@@ -1,0 +1,20 @@
+# Guaranteed Sugar Price Period
+
+This scope computes the fixed period during which guaranteed prices for cane sugar applied.
+
+```catala
+declaration scope SugarPricePeriod:
+  output start_date content date
+  output end_date content date
+```
+
+## Guaranteed Period Dates
+
+The guaranteed prices applied for the period starting 1 July 1984 and ending 30 June 1985.
+
+```catala
+scope SugarPricePeriod:
+  date round down
+  definition start_date equals |1984-07-01|
+  definition end_date equals |1985-06-30|
+```

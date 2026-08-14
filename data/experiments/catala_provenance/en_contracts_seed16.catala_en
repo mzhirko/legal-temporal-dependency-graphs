@@ -1,0 +1,26 @@
+# Agreement extension and provisional application rules for trade in textile products.
+
+```catala
+declaration scope AgreementExtension:
+  input InitialExpiryDate date
+  input ExtensionStart date
+  input ExtensionEnd date
+  input NoticeDuration duration
+  input ProvisionalStartDate date
+  input TerminationNoticeDuration duration
+  output IsExtensionValid boolean
+```
+
+Source clause: "The text of Article 20, paragraph 1, second and third sentences, of the Agreement shall be replaced by the following:'It shall be applicable until 31 December 1998. Thereafter, the application of all of the provisions of this Agreement shall be extended automatically for a period of one more year up to 31 December 1999, unless either Party notifies the other at least six months before 31 December 1998 that it does not agree with this extension.'"
+```catala
+scope AgreementExtension:
+  date round down
+  definition IsExtensionValid equals (ExtensionStart <= ExtensionEnd) and (ExtensionEnd - NoticeDuration) >= ExtensionStart
+```
+
+Source clause: "The Directorate-General wishes to inform the Ministry of Foreign Affairs of Turkmenistan that while awaiting the completion of the necessary procedures for the conclusion and coming into force of the modifying Agreement, the European Community is prepared to allow the provisions of this Agreement to apply de facto from 1 January 1996. This is on the understanding that either Party may at any time terminate this de facto application of the adapted Agreement provided that 120 days' notice is given."
+```catala
+scope AgreementExtension:
+  date round down
+  definition IsExtensionValid under condition (ProvisionalStartDate <= TerminationNoticeDuration) consequence equals true
+```

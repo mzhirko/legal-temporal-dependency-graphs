@@ -1,0 +1,88 @@
+{
+ "id": "lextime_0122",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "The union disputing the hospital's response",
+ "event2": "the union engaging in a work stoppage that included approximately 100 employees",
+ "relation": "BEFORE",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "intimidating_conduct",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "in february of 2023, a union representative engaged in physically intimidating conduct with a hospital manager.",
+   "timex_type": "DATE",
+   "sentence": "f66baba40e9e4ace4be0f7a9bdad5e91",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e2",
+   "entity": "access_limitation",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "in response to the incident, the hospital limited the union representatives access to the hospital.",
+   "timex_type": "DATE",
+   "sentence": "c64d92c3e88f76b8c97a03667c918e86",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e3",
+   "entity": "work_stoppage",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "rather than pursue a grievance regarding the aforementioned response through the contracts grievance and arbitration procedure, the union engaged in a work stoppage that included approximately 100 employees.",
+   "timex_type": "DATE",
+   "sentence": "86bea5bd8a086541c555f727806e350c",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e4",
+   "entity": "work_stoppage_incitement",
+   "role": "CONTAINS",
+   "value": "2023-03-15",
+   "raw_text": "for example, on or about march 15, 2023, union representatives incited a work stoppage on the case 3:23-cv-00466 document 1 filed 04/13/23 page 6 of 10 7 mother baby unit of the hospital during work hours",
+   "timex_type": "DATE",
+   "sentence": "a741063d294614f0c4ff322635f145d8",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2023-03-15"
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e1",
+   "to_id": "e2",
+   "constraint_type": "ordering",
+   "constraint_expr": null,
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e2",
+   "to_id": "e3",
+   "constraint_type": "ordering",
+   "constraint_expr": "e3 = e2 + 30 days",
+   "delta_days": 30,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

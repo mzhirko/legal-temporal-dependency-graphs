@@ -1,0 +1,11 @@
+{
+ "id": "lextime_0442",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "The plaintiff exhausting the administrative remedies of the plan",
+ "event2": "the review of the policy",
+ "relation": "BEFORE",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [],
+ "dependencies": []
+}

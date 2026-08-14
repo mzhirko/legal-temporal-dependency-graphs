@@ -1,0 +1,64 @@
+{
+ "id": "lextime_0381",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "Receiving short term disability benefits",
+ "event2": "submitting the application for these benefits",
+ "relation": "BEFORE",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "short term disability benefits",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "applied for and eventually received short term disability benefits from employer s short term disability plan",
+   "timex_type": "DATE",
+   "sentence": "822e2ca3b89d04084bccbbd441fd5611",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e2",
+   "entity": "long term disability benefits",
+   "role": "CONTAINS",
+   "value": "2004-09-23",
+   "raw_text": "applied for long term disability benefits on or about september 23, 2004",
+   "timex_type": "DATE",
+   "sentence": "509f8856ca647374ee017f4cd97a7d24",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2004-09-23"
+  },
+  {
+   "id": "e3",
+   "entity": "long term disability benefits",
+   "role": "START",
+   "value": null,
+   "raw_text": "started receiving monthly long term disability benefits per the plan/policy",
+   "timex_type": "DATE",
+   "sentence": "509f8856ca647374ee017f4cd97a7d24",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e3",
+   "to_id": "e2",
+   "constraint_type": "interval",
+   "constraint_expr": "e2 in [e3, ...]",
+   "delta_days": null,
+   "confidence": 0.6,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

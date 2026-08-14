@@ -1,0 +1,64 @@
+{
+ "id": "lextime_0388",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "The submission of the claim package to UHC relating to the services rendered to R.C",
+ "event2": "the agreement between UHC and PMCS to secure discounted rates",
+ "relation": "BEFORE",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "claim package submission",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "a claim package was submitted to uhc relating to same shortly after the subject procedure.",
+   "timex_type": "DATE",
+   "sentence": "1498f217dec827def0964437f786391a",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e2",
+   "entity": "preferred medical claim solutions (pmcs)",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "appropriate expectation that claim payment would unfold pursuant to the preferred medical claim solutions (pmcs) (see ex. c) that existed",
+   "timex_type": "DATE",
+   "sentence": "c94e6abe816f669bf15c96ac024ca444",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e3",
+   "entity": "preferred medical claim solutions (pmcs)",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "a copy of the pertinent pages of the pmcs re-pricing contract that was procured on uhcs behalf (along with the pmcs client list listing uhc) is attached hereto as exhibit c.",
+   "timex_type": "DATE",
+   "sentence": "0f626a95b3c22590d78507f7b049f564",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e4",
+   "entity": "claim payment expectation",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "scv made clear its expectation that the claim would be priced pursuant to this pmcs contract / agreement that were brokered by uhc with pmcs being uhcs vendor, agent, or the like tasked with achieving discounted rates from case 6:22-cv-00236-wwb-ejk document 1 filed 02/03/22 page 10 of 31 pageid 10 11",
+   "timex_type": "DATE",
+   "sentence": "421f97a9a4d25b57d97bca9329337ff8",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  }
+ ],
+ "dependencies": []
+}

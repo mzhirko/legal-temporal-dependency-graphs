@@ -1,0 +1,40 @@
+{
+ "_comment": "Merged over DEFAULT_POLICY in scrub.py. Only listed fields change.",
+ "exclude_files": [
+  "**/verified_quotes.json",
+  "**/FACTS.md",
+  "**/redaction_report.txt",
+  "**/sweep_triage.txt",
+  "**/baseline/results_gpt-5.4*.json",
+  "DeonticBench/**",
+  "**/prompts_dump.txt",
+  "**/results_uk/et_*.json"
+ ],
+ "json_fields": {
+  "counterfactual_note": "keep",
+  "quote": "9f85200395527b7890d5820195baa50c",
+  "quoted_sentence": "9f85200395527b7890d5820195baa50c",
+  "sentence": "9f85200395527b7890d5820195baa50c",
+  "excerpt": "9f85200395527b7890d5820195baa50c",
+  "based_on_sentences": "d04b98f48e8f8bcc15c6ae5ac050801c"
+ },
+ "csv_columns": {
+  "claim_to_check": "keep",
+  "our_relation": "keep",
+  "extracted_concept": "keep"
+ },
+ "csv_text_mean_len": 120,
+ "_rationale": {
+  "FACTS.md": "Private working file. Holds all 30 verbatim quotes, ET case numbers and captions. anchors.json exists so this never has to ship.",
+  "verified_quotes.json": "Superseded by anchors.json, which locates the same 30 spans by hash instead of reproducing them.",
+  "redaction_report / sweep_triage / results_gpt-5.4*": "Model outputs that quote judgments back verbatim. Bulky and regenerable from the prompts. If redaction_report is the audit trail for the fulltext-vs-redacted condition, keep a reduced version with the text stripped rather than the raw file.",
+  "DeonticBench": "Third-party benchmark. Not ours to redistribute, and its captions are US immigration cases unrelated to the Find Case Law licence. Same treatment as LexTime and tracie.",
+  "note/comment": "Analytic content, not identifiers. Kept - but the scan gate still runs over them, so a name written into a note fails the build rather than passing silently.",
+  "csv_columns kept": "Annotation vocabulary, not judgment prose. Averages ~60 chars, listed explicitly so the length heuristic cannot start hashing them later.",
+  "prompts_dump / results_uk/et_*": "Judgment text and first-instance ET captions inside file content, where no key rule reaches. results_uk et_* are regenerable from the pipeline."
+ },
+ "_known_false_positives": {
+  "results_contracts_50, results_heideltime_*, results_llm_current": "Synthetic contracts using 'Mr X' placeholder parties. Not real people.",
+  "results_heldout/elgafaji*.json": "Elgafaji is a published CJEU judgment, not Find Case Law material and not a private individual."
+ }
+}

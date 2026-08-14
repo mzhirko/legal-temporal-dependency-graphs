@@ -1,0 +1,87 @@
+{
+ "id": "lextime_0466",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "The attachment of the complaint as exhibit 1",
+ "event2": "the complaint setting out the spurious reasons for first-class air travel",
+ "relation": "SIM",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "complaint",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "the complaint attached as exhibit 1 on its face, or within its four corners, meets the good cause standard described above.",
+   "timex_type": "DATE",
+   "sentence": "9374e90838af72d74d56f6014b81a5f6",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e2",
+   "entity": "misuse of union funds",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "the applicant sandra gardner learned of the misuse of union funds only in march 2021, when sito pantoja, the iam vice president at the time, obtained copies of her weekly expense reports from 2015 through",
+   "timex_type": "DATE",
+   "sentence": "ac27679717da2ac4e9134acf46542838",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e3",
+   "entity": "union conduct",
+   "role": "START",
+   "value": null,
+   "raw_text": "the union has engaged in such conduct beginning in may 2022 and as recently as march 15,",
+   "timex_type": "DATE",
+   "sentence": "540f6a7f93f975d64050fc1121cf6086",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e4",
+   "entity": "union's principal office",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "venue is proper in this court because the union maintains a principal office in and regularly transacts business in the district of connecticut.",
+   "timex_type": "DATE",
+   "sentence": "4dc40c4b58a04add99f8f14512610019",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e3",
+   "to_id": "e2",
+   "constraint_type": "ordering",
+   "constraint_expr": "",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e1",
+   "to_id": "e4",
+   "constraint_type": "interval",
+   "constraint_expr": "",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

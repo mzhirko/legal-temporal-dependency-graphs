@@ -1,0 +1,13 @@
+{
+ "document_id": "en_contracts_seed14",
+ "catala_status": "success",
+ "actions": [
+  {
+   "variable": "submission_deadline",
+   "action": "verify",
+   "catala_value": "1976-01-19",
+   "tdg_value": "P6M",
+   "delta_days": 184
+  }
+ ]
+}

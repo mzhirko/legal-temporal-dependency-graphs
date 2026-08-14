@@ -1,0 +1,106 @@
+{
+ "id": "lextime_0232",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "The district court granting the union's summary judgment motion and denying cdrt's appeal",
+ "event2": "the company and the union entering a settlement agreement",
+ "relation": "AFTER",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "summary judgment motion",
+   "role": "CONTAINS",
+   "value": "2020-11-25",
+   "raw_text": "on november 25, 2020, the district court granted the unions summary judgment motion",
+   "timex_type": "DATE",
+   "sentence": "cff930c8da7e1155b483e78909e9c898",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2020-11-25"
+  },
+  {
+   "id": "e2",
+   "entity": "summary judgment motion",
+   "role": "CONTAINS",
+   "value": "2020-11-25",
+   "raw_text": "and denied cdrts",
+   "timex_type": "DATE",
+   "sentence": "cff930c8da7e1155b483e78909e9c898",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2020-11-25"
+  },
+  {
+   "id": "e3",
+   "entity": "appeal",
+   "role": "START",
+   "value": null,
+   "raw_text": "cdrt subsequently appealed the matter to the united states court of appeals for the sixth circuit (no. 20-6425)",
+   "timex_type": "DATE",
+   "sentence": "e2619e4fdeb27349cce3b06cf4f3b552",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e4",
+   "entity": "settlement agreement",
+   "role": "START",
+   "value": "2021-09-17",
+   "raw_text": "on september 17, 2021, however, the company and the union entered a settlement agreement that resolved the appeal.",
+   "timex_type": "DATE",
+   "sentence": "e2619e4fdeb27349cce3b06cf4f3b552",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2021-09-17"
+  },
+  {
+   "id": "e5",
+   "entity": "arbitration",
+   "role": "START",
+   "value": null,
+   "raw_text": "they would arbitrate the sole issue of the calculation of backpay",
+   "timex_type": "DATE",
+   "sentence": "157f6699bb80f5ccf26d592d2d03fc3e",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e6",
+   "entity": "arbitrator's opinion and award",
+   "role": "CONTAINS",
+   "value": "2019-07-24",
+   "raw_text": "july 24, 2019 opinion and award of arbitrator mark c. travis",
+   "timex_type": "DATE",
+   "sentence": "157f6699bb80f5ccf26d592d2d03fc3e",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2019-07-24"
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e3",
+   "to_id": "e4",
+   "constraint_type": "ordering",
+   "constraint_expr": "e4 follows e3",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

@@ -1,0 +1,143 @@
+{
+ "document_id": "synth_steel_ukraine",
+ "document_type": "legal",
+ "source_text": "Agreement between the European Community and the Government of Ukraine on trade in certain steel products\n\nOfficial Journal L 178, 12/03/2007 P. 0045 - 0061\n\nTHE EUROPEAN COMMUNITY,\nof the one part, and\nTHE GOVERNMENT OF UKRAINE,\nof the other part,\n\nbeing the Parties to this Agreement, hereinafter referred to as \"the Parties\",\n\nHAVE AGREED AS FOLLOWS:\n\nArticle 1\n\nThe Parties agree to establish and maintain for each calendar year quantitative limits on exports of Ukrainian steel products to the Community as set out in Annex II for the products set out in Annex I.\n\nArticle 2\n\n1. Quantities of products set out in Annex I exported from Ukraine to the Community between 1 January 2007 until the entry into force of this Agreement shall be deducted from the quantitative limits set out in Annex II.\n\nArticle 3\n\n1. The quantitative limits referred to in Article 1 shall be managed on a calendar year basis.\n\n2. Carryover to the corresponding quantitative limits for the following calendar year of the amounts of quantitative limits set out in Annex II not used during the first calendar year is authorised up to 15 % of the relevant quantitative limit for the year in which it was not used.\n\n3. Ukraine shall notify the Community no later than 31 March of the following year if it intends to make use of this provision.\n\nArticle 9\n\nShould the consultations referred to in paragraph 1 fail to lead to agreement within 15 days of the Community's request for consultations, the Community may utilise the right to take action concerning safeguard measures pursuant to the provisions of the PCA.\n\nArticle 11\n\n1. This Agreement shall enter into force on the day of its signature. It shall be applicable until 31 December 2008 unless it is denounced or terminated in accordance with, respectively, the provisions of paragraph 3 or 4.\n\n2. This Agreement shall be automatically renewed on a yearly basis if neither Party denounces it.\n\n3. Either Party may denounce this Agreement, provided that at least three months' notice is given. In that event, the Agreement shall come to an end on the expiry of the period of notice and the quantitative limits in the Community established in Annex II shall be reduced on a pro rata basis up to the date on which denunciation takes effect unless the Parties decide otherwise.\n\n4. In the event that Ukraine accedes to the WTO before the expiration of this Agreement, the Agreement shall be terminated as of the date of accession.\n",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "Art.2 quantitative limits",
+   "role": "CONTAINS",
+   "value": "2007-01-01",
+   "raw_text": "between 1 January 2007 until the entry into force of this Agreement",
+   "timex_type": "DATE",
+   "sentence": "90be0f4d086abf25e5e94f2d2e747ef0",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2007-01-01"
+  },
+  {
+   "id": "e2",
+   "entity": "Art.3 notification deadline",
+   "role": "DURATION",
+   "value": null,
+   "raw_text": "no later than 31 March of the following year",
+   "timex_type": "DATE",
+   "sentence": "44fe0389b3e5418caf651d574652eb5f",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null
+  },
+  {
+   "id": "e3",
+   "entity": "Art.9 consultations",
+   "role": "DURATION",
+   "value": "P15D",
+   "raw_text": "within 15 days of the Community's request for consultations",
+   "timex_type": "DURATION",
+   "sentence": "d14abfe9c7c7a1c8dd46a734229d9546",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "duration_days": 15
+  },
+  {
+   "id": "e4",
+   "entity": "Art.11 Agreement",
+   "role": "START",
+   "value": null,
+   "raw_text": "on the day of its signature",
+   "timex_type": "DATE",
+   "sentence": "531b5386ab6c19e1bf75b42b8a6790bc",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null
+  },
+  {
+   "id": "e5",
+   "entity": "Art.11 Agreement",
+   "role": "DURATION",
+   "value": "2008-12-31",
+   "raw_text": "until 31 December 2008",
+   "timex_type": "DATE",
+   "sentence": "0375f68d7e398904014da345e5a35a07",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2008-12-31"
+  },
+  {
+   "id": "e6",
+   "entity": "Art.11 notice period for denunciation",
+   "role": "DURATION",
+   "value": "P90D",
+   "raw_text": "at least three months' notice",
+   "timex_type": "DURATION",
+   "sentence": "ec5cb2f106dc15f277bed37871f5afb7",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "duration_days": 90
+  },
+  {
+   "id": "e7",
+   "entity": "Art.11 Agreement",
+   "role": "END",
+   "value": null,
+   "raw_text": "on the expiry of the period of notice",
+   "timex_type": "DATE",
+   "sentence": "aa4998330b29b746546ddd1698cd66f6",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null
+  },
+  {
+   "id": "e8",
+   "entity": "Art.11 Agreement",
+   "role": "END",
+   "value": null,
+   "raw_text": "as of the date of accession",
+   "timex_type": "DATE",
+   "sentence": "cc2c97cd8f9e1215abefe14b3f672db9",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e3",
+   "to_id": "e1",
+   "constraint_type": "ordering",
+   "constraint_expr": "e1 = e3 + 15 days",
+   "delta_days": 15,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e4",
+   "to_id": "e5",
+   "constraint_type": "ordering",
+   "constraint_expr": "e5 follows e4",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e6",
+   "to_id": "e7",
+   "constraint_type": "additive",
+   "constraint_expr": "e7 = e6 + 90 days",
+   "delta_days": 90,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ],
+ "edit_scenarios": []
+}

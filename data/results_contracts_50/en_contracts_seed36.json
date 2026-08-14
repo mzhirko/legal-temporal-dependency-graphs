@@ -1,0 +1,93 @@
+{
+ "document_id": "en_contracts_seed36",
+ "document_type": "legal",
+ "source_text": "Avis juridique important | 21984A1109(02) Agreement in the form of an exchange of letters between the European Economic Community and the Republic of India on the guaranteed prices for cane sugar for the 1984/85 delivery period Official Journal L 292 , 09/11/1984 P. 0005 *****AGREEMENT in the form of an exchange of letters between the European Economic Community and the Republic of India on the guaranteed prices for cane sugar for the 1984/85 delivery period Letter No 1 Brussels, . . . . . . Sir, The representatives of the Republic of India, and of the Commission on behalf of the European Economic Community, have agreed, pursuant to the provisions of the Agreement on cane sugar between the European Economic Community and the Republic of India, to submit to their competent authorities for approval, to be the subject of an exchange of letters between the Republic of India and the Community, the following: For the period 1 July 1984 to 30 June 1985 the guaranteed prices referred to in Article 5 (4) of the Agreement shall, for the purpose of intervention within the terms of Article 6 of the Agreement, be: (a) for raw sugar: 44,34 ECU per 100 kilograms; (b) for white sugar: 54,68 ECU per 100 kilograms. These prices shall refer to sugar of standard quality as defined in Community legislation, unpacked, cif free out European ports of the Community. The introduction of these prices in no way prejudices the respective positions of the Contracting Parties in respect of the principles appertaining to the determination of the guaranteed prices. Although retroactivity is not provided for in respect of the 1984/85 prices, it is agreed that this year's decision does not prejudice the position of the Republic of India in relation to retroactivity in any future negotiation in accordance with Article 4 (3) of the Agreement. It was noted that, in the view of the Republic of India, the problem of ocean freight costs remained an outstanding and pressing matter which required urgent consideration and resolution. I should be obliged if you would acknowledge receipt of this letter and confirm that this letter and your reply constitute an Agreement between your Government and the Community. Please accept, Sir, the assurance of my highest consideration. On behalf of the Council of the European Communities Letter No 2 Brussels, . . . . . . Sir, I have the honour to acknowledge receipt of your letter of today's date which reads as follows: 'The representatives of the Republic of India, and of the Commission on behalf of the European Economic Community, have agreed, pursuant to the provisions of the Agreement on cane sugar between the European Economic Community and the Republic of India, to submit to their competent authorities for approval, to be the subject of an exchange of letters between the Republic of India and the Community, the following: For the period 1 July 1984 to 30 June 1985 the guaranteed prices referred to in Article 5 (4) of the Agreement shall, for the purpose of intervention within the terms of Article 6 of the Agreement, be: (a) for raw sugar: 44,34 ECU per 100 kilograms; (b) for white sugar: 54,68 ECU per 100 kilograms. These prices shall refer to sugar of standard quality as defined in Community legislation, unpacked, cif free out European ports of the Community. The introduction of these prices in no way prejudices the respective positions of the Contracting Parties in respect of the principles appertaining to the determination of the guaranteed prices. Although retroactivity is not provided for in respect of the 1984/85 prices, it is agreed that this year's decision does not prejudice the position of the Republic of India in relation to retroactivity in any future negotiation in accordance with Article 4 (3) of the Agreement. It was noted that, in the view of the Republic of India, the problem of ocean freight costs remained an outstanding and pressing matter which required urgent consideration and resolution. I should be obliged if you would acknowledge receipt of this letter and confirm that this letter and your reply constitute an Agreement between your Government and the Community.' I have the honour to confirm that my Government is in agreement with the foregoing. Please accept, Sir, the assurance of my highest consideration. For the Government of the Republic of India",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "Agreement",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "For the period 1 July 1984 to 30 June 1985 the guaranteed prices referred to in Article 5 (4) of the Agreement shall, for the purpose of intervention within the terms of Article 6 of the Agreement, be:",
+   "timex_type": "DATE",
+   "sentence": "c5d72759f9deb004d853e57c69f89afe",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null
+  },
+  {
+   "id": "e2",
+   "entity": "Agreement",
+   "role": "START",
+   "value": "1984-07-01",
+   "raw_text": "1 July 1984",
+   "timex_type": "DATE",
+   "sentence": "c5d72759f9deb004d853e57c69f89afe",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "1984-07-01"
+  },
+  {
+   "id": "e3",
+   "entity": "Agreement",
+   "role": "END",
+   "value": "1985-06-30",
+   "raw_text": "30 June 1985",
+   "timex_type": "DATE",
+   "sentence": "c5d72759f9deb004d853e57c69f89afe",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "1985-06-30"
+  },
+  {
+   "id": "e4",
+   "entity": "Agreement",
+   "role": "START",
+   "value": null,
+   "raw_text": "this letter and your reply constitute an Agreement between your Government and the Community",
+   "timex_type": "DATE",
+   "sentence": "9069c2d9b4de58e346b3e1b0e2b54164",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e2",
+   "to_id": "e3",
+   "constraint_type": "ordering",
+   "constraint_expr": "e2 precedes e3 by 364 days",
+   "delta_days": 364,
+   "confidence": 0.7,
+   "verified": true,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e2",
+   "to_id": "e1",
+   "constraint_type": "interval",
+   "constraint_expr": "e1 in [e2, ...]",
+   "delta_days": null,
+   "confidence": 0.6,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e4",
+   "to_id": "e1",
+   "constraint_type": "interval",
+   "constraint_expr": "e1 in [e4, ...]",
+   "delta_days": null,
+   "confidence": 0.6,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ],
+ "edit_scenarios": []
+}

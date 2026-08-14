@@ -1,0 +1,399 @@
+{
+ "document_id": "synth_fisheries_extension",
+ "document_type": "legal",
+ "source_text": "Protocol setting out the fishing opportunities and the financial contribution provided for in the Fisheries Partnership Agreement between the European Community and the Republic of Senegal for the period 1 July 2020 to 30 June 2023\n\nOfficial Journal L 189, 02/07/2020 P. 0015 - 0028\n\nTHE EUROPEAN COMMUNITY,\nof the one part, and\nTHE REPUBLIC OF SENEGAL,\nof the other part,\n\nRECALLING the Fisheries Partnership Agreement between the European Community and the Republic of Senegal which entered into force on 1 July 2018,\n\nNOTING that the Protocol annexed to the Agreement covered the period from 1 July 2018 to 30 June 2020 and has expired,\n\nHAVE AGREED AS FOLLOWS:\n\nArticle 1 — Period\n\n1. This Protocol shall apply for a period of 3 years from 1 July 2020 to 30 June 2023.\n\n2. The fishing opportunities granted under this Protocol shall be as set out in the Annex.\n\nArticle 2 — Financial contribution\n\n1. The total annual financial contribution referred to in Article 5 of the Agreement shall be EUR 2 100 000 for the duration of this Protocol.\n\n2. Payment of the annual financial contribution shall be made no later than 90 days after each anniversary of the entry into force of this Protocol. The first payment shall therefore be due by 28 September 2020.\n\nArticle 3 — Denunciation\n\nEither Party may denounce this Protocol by giving written notice of at least 60 days before the date of expiry. The latest date for denunciation notice is 1 May 2023.\n\nArticle 4 — Review\n\nThe Parties shall carry out a review of fishing opportunities 18 months after the entry into force of this Protocol. The review shall take place no later than 31 December 2021.\n\nArticle 5 — Suspension\n\n1. Implementation of this Protocol may be suspended in accordance with Article 7 of the Agreement.\n\n2. The notice period for suspension shall be 30 days. The maximum suspension period shall be 120 days.\n\nArticle 6 — Transitional provisions\n\n1. Fishing authorisations issued under the previous Protocol and still valid on 30 June 2020 shall remain valid until 30 September 2020.\n\n2. The licence fee paid by shipowners for the period from 1 July 2020 to 30 September 2020 shall be calculated on a pro rata basis.\n",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "Fisheries Partnership Agreement",
+   "role": "START",
+   "value": "2018-07-01",
+   "raw_text": "entered into force on 1 July 2018",
+   "timex_type": "DATE",
+   "sentence": "5b21924f15d61b718af0c0cd8c6d5293",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2018-07-01"
+  },
+  {
+   "id": "e2",
+   "entity": "Protocol",
+   "role": "DURATION",
+   "value": "2018-07-01",
+   "raw_text": "from 1 July 2018 to 30 June 2020",
+   "timex_type": "DATE",
+   "sentence": "2fa4fc5bb427f872899ee904665a3ec1",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2018-07-01"
+  },
+  {
+   "id": "e3",
+   "entity": "Art.1.1 Protocol",
+   "role": "DURATION",
+   "value": "2020-07-01",
+   "raw_text": "for a period of 3 years from 1 July 2020 to 30 June 2023",
+   "timex_type": "DURATION",
+   "sentence": "a2a7f0f3c140b1d540c74a449155e411",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2020-07-01",
+   "duration_days": 1095
+  },
+  {
+   "id": "e4",
+   "entity": "Art.2.1 financial contribution",
+   "role": "DURATION",
+   "value": null,
+   "raw_text": "for the duration of this Protocol",
+   "timex_type": "DATE",
+   "sentence": "458a879ba19bae7e37eac6122d14ea96",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null
+  },
+  {
+   "id": "e5",
+   "entity": "Art.2.2 Payment of annual financial contribution",
+   "role": "DURATION",
+   "value": "P90D",
+   "raw_text": "no later than 90 days after each anniversary of the entry into force of this Protocol",
+   "timex_type": "DURATION",
+   "sentence": "9028ba627badac8b3bbc0373beb763a8",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "duration_days": 90
+  },
+  {
+   "id": "e6",
+   "entity": "Art.3 written notice",
+   "role": "DURATION",
+   "value": "P60D",
+   "raw_text": "at least 60 days before the date of expiry",
+   "timex_type": "DURATION",
+   "sentence": "e043f37d20f0cb96c49175423377c5ab",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "duration_days": 60
+  },
+  {
+   "id": "e7",
+   "entity": "Art.3 denunciation notice",
+   "role": "END",
+   "value": "2023-05-01",
+   "raw_text": "The latest date for denunciation notice is 1 May 2023.",
+   "timex_type": "DATE",
+   "sentence": "86f667892c6588b7bd820a8673240dbd",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2023-05-01"
+  },
+  {
+   "id": "e8",
+   "entity": "Art.4 review of fishing opportunities",
+   "role": "DURATION",
+   "value": "P540D",
+   "raw_text": "18 months after the entry into force of this Protocol",
+   "timex_type": "DURATION",
+   "sentence": "2c82015696fa167979ce58becb69a469",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "duration_days": 540
+  },
+  {
+   "id": "e9",
+   "entity": "Art.4 review of fishing opportunities",
+   "role": "END",
+   "value": "2021-12-31",
+   "raw_text": "no later than 31 December 2021",
+   "timex_type": "DATE",
+   "sentence": "f963a72333e1547c9166a303d4a51fdf",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2021-12-31"
+  },
+  {
+   "id": "e10",
+   "entity": "Art.5.2 notice period for suspension",
+   "role": "DURATION",
+   "value": "P30D",
+   "raw_text": "30 days",
+   "timex_type": "DURATION",
+   "sentence": "622e027800a2815e1d008581daafb732",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "duration_days": 30
+  },
+  {
+   "id": "e11",
+   "entity": "Art.5.2 suspension period",
+   "role": "DURATION",
+   "value": "P120D",
+   "raw_text": "120 days",
+   "timex_type": "DURATION",
+   "sentence": "1a1efb5c3231e97eab394ece24e1cc58",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "duration_days": 120
+  },
+  {
+   "id": "e12",
+   "entity": "Art.6.1 fishing authorisations",
+   "role": "END",
+   "value": "2020-09-30",
+   "raw_text": "shall remain valid until 30 September 2020",
+   "timex_type": "DATE",
+   "sentence": "98a792a051abe879d33b786c9f1c53c8",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2020-09-30"
+  },
+  {
+   "id": "e13",
+   "entity": "Art.6.2 licence fee calculation period",
+   "role": "DURATION",
+   "value": null,
+   "raw_text": "from 1 July 2020 to 30 September 2020",
+   "timex_type": "DATE",
+   "sentence": "525ffe18390132dbac3fd65ea6be36f8",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e8",
+   "to_id": "e9",
+   "constraint_type": "additive",
+   "constraint_expr": "Art.4 review of fishing opportunities = start + P540D",
+   "delta_days": 540,
+   "confidence": 0.5,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e1",
+   "to_id": "e3",
+   "constraint_type": "ordering",
+   "constraint_expr": "e3 = e1 + 365 days",
+   "delta_days": 365,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e3",
+   "to_id": "e2",
+   "constraint_type": "ordering",
+   "constraint_expr": "e2 follows e3",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e3",
+   "to_id": "e12",
+   "constraint_type": "ordering",
+   "constraint_expr": "e12 follows e3",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e1",
+   "to_id": "e5",
+   "constraint_type": "additive",
+   "constraint_expr": "e5 = e1 + 365 days",
+   "delta_days": 365,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e3",
+   "to_id": "e8",
+   "constraint_type": "additive",
+   "constraint_expr": "e8 = e3 + 548 days",
+   "delta_days": 548,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e3",
+   "to_id": "e6",
+   "constraint_type": "additive",
+   "constraint_expr": "e6 = e3 + 180 days",
+   "delta_days": 180,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e3",
+   "to_id": "e13",
+   "constraint_type": "additive",
+   "constraint_expr": "e13 = e3 + 92 days",
+   "delta_days": 92,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ],
+ "edit_scenarios": [
+  {
+   "edit": {
+    "target_id": "e1",
+    "entity": "Fisheries Partnership Agreement",
+    "role": "START",
+    "old_value": "2018-07-01",
+    "new_value": "2018-07-31",
+    "delta_days": 30
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e5",
+     "entity": "Art.2.2 Payment of annual financial contribution",
+     "role": "DURATION",
+     "old_value": "P90D",
+     "new_value": "P90D",
+     "constraint": "e5 = e1 + 365 days"
+    }
+   ],
+   "ripple_depth": 3,
+   "ripple_breadth": 1
+  },
+  {
+   "edit": {
+    "target_id": "e1",
+    "entity": "Fisheries Partnership Agreement",
+    "role": "START",
+    "old_value": "2018-07-01",
+    "new_value": "2018-06-01",
+    "delta_days": -30
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e5",
+     "entity": "Art.2.2 Payment of annual financial contribution",
+     "role": "DURATION",
+     "old_value": "P90D",
+     "new_value": "P90D",
+     "constraint": "e5 = e1 + 365 days"
+    }
+   ],
+   "ripple_depth": 3,
+   "ripple_breadth": 1
+  },
+  {
+   "edit": {
+    "target_id": "e1",
+    "entity": "Fisheries Partnership Agreement",
+    "role": "START",
+    "old_value": "2018-07-01",
+    "new_value": "2018-09-29",
+    "delta_days": 90
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e5",
+     "entity": "Art.2.2 Payment of annual financial contribution",
+     "role": "DURATION",
+     "old_value": "P90D",
+     "new_value": "P90D",
+     "constraint": "e5 = e1 + 365 days"
+    }
+   ],
+   "ripple_depth": 3,
+   "ripple_breadth": 1
+  },
+  {
+   "edit": {
+    "target_id": "e1",
+    "entity": "Fisheries Partnership Agreement",
+    "role": "START",
+    "old_value": "2018-07-01",
+    "new_value": "2018-04-02",
+    "delta_days": -90
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e5",
+     "entity": "Art.2.2 Payment of annual financial contribution",
+     "role": "DURATION",
+     "old_value": "P90D",
+     "new_value": "P90D",
+     "constraint": "e5 = e1 + 365 days"
+    }
+   ],
+   "ripple_depth": 3,
+   "ripple_breadth": 1
+  },
+  {
+   "edit": {
+    "target_id": "e1",
+    "entity": "Fisheries Partnership Agreement",
+    "role": "START",
+    "old_value": "2018-07-01",
+    "new_value": "2019-07-01",
+    "delta_days": 365
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e5",
+     "entity": "Art.2.2 Payment of annual financial contribution",
+     "role": "DURATION",
+     "old_value": "P90D",
+     "new_value": "P90D",
+     "constraint": "e5 = e1 + 365 days"
+    }
+   ],
+   "ripple_depth": 3,
+   "ripple_breadth": 1
+  },
+  {
+   "edit": {
+    "target_id": "e1",
+    "entity": "Fisheries Partnership Agreement",
+    "role": "START",
+    "old_value": "2018-07-01",
+    "new_value": "2017-07-01",
+    "delta_days": -365
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e5",
+     "entity": "Art.2.2 Payment of annual financial contribution",
+     "role": "DURATION",
+     "old_value": "P90D",
+     "new_value": "P90D",
+     "constraint": "e5 = e1 + 365 days"
+    }
+   ],
+   "ripple_depth": 3,
+   "ripple_breadth": 1
+  }
+ ]
+}

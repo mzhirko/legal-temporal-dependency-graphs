@@ -1,0 +1,99 @@
+{
+ "use_case_b": [
+  {
+   "case": "ahmed_v_newcastle",
+   "llm": {
+    "statute_doc": "era_1996_s111",
+    "case_doc": "ahmed_v_newcastle",
+    "rule_description": "Unfair dismissal complaint must be filed within 3 months of effective date of termination (s.111(2)(a) ERA 1996)",
+    "anchor_date": "2020-03-16",
+    "deadline_computed": "2020-06-15",
+    "action_date": "2020-08-24",
+    "days_over": 70,
+    "verdict": "LATE",
+    "tribunal_finding": "out of time — claim struck out",
+    "matches_tribunal": true,
+    "explanation": "EDT=2020-03-16 + 3 months - 1 day = 2020-06-15. ET1 filed 2020-08-24 = 70 days after deadline. Verdict: LATE. Tribunal deadline: 2020-07-26"
+   },
+   "ground_truth": {
+    "statute_doc": "era_1996_s111",
+    "case_doc": "ahmed_v_newcastle",
+    "rule_description": "Unfair dismissal complaint must be filed within 3 months of effective date of termination (s.111(2)(a) ERA 1996)",
+    "anchor_date": "2020-03-16",
+    "deadline_computed": "2020-06-15",
+    "action_date": "2020-08-24",
+    "days_over": 70,
+    "verdict": "LATE",
+    "tribunal_finding": "out of time — claim struck out",
+    "matches_tribunal": true,
+    "explanation": "EDT=2020-03-16 + 3 months - 1 day = 2020-06-15. ET1 filed 2020-08-24 = 70 days after deadline. Verdict: LATE. Tribunal deadline: 2020-07-26"
+   }
+  },
+  {
+   "case": "zegay_v_boylan",
+   "llm": {
+    "statute_doc": "era_1996_s111",
+    "case_doc": "zegay_v_boylan",
+    "rule_description": "Unfair dismissal complaint must be filed within 3 months of effective date of termination (s.111(2)(a) ERA 1996)",
+    "anchor_date": null,
+    "deadline_computed": null,
+    "action_date": "2019-09-04",
+    "days_over": null,
+    "verdict": "INDETERMINATE",
+    "tribunal_finding": "out of time",
+    "matches_tribunal": null,
+    "explanation": "Missing facts: anchor (termination|employment)"
+   },
+   "ground_truth": {
+    "statute_doc": "era_1996_s111",
+    "case_doc": "zegay_v_boylan",
+    "rule_description": "Unfair dismissal complaint must be filed within 3 months of effective date of termination (s.111(2)(a) ERA 1996)",
+    "anchor_date": "2019-03-15",
+    "deadline_computed": "2019-06-14",
+    "action_date": "2019-09-04",
+    "days_over": 82,
+    "verdict": "LATE",
+    "tribunal_finding": "out of time",
+    "matches_tribunal": true,
+    "explanation": "EDT=2019-03-15 + 3 months - 1 day = 2019-06-14. ET1 filed 2019-09-04 = 82 days after deadline. Verdict: LATE. Tribunal deadline: 2019-07-28"
+   }
+  }
+ ],
+ "use_case_c": {
+  "total_contradictions_found": 0,
+  "total_parallel_applications": 3,
+  "test_cases": [
+   {
+    "doc_a": "ahmed_v_newcastle",
+    "doc_b": "zegay_v_boylan",
+    "description": "Two judgments applying the same s.111 rule — should agree on P3M duration",
+    "expected_contradictions": 0,
+    "found_contradictions": 0,
+    "found_parallel_applications": 3,
+    "correct": true,
+    "details": []
+   },
+   {
+    "doc_a": "era_1996_s111",
+    "doc_b": "ahmed_v_newcastle",
+    "description": "Statute and judgment citing it — should agree on P3M",
+    "expected_contradictions": 0,
+    "found_contradictions": 0,
+    "found_parallel_applications": 0,
+    "correct": true,
+    "details": []
+   },
+   {
+    "doc_a": "era_1996_s111",
+    "doc_b": "zegay_v_boylan",
+    "description": "Statute and judgment citing it — should agree on P3M",
+    "expected_contradictions": 0,
+    "found_contradictions": 0,
+    "found_parallel_applications": 0,
+    "correct": true,
+    "details": []
+   }
+  ],
+  "accuracy": 1.0
+ }
+}

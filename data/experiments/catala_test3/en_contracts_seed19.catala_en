@@ -1,0 +1,38 @@
+# Protocol Provisions for Agreement Entry into Force and Termination
+
+```catala
+declaration scope AgreementDates:
+  input date_three_parties content date
+  input date_accession_deposit content date
+  input date_denunciation_receipt content date
+  output date_entry_into_force content date
+  output date_accession_effect content date
+  output date_denunciation_effect content date
+```
+
+## Agreement Entry into Force
+
+This agreement enters into force one month after the date on which three Member States become Parties.
+
+```catala
+scope AgreementDates:
+  definition date_entry_into_force equals date_three_parties + 1 month
+```
+
+## Accession Effect
+
+An instrument of accession takes effect one month after the date of its deposit.
+
+```catala
+scope AgreementDates:
+  definition date_accession_effect equals date_accession_deposit + 1 month
+```
+
+## Denunciation Effect
+
+Denunciation takes effect six months after the date of receipt of the notification.
+
+```catala
+scope AgreementDates:
+  definition date_denunciation_effect equals date_denunciation_receipt + 6 month
+```

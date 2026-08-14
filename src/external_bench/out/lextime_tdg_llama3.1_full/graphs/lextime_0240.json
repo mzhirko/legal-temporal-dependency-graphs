@@ -1,0 +1,74 @@
+{
+ "id": "lextime_0240",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "The attachment of true and accurate copies of the award and amended award",
+ "event2": "their creation",
+ "relation": "BEFORE",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "award",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "the award and the amended award were delivered",
+   "timex_type": "DATE",
+   "sentence": "a9cb98ffafd5a6f4e5901fea495bf5d5",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e2",
+   "entity": "amended award",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "the award and the amended award were delivered",
+   "timex_type": "DATE",
+   "sentence": "a9cb98ffafd5a6f4e5901fea495bf5d5",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e3",
+   "entity": "grievance process",
+   "role": "START",
+   "value": null,
+   "raw_text": "the grievance process starts at step",
+   "timex_type": "DATE",
+   "sentence": "a705195fc8b82442afcfe4f1ef4e52a6",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e3",
+   "to_id": "e1",
+   "constraint_type": "ordering",
+   "constraint_expr": null,
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e3",
+   "to_id": "e2",
+   "constraint_type": "ordering",
+   "constraint_expr": null,
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

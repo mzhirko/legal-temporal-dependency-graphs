@@ -1,0 +1,222 @@
+{
+ "document_id": "en_caselaw_seed23",
+ "document_type": "legal",
+ "source_text": "They maintain that the contested decision is vitiated by a defective statement of reasons, inadequate description, an error of fact and by misuse of powers, inasmuch as they describe the payments as aid and, in the alternative, inasmuch as they describe them as aid as a whole and In the alternative and in the event that the description as aid is upheld, the applicants claim that it is very difficult the light of Article 92 ( 3 ) ( c ) of the EC Treaty, the payments in issue are lawful, since most of its reasons are Production, whose registered office is at Bry-sur-Marne ( France ), the Syndicat National de Radio-Diffusion et de Conseil d'Etat and at the Cour de Cassation, Paris, with Guy Thomas, 77 Boulevard de la Grande-Duchesse The applicant claims that the Court should: order it to pay each of the applicants the equivalent of Pleas in law and main arguments adduced in support: An action against the Commission of the European Communities was brought before the Court of First the Conditions of Employment of Other Servants to a. declare the Commission's decision of 18 March 1992 maximum duration of three years, with a possibility of staff to be extended by a two-year period applicable to the applicants,. order the Commission to pay the costs .. annul the Commission's decisions of 26 August 1996 expressly rejecting the applicants' requests that they be able to benefit from a possible extension of their The pleas in law and main arguments are similar to those",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "Commission's decision",
+   "role": "START",
+   "value": "1992-03-18",
+   "raw_text": "Commission's decision of 18 March 1992",
+   "timex_type": "DATE",
+   "sentence": "8e3858826b9408d83ced8d360147c055",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "1992-03-18"
+  },
+  {
+   "id": "e2",
+   "entity": "Commission's decision",
+   "role": "DURATION",
+   "value": "P3Y",
+   "raw_text": "maximum duration of three years",
+   "timex_type": "DURATION",
+   "sentence": "8e3858826b9408d83ced8d360147c055",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "duration_days": 1095
+  },
+  {
+   "id": "e3",
+   "entity": "Commission's decision",
+   "role": "DURATION",
+   "value": "P2Y",
+   "raw_text": "extended by a two-year period",
+   "timex_type": "DURATION",
+   "sentence": "8e3858826b9408d83ced8d360147c055",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "duration_days": 730
+  },
+  {
+   "id": "e4",
+   "entity": "Commission's decision",
+   "role": "START",
+   "value": "1996-08-26",
+   "raw_text": "Commission's decisions of 26 August 1996",
+   "timex_type": "DATE",
+   "sentence": "3d8b33fef8cb8c7d97c406b6d3bdb44d",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "1996-08-26"
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e1",
+   "to_id": "e2",
+   "constraint_type": "additive",
+   "constraint_expr": "e2 = e1 + 3 years",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false
+  },
+  {
+   "from_id": "e2",
+   "to_id": "e3",
+   "constraint_type": "additive",
+   "constraint_expr": "e3 = e2 + 2 years",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false
+  },
+  {
+   "from_id": "e1",
+   "to_id": "e4",
+   "constraint_type": "ordering",
+   "constraint_expr": "e4 occurs after e1",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false
+  }
+ ],
+ "edit_scenarios": [
+  {
+   "edit": {
+    "target_id": "e1",
+    "entity": "Commission's decision",
+    "role": "START",
+    "old_value": "1992-03-18",
+    "new_value": "1992-04-17",
+    "delta_days": 30
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e2",
+     "entity": "Commission's decision",
+     "role": "DURATION",
+     "old_value": "P3Y",
+     "new_value": "P3Y",
+     "constraint": "e2 = e1 + 3 years"
+    }
+   ],
+   "ripple_depth": 2,
+   "ripple_breadth": 1
+  },
+  {
+   "edit": {
+    "target_id": "e1",
+    "entity": "Commission's decision",
+    "role": "START",
+    "old_value": "1992-03-18",
+    "new_value": "1992-02-17",
+    "delta_days": -30
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e2",
+     "entity": "Commission's decision",
+     "role": "DURATION",
+     "old_value": "P3Y",
+     "new_value": "P3Y",
+     "constraint": "e2 = e1 + 3 years"
+    }
+   ],
+   "ripple_depth": 2,
+   "ripple_breadth": 1
+  },
+  {
+   "edit": {
+    "target_id": "e1",
+    "entity": "Commission's decision",
+    "role": "START",
+    "old_value": "1992-03-18",
+    "new_value": "1992-06-16",
+    "delta_days": 90
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e2",
+     "entity": "Commission's decision",
+     "role": "DURATION",
+     "old_value": "P3Y",
+     "new_value": "P3Y",
+     "constraint": "e2 = e1 + 3 years"
+    }
+   ],
+   "ripple_depth": 2,
+   "ripple_breadth": 1
+  },
+  {
+   "edit": {
+    "target_id": "e1",
+    "entity": "Commission's decision",
+    "role": "START",
+    "old_value": "1992-03-18",
+    "new_value": "1991-12-19",
+    "delta_days": -90
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e2",
+     "entity": "Commission's decision",
+     "role": "DURATION",
+     "old_value": "P3Y",
+     "new_value": "P3Y",
+     "constraint": "e2 = e1 + 3 years"
+    }
+   ],
+   "ripple_depth": 2,
+   "ripple_breadth": 1
+  },
+  {
+   "edit": {
+    "target_id": "e1",
+    "entity": "Commission's decision",
+    "role": "START",
+    "old_value": "1992-03-18",
+    "new_value": "1993-03-18",
+    "delta_days": 365
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e2",
+     "entity": "Commission's decision",
+     "role": "DURATION",
+     "old_value": "P3Y",
+     "new_value": "P3Y",
+     "constraint": "e2 = e1 + 3 years"
+    }
+   ],
+   "ripple_depth": 2,
+   "ripple_breadth": 1
+  },
+  {
+   "edit": {
+    "target_id": "e1",
+    "entity": "Commission's decision",
+    "role": "START",
+    "old_value": "1992-03-18",
+    "new_value": "1991-03-19",
+    "delta_days": -365
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e2",
+     "entity": "Commission's decision",
+     "role": "DURATION",
+     "old_value": "P3Y",
+     "new_value": "P3Y",
+     "constraint": "e2 = e1 + 3 years"
+    }
+   ],
+   "ripple_depth": 2,
+   "ripple_breadth": 1
+  }
+ ]
+}

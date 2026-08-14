@@ -1,0 +1,37 @@
+{
+ "document_id": "en_caselaw_seed3",
+ "document_type": "legal",
+ "source_text": "15.8.2008 EN Official Journal of the European Union C 209/61 Action brought on 23 June 2008 — Ravensburger v OHIM — Educa Borras (EDUCA Memory game) (Case T-243/08) (2008/C 209/110) Language in which the application was lodged: English Parties Applicant: Ravensburger AG (Ravensburg, Germany) (represented by: G. Würtenberger, lawyer, and R. Kunze, lawyer and Solicitor) Defendant: Office for Harmonisation in the Internal Market (Trade Marks and Designs) Other party to the proceedings before the Board of Appeal: Educa Borras SA (Sant Quirze del Valles, Barcelona, Spain) Form of order sought — Annul the decision of the Second Board of Appeal of the Office for Harmonisation in the Internal Market (Trade Marks and Designs) of 8 April 2008 in case R 597/2007-2; and — Order OHIM to pay the costs. Pleas in law and main arguments Registered Community trade mark subject of the application for a declaration of invalidity: The figurative mark ‘EDUCA Memory game’ for goods in class 28 — Community trade mark registration No 495 036 Proprietor of the Community trade mark: The other party to the proceedings before the Board of Appeal Party requesting the declaration of invalidity of the Community trade mark: The applicant Trade mark right of the party requesting the declaration of invalidity: The international word trade mark ‘MEMORY’ registration No R 393 512; the Benelux word trade mark ‘MEMORY’ registration No 38 328; the German word trade mark ‘MEMORY’ registration No 964 625 Decision of the Cancellation Division: Invalidity of the Community trade mark concerned Decision of the Board of Appeal: Annulment of the decision of the Cancellation Division Pleas in law: (i) infringement of Article 8(1) of Council Regulation No 40/94 as the Board of Appeal erred in concluding that the potentially colliding element in the Community trade mark concerned is of purely descriptive nature and thus cannot cause a risk of confusion with the applicant's earlier trade marks; (ii) infringement of Article 8(5) of Council Regulation No 40/94 as the Board of Appeal erred in requiring that applicant prove a risk of confusion; (iii) infringement of Article 74 of Council Regulation No 40/94 as the Board of Appeal did not properly take into account the labelling practice of the relevant market; (iv) infringement of Article 75 of Council Regulation No 40/94 as the Board of Appeal failed to convene a hearing, as requested by the applicant.",
+ "facts": [
+  {
+   "id": "f1",
+   "entity": "Ravensburger",
+   "role": "UNKNOWN",
+   "value": "2008-06-23",
+   "raw_text": "23 June 2008",
+   "timex_type": "DATE",
+   "sentence": "3f35bb878860740f984219f028bc4796",
+   "confidence": 0.3,
+   "signal_verb": null,
+   "signal_prep": "on",
+   "temporal_content": true,
+   "date_parsed": "2008-06-23"
+  },
+  {
+   "id": "f2",
+   "entity": "the Office for Harmonisation in the Internal Market",
+   "role": "UNKNOWN",
+   "value": "2008-04-08",
+   "raw_text": "8 April 2008",
+   "timex_type": "DATE",
+   "sentence": "76b0304f7628d076522366539f0368d1",
+   "confidence": 0.2,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2008-04-08"
+  }
+ ],
+ "dependencies": [],
+ "edit_scenarios": []
+}

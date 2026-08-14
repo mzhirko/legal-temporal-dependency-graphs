@@ -1,0 +1,10 @@
+{
+ "document_id": "en_contracts_seed30",
+ "scope_name": "CotonouExpirationCheck",
+ "bindings": {},
+ "unbound": [
+  "cotonou_expiry_date",
+  "successor_deadline"
+ ],
+ "llm_fallback_used": true
+}

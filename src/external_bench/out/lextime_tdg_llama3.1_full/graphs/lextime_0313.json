@@ -1,0 +1,51 @@
+{
+ "id": "lextime_0313",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "The approval of the new policy",
+ "event2": "the planning to retire at age",
+ "relation": "BEFORE",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "new policy",
+   "role": "START",
+   "value": "null",
+   "raw_text": "the new policy, which was facially discriminatory based on age, was approved by the defendants on the executive counsel on or shortly after june 17",
+   "timex_type": "DATE",
+   "sentence": "ed011014354496db63e1fba40a76e580",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e2",
+   "entity": "pantoja's removal from elected office",
+   "role": "END",
+   "value": "2022-04-01",
+   "raw_text": "e. pantojas removal from elected office on april 1, 2022 pursuant to the mandatory retirement policy",
+   "timex_type": "DATE",
+   "sentence": "8d1e8ae661bf29c30ea76012acb9c376",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2022-04-01"
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e1",
+   "to_id": "e2",
+   "constraint_type": "ordering",
+   "constraint_expr": null,
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

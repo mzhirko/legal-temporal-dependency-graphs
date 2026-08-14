@@ -1,0 +1,85 @@
+{
+ "document_id": "en_contracts_seed16",
+ "catala_status": "success",
+ "scope_name": "AgreementExtension",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 0,
+  "mismatch": 1,
+  "tdg_only": 9,
+  "catala_only": 0,
+  "match_rate": 0.0
+ },
+ "fields": [
+  {
+   "variable_name": "automatic_extension_end_date",
+   "status": "mismatch",
+   "tdg_value": "1998-12-31",
+   "catala_value": "1999-12-31",
+   "delta_days": 365
+  },
+  {
+   "variable_name": "tdg:Agreement on trade in textile products:START",
+   "status": "tdg_only",
+   "tdg_value": "1993-09-28",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Agreement in the form of an Exchange of Letters:START",
+   "status": "tdg_only",
+   "tdg_value": "1995-10-18",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Agreement in the form of an Exchange of Letters:START",
+   "status": "tdg_only",
+   "tdg_value": "1995-12-30",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Agreement on trade in textile products:END",
+   "status": "tdg_only",
+   "tdg_value": "1995-12-31",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Agreement on trade in textile products:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "1995-12-31",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Agreement on trade in textile products:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "1999-12-31",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Agreement on trade in textile products:START",
+   "status": "tdg_only",
+   "tdg_value": "1996-01-01",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Agreement on trade in textile products:START",
+   "status": "tdg_only",
+   "tdg_value": "1996-01-01",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:notice period:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "P120D",
+   "catala_value": null,
+   "delta_days": null
+  }
+ ]
+}

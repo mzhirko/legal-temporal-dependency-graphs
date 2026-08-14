@@ -1,0 +1,10 @@
+{
+ "document_id": "en_contracts_seed5",
+ "scope_name": "AgreementPeriod",
+ "bindings": {},
+ "unbound": [
+  "end_date",
+  "start_date"
+ ],
+ "llm_fallback_used": true
+}

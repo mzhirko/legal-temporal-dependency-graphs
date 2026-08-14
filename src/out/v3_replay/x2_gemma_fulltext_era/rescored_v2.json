@@ -1,0 +1,92 @@
+{
+ "summary": {
+  "condition": "v2",
+  "n": 4,
+  "coverage": 0.5,
+  "acc_answered": 1.0,
+  "acc_all": 0.5,
+  "converted": 0,
+  "acc_converted": null,
+  "edges_downgraded": 0,
+  "by_case": {
+   "2026_EAT_59": {
+    "n": 1,
+    "answered": 0,
+    "correct": 0,
+    "converted": 0,
+    "conv_correct": 0
+   },
+   "2025_EAT_155": {
+    "n": 1,
+    "answered": 1,
+    "correct": 1,
+    "converted": 0,
+    "conv_correct": 0
+   },
+   "2026_EAT_64_s111": {
+    "n": 1,
+    "answered": 1,
+    "correct": 1,
+    "converted": 0,
+    "conv_correct": 0
+   },
+   "2026_EAT_14": {
+    "n": 1,
+    "answered": 0,
+    "correct": 0,
+    "converted": 0,
+    "conv_correct": 0
+   }
+  }
+ },
+ "rows": [
+  {
+   "pred": null,
+   "explanation": "Could not match anchor 'effective date of termination' in instance",
+   "pred_anchor": null,
+   "pred_deadline": null,
+   "edge_audit": null,
+   "v3l": null,
+   "id": "2026_EAT_59",
+   "case": "2026_EAT_59",
+   "gold": "TIMELY",
+   "match": false
+  },
+  {
+   "pred": "LATE",
+   "explanation": "anchor=dismissal letter seen by appellant (2020-07-11) + [effective date of termination + 3m - 1 day] = deadline 2020-10-10. action=presentation of claim form (2020-12-10, via action-cue) -> 61d after deadline -> LATE",
+   "pred_anchor": "2020-07-11",
+   "pred_deadline": "2020-10-10",
+   "edge_audit": null,
+   "v3l": null,
+   "id": "2025_EAT_155",
+   "case": "2025_EAT_155",
+   "gold": "LATE",
+   "match": true
+  },
+  {
+   "pred": "LATE",
+   "explanation": "anchor=dismissal date (2022-06-08) + [effective date of termination + 3m - 1 day] = deadline 2022-09-07. action=presentation of claim forms (2023-01-10, via action-cue) -> 125d after deadline -> LATE",
+   "pred_anchor": "2022-06-08",
+   "pred_deadline": "2022-09-07",
+   "edge_audit": null,
+   "v3l": null,
+   "id": "2026_EAT_64_s111",
+   "case": "2026_EAT_64_s111",
+   "gold": "LATE",
+   "match": true
+  },
+  {
+   "pred": null,
+   "explanation": "Anchor ambiguous — 2 distinct-dated candidates for 'effective date of termination': dismissal date (2022-09-29); dismissal notice date (2022-11-08). Anchor selection is a legal judgment; abstaining.",
+   "pred_anchor": null,
+   "pred_deadline": null,
+   "edge_audit": null,
+   "v3l": null,
+   "id": "2026_EAT_14",
+   "case": "2026_EAT_14",
+   "gold": "LATE",
+   "match": false
+  }
+ ]
+}

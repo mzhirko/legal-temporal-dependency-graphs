@@ -1,0 +1,110 @@
+{
+ "summary": {
+  "condition": "v3EL",
+  "n": 4,
+  "coverage": 0.75,
+  "acc_answered": 0.6667,
+  "acc_all": 0.5,
+  "converted": 0,
+  "acc_converted": null,
+  "edges_downgraded": 0,
+  "by_case": {
+   "2026_EAT_59": {
+    "n": 1,
+    "answered": 1,
+    "correct": 0,
+    "converted": 0,
+    "conv_correct": 0
+   },
+   "2025_EAT_155": {
+    "n": 1,
+    "answered": 1,
+    "correct": 1,
+    "converted": 0,
+    "conv_correct": 0
+   },
+   "2026_EAT_64_s111": {
+    "n": 1,
+    "answered": 1,
+    "correct": 1,
+    "converted": 0,
+    "conv_correct": 0
+   },
+   "2026_EAT_14": {
+    "n": 1,
+    "answered": 0,
+    "correct": 0,
+    "converted": 0,
+    "conv_correct": 0
+   }
+  }
+ },
+ "rows": [
+  {
+   "pred": "LATE",
+   "explanation": "anchor=effective date of termination (2024-02-18) + [effective date of termination + 3m - 1 day] = deadline 2024-05-17. action=et1 form (2024-07-09, via action-cue) -> 53d after deadline -> LATE",
+   "pred_anchor": "2024-02-18",
+   "pred_deadline": "2024-05-17",
+   "edge_audit": {
+    "summary": "2026_EAT_59: 0 additive edge(s), 0 supported, 0 downgraded, 0 unverifiable",
+    "applied": 0,
+    "downgraded": []
+   },
+   "v3l": null,
+   "id": "2026_EAT_59",
+   "case": "2026_EAT_59",
+   "gold": "TIMELY",
+   "match": false
+  },
+  {
+   "pred": "LATE",
+   "explanation": "anchor=effective date of termination (2020-07-10) + [effective date of termination + 3m - 1 day] = deadline 2020-10-09. action=claim form (2020-12-10, via action-cue) -> 62d after deadline -> LATE",
+   "pred_anchor": "2020-07-10",
+   "pred_deadline": "2020-10-09",
+   "edge_audit": {
+    "summary": "2025_EAT_155: 0 additive edge(s), 0 supported, 0 downgraded, 0 unverifiable",
+    "applied": 0,
+    "downgraded": []
+   },
+   "v3l": null,
+   "id": "2025_EAT_155",
+   "case": "2025_EAT_155",
+   "gold": "LATE",
+   "match": true
+  },
+  {
+   "pred": "LATE",
+   "explanation": "anchor=dismissal (2022-06-08) + [effective date of termination + 3m - 1 day] = deadline 2022-09-07. action=et1 claim forms (2023-01-10, via action-cue) -> 125d after deadline -> LATE",
+   "pred_anchor": "2022-06-08",
+   "pred_deadline": "2022-09-07",
+   "edge_audit": {
+    "summary": "2026_EAT_64_s111: 0 additive edge(s), 0 supported, 0 downgraded, 0 unverifiable",
+    "applied": 0,
+    "downgraded": []
+   },
+   "v3l": null,
+   "id": "2026_EAT_64_s111",
+   "case": "2026_EAT_64_s111",
+   "gold": "LATE",
+   "match": true
+  },
+  {
+   "pred": null,
+   "explanation": "Anchor ambiguous — 2 distinct-dated candidates for 'effective date of termination': dismissal (2022-09-29); dismissal date (2022-11-08). Anchor selection is a legal judgment; abstaining.",
+   "pred_anchor": null,
+   "pred_deadline": null,
+   "edge_audit": {
+    "summary": "2026_EAT_14: 0 additive edge(s), 0 supported, 0 downgraded, 0 unverifiable",
+    "applied": 0,
+    "downgraded": []
+   },
+   "v3l": {
+    "converted": false
+   },
+   "id": "2026_EAT_14",
+   "case": "2026_EAT_14",
+   "gold": "LATE",
+   "match": false
+  }
+ ]
+}

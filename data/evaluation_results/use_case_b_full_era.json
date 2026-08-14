@@ -1,0 +1,79 @@
+{
+ "statute": "era_1996_s111",
+ "rule": "s. 111(2) complaint = effective date of termination + 3m - 1 day",
+ "minus_one_day": true,
+ "scored": 1,
+ "correct": 1,
+ "indeterminate": 3,
+ "accuracy": 1.0,
+ "cases": [
+  {
+   "case": "2026_EAT_64_s111",
+   "split": "real",
+   "expected": "LATE",
+   "verdict": "INDETERMINATE",
+   "match": false,
+   "days_over": null,
+   "deadline": null,
+   "anchor_date": null,
+   "action_date": null,
+   "acas_applied": false,
+   "confidence": 0.0,
+   "explanation": "Could not match anchor 'effective date of termination' in instance"
+  },
+  {
+   "case": "2026_EAT_64_s123",
+   "status": "missing_tdg"
+  },
+  {
+   "case": "2025_EAT_155",
+   "split": "real",
+   "expected": "LATE",
+   "verdict": "INDETERMINATE",
+   "match": false,
+   "days_over": null,
+   "deadline": null,
+   "anchor_date": null,
+   "action_date": null,
+   "acas_applied": false,
+   "confidence": 0.0,
+   "explanation": "Could not match anchor 'effective date of termination' in instance"
+  },
+  {
+   "case": "2026_EAT_14",
+   "split": "real",
+   "expected": "LATE",
+   "verdict": "LATE",
+   "match": true,
+   "days_over": 73,
+   "deadline": "2022-11-25",
+   "anchor_date": "2022-08-26",
+   "action_date": "2023-02-06",
+   "acas_applied": false,
+   "confidence": 0.29,
+   "explanation": "anchor=employment termination date (2022-08-26) + [effective date of termination + 3m - 1 day] = deadline 2022-11-25. action=complaint submission to et (2023-02-06, via action-cue) -> 73d after deadline -> LATE"
+  },
+  {
+   "case": "2026_EAT_76",
+   "status": "missing_tdg"
+  },
+  {
+   "case": "2026_EAT_59",
+   "split": "real",
+   "expected": "TIMELY",
+   "verdict": "INDETERMINATE",
+   "match": false,
+   "days_over": null,
+   "deadline": null,
+   "anchor_date": null,
+   "action_date": null,
+   "acas_applied": false,
+   "confidence": 0.0,
+   "explanation": "Could not match anchor 'effective date of termination' in instance"
+  },
+  {
+   "case": "kj_2026_EAT_46",
+   "status": "missing_tdg"
+  }
+ ]
+}

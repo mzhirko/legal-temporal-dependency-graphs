@@ -1,0 +1,71 @@
+{
+ "document_id": "en_contracts_seed5",
+ "catala_status": "success",
+ "scope_name": "AgreementPeriod",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 0,
+  "mismatch": 0,
+  "tdg_only": 7,
+  "catala_only": 1,
+  "match_rate": null
+ },
+ "fields": [
+  {
+   "variable_name": "duration_length",
+   "status": "catala_only",
+   "tdg_value": null,
+   "catala_value": "{'days': 1095.0}",
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Art.1 Agreement:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "1984-01-01",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Decision:CONTAINS",
+   "status": "tdg_only",
+   "tdg_value": "1982-08-17",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Art.7 Agreement:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "1971-11-23",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Art.7 Ministerial conference:CONTAINS",
+   "status": "tdg_only",
+   "tdg_value": "1971-11-22",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Art.5 Evaluation:CONTAINS",
+   "status": "tdg_only",
+   "tdg_value": "1984-01-01",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Art.5 Evaluation:CONTAINS",
+   "status": "tdg_only",
+   "tdg_value": "1985-01-01",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Art.2 Annual contribution payment:END",
+   "status": "tdg_only",
+   "tdg_value": "null",
+   "catala_value": null,
+   "delta_days": null
+  }
+ ]
+}

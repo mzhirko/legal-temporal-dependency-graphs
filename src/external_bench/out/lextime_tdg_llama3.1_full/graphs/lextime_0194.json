@@ -1,0 +1,77 @@
+{
+ "id": "lextime_0194",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "Trachte violating the terms of the collective bargaining agreement",
+ "event2": "Trachte receiving the amended award on December 11",
+ "relation": "BEFORE",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "arbitration award",
+   "role": "CONTAINS",
+   "value": "2023-12-01",
+   "raw_text": "entered in smart local 565 v. trachte building systems, inc.",
+   "timex_type": "DATE",
+   "sentence": "80c51ad2f06305a8d8be358c89f62f23",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2023-12-01"
+  },
+  {
+   "id": "e2",
+   "entity": "amended arbitration award",
+   "role": "CONTAINS",
+   "value": "2023-12-11",
+   "raw_text": "entered in smart local 565 v. trachte building systems, inc.",
+   "timex_type": "DATE",
+   "sentence": "80c51ad2f06305a8d8be358c89f62f23",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2023-12-11"
+  },
+  {
+   "id": "e3",
+   "entity": "challenge to arbitration award",
+   "role": "DURATION",
+   "value": "P3M",
+   "raw_text": "within 3 months after the award is filed or delivered",
+   "timex_type": "DURATION",
+   "sentence": "e44025026c812254088dacde307c4108",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "duration_days": 90
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e1",
+   "to_id": "e3",
+   "constraint_type": "additive",
+   "constraint_expr": "e3 = e1 + 90 days",
+   "delta_days": 90,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e2",
+   "to_id": "e3",
+   "constraint_type": "additive",
+   "constraint_expr": "e3 = e2 + 10 days",
+   "delta_days": 10,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

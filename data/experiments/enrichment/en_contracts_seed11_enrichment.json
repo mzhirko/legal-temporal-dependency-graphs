@@ -1,0 +1,13 @@
+{
+ "document_id": "en_contracts_seed11",
+ "catala_status": "success",
+ "actions": [
+  {
+   "variable": "transition_period",
+   "action": "review",
+   "catala_value": "2003-12-31",
+   "tdg_value": "2002-10-04",
+   "delta_days": 453
+  }
+ ]
+}

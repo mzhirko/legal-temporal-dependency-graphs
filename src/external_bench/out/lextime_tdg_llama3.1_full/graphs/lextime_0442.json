@@ -1,0 +1,51 @@
+{
+ "id": "lextime_0442",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "The plaintiff exhausting the administrative remedies of the plan",
+ "event2": "the review of the policy",
+ "relation": "BEFORE",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "administrative remedies",
+   "role": "END",
+   "value": null,
+   "raw_text": "the plaintiff has exhausted the administrative remedies of the plan.",
+   "timex_type": "DATE",
+   "sentence": "c675ba44d160c15aa162feae4ae63947",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e2",
+   "entity": "benefits",
+   "role": "START",
+   "value": null,
+   "raw_text": "the plaintiff is entitled to these benefits because the benefits are permitted under the policy issued by the defendants;",
+   "timex_type": "DATE",
+   "sentence": "3651eec45ef42c2bf06cabb5a4348cc1",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e3",
+   "entity": "conditions precedent",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "the plaintiff has satisfied all conditions precedent to be eligible to receive the benefits and plaintiff has not waived or otherwise relinquished the entitlement to the benefits.",
+   "timex_type": "DATE",
+   "sentence": "331266c799845f33cf8c1039e004b814",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  }
+ ],
+ "dependencies": []
+}

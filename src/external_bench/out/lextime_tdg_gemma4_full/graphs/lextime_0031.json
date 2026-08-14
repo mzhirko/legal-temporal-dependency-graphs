@@ -1,0 +1,63 @@
+{
+ "id": "lextime_0031",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "The delivery of the award and the amended award",
+ "event2": "the attachment of true and accurate copies as exhibits",
+ "relation": "BEFORE",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "award and amended award delivery",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "the award and the amended award were delivered",
+   "timex_type": "DATE",
+   "sentence": "a9cb98ffafd5a6f4e5901fea495bf5d5",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e2",
+   "entity": "Article 9, section 1 of the cba grievance process",
+   "role": "START",
+   "value": null,
+   "raw_text": "the grievance process starts at step",
+   "timex_type": "DATE",
+   "sentence": "a705195fc8b82442afcfe4f1ef4e52a6",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e3",
+   "entity": "Article 9, section 1 of the cba four-step procedure to resolve grievances",
+   "role": "DURATION",
+   "value": null,
+   "raw_text": "the four-step process is exhausted",
+   "timex_type": "DATE",
+   "sentence": "415503f120b639ffa03a59552c5e534e",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e1",
+   "to_id": "e2",
+   "constraint_type": "ordering",
+   "constraint_expr": "e2 follows e1",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

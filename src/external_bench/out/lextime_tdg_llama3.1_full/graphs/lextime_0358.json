@@ -1,0 +1,52 @@
+{
+ "id": "lextime_0358",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "Local 565 filing the arbitration request",
+ "event2": "Trachte denying the grievance",
+ "relation": "BEFORE",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "grievance_denial",
+   "role": "END",
+   "value": "2023-05-12",
+   "raw_text": "trachte denied the grievance on may 12, 2023",
+   "timex_type": "DATE",
+   "sentence": "c967f46cdeec8f71059701e12f8ef50e",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2023-05-12"
+  },
+  {
+   "id": "e2",
+   "entity": "amended_award",
+   "role": "CONTAINS",
+   "value": "2023-12-11",
+   "raw_text": "on december 11, 2023, arbitrator jaw issued the amended award similarly holding that the grievance was arbitrable.",
+   "timex_type": "DATE",
+   "sentence": "1d28418d578458596ac4efe51b5e29cc",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2023-12-11"
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e1",
+   "to_id": "e2",
+   "constraint_type": "ordering",
+   "constraint_expr": "e2 = e1 + 215 days",
+   "delta_days": 215,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

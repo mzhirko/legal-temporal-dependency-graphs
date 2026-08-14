@@ -1,0 +1,11 @@
+{
+ "id": "lextime_0341",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "Rivera pushing the rolls with his hands",
+ "event2": "Ms. Arvan's intervention",
+ "relation": "AFTER",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [],
+ "dependencies": []
+}

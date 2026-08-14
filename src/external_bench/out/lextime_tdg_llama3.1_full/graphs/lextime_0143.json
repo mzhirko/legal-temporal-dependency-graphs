@@ -1,0 +1,50 @@
+{
+ "id": "lextime_0143",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "Seeking arbitration",
+ "event2": "the pending status of the January 8 grievance to be arbitrated",
+ "relation": "BEFORE",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "grievance",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "January 8 grievance",
+   "timex_type": "DATE",
+   "sentence": "810983fd947cfaf8e84527429f42b7cb",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e2",
+   "entity": "arbitration",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "the parties have agreed to stay the arbitration pending the final disposition of this action in the united states courts.",
+   "timex_type": "DATE",
+   "sentence": "49cc5e281df37c4836e30885299d5c7e",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e1",
+   "to_id": "e2",
+   "constraint_type": "ordering",
+   "constraint_expr": "arbitration follows dispute",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

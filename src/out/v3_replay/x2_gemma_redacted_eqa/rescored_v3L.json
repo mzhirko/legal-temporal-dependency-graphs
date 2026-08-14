@@ -1,0 +1,75 @@
+{
+ "summary": {
+  "condition": "v3L",
+  "n": 3,
+  "coverage": 0.6667,
+  "acc_answered": 1.0,
+  "acc_all": 0.6667,
+  "converted": 0,
+  "acc_converted": null,
+  "edges_downgraded": 0,
+  "by_case": {
+   "2026_EAT_76": {
+    "n": 1,
+    "answered": 0,
+    "correct": 0,
+    "converted": 0,
+    "conv_correct": 0
+   },
+   "kj_2026_EAT_46": {
+    "n": 1,
+    "answered": 1,
+    "correct": 1,
+    "converted": 0,
+    "conv_correct": 0
+   },
+   "2026_EAT_64_s123": {
+    "n": 1,
+    "answered": 1,
+    "correct": 1,
+    "converted": 0,
+    "conv_correct": 0
+   }
+  }
+ },
+ "rows": [
+  {
+   "pred": null,
+   "explanation": "Could not match anchor 'date of the act' in instance",
+   "pred_anchor": null,
+   "pred_deadline": null,
+   "edge_audit": null,
+   "v3l": {
+    "converted": false
+   },
+   "id": "2026_EAT_76",
+   "case": "2026_EAT_76",
+   "gold": "LATE",
+   "match": false
+  },
+  {
+   "pred": "TIMELY",
+   "explanation": "anchor=harassment period end (2021-04-30) + [date of the act + 3m - 1 day] = deadline 2021-07-29. action=complaint filing date (2021-06-23, via action-cue) -> 36d before/at deadline -> TIMELY",
+   "pred_anchor": "2021-04-30",
+   "pred_deadline": "2021-07-29",
+   "edge_audit": null,
+   "v3l": null,
+   "id": "kj_2026_EAT_46",
+   "case": "kj_2026_EAT_46",
+   "gold": "TIMELY",
+   "match": true
+  },
+  {
+   "pred": "LATE",
+   "explanation": "anchor=dismissal date (2022-06-08) + [date of the act + 3m - 1 day] = deadline 2022-09-07. action=presentation of claim forms (2023-01-10, via action-cue) -> 125d after deadline -> LATE",
+   "pred_anchor": "2022-06-08",
+   "pred_deadline": "2022-09-07",
+   "edge_audit": null,
+   "v3l": null,
+   "id": "2026_EAT_64_s123",
+   "case": "2026_EAT_64_s123",
+   "gold": "LATE",
+   "match": true
+  }
+ ]
+}

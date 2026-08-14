@@ -1,0 +1,18 @@
+# Trade Agreement Review of Wheat Gluten Imports
+
+This scope determines if consultation is required based on the comparison of current versus average market share of EC-origin wheat gluten imports.
+
+```catala
+declaration scope TradeAgreementReview:
+  input current_market_share_date content date
+  input average_market_share_date content date
+  output consultation_needed content boolean
+```
+
+If the market share of EC-origin wheat gluten imports increases compared to the average 1990-92 market share, consultation is required.
+
+```catala
+scope TradeAgreementReview:
+  date round down
+  definition consultation_needed equals current_market_share_date > average_market_share_date
+```

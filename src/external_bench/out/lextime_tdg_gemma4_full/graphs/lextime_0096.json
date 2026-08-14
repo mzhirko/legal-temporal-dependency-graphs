@@ -1,0 +1,40 @@
+{
+ "id": "lextime_0096",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "The plaintiff providing medical evidence to Unum Life Insurance Company of America",
+ "event2": "the company's decision to deny the plaintiff's claim for disability benefits",
+ "relation": "BEFORE",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "disability benefits",
+   "role": "CONTAINS",
+   "value": "2023-06-06",
+   "raw_text": "unum life insurance company of america denied plaintiffs appeal on june 6",
+   "timex_type": "DATE",
+   "sentence": "43fd2bed2acae094e67af49f46c3166a",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2023-06-06"
+  },
+  {
+   "id": "e2",
+   "entity": "disability benefits",
+   "role": "DURATION",
+   "value": "2022-02-14",
+   "raw_text": "from february 14, 2022 to the present",
+   "timex_type": "DATE",
+   "sentence": "08aa8313a42a7d61555a37663f367e62",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2022-02-14"
+  }
+ ],
+ "dependencies": []
+}

@@ -1,0 +1,11 @@
+{
+ "id": "lextime_0262",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "Ms. Arvan observing the floor and the activities happening there",
+ "event2": "she noticed Rivera pushing the rolls of paper with his hands",
+ "relation": "AFTER",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [],
+ "dependencies": []
+}

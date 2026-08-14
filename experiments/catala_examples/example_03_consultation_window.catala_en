@@ -1,0 +1,45 @@
+# Consultation Window
+
+This scope computes the deadline by which consultations must
+begin after a request is made, and whether that deadline has
+passed given a reference date.
+
+Source pattern: Article 9 consultation clauses in EU trade
+agreements.
+Example: "consultations shall begin within one month from the
+date of the request."
+Example: "Should the consultations referred to in paragraph 1
+fail to lead to agreement within 30 days of the Community's
+request for consultations, the Community may utilise the right
+to take action."
+
+```catala
+declaration scope ConsultationWindow:
+  input request_date content date
+  input consultation_window content duration
+  input reference_date content date
+  output consultation_deadline content date
+  output deadline_passed content boolean
+```
+
+## Consultation deadline
+
+The consultation must begin within consultation_window of the
+request date.
+
+```catala
+scope ConsultationWindow:
+  date round down
+  definition consultation_deadline equals
+    request_date + consultation_window
+```
+
+## Whether deadline has passed
+
+Check whether the reference date is past the deadline.
+
+```catala
+scope ConsultationWindow:
+  definition deadline_passed equals
+    reference_date > consultation_deadline
+```

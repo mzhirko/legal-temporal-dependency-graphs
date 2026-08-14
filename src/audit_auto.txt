@@ -1,0 +1,185 @@
+==============================================================================
+DUPLICATE DOCUMENTS
+==============================================================================
+3 document(s) repeated; 4 redundant file(s)
+  3x ['en_contracts_seed29', 'en_contracts_seed35', 'en_contracts_seed48']  chars=13159 facts=89
+  2x ['en_contracts_seed10', 'en_contracts_seed33']  chars=15000 facts=10
+  2x ['en_contracts_seed38', 'en_contracts_seed42']  chars=8394 facts=29
+
+unique documents: 41 of 45
+documents in both, deduplicated: 41
+
+==============================================================================
+FACT QUALITY  (a 'fact' is not the same unit on both sides)
+==============================================================================
+
+rule-based: 592 facts across 41 unique documents
+  timex types            {'DATE': 507, 'SET': 18, 'DURATION': 67}
+  roles                  {'UNKNOWN': 393, 'START': 67, 'END': 50, 'DURATION': 82}
+  resolved a date        486 (82.1%)
+  bare year only         85 (14.4%)  <- citation years look like dates
+  unusable entity        316 (53.4%)  {'clause-fragment': 209, 'generic': 17, 'too-short': 58, 'over-long': 32}
+  repeat (entity,value)  7 (1.2%)
+  USABLE NODES           188 (31.8%)  = resolved date + not a bare year + nameable entity
+  top entities           [('manganese', 42), ('all internal procedures', 27), ('Community', 24), ('n.e.s.', 16), ('Brussels', 12), ('EUPM', 7)]
+
+LLM: 288 facts across 41 unique documents
+  timex types            {'DATE': 242, 'DURATION': 46}
+  roles                  {'CONTAINS': 74, 'START': 104, 'END': 23, 'DURATION': 87}
+  resolved a date        95 (33.0%)
+  bare year only         0 (0.0%)  <- citation years look like dates
+  unusable entity        65 (22.6%)  {'over-long': 13, 'generic': 52}
+  repeat (entity,value)  24 (8.3%)
+  USABLE NODES           50 (17.4%)  = resolved date + not a bare year + nameable entity
+  top entities           [('Art.11 Agreement', 8), ('Art.8 Protection of GI', 6), ('consultations', 5), ('Art.7 Agreement', 5), ('Council of Association', 4), ('De facto application of amended Agreemen', 3)]
+
+------------------------------------------------------------------------------
+raw fact counts     rule-based 592   LLM 288
+resolved a date     rule-based 486   LLM 95
+USABLE NODES        rule-based 188   LLM 50
+
+Report the usable-node line, not the raw counts. Raw counts
+compare a node-per-temporal-expression against a
+node-per-salient-event and are not a like-for-like measure.
+
+==============================================================================
+EDGES — rule-based
+==============================================================================
+
+--- en_contracts_seed11  (1 edge(s), 29 facts)
+  [1] additive  EUPM = start + P1Y  delta=365  conf=0.5
+      from f13: entity='EUPM' role=DURATION value='P1Y' verb=None
+        "This personnel should be seconded for a minimum of one year, taking into account that appropriate rotation of seconded personnel shall be ensured.2"
+      to   f17: entity='EUPM' role=END value='2002-10-04' verb='conclude'
+        "Personnel seconded to the EUPM by the Republic of Latvia shall be covered, until 31 December 2002 under the agreement applicable to the EUPM planning team, and "
+      FLAGS: cross-sentence, low-conf(0.5)
+
+--- en_contracts_seed16  (1 edge(s), 22 facts)
+  [1] additive  either Party = start + P6M  delta=180  conf=0.5
+      from f13: entity='either Party' role=DURATION value='P6M' verb='extend'
+        "Thereafter, the application of all of the provisions of this Agreement shall be extended automatically for a period of one more year up to 31 December 1999, unl"
+      to   f14: entity='either Party' role=END value='1998-12-31' verb=None
+        "Thereafter, the application of all of the provisions of this Agreement shall be extended automatically for a period of one more year up to 31 December 1999, unl"
+      FLAGS: from:generic, to:generic, low-conf(0.5)
+
+--- en_contracts_seed2  (2 edge(s), 11 facts)
+  [1] ordering  f4 precedes f2 by 8056 days  delta=8056  conf=0.7
+      from f4: entity='Marrakesh' role=START value='1972-03-25' verb=None
+        "Agreement between the European Community and the Swiss Confederation on certain aspects of government procurement - Final Act - Joint Declarations - Information"
+      to   f2: entity='Marrakesh' role=END value='1994-04-15' verb='conclude'
+        "Agreement between the European Community and the Swiss Confederation on certain aspects of government procurement - Final Act - Joint Declarations - Information"
+  [2] additive  duration P1M from Switzerland  delta=30  conf=0.5
+      from f7: entity='Switzerland' role=START value='1994-04-15' verb='sign'
+        "In order to supplement and broaden the scope of its commitments vis-à-vis Switzerland under the Government Procurement Agreement (GPA) signed on 15 April 1994 w"
+      to   f9: entity='Switzerland' role=DURATION value='P1M' verb=None
+        "In order to supplement and broaden the scope of its commitments vis-à-vis the Community under the GPA, Switzerland undertakes to amend its Annexes and General N"
+      FLAGS: cross-sentence, low-conf(0.5)
+
+--- en_contracts_seed30  (1 edge(s), 14 facts)
+  [1] additive  duration P3Y from The Parties  delta=1095  conf=0.5
+      from f13: entity='The Parties' role=START value='2008-06-30' verb='establish'
+        "The Parties will establish a common and reciprocal regime governing rules of origin at the latest on 30 June 2008, that will enter into force not later than the"
+      to   f14: entity='the Parties' role=DURATION value='P3Y' verb=None
+        "Not later than three years after the entry into force of this Agreement, the Parties will review the provisions in force governing rules of origin with the obje"
+      FLAGS: from:generic, to:generic, cross-sentence, low-conf(0.5)
+
+--- en_contracts_seed40  (3 edge(s), 23 facts)
+  [1] additive  Hungary = start + P3Y  delta=1095  conf=0.5
+      from f10: entity='Hungary' role=DURATION value='P3Y' verb=None
+        "The financial contributions required are:- year 1: EUR 490000- year 2: EUR 619000- year 3: EUR 749000.From the fourth year of the entry into force of this Agree"
+      to   f5: entity='Hungary' role=END value='1994-03' verb='start'
+        "Agreement between the European Community and the Government of the Republic of Hungary concerning the participation of the Republic of Hungary in the European E"
+      FLAGS: cross-sentence, low-conf(0.5)
+  [2] additive  Hungary = start + P30D  delta=30  conf=0.5
+      from f23: entity='Hungary' role=DURATION value='P30D' verb=None
+        "Hungary will pay its contribution according to the call for funds:- for its own part by 1 May provided that the call for funds is sent by the Commission before "
+      to   f19: entity='Hungary' role=END value='1993-05-01' verb=None
+        "Hungary will pay its contribution according to the call for funds:- for its own part by 1 May provided that the call for funds is sent by the Commission before "
+      FLAGS: low-conf(0.5)
+  [3] additive  duration P30D from Commission  delta=30  conf=0.5
+      from f17: entity='Commission' role=START value='2000' verb=None
+        "After the entry into force of this Agreement and at the beginning of each following year, the Commission will send to Hungary a call for funds corresponding to "
+      to   f21: entity='Commission' role=DURATION value='P30D' verb=None
+        "Hungary will pay its contribution according to the call for funds:- for its own part by 1 May provided that the call for funds is sent by the Commission before "
+      FLAGS: cross-sentence, low-conf(0.5)
+
+--- en_contracts_seed49  (1 edge(s), 5 facts)
+  [1] ordering  f2 precedes f4 by 4383 days  delta=4383  conf=0.7
+      from f2: entity='PORTUGUESE' role=START value='1972' verb='sign'
+        "SIR , I HAVE THE HONOUR TO REFER TO ARTICLE 3 OF PROTOCOL 8 TO THE AGREEMENT BETWEEN THE EUROPEAN ECONOMIC COMMUNITY AND THE PORTUGUESE REPUBLIC SIGNED ON 22 JU"
+      to   f4: entity='PORTUGUESE' role=END value='1984' verb='fall'
+        "ACCORDINGLY , THE PORTUGUESE GOVERNMENT UNDERTAKES TO ADOPT THE NECESSARY MEASURES IN ORDER THAT THE QUANTITIES OF TOMATOES THAT HAVE BEEN PREPARED OR PRESERVED"
+      FLAGS: cross-sentence
+
+--- en_contracts_seed8  (2 edge(s), 9 facts)
+  [1] additive  duration P3Y from Community  delta=1095  conf=0.5
+      from f7: entity='Community' role=START value='1986-01-01' verb=None
+        "The rights and obligations that derive from the Agreements on fishing concluded by the Government of the Republic of Guinea-Bissau, on the one hand, with the Go"
+      to   f2: entity='Community' role=DURATION value='P3Y' verb=None
+        "The arrangements applicable during the last three years shall be extended for a period of three months from 15 March 1986."
+      FLAGS: cross-sentence, low-conf(0.5)
+  [2] additive  duration P3M from Community  delta=90  conf=0.5
+      from f9: entity='Community' role=START value='1986-03-15' verb=None
+        "The arrangements applicable during the last three years shall be extended for a period of three months from 15 March 1986."
+      to   f3: entity='Community' role=DURATION value='P3M' verb='extend'
+        "The arrangements applicable during the last three years shall be extended for a period of three months from 15 March 1986."
+      FLAGS: low-conf(0.5)
+
+------------------------------------------------------------------------------
+rule-based: 11 edges, 10 with at least one flag
+confidence: {0.5: 9, 0.7: 2}
+
+==============================================================================
+EDGES — LLM
+==============================================================================
+
+--- en_contracts_seed0  (5 edge(s), 18 facts)
+  [1] interval  e2 in [e12, ...]  delta=None  conf=0.6
+      from e12: entity='Art.61.1 Consultations' role=START value=None verb=None
+        "Where any product covered by this Agreement is being imported into the Community from Kazakhstan under such conditions as to cause or threaten to cause substant"
+      to   e2: entity='Art.21.5 Consultations' role=CONTAINS value=None verb=None
+        "Imports of quantities in excess of those mentioned in Annex II shall be authorised where the Community industry is unable to meet the internal demand which resu"
+      FLAGS: cross-sentence, low-conf(0.6)
+  [2] additive  e2 = e1 + 0 days  delta=0  conf=0.85
+      from e1: entity='Art.21.4 imports into the Community' role=CONTAINS value='2005-01-01' verb=None
+        "The Parties agree that imports into the Community from Kazakhstan of products mentioned in Annex I as from 1.1.2005 until the entry into force of this Agreement"
+      to   e2: entity='Art.21.5 Consultations' role=CONTAINS value=None verb=None
+        "Imports of quantities in excess of those mentioned in Annex II shall be authorised where the Community industry is unable to meet the internal demand which resu"
+      FLAGS: cross-sentence
+  [3] ordering  e3 follows e2  delta=None  conf=0.85
+      from e2: entity='Art.21.5 Consultations' role=CONTAINS value=None verb=None
+        "Imports of quantities in excess of those mentioned in Annex II shall be authorised where the Community industry is unable to meet the internal demand which resu"
+      to   e3: entity='Art.21.5 Internal procedures' role=START value=None verb=None
+        "Following the conclusions of the consultations, the Community shall instigate its internal procedures to increase the quantities set out in Annex II."
+      FLAGS: cross-sentence
+  [4] additive  e4 is related to e1  delta=None  conf=0.85
+      from e1: entity='Art.21.4 imports into the Community' role=CONTAINS value='2005-01-01' verb=None
+        "The Parties agree that imports into the Community from Kazakhstan of products mentioned in Annex I as from 1.1.2005 until the entry into force of this Agreement"
+      to   e4: entity='Art.21.7 Consultations request' role=CONTAINS value=None verb=None
+        "Either Party may, at any time, request consultations concerning:- the levels of the quantitative limits set out in Annex II, where the conditions in respect of "
+      FLAGS: cross-sentence
+  [5] ordering  e6 follows e5  delta=None  conf=0.85
+      from e5: entity='Art.31.3 Notification deadline' role=END value=None verb=None
+        "Kazakhstan shall notify the Community no later than 31 March of the following year if it intends to make use of this provision."
+      to   e6: entity='Art.31.3 Notification deadline' role=END value=None verb=None
+        "Kazakhstan shall notify the Community no later than 31 May if it intends to make use of this provision."
+      FLAGS: cross-sentence
+
+--- en_contracts_seed1  (8 edge(s), 12 facts)
+  [1] ordering  e2 = e1 + 30 days (approximate)  delta=None  conf=0.85
+      from e1: entity='Agreement between the European Economic Community and Macao on trade in textile products' role=START value='1986-07-19' verb=None
+        "I have the honour to refer to the Agreement between the European Economic Community and Macao on trade in textile products initialled on 19 July 1986, as last a"
+      to   e2: entity='Agreement between the European Economic Community and Macao on trade in textile products' role=START value='1992-11-27' verb=None
+        "I have the honour to refer to the Agreement between the European Economic Community and Macao on trade in textile products initialled on 19 July 1986, as last a"
+      FLAGS: from:over-long, to:over-long
+
+------------------------------------------------------------------------------
+LLM: 92 edges, 83 with at least one flag
+confidence: {0.5: 8, 0.6: 17, 0.7: 5, 0.85: 62}
+(showed 6; rerun with --limit 0 for all)
+
+==============================================================================
+DEDUPLICATED TOTALS (41 documents)
+==============================================================================
+  edges              rule-based 11    LLM 92
+  docs with >=1 edge rule-based 7/41  LLM 30/41

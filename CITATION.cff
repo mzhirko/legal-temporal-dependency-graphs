@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: >-
+  Temporal dependency extraction and verified deadline computation
+  for legal documents — research artefacts
+message: If you use this software or its results, please cite the thesis.
+type: software
+abstract: >-
+  Code and results for an MSc thesis on extracting temporal dependency
+  graphs from legal documents and computing statutory deadlines
+  deterministically over them, evaluated against real tribunal rulings.
+license: Apache-2.0
+date-released: 2026-08-13
+repository-code: https://github.com/legal-temporal-dependency-graphs
+authors:
+  - given-names: Maryia
+    family-names: Zhyrko
+    affiliation: Leiden University
+references:
+  - type: thesis
+    title: >-
+      Temporal dependency extraction and verified deadline computation
+      for legal documents
+    thesis-type: Master's thesis
+    institution:
+      name: Leiden University
+    year: 2026
+    authors:
+      - given-names: Maryia
+        family-names: Zhyrko
+        affiliation: Leiden University

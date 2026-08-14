@@ -1,0 +1,11 @@
+{
+ "id": "lextime_0443",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "The union's authorization of the members' refusal to pick up extra shifts on holidays",
+ "event2": "the members' concerted refusal to work",
+ "relation": "SIM",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [],
+ "dependencies": []
+}

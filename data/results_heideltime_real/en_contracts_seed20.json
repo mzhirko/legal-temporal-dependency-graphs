@@ -1,0 +1,95 @@
+{
+ "document_id": "en_contracts_seed20",
+ "document_type": "legal",
+ "source_text": "9 . 8 . 74 Official Journal of the European Communities No L 219/ 11 AGREEMENT between the European Economic Community and the Republic of Upper Volta on the supply of maize and sorghum as food aid THE COUNCIL OF THE EUROPEAN COMMUNITIES , of the one part, THE GOVERNMENT OF THE REPUBLIC OF UPPER VOLTA , of the other part , HAVE DECIDED to conclude this Agreement and to this end have designated as their Pleni­ potentiaries : THE COUNCIL OF THE EUROPEAN COMMUNITIES : THE GOVERNMENT OF THE REPUBLIC OF UPPER VOLTA : WHO HAVE AGREED AS FOLLOWS : Article I Article IV As part of its Food Aid Programme ( Cereals ) for The country of destination undertakes to make all 1973/74, the European Economic Community, necessary arrangements for the transport and insurance hereinafter called the 'Community', shall supply of the goods as from the place of destination. 15 000 metric tons of cereals in the form of 12 000 metric tons of maize and 3 000 metric tons of sorghum as a gift to the Republic of Upper Volta, hereinafter referred to as the 'country of destination'. Article V The country of destination undertakes to use the Article II products received as aid for purposes of consumption and to distribute such products free of charge to people in need. Deliveries shall be made in new jute bags with a net weight of 50 kg each, free to a place of destination to be determined by agreement between the country of destination and the Community. Article V7 Article III The Contracting Parties undertake to implement this Agreement in such a way as to avoid any prejudice to the normal structure of domestic production and The obligations and responsibilities of the Community international trade. To this end they shall take any and of the country of destination relating in particu­ measures required to ensure that aid supplies are in lar to delivery and the taking of delivery are defined addition to, and do not replace commercial trans­ in the Annex, which forms an integral part of this actions which might reasonably be expected in the Agreement. absence of such supplies . ---pagebreak--- No L 219/ 12 Official Journal of the European Communities 9 . 8 . 74 Article VII uted, the number and type of recipients and the places, rate and methods of distribution. The country of destination shall take all appropriate measures to prevent : Article IX — the re-export of the products received as aid anc} The country of destination shall take all measures of products and by-products resulting from such necessary to enable persons duly authorized by the supplies ; Community to follow the progress of operations — the export, commercially or otherwise, within six carried out in pursuance of this Agreement on the months of the last delivery, either of the products spot. obtained locally and of the same nature as the products received as aid or of any products and Article X by-products resulting from them . At the request of either of them, the Contracting Parties shall consult each other on any question con­ Article VIII cerning the implementation of this Agreement. The country of destination undertakes to inform the Article XI Community how this Agreement is being implemented, To this end it shall provide the Commission of the This Agreement shall be drawn up in duplicate European Communities, every three months until in the Danish, Dutch, English, French, German and the quantities received as aid have been fully used, Italian languages, each of these texts being equally reports indicating in particular the quantities distrib­ authentic. ANNEX Provisions laid down in Article III of the Agreement Article 1 of destination in good time before that date. It shall confirm that date at least two days in advance. Delivery shall be effected and all risk shall pass from the Community to the country of destination at the Article 4 moment at which the goods actually arrive at the place of destination . On delivery, a tolerance of 5 °/o less than the quantity laid down under Article I of the Agreement is permitted. The country of destination shall pay all costs for taking delivery of the goods, any transhipment costs and all Article 5 costs subsequent to delivery. Any costs resulting from delays in taking delivery which To implement this Annex, the Community shall appoint an authorized agent, whose name and address it shall are attributable to the country of destination shall be make known in good time to the country of destination. borne by the latter. The country of destination shall appoint a receiving agent Article 2 at each place of delivery, whose name and address it shall make known to the Community before the Agreement is The Community shall notify the country of destination implemented . as soon as possible of the means of transport to be used to carry the goods to the place of destination, the means Article 6 of shipment to be used during the intermediary phases, the date of loading and the quantity and quality of the On delivery of the goods the country of destination shall goods as recorded on shipment from the Community. hand to the authorized agent of the European Economic Community a taking-over certificate, stating the place Article 3 and date of taking over, the nature and the quantity as well as any observations about the quality of the goods. The Community shall inform the country of destination It shall send a copy thereof to the Commission of the of the expected date of arrival of the goods at the place European Communities .",
+ "facts": [
+  {
+   "id": "f1",
+   "entity": "The country",
+   "role": "UNKNOWN",
+   "value": "1973",
+   "raw_text": "1973",
+   "timex_type": "DATE",
+   "sentence": "d3406f33f6d28e4eafa1708e8f98033e",
+   "confidence": 0.2,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "1973-08-01"
+  },
+  {
+   "id": "f2",
+   "entity": "it",
+   "role": "UNKNOWN",
+   "value": "P3M",
+   "raw_text": "every three months",
+   "timex_type": "SET",
+   "sentence": "77feb9713c78a9eb82eedfadade11067",
+   "confidence": 0.2,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "f3",
+   "entity": "Community",
+   "role": "DURATION",
+   "value": "P2D",
+   "raw_text": "at least two days",
+   "timex_type": "DURATION",
+   "sentence": "920b1938332da0d2039f8e9d5c6e033c",
+   "confidence": 0.85,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "duration_days": 2
+  },
+  {
+   "id": "f4",
+   "entity": "Community",
+   "role": "UNKNOWN",
+   "value": "FUTURE_REF",
+   "raw_text": "as soon as possible",
+   "timex_type": "DATE",
+   "sentence": "e49b9352967830c4814726aed15eac9f",
+   "confidence": 0.2,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  }
+ ],
+ "dependencies": [],
+ "edit_scenarios": [],
+ "_provenance": {
+  "extractor_backend": "heideltime",
+  "environment": {
+   "java": "openjdk version \"17.0.20\" 2026-07-21",
+   "py_heideltime": "unknown",
+   "spacy": "3.7.6",
+   "spacy_model": "en_core_web_trf",
+   "heideltime_probe": "2 spans, types=['DATE', 'DURATION']",
+   "python": "3.9.25"
+  },
+  "git": "861887f-dirty",
+  "reference_date": "2020-01-01",
+  "spacy_model": "en_core_web_trf",
+  "document_type": "legal",
+  "stage_counts": {
+   "document_id": "en_contracts_seed20",
+   "source_file": "../data/results_contracts_50/en_contracts_seed20.json",
+   "chars": 5493,
+   "raw_timex": 4,
+   "timex_by_type": {
+    "DATE": 2,
+    "SET": 1,
+    "DURATION": 1
+   },
+   "unique_offsets": 4,
+   "facts": 4,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 4.39
+  },
+  "input_file": "../data/results_contracts_50/en_contracts_seed20.json"
+ }
+}

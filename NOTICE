@@ -1,0 +1,30 @@
+Temporal dependency extraction and verified deadline computation
+for legal documents -- research artefacts
+
+Copyright 2026 the thesis author.
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This product includes material from the sources below. Their terms are
+recorded in LICENSE-DATA.md and are not superseded by the Apache licence
+covering the code.
+
+  Crown copyright material is reproduced by permission of The National
+  Archives. The contents of the judgments can be used under the Open
+  Justice Licence. The licensed material only partially represents the
+  activities of the courts and tribunals.
+
+  UK legislation from legislation.gov.uk is used under the Open Government
+  Licence v3.0.
+
+  Court of Justice of the European Union material is used under Commission
+  Decision 2011/833/EU.
+
+  Dutch statutes carry no copyright under Auteurswet, art. 11.
+
+  Contracts are sampled from Multi_Legal_Pile under that dataset's terms.
+
+  Catala is developed by the Catala team and is used as an external
+  compiler. It is not redistributed here.
+
+  DeonticBench and TRACIE are used as evaluation benchmarks and are not
+  redistributed here.

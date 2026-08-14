@@ -1,0 +1,19 @@
+{
+ "document_id": "en_contracts_seed8",
+ "scope_name": "AgreementExtension",
+ "bindings": {
+  "start_date": {
+   "fact_id": "e2",
+   "entity": "Agreement on fishing",
+   "role": "START",
+   "score": 1.0,
+   "method": "role_unique",
+   "value": "1986-01-01",
+   "raw_text": "as from 1 January 1986"
+  }
+ },
+ "unbound": [
+  "extension_duration"
+ ],
+ "llm_fallback_used": true
+}

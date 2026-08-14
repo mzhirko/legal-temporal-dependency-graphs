@@ -1,0 +1,38 @@
+{
+ "id": "lextime_0130",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "The defendant's violation of his duty to discharge his duties solely in the interest of participants and beneficiaries",
+ "event2": "his agreement to the transfer of assets to Volk Electric",
+ "relation": "AFTER",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "plan_loan_to_volk_electric",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "by causing the plan to loan plan assets to volk electric, the defendant violated his duty under section 1104(a)(1)(a) to discharge his duties solely in the interest of participants and beneficiaries.",
+   "timex_type": "DATE",
+   "sentence": "5af1ada422a78abb894269699e1fa395",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e2",
+   "entity": "defendant_failed_to_seek_repayment",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "the defendant failed to take any action to seek repayment of the assets that were transferred from the plan to volk electric.",
+   "timex_type": "DATE",
+   "sentence": "f6f2f9509db6a2af2d8cc3e70ad0fa78",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  }
+ ],
+ "dependencies": []
+}

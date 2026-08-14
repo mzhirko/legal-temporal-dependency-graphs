@@ -1,0 +1,19 @@
+{
+ "document_id": "en_contracts_seed45",
+ "scope_name": "ShippingDeclaration",
+ "bindings": {
+  "signing_date": {
+   "fact_id": "e1",
+   "entity": "Joint Declaration on shipping",
+   "role": "START",
+   "score": 1.0,
+   "method": "role_unique",
+   "value": "1979-10-31",
+   "raw_text": "signed at Lomé on 31 October 1979"
+  }
+ },
+ "unbound": [
+  "publication_date"
+ ],
+ "llm_fallback_used": true
+}

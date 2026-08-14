@@ -1,0 +1,17 @@
+{
+ "document_id": "en_contracts_seed13",
+ "scope_name": "DoubleCheckingSystemPeriod",
+ "bindings": {
+  "application_start_date": {
+   "fact_id": "e1",
+   "entity": "Agreement",
+   "role": "START",
+   "score": 1.0,
+   "method": "role_unique",
+   "value": "2002-07-22",
+   "raw_text": "Agreement between the European Coal and Steel Community and the Government of the Republic of Kazakhstan on trade in certain steel products concluded on 22 July 2002"
+  }
+ },
+ "unbound": [],
+ "llm_fallback_used": false
+}

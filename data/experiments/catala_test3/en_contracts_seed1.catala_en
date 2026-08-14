@@ -1,0 +1,17 @@
+# Agreement Amendment Period Calculation
+
+This scope calculates the end date of the replacement period for quantitative restrictions.
+
+```catala
+declaration scope AgreementAmendmentScope:
+  input startDate content date
+  output endDate content date
+```
+
+Determining the End of the Replacement Period
+
+```catala
+scope AgreementAmendmentScope:
+  date round down
+  definition endDate equals startDate + 1 year - 1 day
+```

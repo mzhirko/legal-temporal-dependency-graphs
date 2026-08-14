@@ -1,0 +1,14 @@
+{
+ "document_id": "en_contracts_seed4",
+ "catala_status": "interpret_error",
+ "scope_name": "ACPDeclaration",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 0,
+  "mismatch": 0,
+  "tdg_only": 0,
+  "catala_only": 0,
+  "match_rate": null
+ },
+ "fields": []
+}

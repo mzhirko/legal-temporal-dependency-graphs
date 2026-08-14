@@ -1,0 +1,55 @@
+# Allen Relation: OVERLAPS / OVERLAPPED-BY
+#
+# OVERLAPS: A starts, then B starts before A ends, then A ends while B continues.
+#   A overlaps B  iff  A.start < B.start < A.end < B.end
+#
+# OVERLAPPED-BY: the symmetric inverse.
+#   B overlapped-by A  iff  B.start > A.start and B.start < A.end and B.end > A.end
+#
+# Legal patterns that trigger OVERLAPS:
+#   "whilst awaiting the completion of necessary procedures"
+#   "applied provisionally from X" while old agreement still nominally in force
+#   "pending entry into force, the parties agree to apply"
+#   "during the transition period" where two regimes coexist
+#   amendment applied before old agreement formally terminated
+#
+# Grounded example (en_contracts_seed1):
+#   Original agreement [1986-07-19, formal_termination) OVERLAPS
+#   amended agreement provisional period [1995-01-01, entry_into_force).
+#   Original starts first, amended starts before original ends,
+#   original ends while amended continues.
+
+```catala
+declaration scope AllenOverlaps:
+  input interval_a_start content date   # start of the first period
+  input interval_a_end content date     # end of the first period
+  input interval_b_start content date   # start of the overlapping period
+  input interval_b_end content date     # end of the overlapping period
+  output is_overlaps content boolean    # A starts before B, B starts before A ends
+  output is_overlapped_by content boolean  # B started earlier, A started during B
+```
+
+## OVERLAPS
+
+A starts before B, B starts before A ends, A ends before B ends.
+
+```catala
+scope AllenOverlaps:
+  date round down
+  definition is_overlaps equals
+    (interval_a_start < interval_b_start) and
+    (interval_b_start < interval_a_end) and
+    (interval_a_end < interval_b_end)
+```
+
+## OVERLAPPED-BY
+
+The symmetric inverse: B started first, A started during B, B ends before A.
+
+```catala
+scope AllenOverlaps:
+  definition is_overlapped_by equals
+    (interval_b_start < interval_a_start) and
+    (interval_a_start < interval_b_end) and
+    (interval_b_end < interval_a_end)
+```

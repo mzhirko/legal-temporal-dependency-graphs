@@ -1,0 +1,29 @@
+{
+ "document_id": "en_contracts_seed28",
+ "catala_status": "success",
+ "scope_name": "AgreementCommencement",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 0,
+  "mismatch": 0,
+  "tdg_only": 0,
+  "catala_only": 0,
+  "match_rate": null
+ },
+ "fields": [
+  {
+   "variable_name": "provisional_start_date",
+   "status": "placeholder",
+   "tdg_value": null,
+   "catala_value": "1970-01-01",
+   "delta_days": null
+  },
+  {
+   "variable_name": "consultation_start_date",
+   "status": "placeholder",
+   "tdg_value": null,
+   "catala_value": "1969-11-01",
+   "delta_days": null
+  }
+ ]
+}

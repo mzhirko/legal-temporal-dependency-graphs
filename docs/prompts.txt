@@ -1,0 +1,540 @@
+========================================================================
+FILE: src/baseline/run_baseline.py
+NAME: PROMPT   (format-template)
+========================================================================
+\
+You are given (A) the text of a UK statute section governing time limits and
+(B) a UK Employment Appeal Tribunal judgment from which the tribunal's
+timeliness conclusions have been redacted (marked [REDACTED: ...]). All
+primary facts and dates remain in the document.
+
+Your task, for the complaint under the statute in (A){claim_hint}:
+1. Identify the anchor date from which the limitation period runs.
+2. Compute the primary limitation deadline under the statute.
+3. If ACAS early conciliation dates (Day A / Day B) appear in the facts,
+   compute the effective deadline after the early-conciliation extension
+   (the period beginning with the day after Day A and ending with Day B is
+   not counted; a claim is also in time if presented within one month after
+   Day B where Day A fell within the primary period).
+4. State whether the claim was presented in time.
+Show your date arithmetic explicitly, then output ONLY a JSON object, no
+markdown fences, exactly:
+{{"anchor_date":"YYYY-MM-DD","primary_deadline":"YYYY-MM-DD",\
+"effective_deadline":"YYYY-MM-DD","verdict":"in_time" or "out_of_time",\
+"arithmetic":"<your working as one string>"}}
+
+(A) STATUTE:
+{statute}
+
+(B) JUDGMENT (redacted):
+{judgment}
+
+========================================================================
+FILE: src/catala_pipeline/input_extractor.py
+NAME: USER_PROMPT_TEMPLATE   (format-template)
+========================================================================
+Extract input values from the legal text below.
+You must return a JSON object with ALL of these fields:
+
+{input_schema}
+
+Rules for value formats:
+  date:     "YYYY-MM-DD" string, e.g. "2005-09-08"
+  duration: {{"years": int, "months": int, "days": int}}, e.g. {{"years": 0, "months": 6, "days": 0}}
+  boolean:  true or false
+  integer:  whole number
+
+Instructions:
+- Return a value for EVERY field -- never omit a field.
+- If a date is explicitly stated in the text, use it exactly.
+- If a date can be inferred from context (e.g. "day of signature" with a
+  known document date), infer it.
+- If you cannot determine a value at all, return null for that field.
+  The system will handle nulls -- do not guess randomly.
+
+Legal text:
+{legal_text}
+
+========================================================================
+FILE: src/catala_pipeline/llm_encoder.py
+NAME: USER_PROMPT_TEMPLATE   (format-template)
+========================================================================
+{type_reference}
+
+## Examples of legal text -> Catala scope
+
+{examples}
+
+---
+
+## Your task
+
+Write a Catala 1.1 .catala_en file for the legal document below.
+
+You MUST follow this exact structure -- no exceptions:
+
+# Title
+
+One sentence describing what this scope computes.
+
+```catala
+declaration scope MyScopeName:
+  input var1 content date
+  input var2 content duration
+  output var3 content date
+```
+
+## Rule 1 name
+
+One sentence from the legal text describing this rule.
+
+```catala
+scope MyScopeName:
+  date round down
+  definition var3 equals var1 + var2
+```
+
+RULES:
+- The declaration block MUST be inside a ```catala fence.
+- Every scope block MUST be inside a ```catala fence.
+- NEVER write Catala code outside a fence.
+- Declare each scope EXACTLY ONCE.
+- Use only: date, duration, boolean, integer as types.
+- Date literals: |YYYY-MM-DD|
+- Duration: 1 month, 30 day, 6 month, 1 year
+- NEVER invent a date literal. If a specific date does not appear explicitly
+  in the legal text, declare it as an input variable instead of a literal.
+  Only use |YYYY-MM-DD| for dates that are verbatim in the document.
+
+Legal text:
+{legal_text}
+
+========================================================================
+FILE: src/counterfactual.py
+NAME: PROMPT   (format-template)
+========================================================================
+You are given the text of an employment tribunal judgment and the \
+governing statutory provision.
+
+STATUTE
+{statute}
+
+JUDGMENT
+{judgment}
+
+TASK
+Determine whether the claim was presented in time.
+Show your date arithmetic, then end with exactly these three lines:
+DEADLINE: <YYYY-MM-DD>
+VERDICT: <in_time|out_of_time>
+DAYS: <integer, negative if in time>
+
+========================================================================
+FILE: src/external_bench/run_external.py
+NAME: PROMPT_LEXTIME_ENT   (format-template)
+========================================================================
+\
+You are given a paragraph from a U.S. federal legal complaint and a statement
+about the temporal relation between two events. One event may be implicit
+(not stated directly, but inferable). Decide whether the statement is true
+given the paragraph.
+
+## Paragraph
+{context}
+
+## Statement
+{statement}
+
+Think step by step about the temporal cues in the paragraph. Then give your
+final answer on the last line, exactly in this form:
+
+ANSWER: YES
+(if the statement is true / entailed)
+or
+ANSWER: NO
+(if the statement is false / contradicted)
+
+========================================================================
+FILE: src/external_bench/run_external.py
+NAME: PROMPT_LEXTIME   (format-template)
+========================================================================
+\
+You are given a passage from a U.S. federal legal complaint and two events
+mentioned in it. Decide the temporal order of the two events as described
+by the passage.
+
+## Passage
+{context}
+
+## Event 1
+{event1}
+
+## Event 2
+{event2}
+
+Think step by step about the temporal cues in the passage. Then give your
+final answer on the last line, exactly in this form:
+
+ANSWER: BEFORE
+(if Event 1 happens before Event 2)
+or
+ANSWER: AFTER
+(if Event 1 happens after Event 2)
+
+========================================================================
+FILE: src/external_bench/run_external.py
+NAME: PROMPT_SARA_BINARY   (format-template)
+========================================================================
+\
+You are given excerpts of the U.S. Internal Revenue Code and a tax case.
+Decide whether the statement is entailed by the statutes and the case facts.
+
+## Statutes
+{statutes}
+
+## Case
+{text}
+
+## Statement
+{question}
+
+Apply the statutes to the facts step by step, showing your arithmetic where
+relevant. Then give your final answer on the last line, exactly in this form:
+
+ANSWER: YES
+(if the statement is entailed / true)
+or
+ANSWER: NO
+(if the statement is contradicted / false)
+
+========================================================================
+FILE: src/external_bench/run_external.py
+NAME: PROMPT_NUMERIC   (format-template)
+========================================================================
+\
+You are given the governing rules and a case. Compute the numeric answer to
+the question by applying the rules to the facts.
+
+## Rules
+{statutes}
+
+## Case
+{text}
+
+## Question
+{question}
+
+Apply the rules step by step, showing every arithmetic step. Round to the
+nearest whole number. Then give your final answer on the last line, exactly
+in this form (digits only, no currency symbol, no commas):
+
+ANSWER: <number>
+
+========================================================================
+FILE: src/external_bench/run_external.py
+NAME: PROMPT_YESNO   (format-template)
+========================================================================
+\
+You are given the governing statute text and a question about it.
+
+## Statutes
+{statutes}
+
+## Question
+{question}
+
+Reason step by step from the statute text only. Then give your final answer
+on the last line, exactly in this form:
+
+ANSWER: YES
+or
+ANSWER: NO
+
+========================================================================
+FILE: src/external_bench/run_external.py
+NAME: PROMPT_USCIS   (format-template)
+========================================================================
+\
+You are given the governing eligibility rules and the record of a USCIS
+Administrative Appeals Office case. Decide the outcome of the appeal.
+
+## Rules
+{statutes}
+
+## Case record
+{text}
+
+## Question
+{question}
+
+Apply the rules to the record step by step. Then give your final answer on
+the last line, exactly in this form:
+
+ANSWER: ACCEPTED
+or
+ANSWER: DISMISSED
+
+========================================================================
+FILE: src/external_bench/run_external.py
+NAME: PROMPT_TRACIE   (format-template)
+========================================================================
+\
+You are given a short story and a statement about the temporal relation
+between two events. One event may be implicit (not stated directly, but
+inferable). Decide whether the statement is true given the story.
+
+## Story
+{context}
+
+## Statement
+{hypothesis}
+
+Think step by step about when each event starts and ends in the story.
+Then give your final answer on the last line, exactly in this form:
+
+ANSWER: YES
+(if the statement is true / entailed)
+or
+ANSWER: NO
+(if the statement is false / contradicted)
+
+========================================================================
+FILE: src/external_bench/run_external.py
+NAME: PROMPT_CASEHOLD   (format-template)
+========================================================================
+\
+You are given an excerpt from a U.S. court decision with a citation whose
+holding has been masked, followed by five candidate holding statements.
+Choose the holding that the cited case actually stands for in this context.
+
+## Excerpt
+{context}
+
+## Candidate holdings
+A. {e0}
+B. {e1}
+C. {e2}
+D. {e3}
+E. {e4}
+
+Reason briefly about which holding fits the citation context. Then give
+your final answer on the last line, exactly in this form:
+
+ANSWER: <letter A-E>
+
+========================================================================
+FILE: src/external_bench/run_external.py
+NAME: PROMPT_UNFAIR_TOS   (format-template)
+========================================================================
+\
+You are given a sentence from a consumer Terms of Service contract.
+Decide which, if any, of the following potentially-unfair clause types
+the sentence contains:
+
+A. Limitation of liability
+B. Unilateral termination
+C. Unilateral change
+D. Content removal
+E. Contract by using
+F. Choice of law
+G. Jurisdiction
+H. Arbitration
+
+## Sentence
+{text}
+
+Reason briefly. Then give your final answer on the last line, exactly in
+this form: either
+
+ANSWER: NONE
+(if no unfair clause type applies)
+or
+
+ANSWER: <comma-separated letters, e.g. A,G>
+
+========================================================================
+FILE: src/external_bench/run_external.py
+NAME: PROMPT_SINGLE_LABEL   (format-template)
+========================================================================
+\
+You are given a legal text and a fixed list of categories. Choose the ONE
+category that best describes the text.
+
+## Categories
+{labels}
+
+## Text
+{text}
+
+Reason briefly. Then give your final answer on the last line, exactly in
+this form:
+
+ANSWER: <category number>
+
+========================================================================
+FILE: src/tdg_pipeline/llm_pipeline.py
+NAME: SYSTEM_PROMPT   (format-template)
+========================================================================
+You are a temporal information extraction system for legal documents.
+
+Your job is to extract:
+1. EVENTS -- things that happen at a specific time or over a duration
+2. RELATIONS -- arithmetic or logical dependencies between events
+
+=== RULES FOR EVENTS ===
+- Only extract events grounded in the text. Do not invent events.
+
+ENTITY NAMING:
+- "entity": the legal concept this event is about. Use the concept name from the text, 1-4 words.
+- GOOD entity names: "consultations", "notification deadline", "Agreement", "early conciliation", "filing deadline", "effective date of termination", "grievance period"
+- BAD entity names:
+  x "date" -- too generic, says nothing about what the date is for
+  x "period" -- too generic
+  x "termination" alone when the text says "effective date of termination" -- use the full legal concept
+  x An entire sentence or document title as the entity name
+  x Article numbers in the entity -- put those in article_ref instead
+- Keep entity names STABLE across the document: if the same concept appears in multiple clauses, use the same entity name every time. "consultations" in Article 4 and "consultations" in Article 9 should both have entity="consultations".
+
+- "article_ref": the article/paragraph reference for this specific clause (e.g. "Art.2.5", "Art.4.1", "Art.11.3"). Use null if the event is not tied to a specific article.
+
+ROLE ASSIGNMENT:
+- "role": one of START, END, DURATION, CONTAINS
+- Roles describe the temporal position WITHIN the entity's lifecycle:
+  - START: when the entity begins (signed, entered into force, commenced, filed, effective from)
+  - END: when the entity concludes (expired, terminated, concluded, paid by, dismissed)
+  - DURATION: how long the entity lasts OR a waiting/notice period (3 years, within 30 days, no later than 6 months)
+  - CONTAINS: a point event that falls within an ongoing period
+
+- PERSPECTIVE RULE: choose the role based on what ENDS or STARTS, not on the word "termination":
+  - "effective date of termination" = END of employment (employment ends on this date)
+  - "dismissal date" = END of employment (employment ends)
+  - "complaint filed on August 24" = CONTAINS (a point event within the complaint process)
+  - "entry into force on January 1" = START of the agreement
+  - "notice period of 6 months" = DURATION of the notice requirement
+
+- (!) NOT a DURATION: percentages ("up to 10%"), quantities ("5 607 million EUA"), counts ("90% of limits")
+- (!) NOT a DURATION: vague phrases with no time unit ("immediately", "at any time", "upon request")
+- A specific calendar date like '31 December 2006' is always a DATE, never a DURATION.
+
+DATE vs DURATION -- EU LEGAL DOCUMENT PATTERNS:
+  EU legal documents use two distinct temporal forms. Do NOT confuse them:
+
+  CALENDAR DATES -- always output as YYYY-MM-DD (or null if the year is unknown):
+    "31 March of the following year" -> date: null (year unknown), role: END or CONTAINS
+    "1 January 1995" -> date: "1995-01-01"
+    "28 February 1995" -> date: "1995-02-28"
+    "31 December 2006" -> date: "2006-12-31"
+    (!) "31 March" is a DATE (March 31st), NOT a duration of 31 days.
+    (!) "28 February" is a DATE (Feb 28th), NOT P28D.
+    (!) The number before a month name is ALWAYS a day-of-month, never a day count.
+
+  DURATION PERIODS -- always output as ISO 8601 (P__D, P__M, P__Y):
+    "one month" -> P1M
+    "six months" -> P6M
+    "30 days" -> P30D
+    "120 days" -> P120D
+    "three years" -> P3Y
+    Duration patterns always use a time-unit word (days, months, years), never a month name.
+
+DATE ACCURACY:
+  When converting a written date to ISO format, verify the year matches the source:
+    "19 July 1986" -> "1986-07-19" (year is 1986, NOT 1979)
+    "27 November 1992" -> "1992-11-27" (year is 1992)
+    "22 December 1994" -> "1994-12-22"
+  The day number and year number are different -- do not swap them.
+
+- "date": ISO format YYYY-MM-DD for point-in-time dates, ISO 8601 duration for periods (P30D, P1M, P5Y). Use null if the date cannot be resolved to a specific YYYY-MM-DD.
+- "raw_text": exact phrase copied from the source
+
+=== RULES FOR RELATIONS ===
+Use these types PRECISELY:
+
+  additive -- one date is computed by adding a duration to another event.
+    Trigger phrases: "within X days of", "X months after", "no later than X from",
+                     "within X from the [event]", "before X days of", "X of their [event]"
+    -> ALWAYS use additive when you see a duration anchored to another event.
+    -> The anchor event may be in a DIFFERENT SENTENCE. Look for back-references:
+      - "from the date of the request" -> links to the request event
+      - "of their commencement" -> links to the commencement event
+      - "from the entry into force" -> links to the entry-into-force event
+      - "after the notice deadline" -> links to the notice deadline event
+      - "the consultations referred to in paragraph N" -> links to that event
+    -> Compute delta_days: 1 month = 30 days, 1 year = 365 days.
+    -> Write constraint as: "to_event = from_event + N days"
+
+    Single-sentence example:
+      "notify within one month after entry into force"
+      -> from_id: entry_into_force, to_id: notification_deadline
+      -> type: additive, delta_days: 30
+
+    Multi-sentence chain example (this is common in legal procedures):
+      Sentence A: "any request shall be notified in writing to the other Party"    -> e1 (request)
+      Sentence B: "consultations shall begin within one month from the date of
+                   the request"                                                    -> e2 (begin, P1M)
+      Sentence C: "consultations shall arrive at a result within one month of
+                   their commencement"                                             -> e3 (result, P1M)
+      Relations:
+        e1 -> e2, type: additive, delta_days: 30  ("from the date of the request" = e1)
+        e2 -> e3, type: additive, delta_days: 30  ("of their commencement" = e2)
+
+  ordering -- one event explicitly precedes another, with no computable offset.
+    Use when the text states sequencing but gives NO duration:
+      "following X, Y happens", "after X, Y shall...", "pending the results of X",
+      "upon completion of X", "before the expiration of this Agreement"
+    Do NOT use ordering just because two events appear near each other.
+    Do NOT invent relations between events that have no textual link.
+    Example: "following the consultations, the Community shall instigate procedures"
+      -> type: ordering, delta_days: null
+
+  interval -- one event occurs during a defined period.
+    Example: "a hearing held during the trial period"
+      -> type: interval, delta_days: null
+
+IMPORTANT:
+- Prefer additive over ordering whenever a duration phrase connects two events.
+- Do NOT use ordering when the text gives an explicit offset like "within 30 days".
+- delta_days must be an integer (not null) for all additive relations.
+- STATE PERIODS IN THE UNITS THE TEXT USES. If the text says "three months",
+  the constraint is "e2 = e1 + 3 months" and the event date is "P3M" -- never
+  convert months or years to a day count yourself. delta_days is only an
+  approximation for sorting; the constraint string is the authority.
+- LOOK FOR CHAINS: legal procedures often define multi-step sequences across
+  consecutive sentences. Connect them. A relation is valid even when the two
+  events are in different sentences, as long as one sentence references the other.
+
+=== OUTPUT FORMAT ===
+Return ONLY valid JSON. No explanation, no markdown, no code fences.
+
+{
+  "events": [
+    {
+      "id": "e1",
+      "description": "short description",
+      "entity": "concept this event is about",
+      "article_ref": "Art.X.Y or null",
+      "role": "START|END|DURATION|CONTAINS",
+      "date": "YYYY-MM-DD or P30D or P1M etc.",
+      "raw_text": "exact phrase from source",
+      "sentence": "full sentence this came from"
+    }
+  ],
+  "relations": [
+    {
+      "from_id": "e1",
+      "to_id": "e2",
+      "type": "additive|ordering|interval",
+      "delta_days": 30,
+      "constraint": "e2 = e1 + 30 days"
+    }
+  ]
+}
+
+========================================================================
+FILE: src/tdg_pipeline/llm_pipeline.py
+NAME: USER_PROMPT_TEMPLATE   (format-template)
+========================================================================
+Extract temporal events and relations from this {document_type} document.
+
+Text:
+{text}
+

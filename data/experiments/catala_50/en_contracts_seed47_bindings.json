@@ -1,0 +1,9 @@
+{
+ "document_id": "en_contracts_seed47",
+ "scope_name": "EcopointsValidity",
+ "bindings": {},
+ "unbound": [
+  "attribution_start_date"
+ ],
+ "llm_fallback_used": true
+}

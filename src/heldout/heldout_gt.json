@@ -1,0 +1,52 @@
+{
+ "description": "MECHANICALLY GENERATED held-out set (make_heldout.py, seed 4093771, 2 plants/doc). No human chose or saw the edits before scoring. Candidate grammar and limitations are declared in the generator script, which is committed.",
+ "expected_contradictions": [
+  {
+   "doc_a": "wi2025",
+   "doc_b": "wi2025_mod",
+   "concept": "date (2025-03-18 -> 2025-02-02)",
+   "value_a": "2025-03-18",
+   "value_b": "2025-02-02",
+   "clause_a": "vaststellen. Gelet op \nde uitspraak van 18 maart 2025 van de rechtbank De",
+   "clause_b": "vaststellen. Gelet op \nde uitspraak van 2 februari 2025 van de rechtbank De",
+   "plant_id": "wi2025_dmy_3105"
+  },
+  {
+   "doc_a": "wi2025",
+   "doc_b": "wi2025_mod",
+   "concept": "date (2023-10-01 -> 2023-10-19)",
+   "value_a": "2023-10-01",
+   "value_b": "2023-10-19",
+   "clause_a": "c, d en e); of \nc. de ouders staan voor 1 oktober 2023 ingeschreven in de",
+   "clause_b": "c, d en e); of \nc. de ouders staan voor 19 oktober 2023 ingeschreven in de",
+   "plant_id": "wi2025_dmy_10911"
+  },
+  {
+   "doc_a": "elgafaji",
+   "doc_b": "elgafaji_mod",
+   "concept": "date (2007-10-17 -> 2007-11-17)",
+   "value_a": "2007-10-17",
+   "value_b": "2007-11-17",
+   "clause_a": "October 2007, received at the Court on\n17 October 2007, in the proceedings",
+   "clause_b": "October 2007, received at the Court on\n17 November 2007, in the proceedings",
+   "plant_id": "elgafaji_dmy_290"
+  },
+  {
+   "doc_a": "elgafaji",
+   "doc_b": "elgafaji_mod",
+   "concept": "date (2006-12-20 -> 2007-01-18)",
+   "value_a": "2006-12-20",
+   "value_b": "2007-01-18",
+   "clause_a": "te ’s-Gravenhage annulled the orders of 20 December\n2006 refusing to grant t",
+   "clause_b": "te ’s-Gravenhage annulled the orders of 18 January 2007 refusing to grant t",
+   "plant_id": "elgafaji_dmy_13599"
+  }
+ ],
+ "negative_control_pairs": [
+  {
+   "doc_a": "wi2025",
+   "doc_b": "elgafaji",
+   "expectation": "zero disputes between different documents"
+  }
+ ]
+}

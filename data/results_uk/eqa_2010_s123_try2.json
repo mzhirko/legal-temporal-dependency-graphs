@@ -1,0 +1,37 @@
+{
+ "document_id": "eqa_2010_s123",
+ "document_type": "statute",
+ "source_text": "Time limits 123 1 Subject to section 140B proceedings on a complaint within section 120 may not be brought after the end of— a the period of 3 months starting with the date of the act to which the complaint relates, or b such other period as the employment tribunal thinks just and equitable. 2 Proceedings may not be brought in reliance on section 121(1) after the end of— a the period of 6 months starting with the date of the act to which the proceedings relate, or b such other period as the employment tribunal thinks just and equitable. 3 For the purposes of this section— a conduct extending over a period is to be treated as done at the end of the period; b failure to do something is to be treated as occurring when the person in question decided on it. 4 In the absence of evidence to the contrary, a person (P) is to be taken to decide on failure to do something— a when P does an act inconsistent with doing it, or b if P does no inconsistent act, on the expiry of the period in which P might reasonably have been expected to do it.",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "Art. 123(1) complaint proceedings time limit",
+   "role": "DURATION",
+   "value": "null",
+   "raw_text": "the period of 3 months starting with the date of the act to which the complaint relates",
+   "timex_type": "DURATION",
+   "sentence": "bee368a337fcab6b771b3cd50021199d",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "duration_days": 90
+  },
+  {
+   "id": "e2",
+   "entity": "Art. 123(2) proceedings time limit",
+   "role": "DURATION",
+   "value": "P6M",
+   "raw_text": "the period of 6 months starting with the date of the act to which the proceedings relate",
+   "timex_type": "DURATION",
+   "sentence": "e0177dfc35eefdbff9966c409742e1c4",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "duration_days": 180
+  }
+ ],
+ "dependencies": [],
+ "edit_scenarios": []
+}

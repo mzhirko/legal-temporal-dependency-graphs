@@ -1,0 +1,50 @@
+{
+ "id": "lextime_0259",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "Safety Light's neglect of their payment responsibilities",
+ "event2": "their failure to pay pension plan premiums",
+ "relation": "AFTER",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "discovery of non-payment",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "discovered that safety light has failed to pay required pension plan premiums since 2018",
+   "timex_type": "DATE",
+   "sentence": "9d751c146c500932113e382399126710",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e2",
+   "entity": "investigation commencement",
+   "role": "START",
+   "value": null,
+   "raw_text": "pbgc commenced an investigation into safety lights failure to make necessary payments to the pension plan",
+   "timex_type": "DATE",
+   "sentence": "780f37b5735a4dea645347f97a1e2472",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e1",
+   "to_id": "e2",
+   "constraint_type": "ordering",
+   "constraint_expr": "e2 = e1 + 0 days",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

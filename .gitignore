@@ -1,0 +1,27 @@
+# Never commit: the map that reverses the pseudonyms
+**/rekey_map*.json
+**/identifier_map*.json
+src/anon_data/*_map.json
+
+# Never commit: licensed judgment text in any form
+**/raw/
+**/inputs/*.txt
+**/*.judgment.txt
+data/corpora/
+
+# Local model endpoints and keys
+.env
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/

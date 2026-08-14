@@ -1,0 +1,100 @@
+{
+ "id": "lextime_0273",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "The union members' concerted refusal to pick up extra shifts",
+ "event2": "the hardship in achieving adequate staffing for the hospital's operations",
+ "relation": "AFTER",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "extra_shifts",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "prior to the dispute over employees obligation to work holidays, employees would regularly and voluntarily pick up extra shifts beyond their normal scheduled work.",
+   "timex_type": "DATE",
+   "sentence": "63b3fca7aa4938a5372f48a8cacab4c5",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e2",
+   "entity": "holiday_work_dispute",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "once the dispute over holiday work arose, employees stopped picking up shifts beyond their normal scheduled work.",
+   "timex_type": "DATE",
+   "sentence": "65f6e5c4fe55cd52f2a0b58326010022",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e3",
+   "entity": "concerted_refusal_to_pick_up_extra_shifts",
+   "role": "START",
+   "value": null,
+   "raw_text": "after the aforementioned dispute arose, employees stopped picking up shifts beyond their normal scheduled work.",
+   "timex_type": "DATE",
+   "sentence": "e8c234ed33d113798274e11005ad88c0",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e4",
+   "entity": "concerted_refusal_to_pick_up_extra_shifts",
+   "role": "END",
+   "value": null,
+   "raw_text": "the union members concerted refusal to pick up extra shifts is a violation of the contracts and has caused the hospital great hardship in achieving adequate staffing for the hospitals operations.",
+   "timex_type": "DATE",
+   "sentence": "98455734f3db4f3764e2fd2c8df5c803",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e5",
+   "entity": "traveler_nurses_hiring",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "as a result of the union and its members conduct, the hospital was forced to hire so-called traveler nurses and to pay an extraordinary premium, in the millions of dollars, for adequate staffing compared with the cost to the hospital had the union not directed its members to engage in this concerted effort and had the union members picked up extra shifts as they had in the past.",
+   "timex_type": "DATE",
+   "sentence": "769106355259a897913087e0e2bd0f74",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e1",
+   "to_id": "e2",
+   "constraint_type": "ordering",
+   "constraint_expr": null,
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e2",
+   "to_id": "e3",
+   "constraint_type": "additive",
+   "constraint_expr": "e3 = e2",
+   "delta_days": 0,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "id": "lextime_0451",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "Ms. Salome's decision to issue a written warning to Rivera",
+ "event2": "her action of advising Ms. Arvan and the company's human resources officer, Rachel Reed",
+ "relation": "BEFORE",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "conversations",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "had several conversations with rivera regarding the need to store the rolls with the labels right side up",
+   "timex_type": "DATE",
+   "sentence": "98a953a227bb0249124510506a238e96",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e2",
+   "entity": "failure to properly store the rolls",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "his failure to properly store the rolls",
+   "timex_type": "DATE",
+   "sentence": "db0a54500904e4b70754c403fc3561a6",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e3",
+   "entity": "written warning",
+   "role": "START",
+   "value": "2021-05-06",
+   "raw_text": "on may 6, 2021, ms. salome decided to issue rivera a written warning",
+   "timex_type": "DATE",
+   "sentence": "15132cb38584ef7ac634ec6b1b65915f",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2021-05-06"
+  },
+  {
+   "id": "e4",
+   "entity": "written warning",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "ms. salome and ms. reed prepared the written warning",
+   "timex_type": "DATE",
+   "sentence": "6f27ea0e41e19649410d1295514220aa",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e5",
+   "entity": "storing guidelines",
+   "role": "CONTAINS",
+   "value": "2021-05-11",
+   "raw_text": "on may 11, 2021, ms. salome noticed that someone defaced the storing guidelines that she had posted.",
+   "timex_type": "DATE",
+   "sentence": "0fc70826177ecd8c903afe64c0c62a92",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2021-05-11"
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e3",
+   "to_id": "e4",
+   "constraint_type": "interval",
+   "constraint_expr": "e4 in [e3, ...]",
+   "delta_days": null,
+   "confidence": 0.6,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "id": "lextime_0188",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "Ms. Salome's agreement to Ms. Reed's advice",
+ "event2": "her decision to issue the written discipline and speak with Rivera",
+ "relation": "SIM",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [],
+ "dependencies": []
+}

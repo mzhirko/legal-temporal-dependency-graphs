@@ -1,0 +1,64 @@
+{
+ "id": "lextime_0430",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "Rivera deciding to ignore Ms. Salome and continue his work",
+ "event2": "Ms. Salome approaching Rivera to present him with the disciplinary warning",
+ "relation": "BEFORE",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "written_discipline",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "ms. reed advised ms. salome to issue the written discipline",
+   "timex_type": "DATE",
+   "sentence": "59b662d4d45659d96131faccc6002435",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e2",
+   "entity": "consultations",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "to speak with rivera (as well as the other roll tunnel operators) regarding the defaced guidelines.",
+   "timex_type": "DATE",
+   "sentence": "59b662d4d45659d96131faccc6002435",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e3",
+   "entity": "disciplinary_warning",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "along with clint kelch (the union steward) approached rivera to present him with the disciplinary warning and to discuss the defacement of the posted guidelines.",
+   "timex_type": "DATE",
+   "sentence": "8454413d0630a046f8a4d49820aa6a0a",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e4",
+   "entity": "rivera_drives_by_salome",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "without stopping, rivera told her that he did not have time to speak with her (his own supervisor) because he was working and drove by her.",
+   "timex_type": "DATE",
+   "sentence": "edfe1d64b32ed0ad3afeb93934bf7a14",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  }
+ ],
+ "dependencies": []
+}

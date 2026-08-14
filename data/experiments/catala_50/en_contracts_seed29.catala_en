@@ -1,0 +1,14 @@
+# Agreement Entry into Force Date
+
+This scope computes the date the agreement enters into force based on the latest notification date.
+```catala
+declaration scope AgreementEntryIntoForce:
+  input latest_notification_date content date
+  output entry_into_force_date content date
+```
+The agreement enters into force 14 days after the date of receipt of the date of the latest notification.
+```catala
+scope AgreementEntryIntoForce:
+  date round down
+  definition entry_into_force_date equals latest_notification_date + 14 day
+```

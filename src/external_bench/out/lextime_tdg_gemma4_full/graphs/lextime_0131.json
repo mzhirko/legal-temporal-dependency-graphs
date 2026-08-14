@@ -1,0 +1,77 @@
+{
+ "id": "lextime_0131",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "Negotiated (Trachte and Local 565 negotiating the terms of the collective bargaining agreement)",
+ "event2": "vacate (an arbitration award and amended arbitration award)",
+ "relation": "BEFORE",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "challenge an arbitration award",
+   "role": "DURATION",
+   "value": "P3M",
+   "raw_text": "file such challenge within 3 months after the award is filed or delivered",
+   "timex_type": "DURATION",
+   "sentence": "e9642972cd72f9cd5f8581438c2c0bc6",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "duration_days": 90
+  },
+  {
+   "id": "e2",
+   "entity": "award",
+   "role": "CONTAINS",
+   "value": "2023-12-01",
+   "raw_text": "received the award on december 1, 2023",
+   "timex_type": "DATE",
+   "sentence": "eeea0f5631f34d53ca76569228ac7ec9",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2023-12-01"
+  },
+  {
+   "id": "e3",
+   "entity": "amended arbitration award",
+   "role": "CONTAINS",
+   "value": "2023-12-11",
+   "raw_text": "received... and the amended award on december 11,",
+   "timex_type": "DATE",
+   "sentence": "eeea0f5631f34d53ca76569228ac7ec9",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2023-12-11"
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e2",
+   "to_id": "e1",
+   "constraint_type": "additive",
+   "constraint_expr": "e1 = e2 + 90 days",
+   "delta_days": 90,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e3",
+   "to_id": "e1",
+   "constraint_type": "additive",
+   "constraint_expr": "e1 = e3 + 90 days",
+   "delta_days": 90,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

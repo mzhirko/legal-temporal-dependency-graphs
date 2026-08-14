@@ -1,0 +1,22 @@
+{
+ "document_id": "en_contracts_seed0",
+ "scope_name": "TradeAgreementLifecycle",
+ "bindings": {
+  "notice_period": {
+   "fact_id": "e19",
+   "entity": "Art.11.3 denunciation notice period",
+   "role": "DURATION",
+   "score": 3.0,
+   "value": {
+    "years": 0,
+    "months": 6,
+    "days": 0
+   },
+   "raw_text": "at least six months' notice is given"
+  }
+ },
+ "unbound": [
+  "signature_date"
+ ],
+ "llm_fallback_used": true
+}

@@ -1,0 +1,14 @@
+{
+ "statute": "era_1996_s111",
+ "minus_one_day": true,
+ "cases": {
+  "et_b7d67901": {
+   "verdict": "out_of_time",
+   "split": "real"
+  },
+  "et_37a93baf": {
+   "verdict": "out_of_time",
+   "split": "real"
+  }
+ }
+}

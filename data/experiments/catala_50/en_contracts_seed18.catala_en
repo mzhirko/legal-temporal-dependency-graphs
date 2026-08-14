@@ -1,0 +1,39 @@
+# Agreement timelines for cereals and rice review.
+
+This scope computes the key dates related to the understanding reached between the European Community and the United States regarding cereals and rice.
+
+```catala
+declaration scope AgreementTimeline:
+  input agreement_date content date
+  output agreement_effective_date content date
+  output review_start_date content date
+  output withdrawal_request_date content date
+```
+
+## Agreement effective date
+
+The understanding is confirmed on the date of the letter.
+
+```catala
+scope AgreementTimeline:
+  date round down
+  definition agreement_effective_date equals agreement_date
+```
+
+## Review period start
+
+The review of the 'representative price' system is scheduled to begin in the first quarter of 1996.
+
+```catala
+scope AgreementTimeline:
+  definition review_start_date equals |1996-01-01|
+```
+
+## Withdrawal request date
+
+The United States withdraws its current request made in November 1995.
+
+```catala
+scope AgreementTimeline:
+  definition withdrawal_request_date equals |1995-11-01|
+```

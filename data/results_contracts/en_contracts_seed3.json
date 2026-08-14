@@ -1,0 +1,22 @@
+{
+ "document_id": "en_contracts_seed3",
+ "document_type": "legal",
+ "source_text": "Agreement in the form of an Exchange of Letters on the provisional application of the Protocol establishing, for the period from 3 May 1990 to 2 May 1992, the fishing opportunities and financial compensation provided for in the Agreement between the European Economic Community and the Government of the people's Republic of Angola on fishing off Angola",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "Agreement in the form of an Exchange of Letters on the provisional application of the Protocol establishing, for the period from 3 May 1990 to 2 May 1992, the fishing opportunities and financial compensation provided for in the Agreement between the European Economic Community and the Government of the people's Republic of Angola on fishing off Angola",
+   "role": "DURATION",
+   "value": "P2Y",
+   "raw_text": "for the period from 3 May 1990 to 2 May 1992",
+   "timex_type": "DURATION",
+   "sentence": "4a4a6f2a688b7fec096a552aa27c10a7",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "duration_days": 730
+  }
+ ],
+ "dependencies": [],
+ "edit_scenarios": []
+}

@@ -1,0 +1,20 @@
+# Joint Declaration on Shipping Context
+
+This scope records the context and key dates associated with the Joint Declaration on Shipping.
+
+```catala
+declaration scope ShippingDeclaration:
+  input signing_date content date
+  input publication_date content date
+  output declaration_active content boolean
+```
+
+## Declaration Context
+
+This scope confirms the existence and context of the Joint Declaration on Shipping.
+
+```catala
+scope ShippingDeclaration:
+  date round down
+  definition declaration_active equals true
+```

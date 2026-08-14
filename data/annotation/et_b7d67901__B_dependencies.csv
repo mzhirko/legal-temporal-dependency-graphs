@@ -1,0 +1,9 @@
+row_id,document_id,dependency,claim_to_check,based_on_sentences_sha256,our_relation,correct (Y/N/Unsure),comment
+et_b7d67901-B01,et_b7d67901,e1 -> e14,"""early conciliation period"" happens after ""claim"".",ece6710a12b6b5167fe6b4b8dd6705a7,e1 follows e14,,
+et_b7d67901-B02,et_b7d67901,e14 -> e1,"""claim"" is 30 days after ""early conciliation period"".",bec276cf15635c12127a627b2f94cac3,e1 = e14 + 30 days,,
+et_b7d67901-B03,et_b7d67901,e10 -> e11,"""union awareness of termination"" happens after ""awareness of dismissal"".",8b5ce832fbaadc6ce69f5807902b7853,e11 follows e10,,
+et_b7d67901-B04,et_b7d67901,e10 -> e7,"""Effective Date of Termination"" happens after ""awareness of dismissal"".",44a5389e41275cb88835531bedd239e6,e7 follows e10,,
+et_b7d67901-B05,et_b7d67901,e7 -> e12,"""appeal result letter"" happens after ""Effective Date of Termination"".",d657ac214a36d2690b9abd665a82e181,e12 follows e7,,
+et_b7d67901-B06,et_b7d67901,e12 -> e13,"""appeal hearing"" happens after ""appeal result letter"".",9c829292de286fe37969f0aa1679cde3,e13 follows e12,,
+et_b7d67901-B07,et_b7d67901,e13 -> e14,"""early conciliation period"" happens after ""appeal hearing"".",b73772c68508cfa343a8c6145f25c00f,e14 follows e13,,
+et_b7d67901-B08,et_b7d67901,e10 -> e15,"""time limit"" is 365 days after ""awareness of dismissal"".",d8ff85207b5ade0117eebb62f3acb494,e15 = e10 + 365 days,,

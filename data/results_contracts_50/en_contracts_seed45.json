@@ -1,0 +1,71 @@
+{
+ "document_id": "en_contracts_seed45",
+ "document_type": "legal",
+ "source_text": "Avis juridique important | 21979A1031(29) Second ACP-EEC Convention signed at Lomé on 31 October 1979 - Joint Declaration on shipping (Annex XIX) /* Lomé 2 */ Official Journal L 347 , 22/12/1980 P. 0172 ++++ANNEX XIX JOINT DECLARATION ON SHIPPING 1 . ( A ) THE CONTRACTING PARTIES RECOGNIZE THAT THE HARMONIOUS DEVELOPMENT OF EFFICIENT AND RELIABLE SHIPPING SERVICES ON ECONOMICALLY SATISFACTORY TERMS SHOULD ACCOMPANY THE DEVELOPMENT AND PROMOTION OF TRADE BETWEEN THE ACP STATES AND THE COMMUNITY . ( B ) THEY STRESS THE IMPORTANCE OF THE COMMUNITY'S CONTRIBUTION IN THIS CONTEXT BY THE ADOPTION OF THE REGULATION ON THE UNITED NATIONS CONVENTION ON A CODE OF CONDUCT FOR LINER CONFERENCES . THIS REGULATION IS DESIGNED TO ENSURE THAT DEVELOPING COUNTRIES WHICH ARE PARTIES TO IT SECURE THE BENEFITS OF THE CODE . ( C ) THE COMMUNITY ACKNOWLEDGES THE ASPIRATIONS OF THE ACP STATES FOR GREATER PARTICIPATION IN BULK CARGO SHIPPING . 2 . TO THESE ENDS , THE CONTRACTING PARTIES STATE THEIR READINESS TO EXAMINE , WITHIN THE COUNCIL OF MINISTERS OF THE CONVENTION , SUBJECTS OF COMMON INTEREST RELATING TO THIS FIELD . 3 . THE COMMUNITY RECOGNIZES THE IMPORTANCE OF SHIPPING SERVICES AS ONE OF THE ENGINES OF ECONOMIC GROWTH AND DEVELOPMENT OF THE ACP STATES . IT STATES ITS WILLINGNESS , WITHIN THE INSTRUMENTS OF FINANCIAL AND TECHNICAL COOPERATION SET UP BY THE CONVENTION , TO CONTRIBUTE TO THE DEVELOPMENT OF THIS SECTOR IN THOSE ACP STATES WHICH SO REQUEST . IN PARTICULAR THIS CONTRIBUTION COULD COVER : ( I ) STUDIES AIMED AT IMPROVING THE SHIPPING SERVICES SO AS TO MEET THE ACTUAL AND FUTURE NEEDS OF INTERNATIONAL TRADE , ESPECIALLY BETWEEN ACP STATES AND THE COMMUNITY , AS WELL AS BETWEEN THE ACP STATES THEMSELVES , ON THE BEST POSSIBLE TERMS AND CONDITIONS ; ( II ) THE SETTING UP AND EXTENSION OF SHIPPING COMPANIES OF THE ACP STATES AND , THE ENCOURAGEMENT OF ACP-EEC JOINT VENTURES IN THE FIELD OF SHIPPING ; ( III ) PROVISION OF TECHNICAL ASSISTANCE IN MARITIME TRAINING , IN SHIPPING POLICIES , MARITIME LAW , EXPORT AND IMPORT MATTERS , DOCUMENTATION , MARINE INSURANCE , ETC . ; ( IV ) PROVISION OF FEASIBILITY STUDIES AND TECHNICAL ASSISTANCE AIMED AT THE IMPROVEMENT OF THE EFFICIENCY OF PORTS OF THE ACP STATES , AND THE APPRAISAL OF PROJECTS FOR HARBOURS AND SHIPYARDS . THE COMMUNITY WILL ASSIST ALSO IN STUDYING ANY FURTHER PROBLEMS OF DIFFICULTIES ENCOUNTERED IN SHIPPING .",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "Joint Declaration on shipping",
+   "role": "START",
+   "value": "1979-10-31",
+   "raw_text": "signed at Lomé on 31 October 1979",
+   "timex_type": "DATE",
+   "sentence": "5645563c841adfd98f2e41366ca190d8",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "1979-10-31"
+  },
+  {
+   "id": "e2",
+   "entity": "Joint Declaration on shipping",
+   "role": "CONTAINS",
+   "value": "1980-12-22",
+   "raw_text": "Official Journal L 347 , 22/12/1980 P. 0172",
+   "timex_type": "DATE",
+   "sentence": "5645563c841adfd98f2e41366ca190d8",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "1980-12-22"
+  },
+  {
+   "id": "e3",
+   "entity": "Regulation on the United Nations Convention on a Code of Conduct for Liner Conferences",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "the adoption of the Regulation on the United Nations Convention on a Code of Conduct for Liner Conferences",
+   "timex_type": "DATE",
+   "sentence": "18937411e4c43ef4d8b5456fb99a4629",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null
+  },
+  {
+   "id": "e4",
+   "entity": "2 Examining subjects of common interest",
+   "role": "START",
+   "value": null,
+   "raw_text": "state their readiness to examine",
+   "timex_type": "DATE",
+   "sentence": "ab02e59c1052e537da690540a17bf018",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e1",
+   "to_id": "e2",
+   "constraint_type": "interval",
+   "constraint_expr": "e2 in [e1, ...]",
+   "delta_days": null,
+   "confidence": 0.6,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ],
+ "edit_scenarios": []
+}

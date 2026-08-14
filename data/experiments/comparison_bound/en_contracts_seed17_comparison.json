@@ -1,0 +1,43 @@
+{
+ "document_id": "en_contracts_seed17",
+ "catala_status": "success",
+ "scope_name": "AssociationStages",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 0,
+  "mismatch": 0,
+  "tdg_only": 2,
+  "catala_only": 0,
+  "match_rate": null
+ },
+ "fields": [
+  {
+   "variable_name": "prep_stage_duration",
+   "status": "type_mismatch",
+   "tdg_value": "P5Y",
+   "catala_value": "{'years': 5.0}",
+   "delta_days": null
+  },
+  {
+   "variable_name": "max_transitional_duration",
+   "status": "type_mismatch",
+   "tdg_value": "P6M",
+   "catala_value": "{'years': 12.0}",
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Agreement establishing an Association:START",
+   "status": "tdg_only",
+   "tdg_value": "1963-09-12",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Art.24 Council of Association term of office:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "P6M",
+   "catala_value": null,
+   "delta_days": null
+  }
+ ]
+}

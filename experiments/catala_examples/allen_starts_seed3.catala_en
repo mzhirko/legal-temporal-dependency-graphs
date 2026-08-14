@@ -1,0 +1,52 @@
+# Allen Relation: STARTS / STARTED-BY
+#
+# STARTS: A and B begin at the same time, but A ends first.
+#   A starts B  iff  A.start = B.start and A.end < B.end
+#
+# STARTED-BY: the symmetric inverse — B and A begin together, B ends first.
+#   B started-by A  iff  B.start = A.start and B.end < A.end
+#
+# Legal patterns that trigger STARTS:
+#   two obligations or periods beginning on the same effective date
+#   "as from the same date, both X and Y shall apply"
+#   a specific protocol starting when a broader agreement starts
+#   "from the entry into force, both the main agreement and annex X apply"
+#   concurrent commencement with different termination dates
+#
+# Grounded example (en_contracts_seed3):
+#   Fishing opportunities protocol [1990-05-03, 1992-05-02] STARTS
+#   provisional application period [1990-05-03, broader_end].
+#   Both begin on 3 May 1990; the fishing protocol ends first.
+
+```catala
+declaration scope AllenStarts:
+  input interval_a_start content date   # start of the shorter period
+  input interval_a_end content date     # end of the shorter period
+  input interval_b_start content date   # start of the longer period
+  input interval_b_end content date     # end of the longer period
+  output is_starts content boolean      # A and B share start; A ends first
+  output is_started_by content boolean  # A and B share start; B ends first
+```
+
+## STARTS
+
+Both intervals share the same start date, but A ends before B.
+
+```catala
+scope AllenStarts:
+  date round down
+  definition is_starts equals
+    (interval_a_start = interval_b_start) and
+    (interval_a_end < interval_b_end)
+```
+
+## STARTED-BY
+
+Both intervals share the same start date, but B ends before A.
+
+```catala
+scope AllenStarts:
+  definition is_started_by equals
+    (interval_b_start = interval_a_start) and
+    (interval_b_end < interval_a_end)
+```

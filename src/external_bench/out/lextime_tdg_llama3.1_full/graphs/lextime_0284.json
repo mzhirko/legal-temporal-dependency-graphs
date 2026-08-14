@@ -1,0 +1,40 @@
+{
+ "id": "lextime_0284",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "The defendants signing the letter",
+ "event2": "the writing of the letter",
+ "relation": "BEFORE",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "letter endorsement",
+   "role": "CONTAINS",
+   "value": "2021-02-19",
+   "raw_text": "on or about february 19, 2021, defendants martinez, allen, blondin, wallace, bryant and galloway signed a letter endorsing defendant cervantes",
+   "timex_type": "DATE",
+   "sentence": "0aa5b81b7530d57f8f43cda22f1738e7",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2021-02-19"
+  },
+  {
+   "id": "e2",
+   "entity": "document provision",
+   "role": "CONTAINS",
+   "value": "2021-03-19",
+   "raw_text": "on or about march 19, 2021, the iam provided some of the documents pantoja requested in redacted form and withheld a number of the requested weekly expense reports.",
+   "timex_type": "DATE",
+   "sentence": "8a1ee2b0302b16c8cb45c102644e701f",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2021-03-19"
+  }
+ ],
+ "dependencies": []
+}

@@ -1,0 +1,29 @@
+# Trade Agreement Entry
+This scope computes the key dates related to the entry into force and subsequent obligations of the trade agreement.
+
+```catala
+declaration scope TradeAgreementEntry:
+  input latest_notification_date content date
+  input us_submission_period content duration
+  output entry_into_force_date content date
+  output us_submission_deadline content date
+```
+
+## Entry into Force
+
+The Agreement shall enter into force 14 days after the date of receipt of the date of the latest notification.
+
+```catala
+scope TradeAgreementEntry:
+  date round down
+  definition entry_into_force_date equals latest_notification_date + 14 day
+```
+
+## US Submission Deadline
+
+The United States of America shall submit for publication within 21 days of entry into force of this agreement.
+
+```catala
+scope TradeAgreementEntry:
+  definition us_submission_deadline equals entry_into_force_date + us_submission_period
+```

@@ -1,0 +1,13 @@
+{
+ "document_id": "en_contracts_seed21",
+ "catala_status": "success",
+ "actions": [
+  {
+   "variable": "next_report_date",
+   "action": "review",
+   "catala_value": "2024-01-18",
+   "tdg_value": "2006-12-31",
+   "delta_days": 6227
+  }
+ ]
+}

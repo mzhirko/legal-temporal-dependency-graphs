@@ -1,0 +1,271 @@
+{
+ "document_id": "cli_input",
+ "document_type": "legal",
+ "source_text": "The claimant was employed as Regional Transport Team Specialist Transport Planner by the respondent from 1 June 1994 to 16 March 2020, which was the effective date of termination of his employment following his dismissal for the stated reason of gross misconduct. The claimant started early conciliation with ACAS on 8 June 2020 and obtained a conciliation certificate dated 26 June 2020. The claimant's ET1 was presented on 24 August 2020. The time limit for an unfair dismissal complaint appears in section 111(2) of the Employment Rights Act 1996. I find that the effective date of termination of the claimant's employment was on 16 March 2020. The claimant began early conciliation on 8 June 2020 and obtained a conciliation certificate on 26 June 2020. I find that time for the presentation of the claim form expired at midnight on 26 July 2020. On 16 July 2020, the claimant emailed his ET1 to the Newcastle Employment Tribunal. This was rejected because the Tribunal may not accept an ET1 submitted by email. On 22 July 2020, the Tribunal received the claimant's ET1 from Kings Court. This was rejected because it had not been handed in to the designated office. The claimant's ET1 was finally presented on 24 August 2020. The claimant did not present his claim of unfair dismissal before the end of the period of three months beginning with the effective date of termination, as required by section 111(2)(a) of the Employment Rights Act 1996. The claim is struck out.",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "employment",
+   "role": "DURATION",
+   "value": "P2Y1M8D",
+   "raw_text": "from 1 June 1994 to 16 March 2020",
+   "timex_type": "DURATION",
+   "sentence": "cdcb27f1fef8a12772c16d40f27b0f58",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "duration_days": 768
+  },
+  {
+   "id": "e2",
+   "entity": "employment",
+   "role": "END",
+   "value": "2020-03-16",
+   "raw_text": "16 March 2020",
+   "timex_type": "DATE",
+   "sentence": "cdcb27f1fef8a12772c16d40f27b0f58",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2020-03-16"
+  },
+  {
+   "id": "e3",
+   "entity": "conciliation",
+   "role": "START",
+   "value": "2020-06-08",
+   "raw_text": "on 8 June 2020",
+   "timex_type": "DATE",
+   "sentence": "17b5251c032ef7d0e1e5a5af7def96ee",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2020-06-08"
+  },
+  {
+   "id": "e4",
+   "entity": "conciliation certificate",
+   "role": "START",
+   "value": "2020-06-26",
+   "raw_text": "dated 26 June 2020",
+   "timex_type": "DATE",
+   "sentence": "17b5251c032ef7d0e1e5a5af7def96ee",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2020-06-26"
+  },
+  {
+   "id": "e5",
+   "entity": "ET1",
+   "role": "START",
+   "value": "2020-08-24",
+   "raw_text": "on 24 August 2020",
+   "timex_type": "DATE",
+   "sentence": "77fe240ab020b62029426d3ada2c752b",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2020-08-24"
+  },
+  {
+   "id": "e6",
+   "entity": "claim form",
+   "role": "END",
+   "value": "2020-07-26",
+   "raw_text": "at midnight on 26 July 2020",
+   "timex_type": "DATE",
+   "sentence": "1ea59f9ae988fe2acfc420c062588813",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2020-07-26"
+  },
+  {
+   "id": "e7",
+   "entity": "ET1",
+   "role": "START",
+   "value": "2020-07-16",
+   "raw_text": "On 16 July 2020, the claimant emailed his ET1 to the Newcastle Employment Tribunal.",
+   "timex_type": "DATE",
+   "sentence": "89b60e3f83d02450a809e67db0e28a1b",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2020-07-16"
+  },
+  {
+   "id": "e8",
+   "entity": "ET1",
+   "role": "START",
+   "value": "2020-07-22",
+   "raw_text": "On 22 July 2020, the Tribunal received the claimant's ET1 from Kings Court.",
+   "timex_type": "DATE",
+   "sentence": "49a8c038a9c0775516fa1b8d984b6bac",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2020-07-22"
+  },
+  {
+   "id": "e9",
+   "entity": "section 111(2)(a) of the Employment Rights Act 1996 claim",
+   "role": "DURATION",
+   "value": "P3M",
+   "raw_text": "period of three months beginning with the effective date of termination",
+   "timex_type": "DURATION",
+   "sentence": "3123aeb5770e120bbc84bbbdde20f4bd",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "duration_days": 90
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e2",
+   "to_id": "e9",
+   "constraint_type": "additive",
+   "constraint_expr": "e9 = e2 + 90 days",
+   "delta_days": 90,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ],
+ "edit_scenarios": [
+  {
+   "edit": {
+    "target_id": "e2",
+    "entity": "employment",
+    "role": "END",
+    "old_value": "2020-03-16",
+    "new_value": "2020-04-15",
+    "delta_days": 30
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e9",
+     "entity": "section 111(2)(a) of the Employment Rights Act 1996 claim",
+     "role": "DURATION",
+     "old_value": "P3M",
+     "new_value": "P3M",
+     "constraint": "e9 = e2 + 90 days"
+    }
+   ],
+   "ripple_depth": 1,
+   "ripple_breadth": 1
+  },
+  {
+   "edit": {
+    "target_id": "e2",
+    "entity": "employment",
+    "role": "END",
+    "old_value": "2020-03-16",
+    "new_value": "2020-02-15",
+    "delta_days": -30
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e9",
+     "entity": "section 111(2)(a) of the Employment Rights Act 1996 claim",
+     "role": "DURATION",
+     "old_value": "P3M",
+     "new_value": "P3M",
+     "constraint": "e9 = e2 + 90 days"
+    }
+   ],
+   "ripple_depth": 1,
+   "ripple_breadth": 1
+  },
+  {
+   "edit": {
+    "target_id": "e2",
+    "entity": "employment",
+    "role": "END",
+    "old_value": "2020-03-16",
+    "new_value": "2020-06-14",
+    "delta_days": 90
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e9",
+     "entity": "section 111(2)(a) of the Employment Rights Act 1996 claim",
+     "role": "DURATION",
+     "old_value": "P3M",
+     "new_value": "P3M",
+     "constraint": "e9 = e2 + 90 days"
+    }
+   ],
+   "ripple_depth": 1,
+   "ripple_breadth": 1
+  },
+  {
+   "edit": {
+    "target_id": "e2",
+    "entity": "employment",
+    "role": "END",
+    "old_value": "2020-03-16",
+    "new_value": "2019-12-17",
+    "delta_days": -90
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e9",
+     "entity": "section 111(2)(a) of the Employment Rights Act 1996 claim",
+     "role": "DURATION",
+     "old_value": "P3M",
+     "new_value": "P3M",
+     "constraint": "e9 = e2 + 90 days"
+    }
+   ],
+   "ripple_depth": 1,
+   "ripple_breadth": 1
+  },
+  {
+   "edit": {
+    "target_id": "e2",
+    "entity": "employment",
+    "role": "END",
+    "old_value": "2020-03-16",
+    "new_value": "2021-03-16",
+    "delta_days": 365
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e9",
+     "entity": "section 111(2)(a) of the Employment Rights Act 1996 claim",
+     "role": "DURATION",
+     "old_value": "P3M",
+     "new_value": "P3M",
+     "constraint": "e9 = e2 + 90 days"
+    }
+   ],
+   "ripple_depth": 1,
+   "ripple_breadth": 1
+  },
+  {
+   "edit": {
+    "target_id": "e2",
+    "entity": "employment",
+    "role": "END",
+    "old_value": "2020-03-16",
+    "new_value": "2019-03-17",
+    "delta_days": -365
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e9",
+     "entity": "section 111(2)(a) of the Employment Rights Act 1996 claim",
+     "role": "DURATION",
+     "old_value": "P3M",
+     "new_value": "P3M",
+     "constraint": "e9 = e2 + 90 days"
+    }
+   ],
+   "ripple_depth": 1,
+   "ripple_breadth": 1
+  }
+ ]
+}

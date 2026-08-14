@@ -1,0 +1,139 @@
+{
+ "id": "lextime_0241",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "Ms. Salome verbally counseling Rivera",
+ "event2": "her determination that verbal counseling was insufficient",
+ "relation": "AFTER",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "consultations",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "several conversations with rivera regarding the need to store the rolls with the labels right side up",
+   "timex_type": "DATE",
+   "sentence": "98a953a227bb0249124510506a238e96",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e2",
+   "entity": "consultations",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "rivera continued to store the rolls with the labels upside down",
+   "timex_type": "DATE",
+   "sentence": "7f4600de7b29132aa5df79c81e7de923",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e3",
+   "entity": "consultations",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "ms. salome verbally counseled rivera regarding his failure to properly store the rolls",
+   "timex_type": "DATE",
+   "sentence": "958bd3038c5d6b780fb9a58011c7de6e",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e4",
+   "entity": "written_warning",
+   "role": "START",
+   "value": "2021-05-06",
+   "raw_text": "on may 6, 2021, ms. salome decided to issue rivera a written warning and advised ms. arvan as well as the companys human resources officer, rachel reed.",
+   "timex_type": "DATE",
+   "sentence": "15132cb38584ef7ac634ec6b1b65915f",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2021-05-06"
+  },
+  {
+   "id": "e5",
+   "entity": "written_warning",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "ms. salome and ms. reed prepared the written warning",
+   "timex_type": "DATE",
+   "sentence": "15132cb38584ef7ac634ec6b1b65915f",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e6",
+   "entity": "defacement",
+   "role": "CONTAINS",
+   "value": "2021-05-11",
+   "raw_text": "prior to issuing the written warning, on may 11, 2021, ms. salome noticed that someone defaced the storing guidelines that she had posted.",
+   "timex_type": "DATE",
+   "sentence": "0fc70826177ecd8c903afe64c0c62a92",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2021-05-11"
+  },
+  {
+   "id": "e7",
+   "entity": "defacement",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "accordingly, she took a picture of the defaced guidelines and forwarded the same to ms. arvan and ms. reed",
+   "timex_type": "DATE",
+   "sentence": "bc416bfbc4083d4be8c53ee06a147bea",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e4",
+   "to_id": "e5",
+   "constraint_type": "interval",
+   "constraint_expr": "e5 in [e4, ...]",
+   "delta_days": null,
+   "confidence": 0.6,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e1",
+   "to_id": "e2",
+   "constraint_type": "ordering",
+   "constraint_expr": "e2 occurs after e1",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e3",
+   "to_id": "e4",
+   "constraint_type": "ordering",
+   "constraint_expr": "e4 occurs after e3",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

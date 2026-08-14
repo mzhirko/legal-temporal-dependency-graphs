@@ -1,0 +1,30 @@
+# Agreement Commencement and Consultation Requirements
+
+This scope computes the provisional start date of the agreement and the required minimum consultation period before implementing export duties.
+
+```catala
+declaration scope AgreementCommencement:
+  input date_wto_accession content date
+  input implementation_date content date
+  output provisional_start_date content date
+  output consultation_start_date content date
+```
+
+## Provisional Application
+
+The agreement shall be applied provisionally from the date of the Russian Federation’s accession to the WTO.
+
+```catala
+scope AgreementCommencement:
+  date round down
+  definition provisional_start_date equals date_wto_accession
+```
+
+## Consultation Requirement
+
+If export duties are considered, consultations must begin at least two months prior to the implementation date.
+
+```catala
+scope AgreementCommencement:
+  definition consultation_start_date equals implementation_date - 2 month
+```

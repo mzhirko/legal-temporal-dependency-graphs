@@ -1,0 +1,89 @@
+{
+ "id": "lextime_0291",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "Safety Light's failure to pay premiums is not follows with PBGC's Financial Operations Department's discovery of this failure; the former event",
+ "event2": "the latter",
+ "relation": "BEFORE",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "pension plan for hourly employees of safety light corporation",
+   "role": "START",
+   "value": null,
+   "raw_text": "the plan was established by safety light for the exclusive benefit of its employees.",
+   "timex_type": "DATE",
+   "sentence": "33344e6a80eef642eaed0da2db770c53",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e2",
+   "entity": "operations of safety light corporation",
+   "role": "END",
+   "value": "2007-01-01/2008-12-31",
+   "raw_text": "during the preliminary stages of this investigation, it was discovered that safety light ceased operations in 2007/2008",
+   "timex_type": "DATE",
+   "sentence": "991af263e877e01b4fc06828c16814dc",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2007-01-01"
+  },
+  {
+   "id": "e3",
+   "entity": "pension plan premiums for safety light corporation",
+   "role": "END",
+   "value": null,
+   "raw_text": "since in response to the referral, cfrd opened a case to investigate further. this investigation was undertaken pursuant to the authority granted to pbgc under 29 u.s.c. 1303(a). during the preliminary stages of this investigation, it was discovered that safety light had failed to pay required pension plan premiums",
+   "timex_type": "DATE",
+   "sentence": "74f7a986b8ca05a774f1596048903c1e",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e4",
+   "entity": "discovery by pbgc's financial operations department (fod)",
+   "role": "CONTAINS",
+   "value": "2022-03-01",
+   "raw_text": "in march 2022, as a result of a pbgc premium filing review, pbgcs financial operations department (fod) discovered that safety light had failed to pay required pension plan premiums since in response to the referral, cfrd opened a case to investigate further.",
+   "timex_type": "DATE",
+   "sentence": "ffc2804c5e6b0c3ec1386acc6c70f8c4",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2022-03-01"
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e1",
+   "to_id": "e2",
+   "constraint_type": "ordering",
+   "constraint_expr": "safety light ceased operations after the pension plan was established",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e4",
+   "to_id": "e3",
+   "constraint_type": "ordering",
+   "constraint_expr": "e3 = e4 + 30 days",
+   "delta_days": 30,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

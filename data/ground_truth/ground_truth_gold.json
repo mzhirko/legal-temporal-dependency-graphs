@@ -1,0 +1,93 @@
+{
+ "_comment": "Gold timeliness ground truth for six UK Employment Appeal Tribunal judgments, seven scored rows. Machine-verified against the source judgments and human-checked. Anchor and conciliation values are taken from the tribunal's own findings. 'minus_one_day' records that both statutes count the period as beginning with the anchor day, so the deadline falls one day earlier than a naive three-month addition.",
+ "statute": "era_1996_s111",
+ "minus_one_day": true,
+ "cases": {
+  "2026_EAT_64_s111": {
+   "verdict": "out_of_time",
+   "acas_day_a": "2022-11-29",
+   "acas_day_b": "2023-01-10",
+   "anchor_date": "2022-06-08",
+   "presented_date": "2023-01-10",
+   "deadline_stated": "2022-09-07",
+   "statute": "era_1996_s111",
+   "split": "real",
+   "status": "solid",
+   "source": "[2026] EAT 64"
+  },
+  "2026_EAT_64_s123": {
+   "verdict": "out_of_time",
+   "acas_day_a": "2022-11-29",
+   "acas_day_b": "2023-01-10",
+   "anchor_date": "2022-06-08",
+   "presented_date": "2023-01-10",
+   "deadline_stated": "2022-09-07",
+   "statute": "eqa_2010_s123",
+   "split": "real",
+   "status": "solid",
+   "source": "[2026] EAT 64"
+  },
+  "2025_EAT_155": {
+   "verdict": "out_of_time",
+   "acas_day_a": "2020-10-12",
+   "acas_day_b": null,
+   "anchor_date": "2020-07-11",
+   "presented_date": "2020-12-10",
+   "deadline_stated": null,
+   "statute": "era_1996_s111",
+   "split": "real",
+   "status": "solid",
+   "counterfactual_note": "EDT 2020-07-13 flips verdict to in_time (Day A lands on deadline, 207B engages) - real-world perturbation instance",
+   "source": "[2025] EAT 155"
+  },
+  "2026_EAT_14": {
+   "verdict": "out_of_time",
+   "acas_day_a": null,
+   "acas_day_b": null,
+   "anchor_date": "2022-09-29",
+   "presented_date": "2023-02-06",
+   "deadline_stated": null,
+   "statute": "era_1996_s111",
+   "split": "real",
+   "status": "solid_verdict_caveat_ec_unknown",
+   "source": "[2026] EAT 14"
+  },
+  "2026_EAT_76": {
+   "verdict": "out_of_time",
+   "acas_day_a": null,
+   "acas_day_b": null,
+   "anchor_date": "2018-04-12",
+   "presented_date": "2020-02-28",
+   "deadline_stated": null,
+   "statute": "eqa_2010_s123",
+   "split": "real",
+   "status": "solid",
+   "source": "[2026] EAT 76"
+  },
+  "2026_EAT_59": {
+   "verdict": "in_time",
+   "acas_day_a": null,
+   "acas_day_b": null,
+   "anchor_date": "2024-02-18",
+   "presented_date": "2024-07-09",
+   "deadline_stated": null,
+   "statute": "era_1996_s111",
+   "split": "real",
+   "status": "conditional_needs_ec_dates",
+   "source": "[2026] EAT 59"
+  },
+  "kj_2026_EAT_46": {
+   "verdict": "in_time",
+   "acas_day_a": "2021-11-06",
+   "acas_day_b": "2022-01-10",
+   "anchor_date": "2021-11-22",
+   "presented_date": "2022-02-17",
+   "deadline_stated": null,
+   "boundary_stated": "2021-09-15",
+   "statute": "eqa_2010_s123",
+   "split": "real",
+   "status": "solid_in_time",
+   "source": "[2026] EAT 46"
+  }
+ }
+}

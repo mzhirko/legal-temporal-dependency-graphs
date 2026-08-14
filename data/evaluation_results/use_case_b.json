@@ -1,0 +1,39 @@
+{
+ "statute": "era_1996_s111",
+ "rule": "s. 111(2) complaint = effective date of termination + 3m - 1 day",
+ "minus_one_day": true,
+ "scored": 2,
+ "correct": 2,
+ "indeterminate": 0,
+ "accuracy": 1.0,
+ "cases": [
+  {
+   "case": "et_b7d67901",
+   "split": "real",
+   "expected": "LATE",
+   "verdict": "LATE",
+   "match": true,
+   "days_over": 542,
+   "deadline": "2021-04-18",
+   "anchor_date": "2021-01-19",
+   "action_date": "2022-10-12",
+   "acas_applied": false,
+   "confidence": 0.6,
+   "explanation": "anchor=effective date of termination (2021-01-19) + [effective date of termination + 3m - 1 day] = deadline 2021-04-18. action=judgment (2022-10-12, via latest-fallback) -> 542d after deadline -> LATE"
+  },
+  {
+   "case": "et_37a93baf",
+   "split": "real",
+   "expected": "LATE",
+   "verdict": "LATE",
+   "match": true,
+   "days_over": 100,
+   "deadline": "2024-03-10",
+   "anchor_date": "2023-12-11",
+   "action_date": "2024-06-18",
+   "acas_applied": false,
+   "confidence": 0.41,
+   "explanation": "anchor=effective date of termination (edt) (2023-12-11) + [effective date of termination + 3m - 1 day] = deadline 2024-03-10. action=presenting her complaint to the tribunal (2024-06-18, via action-cue) -> 100d after deadline -> LATE"
+  }
+ ]
+}

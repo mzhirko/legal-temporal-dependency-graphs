@@ -1,0 +1,26 @@
+{
+ "id": "lextime_0438",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "The defendants' acceptance and receipt of the benefit conferred by SCV",
+ "event2": "SCV conferred a direct benefit by providing medical services to the insured",
+ "relation": "BEFORE",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "document filing",
+   "role": "CONTAINS",
+   "value": "2022-02-03",
+   "raw_text": "document 1 filed 02/03/22",
+   "timex_type": "DATE",
+   "sentence": "606b3e3c40cffec895f0ae5551bc224d",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2022-02-03"
+  }
+ ],
+ "dependencies": []
+}

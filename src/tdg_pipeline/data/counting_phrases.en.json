@@ -1,0 +1,19 @@
+{
+ "description": "LANGUAGE-layer counting connectors: the English phrases that decide whether the anchor day counts as day 1 of a statutory period. Inclusive = the anchor day counts (deadline one day earlier); exclusive = it does not. Order matters: longer phrases must precede their prefixes so 'from the date on which' wins over 'from'. This file is the single source; entailment.py loads it and ships no phrase literals.",
+ "inclusive": [
+  "beginning with",
+  "starting with",
+  "commencing with",
+  "beginning on",
+  "starting on"
+ ],
+ "exclusive": [
+  "from the date on which",
+  "from the date",
+  "after the date",
+  "following the date",
+  "from",
+  "after",
+  "following"
+ ]
+}

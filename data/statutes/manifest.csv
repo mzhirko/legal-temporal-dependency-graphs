@@ -1,0 +1,4 @@
+slug,label,convention,version,n_chars,url,status
+era_1996_s111,Employment Rights Act 1996 s.111 (unfair dismissal time limit),"‘beginning with’ the effective date of termination → +3 months, minus_one_day=True",latest,13,https://www.legislation.gov.uk/ukpga/1996/18/section/111/data.xml,OK
+eqa_2010_s123,Equality Act 2010 s.123 (discrimination time limit),"‘starting with’ the date of the act → +3 months, minus_one_day=True, + ‘just and equitable’ discretion",latest,11,https://www.legislation.gov.uk/ukpga/2010/15/section/123/data.xml,OK
+limitation_1980_s5,"Limitation Act 1980 s.5 (simple contract, 6 years)","‘from’ the date the cause of action accrued → +6 years, minus_one_day=False",latest,9,https://www.legislation.gov.uk/ukpga/1980/58/section/5/data.xml,OK

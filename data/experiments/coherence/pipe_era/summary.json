@@ -1,0 +1,55 @@
+{
+ "schema_version": "coherence-1.0.0",
+ "cases_total": 7,
+ "cases_complete": 1,
+ "coverage": 0.14285714285714285,
+ "cases_scored": 1,
+ "incoherent": 0,
+ "incoherence_rate": 0.0,
+ "format_only": 0,
+ "per_constraint": {
+  "K1": {
+   "independent": true,
+   "description": "last permissible date equals the effective deadline",
+   "evaluable": 1,
+   "violations": 0,
+   "rate": 0.0,
+   "cases": []
+  },
+  "K2": {
+   "independent": true,
+   "description": "delta_days equals presented minus deadline",
+   "evaluable": 1,
+   "violations": 0,
+   "rate": 0.0,
+   "cases": []
+  },
+  "K3": {
+   "independent": true,
+   "description": "verdict agrees with the sign of delta_days",
+   "evaluable": 1,
+   "violations": 0,
+   "rate": 0.0,
+   "cases": []
+  },
+  "K5": {
+   "independent": true,
+   "description": "compliance flag agrees with the verdict (paraphrase control)",
+   "evaluable": 1,
+   "violations": 0,
+   "rate": 0.0,
+   "cases": []
+  },
+  "K4": {
+   "independent": false,
+   "description": "verdict agrees with presented vs last permissible date (DERIVED from K1+K2+K3; redundancy check only)",
+   "evaluable": 1,
+   "violations": 0,
+   "rate": 0.0,
+   "cases": []
+  }
+ },
+ "incoherent_cases": [],
+ "_note": "Rates are over complete batteries only. K4 is derived and excluded from incoherence_rate.",
+ "_analytic": "Engine fields are projections of a single computation. A zero violation rate here is analytic, not an empirical win -- report it as a property of the architecture."
+}

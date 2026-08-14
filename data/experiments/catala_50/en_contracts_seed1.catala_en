@@ -1,0 +1,20 @@
+# Agreement amendment details for textile products between the European Community and Macao.
+
+```catala
+declaration scope TextileAgreementAmendment:
+  input initial_agreement_date content date
+  input last_amendment_date content date
+  input provisional_start_date content date
+  input termination_notice_period content duration
+  output termination_deadline content date
+```
+
+## Termination Deadline
+
+The agreement can be terminated at any time, provided that 120 days notice is given.
+
+```catala
+scope TextileAgreementAmendment:
+  date round down
+  definition termination_deadline equals provisional_start_date + termination_notice_period
+```

@@ -1,0 +1,11 @@
+{
+ "document_id": "en_contracts_seed4",
+ "scope_name": "ACPDeclaration",
+ "bindings": {},
+ "unbound": [
+  "assistance_amount",
+  "official_journal_date",
+  "signing_date"
+ ],
+ "llm_fallback_used": true
+}

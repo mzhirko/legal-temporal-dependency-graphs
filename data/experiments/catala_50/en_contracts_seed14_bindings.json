@@ -1,0 +1,9 @@
+{
+ "document_id": "en_contracts_seed14",
+ "scope_name": "MovementCertificateDeadline",
+ "bindings": {},
+ "unbound": [
+  "issue_date"
+ ],
+ "llm_fallback_used": true
+}

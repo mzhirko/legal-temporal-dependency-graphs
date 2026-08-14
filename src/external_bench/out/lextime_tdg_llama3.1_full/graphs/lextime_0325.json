@@ -1,0 +1,66 @@
+{
+ "id": "lextime_0325",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "BCBSIL began denying Mr. Lou's claims for Audrey's care",
+ "event2": "there was no change in Audrey's need for daily skilled nursing services",
+ "relation": "BEFORE",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "claim_denial",
+   "role": "CONTAINS",
+   "value": "2021-01-22",
+   "raw_text": "after January 22, 2021 BCBSIL began denying Mr. Lou's claims for Audrey's care.",
+   "timex_type": "DATE",
+   "sentence": "fa3b0ffc6c91f4540c464e15f749ae9e",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2021-01-22"
+  },
+  {
+   "id": "e2",
+   "entity": "benefits_denial",
+   "role": "CONTAINS",
+   "value": "2021-02-16",
+   "raw_text": "on february 16, 2021, bcbsil denied mr. lous request for benefits for the period from january 28, 2021 through april 30",
+   "timex_type": "DATE",
+   "sentence": "785a80856a639832d48ad1722914104e",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2021-02-16"
+  },
+  {
+   "id": "e3",
+   "entity": "administrative_appeal",
+   "role": "CONTAINS",
+   "value": "2021-04-13",
+   "raw_text": "on april 13, 2021, maxim healthcare services (maxim), the provider of skilled nursing services to audrey, submitted an administrative appeal of bcbsils claim denial on mr. lous behalf.",
+   "timex_type": "DATE",
+   "sentence": "9cbfa912723cd06086e46777f94e2bf3",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2021-04-13"
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e2",
+   "to_id": "e3",
+   "constraint_type": "ordering",
+   "constraint_expr": "e3 occurs after e2",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

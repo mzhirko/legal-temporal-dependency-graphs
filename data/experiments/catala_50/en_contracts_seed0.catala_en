@@ -1,0 +1,41 @@
+# Trade Agreement Lifecycle
+
+This scope computes the key dates governing the agreement's validity, including its entry into force, fixed expiry, and the deadline for denunciation.
+
+```catala
+declaration scope TradeAgreementLifecycle:
+  input signature_date content date
+  input notice_period content duration
+  output effective_date content date
+  output expiry_date content date
+  output denunciation_deadline content date
+```
+
+## Entry into force
+
+The agreement enters into force on the day of its signature.
+
+```catala
+scope TradeAgreementLifecycle:
+  date round down
+  definition effective_date equals signature_date
+```
+
+## Expiry
+
+The agreement is applicable until 31 December 2006.
+
+```catala
+scope TradeAgreementLifecycle:
+  definition expiry_date equals |2006-12-31|
+```
+
+## Denunciation deadline
+
+The agreement comes to an end upon the expiry of the notice period given for denunciation.
+
+```catala
+scope TradeAgreementLifecycle:
+  definition denunciation_deadline equals
+    expiry_date - notice_period
+```

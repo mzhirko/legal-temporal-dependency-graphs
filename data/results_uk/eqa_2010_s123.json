@@ -1,0 +1,48 @@
+{
+ "document_id": "eqa_2010_s123",
+ "document_type": "legal",
+ "source_text": "Section 123 Time limits\n\nProceedings on a complaint may not be brought after the end of the period of 3 months starting with the date of the act to which the complaint relates, or such other period as the employment tribunal thinks just and equitable.\n",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "Section 123 complaint filing deadline",
+   "role": "DURATION",
+   "value": "P3M",
+   "raw_text": "period of 3 months starting with the date of the act to which the complaint relates",
+   "timex_type": "DURATION",
+   "sentence": "7382ac18bdf04d2b1540253a4a055229",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "duration_days": 90
+  },
+  {
+   "id": "e2",
+   "entity": "Section 123 act to which the complaint relates",
+   "role": "START",
+   "value": null,
+   "raw_text": "the date of the act to which the complaint relates",
+   "timex_type": "DATE",
+   "sentence": "7382ac18bdf04d2b1540253a4a055229",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e2",
+   "to_id": "e1",
+   "constraint_type": "additive",
+   "constraint_expr": "e1 = e2 + P3M",
+   "delta_days": 90,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ],
+ "edit_scenarios": []
+}

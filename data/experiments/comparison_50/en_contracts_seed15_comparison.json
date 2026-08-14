@@ -1,0 +1,36 @@
+{
+ "document_id": "en_contracts_seed15",
+ "catala_status": "success",
+ "scope_name": "AgreementDuration",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 0,
+  "mismatch": 0,
+  "tdg_only": 2,
+  "catala_only": 1,
+  "match_rate": null
+ },
+ "fields": [
+  {
+   "variable_name": "agreement_duration",
+   "status": "catala_only",
+   "tdg_value": null,
+   "catala_value": "{'days': 1825.0}",
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Agreement:START",
+   "status": "tdg_only",
+   "tdg_value": "1987-01-01",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Agreement:END",
+   "status": "tdg_only",
+   "tdg_value": "1991-12-31",
+   "catala_value": null,
+   "delta_days": null
+  }
+ ]
+}

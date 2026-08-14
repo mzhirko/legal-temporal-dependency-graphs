@@ -1,0 +1,38 @@
+{
+ "document_id": "en_contracts_seed16",
+ "scope_name": "AgreementLifecycle",
+ "bindings": {
+  "termination_notice_period": {
+   "fact_id": "e12",
+   "entity": "notice period",
+   "role": "DURATION",
+   "score": 2.75,
+   "value": {
+    "years": 0,
+    "months": 0,
+    "days": 120
+   },
+   "raw_text": "provided that 120 days' notice is given"
+  },
+  "initial_agreement_date": {
+   "fact_id": "e1",
+   "entity": "Agreement on trade in textile products",
+   "role": "START",
+   "score": 1.5,
+   "value": "1993-09-28",
+   "raw_text": "initialled at Brussels on 28 September 1993"
+  },
+  "expiry_date": {
+   "fact_id": "e4",
+   "entity": "Agreement on trade in textile products",
+   "role": "END",
+   "score": 1.5,
+   "value": "1995-12-31",
+   "raw_text": "expiry of the bilateral Agreement on 31 December 1995"
+  }
+ },
+ "unbound": [
+  "provisional_start_date"
+ ],
+ "llm_fallback_used": true
+}

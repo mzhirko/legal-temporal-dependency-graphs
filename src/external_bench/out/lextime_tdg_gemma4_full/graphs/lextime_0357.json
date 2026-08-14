@@ -1,0 +1,11 @@
+{
+ "id": "lextime_0357",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "Ms. Reed learning about the defaced guidelines",
+ "event2": "the discussion between Ms. Salome and Rivera regarding the defaced guidelines",
+ "relation": "AFTER",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [],
+ "dependencies": []
+}

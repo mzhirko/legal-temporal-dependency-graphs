@@ -1,0 +1,11 @@
+{
+ "id": "lextime_0217",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "The union members storming meetings and offices during work hours",
+ "event2": "the union's authorization of such concerted action",
+ "relation": "AFTER",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [],
+ "dependencies": []
+}

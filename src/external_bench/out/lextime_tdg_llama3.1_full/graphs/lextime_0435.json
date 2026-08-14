@@ -1,0 +1,89 @@
+{
+ "id": "lextime_0435",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "The parties negotiating a settlement agreement",
+ "event2": "the resolution of the appeal",
+ "relation": "AFTER",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "summary_judgment_motion",
+   "role": "END",
+   "value": "2020-11-25",
+   "raw_text": "on November 25, 2020, the district court granted the unions summary judgment motion and denied cdrts.",
+   "timex_type": "DATE",
+   "sentence": "cff930c8da7e1155b483e78909e9c898",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2020-11-25"
+  },
+  {
+   "id": "e2",
+   "entity": "appeal_to_sixth_circuit",
+   "role": "START",
+   "value": null,
+   "raw_text": "cdrt subsequently appealed the matter to the united states court of appeals for the sixth circuit (no. 20-6425).",
+   "timex_type": "DATE",
+   "sentence": "d44fb92a2c5b5e3bae4e76d442d8d578",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e3",
+   "entity": "settlement_agreement",
+   "role": "START",
+   "value": "2021-09-17",
+   "raw_text": "on september 17, 2021, however, the company and the union entered a settlement agreement that resolved the appeal.",
+   "timex_type": "DATE",
+   "sentence": "e2619e4fdeb27349cce3b06cf4f3b552",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2021-09-17"
+  },
+  {
+   "id": "e4",
+   "entity": "arbitration_of_backpay_calculation",
+   "role": "START",
+   "value": null,
+   "raw_text": "in the settlement agreement, the parties agreed that they would arbitrate the sole issue of the calculation of backpay, as that remedy is referred to and defined in the july 24, 2019 opinion and award of arbitrator mark c. travis.",
+   "timex_type": "DATE",
+   "sentence": "157f6699bb80f5ccf26d592d2d03fc3e",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e1",
+   "to_id": "e2",
+   "constraint_type": "ordering",
+   "constraint_expr": null,
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e2",
+   "to_id": "e3",
+   "constraint_type": "ordering",
+   "constraint_expr": "e3 = e2 + 1 year",
+   "delta_days": 365,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

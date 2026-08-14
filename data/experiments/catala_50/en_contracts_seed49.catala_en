@@ -1,0 +1,19 @@
+# Agreement details regarding prepared or preserved tomatoes.
+
+```catala
+declaration scope TomatoAgreementDates:
+  input agreement_signed_date content date
+  input exchange_letters_date content date
+  input renewal_year content date
+  output agreement_active content boolean
+```
+
+## Agreement Confirmation
+
+The scope confirms the existence and key dates of the agreement regarding prepared or preserved tomatoes.
+
+```catala
+scope TomatoAgreementDates:
+  date round down
+  definition agreement_active equals true
+```

@@ -1,0 +1,51 @@
+{
+ "document_id": "en_caselaw_seed2",
+ "document_type": "legal",
+ "source_text": "29.6.2002 EN Official Journal of the European Communities C 156/37 Pleas in law and main arguments Pleas in law and main arguments In support of his action, the applicant argues infringement of The Commission decision against which the present action is Article 45(1) of the Staff Regulations, infringement of the brought is the same as that contested in Case T-109/92 Bolloré principle of non-discrimination and a manifest error of v Commission (1). In that decision, the Commission found that assessment. According to the applicant, any objective consider- the applicant had participated in the national meetings of ation of the respective merits of the officials eligible for the secret European cartel in the context of the European promotion would not have led to his being disregarded. Association of Manufacturers of Carbonless Paper (AEMPC), the adoption and concerted application of price increases, the sharing of sales and market quotas in the copying paper sector and the establishment of control mechanisms. In support of its claims, the applicant pleads infringement of Action brought on 18 April 2002 by Papelera Guipuz- the principles of presumption of innocence and of the burden coana de Zicuñaga, S.A. against Commission of the of proof. In that regard, it denies having participated in the European Communities meetings held for the purpose of organising the European cartel. The applicant emphasises that the defendant institution ignored not only the fact that the applicant does not belong to (Case T-136/02) the AEMPC but also the fact that that association did not possess information relating to the applicant’s prices and sales volumes. (2002/C 156/68) (Language of the case: Spanish) The applicant claims that the fine imposed on it should be reduced by at least 60 %. Apart from what has already been stated in the preceding paragraph, the applicant emphasises that the infringements imputed to it are alleged to have lasted An action against the Commission of the European Communi- for less than one year. ties was brought before the Court of First Instance of the European Communities on 18 April 2002 by Papelera Guipuz- coana de Zicuñaga, S.A., whose registered office is at Hernani (Guipúzcoa, Spain), represented by Iñigo Quintana Aguirre. (1) Not yet published in OJ. The applicant claims that the Court of First Instance should: — annul Article 1 of the Commission decision of 20 Decem- ber 2001 relating to a proceeding pursuant to Article 81 of the EC Treaty and Article 53 of the EEA Agreement (Case COMPE/E/1/36.212 — Carbonless paper), in so far as it finds that Zicuñaga participated in the infringement and in so far as it relates to the duration of the Action brought on 8 May 2002 by Armin Petrich against infringement, and Article 3 in relation to the fine imposed the Commission of the European Communities in Article 4; — in the alternative, reduce the fine imposed on the (Case T-145/02) applicant in the contested decision as follows: (a) annul the application of the excess of 10 % applied (2002/C 156/69) by the Commission on the ground that a duration in excess of one year was not imputed to the applicant; (Language of the case: French) (b) reduce substantially (by a minimum of 60 %) the basic penalty imposed to take account of the mitigating circumstances indicated; An action against the Commission of the European Communi- ties was brought before the Court of First Instance of the (c) award costs to the applicant, including expenditure European Communities by Armin Petrich, of Travemünde, and interest for the guarantees provided, deriving Germany, represented by Patrick Goergen, lawyer, with an from the handling of the entire procedure. address for service in Luxembourg,",
+ "facts": [
+  {
+   "id": "f1",
+   "entity": "by",
+   "role": "UNKNOWN",
+   "value": "2002-04-18",
+   "raw_text": "18 April 2002",
+   "timex_type": "DATE",
+   "sentence": "edfd977fd63f966b89e4a563b27805ab",
+   "confidence": 0.3,
+   "signal_verb": null,
+   "signal_prep": "on",
+   "temporal_content": true,
+   "date_parsed": "2002-04-18"
+  },
+  {
+   "id": "f2",
+   "entity": "ties",
+   "role": "UNKNOWN",
+   "value": "2002-04-18",
+   "raw_text": "18 April 2002",
+   "timex_type": "DATE",
+   "sentence": "d7ba3595156ec7055e39cacd5b8056da",
+   "confidence": 0.3,
+   "signal_verb": null,
+   "signal_prep": "on",
+   "temporal_content": true,
+   "date_parsed": "2002-04-18"
+  },
+  {
+   "id": "f3",
+   "entity": "by",
+   "role": "UNKNOWN",
+   "value": "2002-05-08",
+   "raw_text": "8 May 2002",
+   "timex_type": "DATE",
+   "sentence": "7cee4b62d5e6ff81ba1e27bb1d21a9bc",
+   "confidence": 0.3,
+   "signal_verb": null,
+   "signal_prep": "on",
+   "temporal_content": true,
+   "date_parsed": "2002-05-08"
+  }
+ ],
+ "dependencies": [],
+ "edit_scenarios": []
+}

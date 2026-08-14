@@ -1,0 +1,123 @@
+{
+ "document_id": "en_contracts_seed49",
+ "document_type": "legal",
+ "source_text": "Avis juridique important | 21983A1231(03) Agreement in the form of an exchange of letters between the European Economic Community and the Portuguese Republic regarding prepared or preserved tomatoes falling within subheading 20.02 C of the Common Customs Tariff Official Journal L 374 , 31/12/1983 P. 0005 ++++AGREEMENT IN THE FORM OF AN EXCHANGE OF LETTERS BETWEEN THE EUROPEAN ECONOMIC COMMUNITY AND THE PORTUGUESE REPUBLIC REGARDING PREPARED OR PRESERVED TOMATOES FALLING WITHIN SUBHEADING 20.02 C OF THE COMMON CUSTOMS TARIFF LETTER NO 1 BRUSSELS , ... SIR , I HAVE THE HONOUR TO REFER TO ARTICLE 3 OF PROTOCOL 8 TO THE AGREEMENT BETWEEN THE EUROPEAN ECONOMIC COMMUNITY AND THE PORTUGUESE REPUBLIC SIGNED ON 22 JULY 1972 AND TO THE EXCHANGE OF LETTERS OF 5 DECEMBER 1975 . I HAVE THE HONOUR TO INFORM YOU THAT FOR 1984 THE COMMUNITY IS READY TO RENEW THE VOLUME AGREED FOR THE PRECEDING YEAR . ACCORDINGLY , THE PORTUGUESE GOVERNMENT UNDERTAKES TO ADOPT THE NECESSARY MEASURES IN ORDER THAT THE QUANTITIES OF TOMATOES THAT HAVE BEEN PREPARED OR PRESERVED OTHERWISE THAN BY VINEGAR OR ACETIC ACID , FALLING WITHIN SUBHEADING 20.02 C OF THE COMMON CUSTOMS TARIFF AND SUPPLIED TO THE COMMUNITY IN 1984 , DO NOT EXCEED 90 000 TONNES . I SHOULD BE GRATEFUL IF YOU WOULD KINDLY CONFIRM THE AGREEMENT OF YOUR GOVERNMENT TO THE CONTENTS OF THIS LETTER . PLEASE ACCEPT , SIR , THE ASSURANCE OF MY HIGHEST CONSIDERATION . ON BEHALF OF THE COUNCIL OF THE EUROPEAN COMMUNITIES LETTER NO 2 BRUSSELS , ... SIR , I HAVE THE HONOUR TO ACKNOWLEDGE RECEIPT OF YOUR LETTER OF TODAY'S DATE WORDED AS FOLLOWS : \" I HAVE THE HONOUR TO REFER TO ARTICLE 3 OF PROTOCOL 8 TO THE AGREEMENT BETWEEN THE EUROPEAN ECONOMIC COMMUNITY AND THE PORTUGUESE REPUBLIC SIGNED ON 22 JULY 1972 AND TO THE EXCHANGE OF LETTERS OF 5 DECEMBER 1975 . I HAVE THE HONOUR TO INFORM YOU THAT FOR 1984 THE COMMUNITY IS READY TO RENEW THE VOLUME AGREED FOR THE PRECEDING YEAR . ACCORDINGLY , THE PORTUGUESE GOVERNMENT UNDERTAKES TO ADOPT THE NECESSARY MEASURES IN ORDER THAT THE QUANTITIES OF TOMATOES THAT HAVE BEEN PREPARED OR PRESERVED OTHERWISE THAN BY VINEGAR OR ACETIC ACID , FALLING WITHIN SUBHEADING 20.02 C OF THE COMMON CUSTOMS TARIFF AND SUPPLIED TO THE COMMUNITY IN 1984 , DO NOT EXCEED 90 000 TONNES . I SHOULD BE GRATEFUL IF YOU WOULD KINDLY CONFIRM THE AGREEMENT OF YOUR GOVERNMENT TO THE CONTENTS OF THIS LETTER . \" I HAVE THE HONOUR TO CONFIRM THE AGREEMENT OF MY GOVERNMENT WITH THE CONTENTS OF THAT LETTER . PLEASE ACCEPT , SIR , THE ASSURANCE OF MY HIGHEST CONSIDERATION . FOR THE GOVERNMENT OF THE PORTUGUESE REPUBLIC",
+ "facts": [
+  {
+   "id": "f1",
+   "entity": "the Portuguese Republic",
+   "role": "UNKNOWN",
+   "value": "1983",
+   "raw_text": "1983",
+   "timex_type": "DATE",
+   "sentence": "c291bfd6d5819ea907f79912c3df1240",
+   "confidence": 0.2,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "1983-08-01"
+  },
+  {
+   "id": "f2",
+   "entity": "PORTUGUESE",
+   "role": "START",
+   "value": "1972",
+   "raw_text": "1972",
+   "timex_type": "DATE",
+   "sentence": "ddf818110a7a51feac6d0fd027befb12",
+   "confidence": 0.78,
+   "signal_verb": "sign",
+   "signal_prep": "on",
+   "temporal_content": true,
+   "date_parsed": "1972-08-01"
+  },
+  {
+   "id": "f3",
+   "entity": "PORTUGUESE",
+   "role": "UNKNOWN",
+   "value": "1975",
+   "raw_text": "1975",
+   "timex_type": "DATE",
+   "sentence": "ddf818110a7a51feac6d0fd027befb12",
+   "confidence": 0.2,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "1975-08-01"
+  },
+  {
+   "id": "f4",
+   "entity": "PORTUGUESE",
+   "role": "END",
+   "value": "1984",
+   "raw_text": "1984",
+   "timex_type": "DATE",
+   "sentence": "1205316335e9c31a4829a0550f264737",
+   "confidence": 0.6499999999999999,
+   "signal_verb": "fall",
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "1984-08-01"
+  },
+  {
+   "id": "f5",
+   "entity": "THE QUANTITIES",
+   "role": "UNKNOWN",
+   "value": "1984",
+   "raw_text": "1984",
+   "timex_type": "DATE",
+   "sentence": "1205316335e9c31a4829a0550f264737",
+   "confidence": 0.2,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "1984-08-01"
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "f2",
+   "to_id": "f4",
+   "constraint_type": "ordering",
+   "constraint_expr": "f2 precedes f4 by 4383 days",
+   "delta_days": 4383,
+   "confidence": 0.7,
+   "verified": true,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ],
+ "edit_scenarios": [],
+ "_provenance": {
+  "extractor_backend": "heideltime",
+  "environment": {
+   "java": "openjdk version \"17.0.20\" 2026-07-21",
+   "py_heideltime": "unknown",
+   "spacy": "3.7.6",
+   "spacy_model": "en_core_web_trf",
+   "heideltime_probe": "2 spans, types=['DATE', 'DURATION']",
+   "python": "3.9.25"
+  },
+  "git": "861887f-dirty",
+  "reference_date": "2020-01-01",
+  "spacy_model": "en_core_web_trf",
+  "document_type": "legal",
+  "stage_counts": {
+   "document_id": "en_contracts_seed49",
+   "source_file": "../data/results_contracts_50/en_contracts_seed49.json",
+   "chars": 2591,
+   "raw_timex": 7,
+   "timex_by_type": {
+    "DATE": 7
+   },
+   "unique_offsets": 7,
+   "facts": 5,
+   "deps": 1,
+   "dep_types": {
+    "ordering": 1
+   },
+   "seconds": 4.14
+  },
+  "input_file": "../data/results_contracts_50/en_contracts_seed49.json"
+ }
+}

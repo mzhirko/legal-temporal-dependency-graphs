@@ -1,0 +1,17 @@
+{
+ "document_id": "en_contracts_seed23",
+ "scope_name": "AgreementEntryIntoForce",
+ "bindings": {
+  "signature_date": {
+   "fact_id": "e1",
+   "entity": "Agreement",
+   "role": "START",
+   "score": 1.0,
+   "method": "role_unique",
+   "value": "2002-07-09",
+   "raw_text": "Agreement between the European Coal and Steel Community and the Government of the Russian Federation on trade in certain steel products of 9 July 2002"
+  }
+ },
+ "unbound": [],
+ "llm_fallback_used": false
+}

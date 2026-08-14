@@ -1,0 +1,11 @@
+{
+ "id": "lextime_0303",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "Rivera's continued pushing of the rolls is",
+ "event2": "with Ms. Arvan's attempt to have a safety discussion with him",
+ "relation": "AFTER",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [],
+ "dependencies": []
+}

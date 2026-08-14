@@ -1,0 +1,76 @@
+{
+ "id": "lextime_0037",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "The union directing hospital employees to refuse to pick up extra shifts",
+ "event2": "the arose dispute over holiday work",
+ "relation": "AFTER",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "picking up extra shifts",
+   "role": "DURATION",
+   "value": null,
+   "raw_text": "employees would regularly and voluntarily pick up extra shifts beyond their normal scheduled work",
+   "timex_type": "DATE",
+   "sentence": "801ba283b0263fa57a1dfc8ea6b17f38",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e2",
+   "entity": "dispute over employee obligation to work holidays",
+   "role": "START",
+   "value": null,
+   "raw_text": "the dispute over employees obligation to work holidays",
+   "timex_type": "DATE",
+   "sentence": "801ba283b0263fa57a1dfc8ea6b17f38",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e3",
+   "entity": "picking up extra shifts",
+   "role": "START",
+   "value": null,
+   "raw_text": "employees stopped picking up shifts beyond their normal scheduled work",
+   "timex_type": "DATE",
+   "sentence": "12c39c8864cd7a3de0d08532280ad20e",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e4",
+   "entity": "refusal to pick up extra shifts",
+   "role": "START",
+   "value": null,
+   "raw_text": "the union directed hospital employees to refuse to pick up extra shifts beyond their normal scheduled work",
+   "timex_type": "DATE",
+   "sentence": "3f3f6e2bfe8c46b688a16604dcde2218",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e2",
+   "to_id": "e3",
+   "constraint_type": "ordering",
+   "constraint_expr": "e3 happens after e2",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

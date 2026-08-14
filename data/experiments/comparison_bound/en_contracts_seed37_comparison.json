@@ -1,0 +1,22 @@
+{
+ "document_id": "en_contracts_seed37",
+ "catala_status": "success",
+ "scope_name": "CooperationPeriod",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 1,
+  "mismatch": 0,
+  "tdg_only": 0,
+  "catala_only": 0,
+  "match_rate": 1.0
+ },
+ "fields": [
+  {
+   "variable_name": "end_date",
+   "status": "value_match",
+   "tdg_value": "1993-12-20",
+   "catala_value": "1993-12-20",
+   "delta_days": 0
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "id": "lextime_0106",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "The approval of the new policy",
+ "event2": "Pantoja's removal from elected office",
+ "relation": "BEFORE",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "new policy approval",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "was approved by the defendants on the executive counsel on or shortly after june 17",
+   "timex_type": "DATE",
+   "sentence": "0e32ed27f3987c9703954aafeca89f40",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e2",
+   "entity": "new policy approval",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "at the time the new policy was approved by the executive council",
+   "timex_type": "DATE",
+   "sentence": "0e32ed27f3987c9703954aafeca89f40",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e3",
+   "entity": "removal from elected office",
+   "role": "START",
+   "value": "2022-04-01",
+   "raw_text": "pantoja's removal from elected office on april 1, 2022 pursuant to the mandatory retirement policy",
+   "timex_type": "DATE",
+   "sentence": "8d1e8ae661bf29c30ea76012acb9c376",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2022-04-01"
+  }
+ ],
+ "dependencies": []
+}

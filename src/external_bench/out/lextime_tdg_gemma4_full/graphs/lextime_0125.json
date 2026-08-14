@@ -1,0 +1,11 @@
+{
+ "id": "lextime_0125",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "Ms. Salome agreeing to Ms. Reed's advice",
+ "event2": "Ms. Reed advising Ms. Salome",
+ "relation": "AFTER",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [],
+ "dependencies": []
+}

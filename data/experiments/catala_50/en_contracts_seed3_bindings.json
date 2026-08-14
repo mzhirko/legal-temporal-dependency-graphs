@@ -1,0 +1,36 @@
+{
+ "document_id": "en_contracts_seed3",
+ "scope_name": "ProvisionalProtocolApplication",
+ "bindings": {
+  "protocol_start": {
+   "fact_id": "e2",
+   "entity": "Protocol",
+   "role": "START",
+   "score": 1.5,
+   "value": "1990-04-04",
+   "raw_text": "initialled on 4 April 1990"
+  },
+  "payment_deadline": {
+   "fact_id": "e4",
+   "entity": "Art.2 financial compensation",
+   "role": "END",
+   "score": 1.0,
+   "method": "role_unique",
+   "value": "1990-09-30",
+   "raw_text": "must be paid before 30 September 1990"
+  },
+  "provisional_start": {
+   "fact_id": "e3",
+   "entity": "Protocol",
+   "role": "START",
+   "score": 1.0,
+   "method": "role_unique",
+   "value": "1990-05-03",
+   "raw_text": "with effect from 3 May 1990"
+  }
+ },
+ "unbound": [
+  "protocol_end"
+ ],
+ "llm_fallback_used": true
+}

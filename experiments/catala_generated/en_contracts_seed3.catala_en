@@ -1,0 +1,16 @@
+# Provisional application period for fishing opportunities.
+
+```catala
+declaration scope ProvisionalApplicationPeriod:
+  input start_date content date
+  input end_date content date
+  output period_duration content duration
+```
+
+## The period covers the time from the start date to the end date.
+
+```catala
+scope ProvisionalApplicationPeriod:
+  date round down
+  definition period_duration equals end_date - start_date
+```

@@ -1,0 +1,42 @@
+# Agreement Entry into Force and Transitional Periods
+
+This scope computes the date the agreement enters into force and the end dates for various transitional protection periods.
+
+```catala
+declaration scope AgreementEntryIntoForce:
+  input notification_date content date
+  output entry_into_force_date content date
+  output end_date_bunderfleisch content date
+  output end_date_union_3yr content date
+  output end_date_swiss_5yr content date
+  output end_date_union_5yr content date
+  output end_date_grana content date
+```
+
+## Entry into force
+
+The agreement enters into force on the first day of the second month following the date of the last notification.
+
+```catala
+scope AgreementEntryIntoForce:
+  date round down
+  definition entry_into_force_date equals notification_date + 2 month
+```
+
+## Transitional periods for GIs
+
+The scope defines the end dates for various transitional protections based on the agreement's entry into force.
+
+```catala
+scope AgreementEntryIntoForce:
+  definition end_date_bunderfleisch equals
+    entry_into_force_date + 3 year
+  definition end_date_union_3yr equals
+    entry_into_force_date + 3 year
+  definition end_date_swiss_5yr equals
+    entry_into_force_date + 5 year
+  definition end_date_union_5yr equals
+    entry_into_force_date + 5 year
+  definition end_date_grana equals
+    entry_into_force_date + 6 year
+```

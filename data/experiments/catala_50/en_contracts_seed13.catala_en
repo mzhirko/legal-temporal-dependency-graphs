@@ -1,0 +1,29 @@
+# Double Checking System Period
+
+This scope computes the start and end dates for the operational period of the double-checking system.
+
+```catala
+declaration scope DoubleCheckingSystemPeriod:
+  input application_start_date content date
+  output system_period_start content date
+  output system_period_end content date
+```
+
+## System Start Date
+
+The system begins on the date the agreement is applied between the Parties.
+
+```catala
+scope DoubleCheckingSystemPeriod:
+  date round down
+  definition system_period_start equals application_start_date
+```
+
+## System End Date
+
+The system is applicable until 31 December 2004.
+
+```catala
+scope DoubleCheckingSystemPeriod:
+  definition system_period_end equals |2004-12-31|
+```

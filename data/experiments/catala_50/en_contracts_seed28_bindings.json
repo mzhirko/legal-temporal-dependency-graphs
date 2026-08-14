@@ -1,0 +1,10 @@
+{
+ "document_id": "en_contracts_seed28",
+ "scope_name": "AgreementCommencement",
+ "bindings": {},
+ "unbound": [
+  "date_wto_accession",
+  "implementation_date"
+ ],
+ "llm_fallback_used": true
+}

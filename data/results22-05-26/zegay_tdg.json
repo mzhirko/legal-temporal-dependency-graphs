@@ -1,0 +1,364 @@
+{
+ "document_id": "cli_input",
+ "document_type": "legal",
+ "source_text": "My decision is that the effective date of termination was 15 March 2019. Day A was 7 May 2019 and Day B was 20 June 2019. Therefore, the period not to be counted is 8 May to 20 June 2019. This is 44 days. The Claimant did not present his claim within one month of Day B. The time limit (but for the early conciliation provisions) would have expired on 14 June 2019. Ignoring 44 days when performing the calculation, the time limit (as affected by the early conciliation provisions) expired on 28 July 2019. The Claimant's ET1 was presented on 4 September 2019. The time limit for an unfair dismissal complaint is set out in section 111(2) of the Employment Rights Act 1996: an employment tribunal shall not consider a complaint unless it is presented before the end of the period of three months beginning with the effective date of termination. Section 207B provides for an extension of time limits to facilitate early conciliation. I therefore have to consider if it was reasonably practicable for the Claimant to submit his complaint by 28 July 2019.",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "termination",
+   "role": "START",
+   "value": "2019-03-15",
+   "raw_text": "effective date of termination was 15 March 2019",
+   "timex_type": "DATE",
+   "sentence": "655dd45aba1a02533f43fb649eadf647",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2019-03-15"
+  },
+  {
+   "id": "e2",
+   "entity": "date",
+   "role": "START",
+   "value": "2019-05-07",
+   "raw_text": "Day A was 7 May 2019",
+   "timex_type": "DATE",
+   "sentence": "f6c4772cc0c4260a6ed4bc45a77c9c6d",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2019-05-07"
+  },
+  {
+   "id": "e3",
+   "entity": "date",
+   "role": "START",
+   "value": "2019-06-20",
+   "raw_text": "Day B was 20 June 2019",
+   "timex_type": "DATE",
+   "sentence": "f6c4772cc0c4260a6ed4bc45a77c9c6d",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2019-06-20"
+  },
+  {
+   "id": "e4",
+   "entity": "period",
+   "role": "DURATION",
+   "value": "P44D",
+   "raw_text": "8 May to 20 June 2019. This is 44 days.",
+   "timex_type": "DURATION",
+   "sentence": "4f7b4193a51344d7dff248467f0f3e8d",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "duration_days": 44
+  },
+  {
+   "id": "e5",
+   "entity": "time limit",
+   "role": "END",
+   "value": "2019-06-14",
+   "raw_text": "would have expired on 14 June 2019",
+   "timex_type": "DATE",
+   "sentence": "c39919e725c0e9df5e309d0b47a7bd6c",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2019-06-14"
+  },
+  {
+   "id": "e6",
+   "entity": "time limit",
+   "role": "END",
+   "value": "2019-07-28",
+   "raw_text": "expired on 28 July 2019",
+   "timex_type": "DATE",
+   "sentence": "52541811caf1381d85b06ea84746afe6",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2019-07-28"
+  },
+  {
+   "id": "e7",
+   "entity": "claimant's ET1",
+   "role": "START",
+   "value": "2019-09-04",
+   "raw_text": "presented on 4 September 2019",
+   "timex_type": "DATE",
+   "sentence": "9c0ec2506652b65c3e4732e61f928c53",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2019-09-04"
+  },
+  {
+   "id": "e8",
+   "entity": "section 111(2) of the Employment Rights Act 1996 complaint period",
+   "role": "DURATION",
+   "value": "P3M",
+   "raw_text": "period of three months beginning with the effective date of termination",
+   "timex_type": "DURATION",
+   "sentence": "6e3892784374c31de1e1884c55627a82",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "duration_days": 90
+  },
+  {
+   "id": "e9",
+   "entity": "section 111(2) of the Employment Rights Act 1996 tribunal consideration",
+   "role": "DURATION",
+   "value": "P3M",
+   "raw_text": "shall not consider a complaint unless it is presented before the end of the period of three months beginning with the effective date of termination",
+   "timex_type": "DURATION",
+   "sentence": "6e3892784374c31de1e1884c55627a82",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "duration_days": 90
+  },
+  {
+   "id": "e10",
+   "entity": "Section 207B extension provision",
+   "role": "DURATION",
+   "value": null,
+   "raw_text": "Section 207B provides for an extension of time limits to facilitate early conciliation",
+   "timex_type": "DATE",
+   "sentence": "3d55e6050438daa098cb371ca666bcb7",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e1",
+   "to_id": "e8",
+   "constraint_type": "additive",
+   "constraint_expr": "e8 = e1 + 90 days",
+   "delta_days": 90,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e1",
+   "to_id": "e9",
+   "constraint_type": "additive",
+   "constraint_expr": "e9 = e1 + 90 days",
+   "delta_days": 90,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e3",
+   "to_id": "e5",
+   "constraint_type": "ordering",
+   "constraint_expr": "e5 = e3 + 30 days",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e3",
+   "to_id": "e6",
+   "constraint_type": "ordering",
+   "constraint_expr": "e6 = e3 + 30 days",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ],
+ "edit_scenarios": [
+  {
+   "edit": {
+    "target_id": "e1",
+    "entity": "termination",
+    "role": "START",
+    "old_value": "2019-03-15",
+    "new_value": "2019-04-14",
+    "delta_days": 30
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e8",
+     "entity": "section 111(2) of the Employment Rights Act 1996 complaint period",
+     "role": "DURATION",
+     "old_value": "P3M",
+     "new_value": "P3M",
+     "constraint": "e8 = e1 + 90 days"
+    },
+    {
+     "fact_id": "e9",
+     "entity": "section 111(2) of the Employment Rights Act 1996 tribunal consideration",
+     "role": "DURATION",
+     "old_value": "P3M",
+     "new_value": "P3M",
+     "constraint": "e9 = e1 + 90 days"
+    }
+   ],
+   "ripple_depth": 1,
+   "ripple_breadth": 2
+  },
+  {
+   "edit": {
+    "target_id": "e1",
+    "entity": "termination",
+    "role": "START",
+    "old_value": "2019-03-15",
+    "new_value": "2019-02-13",
+    "delta_days": -30
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e8",
+     "entity": "section 111(2) of the Employment Rights Act 1996 complaint period",
+     "role": "DURATION",
+     "old_value": "P3M",
+     "new_value": "P3M",
+     "constraint": "e8 = e1 + 90 days"
+    },
+    {
+     "fact_id": "e9",
+     "entity": "section 111(2) of the Employment Rights Act 1996 tribunal consideration",
+     "role": "DURATION",
+     "old_value": "P3M",
+     "new_value": "P3M",
+     "constraint": "e9 = e1 + 90 days"
+    }
+   ],
+   "ripple_depth": 1,
+   "ripple_breadth": 2
+  },
+  {
+   "edit": {
+    "target_id": "e1",
+    "entity": "termination",
+    "role": "START",
+    "old_value": "2019-03-15",
+    "new_value": "2019-06-13",
+    "delta_days": 90
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e8",
+     "entity": "section 111(2) of the Employment Rights Act 1996 complaint period",
+     "role": "DURATION",
+     "old_value": "P3M",
+     "new_value": "P3M",
+     "constraint": "e8 = e1 + 90 days"
+    },
+    {
+     "fact_id": "e9",
+     "entity": "section 111(2) of the Employment Rights Act 1996 tribunal consideration",
+     "role": "DURATION",
+     "old_value": "P3M",
+     "new_value": "P3M",
+     "constraint": "e9 = e1 + 90 days"
+    }
+   ],
+   "ripple_depth": 1,
+   "ripple_breadth": 2
+  },
+  {
+   "edit": {
+    "target_id": "e1",
+    "entity": "termination",
+    "role": "START",
+    "old_value": "2019-03-15",
+    "new_value": "2018-12-15",
+    "delta_days": -90
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e8",
+     "entity": "section 111(2) of the Employment Rights Act 1996 complaint period",
+     "role": "DURATION",
+     "old_value": "P3M",
+     "new_value": "P3M",
+     "constraint": "e8 = e1 + 90 days"
+    },
+    {
+     "fact_id": "e9",
+     "entity": "section 111(2) of the Employment Rights Act 1996 tribunal consideration",
+     "role": "DURATION",
+     "old_value": "P3M",
+     "new_value": "P3M",
+     "constraint": "e9 = e1 + 90 days"
+    }
+   ],
+   "ripple_depth": 1,
+   "ripple_breadth": 2
+  },
+  {
+   "edit": {
+    "target_id": "e1",
+    "entity": "termination",
+    "role": "START",
+    "old_value": "2019-03-15",
+    "new_value": "2020-03-14",
+    "delta_days": 365
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e8",
+     "entity": "section 111(2) of the Employment Rights Act 1996 complaint period",
+     "role": "DURATION",
+     "old_value": "P3M",
+     "new_value": "P3M",
+     "constraint": "e8 = e1 + 90 days"
+    },
+    {
+     "fact_id": "e9",
+     "entity": "section 111(2) of the Employment Rights Act 1996 tribunal consideration",
+     "role": "DURATION",
+     "old_value": "P3M",
+     "new_value": "P3M",
+     "constraint": "e9 = e1 + 90 days"
+    }
+   ],
+   "ripple_depth": 1,
+   "ripple_breadth": 2
+  },
+  {
+   "edit": {
+    "target_id": "e1",
+    "entity": "termination",
+    "role": "START",
+    "old_value": "2019-03-15",
+    "new_value": "2018-03-15",
+    "delta_days": -365
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e8",
+     "entity": "section 111(2) of the Employment Rights Act 1996 complaint period",
+     "role": "DURATION",
+     "old_value": "P3M",
+     "new_value": "P3M",
+     "constraint": "e8 = e1 + 90 days"
+    },
+    {
+     "fact_id": "e9",
+     "entity": "section 111(2) of the Employment Rights Act 1996 tribunal consideration",
+     "role": "DURATION",
+     "old_value": "P3M",
+     "new_value": "P3M",
+     "constraint": "e9 = e1 + 90 days"
+    }
+   ],
+   "ripple_depth": 1,
+   "ripple_breadth": 2
+  }
+ ]
+}

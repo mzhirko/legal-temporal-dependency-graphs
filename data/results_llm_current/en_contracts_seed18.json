@@ -1,0 +1,101 @@
+{
+ "document_id": "en_contracts_seed18",
+ "document_type": "legal",
+ "source_text": "Avis juridique important | 21995A1230(22) Exchange of letters between the European Community and the United States of America on a settlement for cereals and rice Official Journal L 334 , 30/12/1995 P. 0030 - 0031 EXCHANGE OF LETTERSbetween the European Community and the United States of America on a settlement for cereals and riceA. Letter from the European Community Brussels, 22 December 1995SirI have the honour to confirm the following understanding reached between the delegations of the United States and the European Community:1. The United States and the European Community agree that in the first quarter of 1996 and subsequently at the request of either party, the United States Government and the Commission of the European Communities shall review the functioning of the 'representative price` system for cereals and rice. If it appears to either party that the functioning of the system is materially impeding trade flows between the parties, the Commission in consultation with the United States Government shall promptly examine the problems identified with a view to implementing appropriate solutions. For the marketing year 1996-97 a cumulative recovery system for husked (brown) rice will be developed by the Commission in consultation with the United States Government and introduced on a trial basis.2. During the review and consultations, the Commission and the United States Government shall share all relevant data in order to ensure transparency and facilitate appropriate solutions to problems raised. The confidentiality of such data will be protected.3. To ensure accuracy and transparency in administration, the European Community shall ensure that the 'representative prices` it uses for determining the Community duties on imports of rice are based on the most up-to-date and widely available price data.4. The United States shall withdraw its current request (November 1995) for the establishment of a WTO dispute settlement panel on the European Community's import regime for rice and cereals. The United States shall not reintroduce such request, provided that there is effective implementation of the provisions of this Agreement.5. The European Community will not undermine United States trade interests in rice and cereals in the ongoing negotiations on these products in the WTO framework.6. If the market share of EC-origin wheat gluten imports into the United States increases in comparison to their average 1990-92 market share, the European Commission and the United States Government shall consult with a view to finding a mutually acceptable solution.7. Subject to the terms of this agreement, each party reserves all of its WTO rights.I have the honour to propose that this letter and your letter in reply will constitute an agreement between our two authorities.Please accept, Sir, the assurance of my highest consideration.On behalf of the Council of the European UnionB. Letter from the United States Brussels, 22 December 1995SirI have the honour to acknowledge receipt of your letter of today's date which reads as follows:'I have the honour to confirm the following understanding reached between the delegations of the United States and the European Community.1. The United States and the European Community agree that in the first quarter of 1996 and subsequently at the request of either party, the United States Government and the Commission of the European Communities shall review the functioning of the \"representative price\" system for cereals and rice. If it appears to either party that the functioning of the system is materially impeding trade flows between the parties, the Commission in consultation with the United States Government shall promptly examine the problems identified with a view to implementing appropriate solutions. For the marketing year 1996-97 a cumulative recovery system for husked (brown) rice will be developed by the Commission in consultation with the United States Government and introduced on a trial basis.2. During the review and consultations, the Commission and the United States Government shall share all relevant data in order to ensure transparency and facilitate appropriate solutions to problems raised. The confidentiality of such data will be protected.3. To ensure accuracy and transparency in administration, the European Community shall ensure that the \"representative prices\" it uses for determining the Community duties on imports of rice are based on the most up-to-date and widely available price data.4. The United States shall withdraw its current request (November 1995) for the establishment of a WTO dispute settlement panel on the European Community's import regime for rice and cereals. The United States shall not reintroduce such request, provided that there is effective implementation of the provisions of this Agreement.5. The European Community will not undermine United States trade interests in rice and cereals in the ongoing negotiations on these products in the WTO framework.6. If the market share of EC-origin wheat gluten imports into the United States increases in comparison to their average 1990-92 market share, the European Commission and the United States Government shall consult with a view to finding a mutually acceptable solution.7. Subject to the terms of this agreement, each party reserves all of its WTO rights.I have the honour to propose that this letter and your letter in reply will constitute an agreement between our two authorities.`I have the honour to confirm that the above is acceptable to my Government and that your letter and this letter constitute an agreement in accordance with your proposal.Please accept, Sir, the assurance of my highest consideration.For the Government of the United States of America",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "Agreement",
+   "role": "START",
+   "value": "1995-12-22",
+   "raw_text": "this letter and your letter in reply will constitute an agreement between our two authorities.",
+   "timex_type": "DATE",
+   "sentence": "10fccc0b64b1e7276ac26a13866e6004",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "1995-12-22"
+  },
+  {
+   "id": "e2",
+   "entity": "reviewing functioning of 'representative price' system for cereals and rice",
+   "role": "DURATION",
+   "value": "P3M",
+   "raw_text": "in the first quarter of 1996 and subsequently at the request of either party, the United States Government and the Commission of the European Communities shall review the functioning of the 'representative price` system for cereals and rice.",
+   "timex_type": "DURATION",
+   "sentence": "e5537db65f599e060e4414e250539a79",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "duration_days": 90
+  },
+  {
+   "id": "e3",
+   "entity": "cumulative recovery system for husked (brown) rice",
+   "role": "DURATION",
+   "value": "P1M",
+   "raw_text": "For the marketing year 1996-97 a cumulative recovery system for husked (brown) rice will be developed by the Commission in consultation with the United States Government and introduced on a trial basis.",
+   "timex_type": "DURATION",
+   "sentence": "3f5760ce5df15351fe0aebbf2a3021aa",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "duration_days": 30
+  },
+  {
+   "id": "e4",
+   "entity": "WTO dispute settlement panel establishment",
+   "role": "END",
+   "value": "null",
+   "raw_text": "The United States shall withdraw its current request (November 1995) for the establishment of a WTO dispute settlement panel on the European Community's import regime for rice and cereals.",
+   "timex_type": "DATE",
+   "sentence": "11d46f06458d32f10d21e0190d3a90d6",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e4",
+   "to_id": "e1",
+   "constraint_type": "ordering",
+   "constraint_expr": "e1 occurs after e4",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ],
+ "edit_scenarios": [],
+ "_provenance": {
+  "extractor_backend": "llm:gemma4:e4b",
+  "environment": {
+   "model": "gemma4:e4b",
+   "base_url": "http://localhost:11434/v1",
+   "temperature": 0.0,
+   "max_tokens": 8192,
+   "python": "3.9.25",
+   "git": "861887f-dirty"
+  },
+  "stage_counts": {
+   "document_id": "en_contracts_seed18",
+   "chars": 5770,
+   "facts": 4,
+   "deps": 1,
+   "dep_types": {
+    "ordering": 1
+   },
+   "seconds": 28.76,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed18.json"
+  },
+  "llm_status": "ok",
+  "input_file": "../data/results_contracts_50/en_contracts_seed18.json"
+ }
+}

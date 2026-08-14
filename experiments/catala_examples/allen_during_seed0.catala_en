@@ -1,0 +1,53 @@
+# Allen Relation: DURING / CONTAINS
+#
+# DURING: interval A occurs entirely within interval B.
+#   A during B  iff  B.start < A.start and A.end < B.end
+#
+# CONTAINS: the symmetric inverse — B fully encloses A.
+#   B contains A  iff  B.start < A.start and A.end < B.end
+#
+# Legal patterns that trigger DURING / CONTAINS:
+#   "during the term of this agreement"
+#   "within the period of validity"
+#   "consultations shall begin within X days" (consultation during agreement)
+#   "for the duration of the contract"
+#   any obligation or procedure that must occur within a larger validity window
+#
+# Grounded example (en_contracts_seed0, Article 9.3):
+#   Consultation period [request_date, result_deadline] is DURING
+#   agreement active period [signature_date, 2006-12-31].
+#   The agreement CONTAINS the consultation interval.
+
+```catala
+declaration scope AllenDuring:
+  input outer_start content date   # start of the containing period
+  input outer_end content date     # end of the containing period
+  input inner_start content date   # start of the contained period
+  input inner_end content date     # end of the contained period
+  output is_during content boolean    # inner occurs entirely within outer
+  output is_contains content boolean  # outer fully encloses inner
+```
+
+## DURING
+
+The inner interval starts after the outer starts and ends before the
+outer ends — it is fully contained.
+
+```catala
+scope AllenDuring:
+  date round down
+  definition is_during equals
+    (outer_start < inner_start) and
+    (inner_end < outer_end)
+```
+
+## CONTAINS
+
+The symmetric statement from the outer interval's perspective.
+
+```catala
+scope AllenDuring:
+  definition is_contains equals
+    (inner_start > outer_start) and
+    (outer_end > inner_end)
+```

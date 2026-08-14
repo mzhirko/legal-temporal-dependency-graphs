@@ -1,0 +1,53 @@
+{
+ "document_id": "en_contracts_seed31",
+ "document_type": "legal",
+ "source_text": "Avis juridique important | 21994A0218(02) Agreement in the form of agreed minutes on certain oil seeds between the European Community and Brazil pursuant to Article XXVIII of the General Agreement on Tariffs and Trade (GATT) Official Journal L 047 , 18/02/1994 P. 0008 - 0013 Finnish special edition: Chapter 11 Volume 29 P. 0052 Swedish special edition: Chapter 11 Volume 29 P. 0052 AGREED MINUTESNegotiations under GATT, Article XXVIII (4), relating to Schedule LXXX - European Communities In the negotiations conducted under GATT, Article XXVIII (4), the delegations of the Commission of the European Communities and Brazil reached an agreement as indicated in the Annex.The Delegations of the Commission of the European Communities and Brazil will submit this Agreement for approval to their respective authorities.For the Delegation of the Commission of the European CommunitiesFor the Delegation of BrazilANNEX A Director-GeneralGATTGenevaNEGOTIATIONS RELATING TO SCHEDULE LXXX - EUROPEAN COMMUNITIESThe Delegations of the Commission of the European Communities and Brazil have concluded their negotiations pursuant to Article XXVIII for the modification or withdrawal of concessions provided for in Schedule LXXX - European Communities as set out in the report attached.For the Delegation of the Commission of the European CommunitiesFor the Delegation of BrazilANNEX B Results of negotiations pursuant to Article XXVIII for the modification or withdrawal of concessions in the schedule of the European Communities initially negotiated with Brazil CHANGES IN SCHEDULE LXXX - EUROPEAN COMMUNITIESA. Concessions to be withdrawn>TABLE>B. Bound rates to be increased>TABLE>C. Reduction of rates bound in the existing schedules>TABLE>D. New concessions>TABLE>",
+ "facts": [
+  {
+   "id": "f1",
+   "entity": "Brazil",
+   "role": "UNKNOWN",
+   "value": "1994",
+   "raw_text": "1994",
+   "timex_type": "DATE",
+   "sentence": "0cac82e7cfb8ee284dd9eb9113f76392",
+   "confidence": 0.2,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "1994-08-01"
+  }
+ ],
+ "dependencies": [],
+ "edit_scenarios": [],
+ "_provenance": {
+  "extractor_backend": "heideltime",
+  "environment": {
+   "java": "openjdk version \"17.0.20\" 2026-07-21",
+   "py_heideltime": "unknown",
+   "spacy": "3.7.6",
+   "spacy_model": "en_core_web_trf",
+   "heideltime_probe": "2 spans, types=['DATE', 'DURATION']",
+   "python": "3.9.25"
+  },
+  "git": "861887f-dirty",
+  "reference_date": "2020-01-01",
+  "spacy_model": "en_core_web_trf",
+  "document_type": "legal",
+  "stage_counts": {
+   "document_id": "en_contracts_seed31",
+   "source_file": "../data/results_contracts_50/en_contracts_seed31.json",
+   "chars": 1761,
+   "raw_timex": 1,
+   "timex_by_type": {
+    "DATE": 1
+   },
+   "unique_offsets": 1,
+   "facts": 1,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 3.81
+  },
+  "input_file": "../data/results_contracts_50/en_contracts_seed31.json"
+ }
+}

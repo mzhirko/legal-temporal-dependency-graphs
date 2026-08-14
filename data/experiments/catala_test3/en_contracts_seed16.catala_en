@@ -1,0 +1,16 @@
+# Agreement Extension Calculation
+
+This scope determines the automatic extension date of the agreement provisions.
+
+```catala
+declaration scope AgreementExtension:
+  output automatic_extension_end_date content date
+```
+
+The agreement is automatically extended for one year after 31 December 1998.
+
+```catala
+scope AgreementExtension:
+  date round down
+  definition automatic_extension_end_date equals |1998-12-31| + 1 year
+```

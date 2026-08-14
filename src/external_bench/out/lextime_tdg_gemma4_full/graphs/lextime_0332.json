@@ -1,0 +1,11 @@
+{
+ "id": "lextime_0332",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "The employment of the plaintiff by the defendant",
+ "event2": "the defendant conducting business in the Northern District of Indiana",
+ "relation": "BEFORE",
+ "pair_type": "both-explicit",
+ "facts": [],
+ "dependencies": []
+}

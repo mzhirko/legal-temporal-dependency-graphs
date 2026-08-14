@@ -1,0 +1,91 @@
+{
+ "id": "lextime_0139",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "The reversal of denial of benefits",
+ "event2": "BCBSIL reviewed the case",
+ "relation": "AFTER",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "reversal_of_denial",
+   "role": "CONTAINS",
+   "value": "2021-09-20",
+   "raw_text": "on september 20, 2021, bcbsil reversed its denial of benefits",
+   "timex_type": "DATE",
+   "sentence": "ae3b602e3605c4226df9b1dfe1734e2d",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2021-09-20"
+  },
+  {
+   "id": "e2",
+   "entity": "payment_period_january_2021_to_april_2021",
+   "role": "DURATION",
+   "value": "P120D",
+   "raw_text": "bcbsil then paid some, but not all, of the claims submitted by mr. lou for the period requested from january 22, 2021 through april 30",
+   "timex_type": "DURATION",
+   "sentence": "77c7694ae14b1bd6163f3d060ec15deb",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "duration_days": 120
+  },
+  {
+   "id": "e3",
+   "entity": "non_payment_period_may_2021_to_october_2021",
+   "role": "DURATION",
+   "value": "P183D",
+   "raw_text": "bcbsil did not pay any claims for daily skilled nursing services rendered to audrey from may 1, 2021 through october 31",
+   "timex_type": "DURATION",
+   "sentence": "44603607c7d9a9122d45b8f28887ed1b",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "duration_days": 183
+  },
+  {
+   "id": "e4",
+   "entity": "payment_period_november_2021_to_december_2021",
+   "role": "DURATION",
+   "value": "P30D",
+   "raw_text": "bcbsil paid most, but not all, claims submitted for daily skilled nursing services rendered to audrey from november 1, 2021 through december 31",
+   "timex_type": "DURATION",
+   "sentence": "afc295946295ebcea75042911dfd8cfb",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "duration_days": 30
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e2",
+   "to_id": "e3",
+   "constraint_type": "ordering",
+   "constraint_expr": "e3 follows e2",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e3",
+   "to_id": "e4",
+   "constraint_type": "ordering",
+   "constraint_expr": "e4 follows e3",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

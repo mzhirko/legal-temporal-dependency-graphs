@@ -1,0 +1,57 @@
+{
+ "document_id": "en_contracts_seed13",
+ "catala_status": "success",
+ "scope_name": "DoubleCheckingSystemPeriod",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 2,
+  "mismatch": 0,
+  "tdg_only": 4,
+  "catala_only": 0,
+  "match_rate": 1.0
+ },
+ "fields": [
+  {
+   "variable_name": "system_period_start",
+   "status": "value_match",
+   "tdg_value": "2002-07-22",
+   "catala_value": "2002-07-22",
+   "delta_days": 0
+  },
+  {
+   "variable_name": "system_period_end",
+   "status": "value_match",
+   "tdg_value": "2004-12-31",
+   "catala_value": "2004-12-31",
+   "delta_days": 0
+  },
+  {
+   "variable_name": "tdg:ANNEX 1.2 export document application:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "2004-12-31",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:ANNEX 1.2 export document presentation:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "null",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:2.1 statistical information transmission:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "P30D",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:2.2 statistical information transmission:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "P30D",
+   "catala_value": null,
+   "delta_days": null
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+{
+ "document_id": "en_contracts_seed26",
+ "scope_name": "ExtraditionTransitScope",
+ "bindings": {},
+ "unbound": [
+  "request_receipt_date",
+  "unscheduled_landing_date"
+ ],
+ "llm_fallback_used": true
+}

@@ -1,0 +1,27 @@
+{
+ "document_id": "en_contracts_seed46",
+ "scope_name": "ProvisionalApplication",
+ "bindings": {
+  "initial_agreement_date": {
+   "fact_id": "e1",
+   "entity": "Agreement",
+   "role": "START",
+   "score": 1.5,
+   "value": "1986-12-03",
+   "raw_text": "initialled on 3 December 1986"
+  },
+  "provisional_start_date": {
+   "fact_id": "e2",
+   "entity": "Provisional application",
+   "role": "START",
+   "score": 1.5,
+   "value": "1987-01-18",
+   "raw_text": "apply this Agreement provisionally from 18 January 1987"
+  }
+ },
+ "unbound": [
+  "entry_into_force_date",
+  "payment_deadline"
+ ],
+ "llm_fallback_used": true
+}

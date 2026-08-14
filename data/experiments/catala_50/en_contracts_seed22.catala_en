@@ -1,0 +1,42 @@
+# PNR Data Handling and Retention Requirements
+
+This scope calculates key dates related to the retention and handling of PNR data according to the agreement.
+
+```catala
+declaration scope PNRAgreementScope:
+  input pnr_record_date content date
+  input active_retention_years content integer
+  input depersonalization_delay_months content integer
+  input sensitive_data_deletion_days content integer
+  output active_retention_end_date content date
+  output depersonalization_date content date
+  output sensitive_data_deletion_date content date
+```
+
+## Active Retention Period
+
+The active database retains PNR for up to five years from the record date.
+
+```catala
+scope PNRAgreementScope:
+  date round down
+  definition active_retention_end_date equals pnr_record_date + active_retention_years * year
+```
+
+## Depersonalization Requirement
+
+After the initial six months, PNR must be depersonalized and masked.
+
+```catala
+scope PNRAgreementScope:
+  definition depersonalization_date equals pnr_record_date + depersonalization_delay_months * month
+```
+
+## Sensitive Data Deletion
+
+Sensitive data must be permanently deleted not later than 30 days from the last receipt of PNR.
+
+```catala
+scope PNRAgreementScope:
+  definition sensitive_data_deletion_date equals pnr_record_date + sensitive_data_deletion_days * day
+```

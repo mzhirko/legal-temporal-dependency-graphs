@@ -1,0 +1,66 @@
+Failed after 3 attempts.
+
+Last error:
+┌─[ERROR]─ 1/2 ─
+│
+│  "end_date_initial": unknown identifier for a variable of scope EUPM_Agreement
+│
+├─➤ ../code/data/experiments/catala_test3/en_contracts_seed11.catala_en:24.14-24.30:
+│    │
+│ 24 │   definition end_date_initial equals initial_coverage_end_date
+│    │              ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+└─ Agreement between the European Union and the Republic of Latvia on EUPM Participation
+┌─[ERROR]─ 2/2 ─
+│
+│  "deadline_1": unknown identifier for a variable of scope EUPM_Agreement
+│
+├─➤ ../code/data/experiments/catala_test3/en_contracts_seed11.catala_en:41.14-41.24:
+│    │
+│ 41 │   definition deadline_1 equals |2002-11-15|
+│    │              ‾‾‾‾‾‾‾‾‾‾
+└─ Agreement between the European Union and the Republic of Latvia on EUPM Participation
+
+Last file content:
+# Agreement between the European Union and the Republic of Latvia on EUPM Participation
+
+```catala
+declaration scope EUPM_Agreement:
+  input initial_coverage_end_date content date
+  input subsequent_coverage_start_date content date
+  input min_service_duration content duration
+  output annual_contribution content money
+```
+
+Article 2.1 specifies the minimum duration of service for seconded personnel.
+
+```catala
+scope EUPM_Agreement:
+  date round down
+  definition min_service_duration equals 1 year
+```
+
+Article 3.1 defines the periods during which personnel coverage is provided.
+
+```catala
+scope EUPM_Agreement:
+  date round down
+  definition end_date_initial equals initial_coverage_end_date
+  definition start_date_subsequent equals subsequent_coverage_start_date
+```
+
+Article 6.1 sets the required annual financial contribution amount.
+
+```catala
+scope EUPM_Agreement:
+  date round down
+  definition annual_contribution equals 25000
+```
+
+Article 6.3 establishes the deadlines for communicating the total contribution amount.
+
+```catala
+scope EUPM_Agreement:
+  date round down
+  definition deadline_1 equals |2002-11-15|
+  definition deadline_2 equals |2002-11-01|
+```

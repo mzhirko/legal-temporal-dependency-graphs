@@ -1,0 +1,812 @@
+{
+ "dataset": "housing",
+ "split": "hard",
+ "mode": "endpoint",
+ "model": "llama3.1:8b",
+ "meta": {
+  "data_path": "./DeonticBench",
+  "n": 78,
+  "seed": 20240517,
+  "limit": 0,
+  "system": "llm",
+  "tdg_fallback": "none",
+  "fallback_used": 0,
+  "gold_distribution": {
+   "YES": 39,
+   "NO": 39
+  },
+  "split_sha256": "1b898bf555212737"
+ },
+ "summary": {
+  "n": 78,
+  "answered": 78,
+  "coverage": 1.0,
+  "call_errors_infra": 0,
+  "unparseable_or_abstained": 0,
+  "accuracy_answered": 0.2821,
+  "accuracy_all": 0.2821,
+  "correct": 22
+ },
+ "rows": [
+  {
+   "id": "housing_9adc1ed4",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "housing_ad9cf48f",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_935f6ec8",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_2a7f398a",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_8ac2ae7e",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_720aab55",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "housing_3e8b8ce1",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_c7202b6f",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_994a31e6",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_fe5be93f",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_e0aab481",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "housing_c624bd48",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_1473c99b",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "housing_17ad08eb",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_21cc7abd",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "housing_e8135b4f",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "housing_c8955221",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "housing_11f0552c",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_a802ca1c",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_08393984",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "housing_13ebb5f5",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_cd55feed",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_fff2098f",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_0a96ae66",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "housing_ac4dc820",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_f0c44bfd",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "housing_f27cbb95",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_0b97295a",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_0412f41f",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "housing_0ff85829",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_6a83d24c",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_bc636f26",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_91b6c0df",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "housing_707fb6ef",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_9facc196",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_af97f61c",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "housing_0f0bb10b",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "housing_afda1943",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "housing_e7b37209",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_c02483e0",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_8f0b6b07",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_d63e0487",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "housing_4e175deb",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_8e9f09dd",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_ccd2ed6c",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_6e90028c",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_0c6032a7",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_2113a56e",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_e6df2191",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_f451dbc1",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_265bdba3",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_36bd2093",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_89572813",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "housing_5da5c4de",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_465a6481",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_f607370d",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_d36214a5",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_7ecd3dbf",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_3b4f0a68",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_656b204e",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_c6905cd9",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_174c298d",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_b94f17eb",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_caf5a3db",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "housing_4a84d348",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_a4c96a7b",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_751e212d",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_cf120981",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "housing_e926002f",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_f77b2c38",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_be37bf36",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_c2332b64",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_6b7f9ac2",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "housing_4ddbf186",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_b10dd300",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_6ebb8c32",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": false
+  },
+  {
+   "id": "housing_298984af",
+   "kind": "binary",
+   "gold": "YES",
+   "pair_type": "",
+   "pred": "YES",
+   "note": "",
+   "fallback": false,
+   "match": true
+  },
+  {
+   "id": "housing_5aeb0170",
+   "kind": "binary",
+   "gold": "NO",
+   "pair_type": "",
+   "pred": "NO",
+   "note": "",
+   "fallback": false,
+   "match": true
+  }
+ ]
+}

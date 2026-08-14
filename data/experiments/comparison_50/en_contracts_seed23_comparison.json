@@ -1,0 +1,43 @@
+{
+ "document_id": "en_contracts_seed23",
+ "catala_status": "success",
+ "scope_name": "AgreementEntryIntoForce",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 0,
+  "mismatch": 0,
+  "tdg_only": 3,
+  "catala_only": 1,
+  "match_rate": null
+ },
+ "fields": [
+  {
+   "variable_name": "effective_date",
+   "status": "catala_only",
+   "tdg_value": null,
+   "catala_value": "2004-01-15",
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Agreement:START",
+   "status": "tdg_only",
+   "tdg_value": "2002-07-09",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Treaty expiration:END",
+   "status": "tdg_only",
+   "tdg_value": "2002-07-23",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Art.2 Imports into the Community from Russia:CONTAINS",
+   "status": "tdg_only",
+   "tdg_value": "2003-01-01",
+   "catala_value": null,
+   "delta_days": null
+  }
+ ]
+}

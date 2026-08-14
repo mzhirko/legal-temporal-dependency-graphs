@@ -1,0 +1,13 @@
+{
+ "document_id": "en_contracts_seed2",
+ "catala_status": "success",
+ "actions": [
+  {
+   "variable": "notification_deadline",
+   "action": "verify",
+   "catala_value": "2002-05-30",
+   "tdg_value": "P1M",
+   "delta_days": 30
+  }
+ ]
+}

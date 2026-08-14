@@ -1,0 +1,17 @@
+# Extradition procedures define the time limit for submitting a transit request following an unscheduled landing.
+
+```catala
+declaration scope ExtraditionTransitScope:
+  input unscheduled_landing_date content date
+  input request_receipt_date content date
+  output is_timely_transit_request content boolean
+```
+
+The request for transit must be received within 96 hours of the unscheduled landing.
+
+```catala
+scope ExtraditionTransitScope:
+  date round down
+  definition is_timely_transit_request equals
+    (request_receipt_date - unscheduled_landing_date) <= 4 day
+```

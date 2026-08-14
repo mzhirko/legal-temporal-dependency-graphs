@@ -1,0 +1,35 @@
+Failed after 3 attempts.
+
+Last error:
+┌─[ERROR]─
+│
+│  Syntax error at "OriginalCertificateDate":
+│  unexpected token.
+│  Those are valid at this point: "output", "sum".
+│
+├─➤ ../code/data/experiments/catala_test3/en_contracts_seed14.catala_en:7.9-7.32:
+│   │
+│ 7 │   input OriginalCertificateDate date
+│   │         ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+│
+│ Maybe you wanted to write: "output"?
+└─
+
+Last file content:
+# Agreement Compliance Deadline
+
+This scope calculates the deadline for submitting goods and relevant movement certificates to the importing state's customs authorities.
+
+```catala
+declaration scope MovementCertificateCompliance:
+  input OriginalCertificateDate date
+  output SubmissionDeadline date
+```
+
+The goods and relevant movement certificate must be produced to the customs authorities of the importing state within six months from the date of issue of the original movement certificate.
+
+```catala
+scope MovementCertificateCompliance:
+  date round down
+  definition SubmissionDeadline equals OriginalCertificateDate + 6 month
+```

@@ -1,0 +1,558 @@
+{
+ "environment": {
+  "model": "gemma4:e4b",
+  "base_url": "http://localhost:11434/v1",
+  "temperature": 0.0,
+  "max_tokens": 8192,
+  "python": "3.9.25",
+  "git": "861887f-dirty"
+ },
+ "input_dir": "../data/results_contracts_50",
+ "n_documents": 45,
+ "statuses": {
+  "ok": 43,
+  "extract-zero-events": 2
+ },
+ "totals": {
+  "facts": 322,
+  "deps": 99,
+  "dep_types": {
+   "interval": 19,
+   "additive": 40,
+   "ordering": 40
+  }
+ },
+ "per_document": [
+  {
+   "document_id": "en_contracts_seed0",
+   "chars": 15000,
+   "facts": 18,
+   "deps": 5,
+   "dep_types": {
+    "interval": 1,
+    "additive": 2,
+    "ordering": 2
+   },
+   "seconds": 36.25,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed0.json"
+  },
+  {
+   "document_id": "en_contracts_seed1",
+   "chars": 15000,
+   "facts": 12,
+   "deps": 8,
+   "dep_types": {
+    "ordering": 8
+   },
+   "seconds": 44.28,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed1.json"
+  },
+  {
+   "document_id": "en_contracts_seed10",
+   "chars": 15000,
+   "facts": 10,
+   "deps": 4,
+   "dep_types": {
+    "additive": 4
+   },
+   "seconds": 21.62,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed10.json"
+  },
+  {
+   "document_id": "en_contracts_seed11",
+   "chars": 8321,
+   "facts": 11,
+   "deps": 2,
+   "dep_types": {
+    "ordering": 2
+   },
+   "seconds": 45.08,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed11.json"
+  },
+  {
+   "document_id": "en_contracts_seed13",
+   "chars": 13580,
+   "facts": 10,
+   "deps": 2,
+   "dep_types": {
+    "ordering": 1,
+    "interval": 1
+   },
+   "seconds": 33.0,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed13.json"
+  },
+  {
+   "document_id": "en_contracts_seed14",
+   "chars": 15000,
+   "facts": 10,
+   "deps": 1,
+   "dep_types": {
+    "additive": 1
+   },
+   "seconds": 25.12,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed14.json"
+  },
+  {
+   "document_id": "en_contracts_seed15",
+   "chars": 11390,
+   "facts": 5,
+   "deps": 2,
+   "dep_types": {
+    "ordering": 1,
+    "additive": 1
+   },
+   "seconds": 23.8,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed15.json"
+  },
+  {
+   "document_id": "en_contracts_seed16",
+   "chars": 8681,
+   "facts": 10,
+   "deps": 19,
+   "dep_types": {
+    "ordering": 6,
+    "additive": 3,
+    "interval": 10
+   },
+   "seconds": 46.53,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed16.json"
+  },
+  {
+   "document_id": "en_contracts_seed17",
+   "chars": 15000,
+   "facts": 9,
+   "deps": 3,
+   "dep_types": {
+    "ordering": 1,
+    "additive": 2
+   },
+   "seconds": 33.36,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed17.json"
+  },
+  {
+   "document_id": "en_contracts_seed18",
+   "chars": 5770,
+   "facts": 4,
+   "deps": 1,
+   "dep_types": {
+    "ordering": 1
+   },
+   "seconds": 28.76,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed18.json"
+  },
+  {
+   "document_id": "en_contracts_seed19",
+   "chars": 15000,
+   "facts": 5,
+   "deps": 2,
+   "dep_types": {
+    "ordering": 1,
+    "additive": 1
+   },
+   "seconds": 32.16,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed19.json"
+  },
+  {
+   "document_id": "en_contracts_seed2",
+   "chars": 15000,
+   "facts": 7,
+   "deps": 3,
+   "dep_types": {
+    "additive": 3
+   },
+   "seconds": 17.86,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed2.json"
+  },
+  {
+   "document_id": "en_contracts_seed20",
+   "chars": 5493,
+   "facts": 7,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 31.31,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed20.json"
+  },
+  {
+   "document_id": "en_contracts_seed21",
+   "chars": 11449,
+   "facts": 15,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 40.34,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed21.json"
+  },
+  {
+   "document_id": "en_contracts_seed22",
+   "chars": 15000,
+   "facts": 13,
+   "deps": 3,
+   "dep_types": {
+    "ordering": 3
+   },
+   "seconds": 43.01,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed22.json"
+  },
+  {
+   "document_id": "en_contracts_seed23",
+   "chars": 7187,
+   "facts": 5,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 29.3,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed23.json"
+  },
+  {
+   "document_id": "en_contracts_seed25",
+   "chars": 15000,
+   "facts": 5,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 14.01,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed25.json"
+  },
+  {
+   "document_id": "en_contracts_seed26",
+   "chars": 15000,
+   "facts": 10,
+   "deps": 5,
+   "dep_types": {
+    "interval": 1,
+    "additive": 3,
+    "ordering": 1
+   },
+   "seconds": 35.35,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed26.json"
+  },
+  {
+   "document_id": "en_contracts_seed27",
+   "chars": 15000,
+   "facts": 9,
+   "deps": 4,
+   "dep_types": {
+    "ordering": 4
+   },
+   "seconds": 20.52,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed27.json"
+  },
+  {
+   "document_id": "en_contracts_seed28",
+   "chars": 15000,
+   "facts": 4,
+   "deps": 2,
+   "dep_types": {
+    "additive": 2
+   },
+   "seconds": 21.61,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed28.json"
+  },
+  {
+   "document_id": "en_contracts_seed29",
+   "chars": 13159,
+   "facts": 7,
+   "deps": 2,
+   "dep_types": {
+    "additive": 2
+   },
+   "seconds": 29.85,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed29.json"
+  },
+  {
+   "document_id": "en_contracts_seed3",
+   "chars": 2862,
+   "facts": 4,
+   "deps": 1,
+   "dep_types": {
+    "ordering": 1
+   },
+   "seconds": 28.67,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed3.json"
+  },
+  {
+   "document_id": "en_contracts_seed30",
+   "chars": 15000,
+   "facts": 9,
+   "deps": 2,
+   "dep_types": {
+    "interval": 1,
+    "ordering": 1
+   },
+   "seconds": 22.61,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed30.json"
+  },
+  {
+   "document_id": "en_contracts_seed31",
+   "chars": 1761,
+   "facts": 0,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 14.01,
+   "status": "extract-zero-events",
+   "input_file": "../data/results_contracts_50/en_contracts_seed31.json"
+  },
+  {
+   "document_id": "en_contracts_seed33",
+   "chars": 15000,
+   "facts": 9,
+   "deps": 3,
+   "dep_types": {
+    "additive": 3
+   },
+   "seconds": 18.79,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed33.json"
+  },
+  {
+   "document_id": "en_contracts_seed35",
+   "chars": 13159,
+   "facts": 7,
+   "deps": 2,
+   "dep_types": {
+    "additive": 2
+   },
+   "seconds": 29.82,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed35.json"
+  },
+  {
+   "document_id": "en_contracts_seed36",
+   "chars": 4351,
+   "facts": 3,
+   "deps": 1,
+   "dep_types": {
+    "ordering": 1
+   },
+   "seconds": 19.35,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed36.json"
+  },
+  {
+   "document_id": "en_contracts_seed37",
+   "chars": 15000,
+   "facts": 2,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 10.92,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed37.json"
+  },
+  {
+   "document_id": "en_contracts_seed38",
+   "chars": 8394,
+   "facts": 11,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 33.41,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed38.json"
+  },
+  {
+   "document_id": "en_contracts_seed39",
+   "chars": 5434,
+   "facts": 3,
+   "deps": 1,
+   "dep_types": {
+    "ordering": 1
+   },
+   "seconds": 17.28,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed39.json"
+  },
+  {
+   "document_id": "en_contracts_seed4",
+   "chars": 929,
+   "facts": 0,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 14.44,
+   "status": "extract-zero-events",
+   "input_file": "../data/results_contracts_50/en_contracts_seed4.json"
+  },
+  {
+   "document_id": "en_contracts_seed40",
+   "chars": 15000,
+   "facts": 13,
+   "deps": 4,
+   "dep_types": {
+    "additive": 4
+   },
+   "seconds": 34.42,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed40.json"
+  },
+  {
+   "document_id": "en_contracts_seed41",
+   "chars": 6412,
+   "facts": 13,
+   "deps": 2,
+   "dep_types": {
+    "additive": 2
+   },
+   "seconds": 46.44,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed41.json"
+  },
+  {
+   "document_id": "en_contracts_seed42",
+   "chars": 8394,
+   "facts": 11,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 33.43,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed42.json"
+  },
+  {
+   "document_id": "en_contracts_seed43",
+   "chars": 3806,
+   "facts": 3,
+   "deps": 2,
+   "dep_types": {
+    "interval": 1,
+    "ordering": 1
+   },
+   "seconds": 20.84,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed43.json"
+  },
+  {
+   "document_id": "en_contracts_seed44",
+   "chars": 7015,
+   "facts": 2,
+   "deps": 1,
+   "dep_types": {
+    "ordering": 1
+   },
+   "seconds": 10.12,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed44.json"
+  },
+  {
+   "document_id": "en_contracts_seed45",
+   "chars": 2401,
+   "facts": 2,
+   "deps": 1,
+   "dep_types": {
+    "interval": 1
+   },
+   "seconds": 13.86,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed45.json"
+  },
+  {
+   "document_id": "en_contracts_seed46",
+   "chars": 2690,
+   "facts": 4,
+   "deps": 2,
+   "dep_types": {
+    "additive": 1,
+    "ordering": 1
+   },
+   "seconds": 23.47,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed46.json"
+  },
+  {
+   "document_id": "en_contracts_seed47",
+   "chars": 15000,
+   "facts": 5,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 17.38,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed47.json"
+  },
+  {
+   "document_id": "en_contracts_seed48",
+   "chars": 13159,
+   "facts": 7,
+   "deps": 2,
+   "dep_types": {
+    "additive": 2
+   },
+   "seconds": 29.85,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed48.json"
+  },
+  {
+   "document_id": "en_contracts_seed49",
+   "chars": 2591,
+   "facts": 4,
+   "deps": 4,
+   "dep_types": {
+    "interval": 3,
+    "ordering": 1
+   },
+   "seconds": 25.24,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed49.json"
+  },
+  {
+   "document_id": "en_contracts_seed5",
+   "chars": 13597,
+   "facts": 8,
+   "deps": 2,
+   "dep_types": {
+    "additive": 1,
+    "ordering": 1
+   },
+   "seconds": 20.17,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed5.json"
+  },
+  {
+   "document_id": "en_contracts_seed6",
+   "chars": 15000,
+   "facts": 7,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 32.6,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed6.json"
+  },
+  {
+   "document_id": "en_contracts_seed7",
+   "chars": 5516,
+   "facts": 6,
+   "deps": 1,
+   "dep_types": {
+    "additive": 1
+   },
+   "seconds": 24.3,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed7.json"
+  },
+  {
+   "document_id": "en_contracts_seed8",
+   "chars": 4461,
+   "facts": 3,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 7.04,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed8.json"
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+# Agreement Compliance Deadline
+
+This scope calculates the deadline for submitting goods and relevant movement certificates to the importing state's customs authorities.
+
+```catala
+declaration scope MovementCertificateCompliance:
+  input original_date content date
+  output deadline content date
+```
+
+The goods and relevant movement certificate must be produced to the customs authorities of the importing state within six months from the date of issue of the original movement certificate.
+
+```catala
+scope MovementCertificateCompliance:
+  date round down
+  definition deadline equals original_date + 6 month
+```

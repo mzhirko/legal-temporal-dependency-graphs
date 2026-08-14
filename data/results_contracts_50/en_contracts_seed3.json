@@ -1,0 +1,84 @@
+{
+ "document_id": "en_contracts_seed3",
+ "document_type": "legal",
+ "source_text": "Avis juridique important | 21990A0807(05) Agreement in the form of an Exchange of Letters on the provisional application of the Protocol establishing, for the period from 3 May 1990 to 2 May 1992, the fishing opportunities and financial compensation provided for in the Agreement between the European Economic Community and the Government of the people's Republic of Angola on fishing off Angola Official Journal L 208 , 07/08/1990 P. 0042 *****AGREEMENT in the form of an Exchange of Letters on the provisional application of the Protocol establishing, for the period from 3 May 1990 to 2 May 1992, the fishing opportunities and financial compensation provided for in the Agreement between the European Economic Community and the Government of the People's Republic of Angola on fishing off Angola A. Letter from the People's Republic of Angola Sir, With reference to the Protocol initialled on 4 April 1990 establishing the fishing opportunities and financial compensation for the period from 3 May 1990 to 2 May 1992, I have the honour to inform you that the Government of the People's Republic of Angola is prepared to apply the Protocol on a provisional basis with effect from 3 May 1990, pending its entry into force in accordance with Article 7 thereof, provided that the European Economic Communty is disposed to do the same. This is on the understanding that the first instalment of the financial compensation fixed in Article 2 of the Protocol must be paid before 30 September 1990. I should be obliged if you would confirm the European Economic Community's agreement to such provisional application of the Protocol. Please accept, Sir, the assurance of my highest consideration. For the Government of the People's Republic of Angola B. Letter from the Community Sir, I am in receipt of your letter of today's date, which reads as follows: 'With reference to Protocol initialled on 4 April 1990 establishing the fishing opportunities and financial compensation for the period from 3 May 1990 to 2 May 1992, I have the honour to inform you that the Government of the People's Republic of Angola is prepared to apply the Protocol on a provisional basis with effect from 3 May 1990, pending its entry into force in accordance with Article 7 thereof, provided that the European Economic Community is disposed to do the same. This is on the understanding that the first instalment of the financial compensation fixed in Article 2 of the Protocol must be paid before 30 September 1990. I should be obliged if you would confirm the European Economic Community's agreement to such provisional application of the Protocol.' I have the honour to confirm the European Economic Community's agreement to such provisional application of the Protocol. Please accept, Sir, the assurance of my highest consideration. On behalf of the Council of the European Communities",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "Protocol",
+   "role": "DURATION",
+   "value": "1990-05-03",
+   "raw_text": "for the period from 3 May 1990 to 2 May 1992",
+   "timex_type": "DATE",
+   "sentence": "27bbb62062ed938ad6e1241db9392f85",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "1990-05-03"
+  },
+  {
+   "id": "e2",
+   "entity": "Protocol",
+   "role": "START",
+   "value": "1990-04-04",
+   "raw_text": "initialled on 4 April 1990",
+   "timex_type": "DATE",
+   "sentence": "5687c7ef78780fd09886fe91ff2f4d58",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "1990-04-04"
+  },
+  {
+   "id": "e3",
+   "entity": "Protocol",
+   "role": "START",
+   "value": "1990-05-03",
+   "raw_text": "with effect from 3 May 1990",
+   "timex_type": "DATE",
+   "sentence": "5687c7ef78780fd09886fe91ff2f4d58",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "1990-05-03"
+  },
+  {
+   "id": "e4",
+   "entity": "Art.2 financial compensation",
+   "role": "END",
+   "value": "1990-09-30",
+   "raw_text": "must be paid before 30 September 1990",
+   "timex_type": "DATE",
+   "sentence": "c655a3d79e778f37787a18e14284097f",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "1990-09-30"
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e2",
+   "to_id": "e3",
+   "constraint_type": "ordering",
+   "constraint_expr": "e3 = e2 + 30 days",
+   "delta_days": 30,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e3",
+   "to_id": "e4",
+   "constraint_type": "ordering",
+   "constraint_expr": "e4 = e3 + 122 days",
+   "delta_days": 122,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ],
+ "edit_scenarios": []
+}

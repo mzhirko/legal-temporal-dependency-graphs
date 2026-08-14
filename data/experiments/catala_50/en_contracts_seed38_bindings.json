@@ -1,0 +1,9 @@
+{
+ "document_id": "en_contracts_seed38",
+ "scope_name": "TerminationNotice",
+ "bindings": {},
+ "unbound": [
+  "date_of_failure"
+ ],
+ "llm_fallback_used": true
+}

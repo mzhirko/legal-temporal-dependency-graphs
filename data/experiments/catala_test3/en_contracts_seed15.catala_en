@@ -1,0 +1,14 @@
+# Agreement Validity Period
+
+This scope determines if a given date falls within the operational period of the trade agreement.
+```catala
+declaration scope AgreementValidity:
+  input check_date content date
+  output is_valid content boolean
+```
+The agreement is valid if the provided date is on or after January 1, 1987, and on or before December 31, 1991.
+```catala
+scope AgreementValidity:
+  date round down
+  definition is_valid equals (check_date >= |1987-01-01|) and (check_date <= |1991-12-31|)
+```

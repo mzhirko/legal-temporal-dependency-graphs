@@ -1,0 +1,23 @@
+# Provisional Protocol Application
+
+This scope computes the duration of the provisional application period for the fishing opportunities protocol.
+
+```catala
+declaration scope ProvisionalProtocolApplication:
+  input protocol_start content date
+  input protocol_end content date
+  input provisional_start content date
+  input payment_deadline content date
+  output provisional_duration content duration
+```
+
+## Provisional Application Duration
+
+The duration of the provisional application is calculated from the provisional start date until the end date of the Protocol period.
+
+```catala
+scope ProvisionalProtocolApplication:
+  date round down
+  definition provisional_duration equals
+    protocol_end - provisional_start
+```

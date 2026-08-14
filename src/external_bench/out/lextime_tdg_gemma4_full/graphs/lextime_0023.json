@@ -1,0 +1,11 @@
+{
+ "id": "lextime_0023",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "Ms. Arvan walking past the roll tunnel",
+ "event2": "her observing the floor and the activities happening there",
+ "relation": "SIM",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [],
+ "dependencies": []
+}

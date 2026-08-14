@@ -1,0 +1,20 @@
+# Agreement Duration Calculation
+
+This scope calculates the duration between the conclusion date and the signing date of the food aid agreement.
+
+```catala
+declaration scope AgreementTimeline:
+  input conclusion_date content date
+  input signing_date content date
+  output signing_duration content duration
+```
+
+## Agreement Timeline
+
+The duration between the conclusion date and the signing date.
+
+```catala
+scope AgreementTimeline:
+  date round down
+  definition signing_duration equals signing_date - conclusion_date
+```

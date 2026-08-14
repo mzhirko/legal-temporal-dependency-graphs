@@ -1,0 +1,27 @@
+{
+ "document_id": "en_contracts_seed18",
+ "catala_status": "success",
+ "actions": [
+  {
+   "variable": "agreement_effective_date",
+   "action": "verify",
+   "catala_value": "1995-12-22",
+   "tdg_value": "1995-12-22",
+   "delta_days": null
+  },
+  {
+   "variable": "review_start_date",
+   "action": "fill",
+   "catala_value": "1996-01-01",
+   "tdg_value": null,
+   "delta_days": null
+  },
+  {
+   "variable": "withdrawal_request_date",
+   "action": "fill",
+   "catala_value": "1995-11-01",
+   "tdg_value": null,
+   "delta_days": null
+  }
+ ]
+}

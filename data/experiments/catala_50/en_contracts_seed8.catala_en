@@ -1,0 +1,20 @@
+# Agreement Extension Calculation
+
+This scope computes the end date of an interim extension period for fishing agreements.
+
+```catala
+declaration scope AgreementExtension:
+  input start_date content date
+  input extension_duration content duration
+  output end_date content date
+```
+
+## Extension Period End Date
+
+The arrangements applicable during the last three years shall be extended for a period of three months from 15 March 1986.
+
+```catala
+scope AgreementExtension:
+  date round down
+  definition end_date equals start_date + extension_duration
+```

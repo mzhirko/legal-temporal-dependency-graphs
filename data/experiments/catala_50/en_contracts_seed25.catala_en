@@ -1,0 +1,21 @@
+# Deadline for Providing Information
+
+This scope computes the deadline by which the Commission and the Bank must provide information, which is three months after the request or preliminary contact was established.
+
+```catala
+declaration scope InformationSubmissionDeadline:
+  input request_date content date
+  input preliminary_contact_date content date
+  output submission_deadline content date
+```
+
+## Deadline based on Request Date
+
+The information must be provided no later than three months after the request has been made.
+
+```catala
+scope InformationSubmissionDeadline:
+  date round down
+  definition submission_deadline equals
+    request_date + 3 month
+```

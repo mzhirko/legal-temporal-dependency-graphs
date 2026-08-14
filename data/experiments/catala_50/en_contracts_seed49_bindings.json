@@ -1,0 +1,26 @@
+{
+ "document_id": "en_contracts_seed49",
+ "scope_name": "TomatoAgreementDates",
+ "bindings": {
+  "agreement_signed_date": {
+   "fact_id": "e1",
+   "entity": "Agreement",
+   "role": "START",
+   "score": 2.5,
+   "value": "1972-07-22",
+   "raw_text": "AGREEMENT BETWEEN THE EUROPEAN ECONOMIC COMMUNITY AND THE PORTUGUESE REPUBLIC SIGNED ON 22 JULY 1972"
+  },
+  "exchange_letters_date": {
+   "fact_id": "e2",
+   "entity": "Exchange of letters",
+   "role": "START",
+   "score": 2.0,
+   "value": "1975-12-05",
+   "raw_text": "EXCHANGE OF LETTERS OF 5 DECEMBER 1975"
+  }
+ },
+ "unbound": [
+  "renewal_year"
+ ],
+ "llm_fallback_used": true
+}

@@ -1,0 +1,11 @@
+{
+ "id": "lextime_0156",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "Ms. Arvan noticing Rivera pushing rolls of paper with his hands",
+ "event2": "her advising him to use a roll pusher",
+ "relation": "BEFORE",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [],
+ "dependencies": []
+}

@@ -1,0 +1,77 @@
+{
+ "id": "lextime_0363",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "The union continuing to prosecute grievances and other rights under the contracts happens",
+ "event2": "with the hospital remaining open all days of the year",
+ "relation": "AFTER",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "allegation",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "any allegation by the union that the hospital is in material breach of the contracts",
+   "timex_type": "DATE",
+   "sentence": "fea7c476b158a0c558c4b737d1219633",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e2",
+   "entity": "grievances and other rights",
+   "role": "DURATION",
+   "value": null,
+   "raw_text": "at all times relevant to this complaint, the union has continued to prosecute grievances and other rights under the contracts",
+   "timex_type": "DATE",
+   "sentence": "fea7c476b158a0c558c4b737d1219633",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e3",
+   "entity": "work stoppage",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "5 illegal work stoppage concerning holiday obligations",
+   "timex_type": "DATE",
+   "sentence": "5ea42346b5a163a2df54de6db0ba3ea6",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e4",
+   "entity": "hospital operation requirement",
+   "role": "DURATION",
+   "value": null,
+   "raw_text": "the hospital must remain open all days of the year",
+   "timex_type": "DATE",
+   "sentence": "5ea42346b5a163a2df54de6db0ba3ea6",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e5",
+   "entity": "grievance submission",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "the union submitted a grievance over that issue",
+   "timex_type": "DATE",
+   "sentence": "ae242f64b8f8893924b8093d0880e101",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  }
+ ],
+ "dependencies": []
+}

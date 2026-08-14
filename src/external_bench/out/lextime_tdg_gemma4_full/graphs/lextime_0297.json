@@ -1,0 +1,11 @@
+{
+ "id": "lextime_0297",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "Ms. Arvan approaching Rivera is",
+ "event2": "with her intention to address his unsafe behavior",
+ "relation": "AFTER",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [],
+ "dependencies": []
+}

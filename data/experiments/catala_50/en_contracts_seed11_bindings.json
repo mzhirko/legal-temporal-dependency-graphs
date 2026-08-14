@@ -1,0 +1,28 @@
+{
+ "document_id": "en_contracts_seed11",
+ "scope_name": "AgreementTimeline",
+ "bindings": {
+  "end_date_planning_team": {
+   "fact_id": "e4",
+   "entity": "Art.3.1 Secondment period end",
+   "role": "END",
+   "score": 1.5,
+   "value": "2002-12-31",
+   "raw_text": "until 31 December 2002"
+  },
+  "start_date_eu_bih": {
+   "fact_id": "e5",
+   "entity": "Art.3.1 Secondment period start",
+   "role": "START",
+   "score": 1.5,
+   "value": "2003-01-01",
+   "raw_text": "as of 1 January 2003"
+  }
+ },
+ "unbound": [
+  "contribution_end_date",
+  "contribution_start_date",
+  "date_of_failure"
+ ],
+ "llm_fallback_used": true
+}

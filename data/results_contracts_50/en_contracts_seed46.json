@@ -1,0 +1,72 @@
+{
+ "document_id": "en_contracts_seed46",
+ "document_type": "legal",
+ "source_text": "Avis juridique important | 21987A0507(01) Agreement in the form of an Exchange of Letters concerning the provisional application of the Agreement between the European Economic Community and the Republic of Seychelles on fishing off Seychelles Official Journal L 119 , 07/05/1987 P. 0025 - 0025 *****AGREEMENT in the form of an Exchange of Letters concerning the provisional application of the Agreement between the European Economic Community and the Republic of Seychelles on fishing off Seychelles A. Letter from the Government of the Republic of Seychelles Brussels, . . . . . . Sir, With reference to the Agreement between the European Economic Community and the Republic of Seychelles on fishing off Seychelles, initialled on 3 December 1986, I have the honour to inform you that the Government of the Republic of Seychelles is prepared to apply this Agreement provisionally from 18 January 1987 until it enters into force in accordance with Article 13 of the said Agreement, provided that the European Economic Community is prepared to do likewise. It is understood that, in this case, a first annual instalment of the financial compensation laid down in Article 3 of the Protocol attached to the said Agreement must be paid before 31 May 1987. I should be obliged if you would confirm that the European Economic Community agrees to provisional application as indicated above. Please accept, Sir, the assurance of my highest consideration. For the Government of the Republic of Seychelles B. Letter from the European Economic Community Brussels, . . . . . . Sir, I have the honour to acknowledge receipt of your letter of today's date, which reads as follows: 'With reference to the Agreement between the European Economic Community and the Republic of Seychelles on fishing off Seychelles, initialled on 3 December 1986, I have the honour to inform you that the Government of the Republic of Seychelles is prepared to apply this Agreement provisionally from 18 January 1987 until it enters into force in accordance with Article 13 of the said Agreement, provided that the European Economic Community is prepared to do likewise. It is understood that, in this case, a first annual instalment of the financial compensation laid down in Article 3 of the Protocol attached to the said Agreement must be paid before 31 May 1987. I should be obliged if you would confirm that the European Economic Community agrees to provisional application as indicated above.' I have the honour to confirm that the European Economic Community agrees to provisional application as indicated above. Please accept, Sir, the assurance of my highest consideration. For the Council of the European Communities",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "Agreement",
+   "role": "START",
+   "value": "1986-12-03",
+   "raw_text": "initialled on 3 December 1986",
+   "timex_type": "DATE",
+   "sentence": "7b12de44f085c1e0ebd28422cae9132b",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "1986-12-03"
+  },
+  {
+   "id": "e2",
+   "entity": "Provisional application",
+   "role": "START",
+   "value": "1987-01-18",
+   "raw_text": "apply this Agreement provisionally from 18 January 1987",
+   "timex_type": "DATE",
+   "sentence": "7b12de44f085c1e0ebd28422cae9132b",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "1987-01-18"
+  },
+  {
+   "id": "e3",
+   "entity": "Agreement",
+   "role": "END",
+   "value": null,
+   "raw_text": "until it enters into force in accordance with Article 13 of the said Agreement",
+   "timex_type": "DATE",
+   "sentence": "7b12de44f085c1e0ebd28422cae9132b",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null
+  },
+  {
+   "id": "e4",
+   "entity": "Art.3 Financial compensation",
+   "role": "CONTAINS",
+   "value": "1987-05-31",
+   "raw_text": "must be paid before 31 May 1987",
+   "timex_type": "DATE",
+   "sentence": "9d535f079264d51191dbab15008d9f68",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "1987-05-31"
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e2",
+   "to_id": "e3",
+   "constraint_type": "additive",
+   "constraint_expr": "e3 = e2 + duration",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ],
+ "edit_scenarios": []
+}

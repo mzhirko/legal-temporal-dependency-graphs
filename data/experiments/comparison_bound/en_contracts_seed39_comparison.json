@@ -1,0 +1,29 @@
+{
+ "document_id": "en_contracts_seed39",
+ "catala_status": "success",
+ "scope_name": "AgreementSigningDate",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 1,
+  "mismatch": 0,
+  "tdg_only": 1,
+  "catala_only": 0,
+  "match_rate": 1.0
+ },
+ "fields": [
+  {
+   "variable_name": "signing_date",
+   "status": "match",
+   "tdg_value": "1999-02-10",
+   "catala_value": "1999-02-10",
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Regulation:START",
+   "status": "tdg_only",
+   "tdg_value": "1997-06-02",
+   "catala_value": null,
+   "delta_days": null
+  }
+ ]
+}

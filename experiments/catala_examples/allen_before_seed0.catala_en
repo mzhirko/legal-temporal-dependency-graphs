@@ -1,0 +1,53 @@
+# Allen Relation: BEFORE / MEETS
+#
+# BEFORE: interval A ends strictly before interval B begins.
+#   A before B  iff  A.end < B.start
+#
+# MEETS: interval A ends at the exact moment interval B begins.
+#   A meets B  iff  A.end = B.start
+#
+# Legal patterns that trigger BEFORE or MEETS:
+#   "as from X until the entry into force of Y"
+#   "prior to the commencement of"
+#   "before the effective date of"
+#   "until X enters into force" followed by "upon entry into force"
+#   "from X to Y" where Y is a trigger event for a new period
+#
+# Grounded example (en_contracts_seed0, Article 2.4 + Article 11.1):
+#   Pre-entry import period [1.1.2005, entry_into_force) is BEFORE
+#   agreement active period [entry_into_force, 31.12.2006].
+#   The two periods MEET when the agreement enters into force.
+
+```catala
+declaration scope AllenBefore:
+  input interval_a_start content date   # start of the earlier period
+  input interval_a_end content date     # end of the earlier period
+  input interval_b_start content date   # start of the later period
+  input interval_b_end content date     # end of the later period
+  output is_before content boolean      # A ends strictly before B starts
+  output is_meets content boolean       # A ends exactly when B starts
+```
+
+## BEFORE
+
+Interval A ends strictly before interval B begins — there is a gap
+between the two periods.
+
+```catala
+scope AllenBefore:
+  date round down
+  definition is_before equals
+    interval_a_end < interval_b_start
+```
+
+## MEETS
+
+Interval A ends at the exact moment interval B begins — no gap,
+no overlap. Common in legal transitions where one regime immediately
+succeeds another.
+
+```catala
+scope AllenBefore:
+  definition is_meets equals
+    interval_a_end = interval_b_start
+```

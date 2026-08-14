@@ -1,0 +1,38 @@
+{
+ "id": "lextime_0003",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "Defendant conducting business in the Northern District of Indiana",
+ "event2": "the employment of the plaintiff by the defendant",
+ "relation": "BEFORE",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "consultations",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "conducts business in the state of indiana under the assumed name lutheran hospital of indiana",
+   "timex_type": "DATE",
+   "sentence": "e46f975c9d800a6e757bbf29dc4e575e",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e2",
+   "entity": "consultations",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "conducts business throughout the united states, including in the northern district of indiana where plaintiff resides and at pertinent times herein employed plaintiff.",
+   "timex_type": "DATE",
+   "sentence": "73515bff3e42ae8fbd4e915d2c6fa6bf",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  }
+ ],
+ "dependencies": []
+}

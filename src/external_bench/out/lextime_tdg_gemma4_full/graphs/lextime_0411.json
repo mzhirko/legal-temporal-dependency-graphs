@@ -1,0 +1,11 @@
+{
+ "id": "lextime_0411",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "The union authorizing the members' concerted refusal to pick up extra shifts on holidays is",
+ "event2": "with the union authorizing the members' concerted action of storming meetings and offices during work hours",
+ "relation": "AFTER",
+ "pair_type": "both-explicit",
+ "facts": [],
+ "dependencies": []
+}

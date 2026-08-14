@@ -1,0 +1,18 @@
+{
+ "document_id": "en_contracts_seed37",
+ "scope_name": "CooperationPeriod",
+ "bindings": {
+  "agreement_date": {
+   "fact_id": "e1",
+   "entity": "Agreement",
+   "role": "START",
+   "score": 1.0,
+   "value": "1993-12-20",
+   "raw_text": "was signed on 20 December 1993"
+  }
+ },
+ "unbound": [
+  "review_duration"
+ ],
+ "llm_fallback_used": true
+}

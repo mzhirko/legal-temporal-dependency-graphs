@@ -1,0 +1,36 @@
+{
+ "document_id": "en_contracts_seed7",
+ "catala_status": "success",
+ "scope_name": "AgreementScope",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 0,
+  "mismatch": 0,
+  "tdg_only": 2,
+  "catala_only": 0,
+  "match_rate": null
+ },
+ "fields": [
+  {
+   "variable_name": "termination_date",
+   "status": "placeholder",
+   "tdg_value": "2004-05-17",
+   "catala_value": "1970-04-01",
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Undertakings:CONTAINS",
+   "status": "tdg_only",
+   "tdg_value": "2004-05-11",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Art.7 Agreement:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "P90D",
+   "catala_value": null,
+   "delta_days": null
+  }
+ ]
+}

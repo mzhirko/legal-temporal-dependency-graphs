@@ -1,0 +1,36 @@
+{
+ "document_id": "en_contracts_seed43",
+ "catala_status": "success",
+ "scope_name": "SugarPriceAgreement",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 1,
+  "mismatch": 0,
+  "tdg_only": 1,
+  "catala_only": 0,
+  "match_rate": 1.0
+ },
+ "fields": [
+  {
+   "variable_name": "special_price_cutoff",
+   "status": "value_match",
+   "tdg_value": "1995-01-31",
+   "catala_value": "1995-01-31",
+   "delta_days": 0
+  },
+  {
+   "variable_name": "is_delivery_period_valid",
+   "status": "type_mismatch",
+   "tdg_value": "1994-07-01",
+   "catala_value": "True",
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:UNKNOWN:START",
+   "status": "tdg_only",
+   "tdg_value": "1995-12-12",
+   "catala_value": null,
+   "delta_days": null
+  }
+ ]
+}

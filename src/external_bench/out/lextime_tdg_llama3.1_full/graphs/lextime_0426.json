@@ -1,0 +1,122 @@
+{
+ "id": "lextime_0426",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "The Executive Council's rejecting Pantoja's motion",
+ "event2": "their voting process",
+ "relation": "BEFORE",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "agreement_not_to_run",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "pantoja agreed not to run against defendant cervantes.",
+   "timex_type": "DATE",
+   "sentence": "39b597e00377f9995fbe070856b720bf",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e2",
+   "entity": "request_for_supervision",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "after the election, pantoja formally asked the executive council to place local 2198 under supervision.",
+   "timex_type": "DATE",
+   "sentence": "97b037406cfcc7a9bbfde14ce9717494",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e3",
+   "entity": "motion_rejection",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "the executive council rejected pantoja s motion.",
+   "timex_type": "DATE",
+   "sentence": "a72d79e436e2c681dd7f01b03c1ebe83",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e4",
+   "entity": "supervision_vote",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "the executive council finally voted to impose supervision.",
+   "timex_type": "DATE",
+   "sentence": "578826b8f785e09e51c3d0959f26b9e9",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e5",
+   "entity": "form_lm_2_filing",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "local lodge 2198 filed a 2018 form lm-2 with the u.s. department of labor, in which it acknowledged that there was a shortage attributable to local lodge 2198",
+   "timex_type": "DATE",
+   "sentence": "27169421349edd800d068462d821ca6e",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e1",
+   "to_id": "e2",
+   "constraint_type": "additive",
+   "constraint_expr": "",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e2",
+   "to_id": "e3",
+   "constraint_type": "ordering",
+   "constraint_expr": "",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e3",
+   "to_id": "e4",
+   "constraint_type": "ordering",
+   "constraint_expr": "",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e4",
+   "to_id": "e5",
+   "constraint_type": "ordering",
+   "constraint_expr": "",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

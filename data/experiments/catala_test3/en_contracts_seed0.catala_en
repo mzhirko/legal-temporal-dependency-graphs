@@ -1,0 +1,21 @@
+Agreement provisions governing quantitative limits for steel products trade.
+
+```catala
+declaration scope MyTradeLimitScope:
+  input initial_limit content integer
+  input start_date content date
+  input end_date content date
+  output adjusted_limit content integer
+  output carryover_amount content integer
+```
+
+Deduction of quantitative limits based on the period from 1.1.2005 until the agreement's entry into force.
+
+```catala
+scope MyTradeLimitScope:
+  date round down
+  definition adjusted_limit equals initial_limit - (100 * (end_date - start_date) / 365)
+  definition carryover_amount equals initial_limit * 10
+```
+
+Carryover of unused quantitative limits to the following calendar year is authorized up to 10% of the relevant limit.

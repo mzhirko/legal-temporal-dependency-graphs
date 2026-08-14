@@ -1,0 +1,11 @@
+{
+ "document_id": "en_contracts_seed41",
+ "scope_name": "ArticleVIIIReporting",
+ "bindings": {},
+ "unbound": [
+  "arrival_date",
+  "delivery_completion_date",
+  "reference_date"
+ ],
+ "llm_fallback_used": true
+}

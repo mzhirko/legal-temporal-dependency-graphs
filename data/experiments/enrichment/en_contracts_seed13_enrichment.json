@@ -1,0 +1,20 @@
+{
+ "document_id": "en_contracts_seed13",
+ "catala_status": "success",
+ "actions": [
+  {
+   "variable": "system_period_start",
+   "action": "verify",
+   "catala_value": "2002-07-22",
+   "tdg_value": "2002-07-22",
+   "delta_days": 0
+  },
+  {
+   "variable": "system_period_end",
+   "action": "verify",
+   "catala_value": "2004-12-31",
+   "tdg_value": "2004-12-31",
+   "delta_days": 0
+  }
+ ]
+}

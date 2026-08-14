@@ -1,0 +1,52 @@
+{
+ "id": "lextime_0071",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "The court's consideration of the PMCS re-pricing contract and plan document language",
+ "event2": "the determination of the payment rate methodology",
+ "relation": "BEFORE",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "appeal process",
+   "role": "END",
+   "value": null,
+   "raw_text": "exhausted the pre-suit appeal process to the best of its ability",
+   "timex_type": "DATE",
+   "sentence": "5b30243244c347d9595da2d8bc168b61",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e2",
+   "entity": "complaints amendment",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "requests the ability to amend the complaints underpayment counts (counts ii-iv)",
+   "timex_type": "DATE",
+   "sentence": "272380cbb199de42312ce72bfe7692dc",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e3",
+   "entity": "filing document",
+   "role": "CONTAINS",
+   "value": "2022-02-03",
+   "raw_text": "filed 02/03/22",
+   "timex_type": "DATE",
+   "sentence": "fc2c1d948ffbdb7f5b5e55d5a74b7d1b",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2022-02-03"
+  }
+ ],
+ "dependencies": []
+}

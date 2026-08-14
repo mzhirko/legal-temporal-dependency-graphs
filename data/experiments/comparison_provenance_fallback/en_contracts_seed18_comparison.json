@@ -1,0 +1,85 @@
+{
+ "document_id": "en_contracts_seed18",
+ "catala_status": "success",
+ "scope_name": "TradeAgreementReview",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 0,
+  "mismatch": 0,
+  "tdg_only": 9,
+  "catala_only": 0,
+  "match_rate": null
+ },
+ "fields": [
+  {
+   "variable_name": "consultation_needed",
+   "status": "type_mismatch",
+   "tdg_value": "null",
+   "catala_value": "False",
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:understanding reached:START",
+   "status": "tdg_only",
+   "tdg_value": "1995-12-22",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:reviewing the representative price system:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "null",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:developing a cumulative recovery system:START",
+   "status": "tdg_only",
+   "tdg_value": "null",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:sharing relevant data:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "null",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:determining Community duties on imports of rice:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "null",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:withdrawal of current request:START",
+   "status": "tdg_only",
+   "tdg_value": "null",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:effective implementation of the provisions:START",
+   "status": "tdg_only",
+   "tdg_value": "null",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:ongoing negotiations on these products:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "null",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:reserving WTO rights:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "null",
+   "catala_value": null,
+   "delta_days": null
+  }
+ ]
+}

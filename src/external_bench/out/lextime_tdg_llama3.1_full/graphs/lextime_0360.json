@@ -1,0 +1,89 @@
+{
+ "id": "lextime_0360",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "The event of Unum Life Insurance Company of America denying the plaintiff's appeal",
+ "event2": "the initial denial of the plaintiff's claim for disability benefits",
+ "relation": "BEFORE",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "denial_of_disability_benefits",
+   "role": "END",
+   "value": null,
+   "raw_text": "unum life insurance company of america denied plaintiffs claim for disability benefits.",
+   "timex_type": "DATE",
+   "sentence": "8cbccbc9aa27dceb5835023657ef76a2",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e2",
+   "entity": "appeal_of_denial",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "plaintiff appealed unum life insurance company of 2 [a]n entity that is both the claims administrator and payor of benefits has a conflict of interest.",
+   "timex_type": "DATE",
+   "sentence": "612da67bb7fdc10fa72e810cb72fb41e",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e3",
+   "entity": "denial_of_appeal",
+   "role": "END",
+   "value": "2023-06-06",
+   "raw_text": "unum life insurance company of americas decision, but unum life insurance company of america denied plaintiffs appeal on june 6",
+   "timex_type": "DATE",
+   "sentence": "59b185da5e2cdd936c4c8a49e8b66fe2",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2023-06-06"
+  },
+  {
+   "id": "e4",
+   "entity": "deprivation_of_benefits",
+   "role": "CONTAINS",
+   "value": "2022-02-14",
+   "raw_text": "unum life insurance company of americas failure to provide plaintiff with disability benefits has caused plaintiff to be deprived of those benefits from february 14, 2022 to the present.",
+   "timex_type": "DATE",
+   "sentence": "08aa8313a42a7d61555a37663f367e62",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2022-02-14"
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e1",
+   "to_id": "e3",
+   "constraint_type": "ordering",
+   "constraint_expr": "e3 = e1 + 30 days",
+   "delta_days": 30,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e2",
+   "to_id": "e4",
+   "constraint_type": "interval",
+   "constraint_expr": "e4 is within the period of deprivation of benefits",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "statute": "era_1996_s111",
+ "rule": "s. 111(2) complaint = effective date of termination + 3m - 1 day",
+ "minus_one_day": null,
+ "scored": 2,
+ "correct": 2,
+ "indeterminate": 2,
+ "accuracy": 1.0,
+ "cases": [
+  {
+   "case": "2026_EAT_64_s111",
+   "split": "real",
+   "expected": "LATE",
+   "verdict": "LATE",
+   "match": true,
+   "days_over": 450,
+   "deadline": "2022-09-07",
+   "anchor_date": "2022-06-08",
+   "action_date": "2023-12-01",
+   "acas_applied": false,
+   "confidence": 0.49,
+   "explanation": "anchor=dismissal date (2022-06-08) + [effective date of termination + 3m - 1 day] = deadline 2022-09-07. action=presentation of claim forms (2023-12-01, via action-cue) -> 450d after deadline -> LATE"
+  },
+  {
+   "case": "2026_EAT_64_s123",
+   "status": "missing_tdg"
+  },
+  {
+   "case": "2025_EAT_155",
+   "split": "real",
+   "expected": "LATE",
+   "verdict": "LATE",
+   "match": true,
+   "days_over": 61,
+   "deadline": "2020-10-10",
+   "anchor_date": "2020-07-11",
+   "action_date": "2020-12-10",
+   "acas_applied": false,
+   "confidence": 0.5,
+   "explanation": "anchor=dismissal letter seen by appellant (2020-07-11) + [effective date of termination + 3m - 1 day] = deadline 2020-10-10. action=presentation of claim form (2020-12-10, via action-cue) -> 61d after deadline -> LATE"
+  },
+  {
+   "case": "2026_EAT_14",
+   "split": "real",
+   "expected": "LATE",
+   "verdict": "INDETERMINATE",
+   "match": false,
+   "days_over": null,
+   "deadline": null,
+   "anchor_date": null,
+   "action_date": null,
+   "acas_applied": false,
+   "confidence": 0.1,
+   "explanation": "Anchor ambiguous — 2 distinct-dated candidates for 'effective date of termination': dismissal date (2022-09-29); dismissal notice date (2022-11-08). Anchor selection is a legal judgment; abstaining."
+  },
+  {
+   "case": "2026_EAT_76",
+   "status": "missing_tdg"
+  },
+  {
+   "case": "2026_EAT_59",
+   "split": "real",
+   "expected": "TIMELY",
+   "verdict": "INDETERMINATE",
+   "match": false,
+   "days_over": null,
+   "deadline": null,
+   "anchor_date": null,
+   "action_date": null,
+   "acas_applied": false,
+   "confidence": 0.0,
+   "explanation": "Could not match anchor 'effective date of termination' in instance"
+  },
+  {
+   "case": "kj_2026_EAT_46",
+   "status": "missing_tdg"
+  }
+ ]
+}

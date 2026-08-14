@@ -1,0 +1,32 @@
+# Sugar Price Agreement Dates
+
+This scope defines the key date ranges for the guaranteed prices of cane sugar as established by the agreement.
+
+```catala
+declaration scope SugarPriceAgreement:
+  input delivery_start content date
+  input delivery_end content date
+  output special_price_cutoff content date
+  output is_delivery_period_valid content boolean
+```
+
+## Delivery Period Validity
+
+The guaranteed prices apply for the period starting on 1 July 1994 and ending on 30 June 1995.
+
+```catala
+scope SugarPriceAgreement:
+  date round down
+  definition is_delivery_period_valid equals
+    (delivery_start = |1994-07-01|) and
+    (delivery_end = |1995-06-30|)
+```
+
+## Special Price Cutoff
+
+The special prices are understood to apply until 31 January 1995.
+
+```catala
+scope SugarPriceAgreement:
+  definition special_price_cutoff equals |1995-01-31|
+```

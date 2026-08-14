@@ -1,0 +1,11 @@
+{
+ "id": "lextime_0130",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "The defendant's violation of his duty to discharge his duties solely in the interest of participants and beneficiaries",
+ "event2": "his agreement to the transfer of assets to Volk Electric",
+ "relation": "AFTER",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [],
+ "dependencies": []
+}

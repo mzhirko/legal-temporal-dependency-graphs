@@ -1,0 +1,41 @@
+# Agreement Terms
+
+This scope defines key temporal and financial requirements governing the participation of Iceland in the EUPM.
+
+```catala
+declaration scope AgreementTerms:
+  input service_start_date content date
+  input service_end_date content date
+  output is_service_valid content boolean
+  output required_notice_duration content duration
+  output annual_contribution content money
+```
+
+## Minimum Service Duration
+
+The service must run for a minimum of one year.
+
+```catala
+scope AgreementTerms:
+  date round down
+  definition is_service_valid equals
+    (service_end_date - service_start_date) >= 1 year
+```
+
+## Termination Notice Period
+
+Failure to comply requires the serving of two months' notice.
+
+```catala
+scope AgreementTerms:
+  definition required_notice_duration equals 2 month
+```
+
+## Annual Financial Contribution
+
+The Republic of Iceland shall contribute an amount of EUR 25000 per year.
+
+```catala
+scope AgreementTerms:
+  definition annual_contribution equals 25000
+```

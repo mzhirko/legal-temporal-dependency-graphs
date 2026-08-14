@@ -1,0 +1,18 @@
+# Agreement Signing Date
+
+This scope captures the date the agreement was signed in Strasbourg.
+
+```catala
+declaration scope AgreementSigningDate:
+  output signing_date content date
+```
+
+## Signing Date
+
+The agreement was signed on February 10, 1999.
+
+```catala
+scope AgreementSigningDate:
+  date round down
+  definition signing_date equals |1999-02-10|
+```

@@ -1,0 +1,80 @@
+{
+ "id": "lextime_0331",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "Mr. Lou realized the change in BCBSIL's approach to covering Audrey's skilled nursing services",
+ "event2": "BCBSIL denied his claims",
+ "relation": "BEFORE",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "denial of claims",
+   "role": "START",
+   "value": "2021-01-22",
+   "raw_text": "after january 22, 2021 bcbsil began denying mr. lous claims for audreys care.",
+   "timex_type": "DATE",
+   "sentence": "fa3b0ffc6c91f4540c464e15f749ae9e",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2021-01-22"
+  },
+  {
+   "id": "e2",
+   "entity": "denial of benefits",
+   "role": "CONTAINS",
+   "value": "2021-02-16",
+   "raw_text": "on february 16, 2021, bcbsil denied mr. lous request for benefits for the period from january 28, 2021 through april 30,",
+   "timex_type": "DATE",
+   "sentence": "9391effffae5dec87de3a381503d59a0",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2021-02-16"
+  },
+  {
+   "id": "e3",
+   "entity": "period of denied claims",
+   "role": "DURATION",
+   "value": "P62D",
+   "raw_text": "from january 28, 2021 through april 30",
+   "timex_type": "DURATION",
+   "sentence": "9391effffae5dec87de3a381503d59a0",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "duration_days": 62
+  },
+  {
+   "id": "e4",
+   "entity": "administrative appeal",
+   "role": "START",
+   "value": "2021-04-13",
+   "raw_text": "on april 13, 2021, maxim healthcare services (maxim), the provider of skilled nursing services to audrey, submitted an administrative appeal of bcbsils claim denial on mr. lous behalf.",
+   "timex_type": "DATE",
+   "sentence": "9cbfa912723cd06086e46777f94e2bf3",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2021-04-13"
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e3",
+   "to_id": "e2",
+   "constraint_type": "ordering",
+   "constraint_expr": "e2 = e3 + 0 days (The denial covers the period defined by e3)",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

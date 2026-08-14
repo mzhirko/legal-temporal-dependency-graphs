@@ -1,0 +1,22 @@
+{
+ "document_id": "en_contracts_seed35",
+ "scope_name": "TradeAgreementEntry",
+ "bindings": {
+  "us_submission_period": {
+   "fact_id": "e5",
+   "entity": "Submission of notice by US",
+   "role": "DURATION",
+   "score": 2.5,
+   "value": {
+    "years": 0,
+    "months": 0,
+    "days": 30
+   },
+   "raw_text": "within 21 days of entry into force of this agreement submit for publication in the Federal Register a notice modifying the tariff-rate import quotas for cheeses allocated for the European Union in the additional U.S. notes 16, 17, 18, 19, 20, 21, 22, 23 and 25 of Chapter 04 of the Harmonized Tariff Schedule of the United States to reflect the enlargement of the customs territory of the European Union to include Bulgaria and Romania."
+  }
+ },
+ "unbound": [
+  "latest_notification_date"
+ ],
+ "llm_fallback_used": true
+}

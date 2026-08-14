@@ -1,0 +1,734 @@
+{
+ "document_id": "synth_fisheries_senegal",
+ "document_type": "legal",
+ "source_text": "Fisheries Partnership Agreement between the European Community and the Republic of Senegal\n\nOfficial Journal L 304, 21/09/2018 P. 0003 - 0024\n\nTHE EUROPEAN COMMUNITY,\nof the one part, and\nTHE REPUBLIC OF SENEGAL,\nof the other part,\n\nhereinafter referred to as \"the Parties\",\n\nHAVE AGREED AS FOLLOWS:\n\nArticle 1 — Definitions\n\nFor the purposes of this Agreement, \"fishing zone\" means the waters under the sovereignty or jurisdiction of the Republic of Senegal.\n\nArticle 2 — Objective\n\nThe objective of this Agreement is to establish the principles and conditions governing the fishing activities of Community vessels in the fishing zone of Senegal.\n\nArticle 3 — Duration\n\n1. This Agreement shall enter into force on 1 July 2018.\n\n2. This Agreement shall remain in force for a period of 4 years from its entry into force. The Agreement shall therefore expire on 30 June 2022.\n\n3. Either Party may denounce this Agreement by giving written notice of at least 90 days before the expiry date. In that event, the latest date for denunciation notice is 1 April 2022.\n\n4. Following denunciation, the Parties shall enter into negotiations. The negotiation period shall not exceed 60 days from the date of the denunciation notice.\n\nArticle 4 — Protocol\n\n1. The fishing opportunities and the financial contribution provided for in this Agreement are defined in the Protocol. The Protocol shall form an integral part of this Agreement.\n\n2. The Protocol annexed to this Agreement shall cover a period of 2 years from 1 July 2018 to 30 June 2020.\n\n3. Before the expiry of the Protocol, the Parties shall negotiate a new protocol covering a period of 2 years. The new protocol shall therefore cover the period from 1 July 2020 to 30 June 2022.\n\nArticle 5 — Financial contribution\n\n1. The Community shall pay an annual financial contribution of EUR 1 700 000.\n\n2. The first annual payment shall be made no later than 90 days after the entry into force of this Agreement, that is by 28 September 2018.\n\n3. The second annual payment shall be made no later than the anniversary date of the entry into force, that is by 1 July 2019.\n\nArticle 6 — Review\n\nThe Parties agree to carry out a joint review of this Agreement 18 months after its entry into force. The review shall take place no later than 31 December 2019.\n\nArticle 7 — Suspension\n\n1. Implementation of this Agreement may be suspended at the initiative of either Party in the event of a serious disagreement as to the application of its provisions.\n\n2. The Party wishing to suspend the Agreement shall notify the other Party of its intention in writing at least 30 days before the date on which suspension is to take effect.\n\n3. During the suspension period, the Parties shall continue to consult with a view to finding an amicable resolution. Where such resolution is reached, implementation of the Agreement shall resume. The maximum suspension period shall be 180 days.\n\nArticle 8 — Termination\n\nThis Agreement shall be terminated in the following circumstances:\n(a) if one of the Parties denounces it in accordance with Article 3;\n(b) by mutual agreement between the Parties;\n(c) if the Agreement is not renewed following the expiry of the Protocol.\n",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "Art.3 Agreement",
+   "role": "START",
+   "value": "2018-07-01",
+   "raw_text": "shall enter into force on 1 July 2018",
+   "timex_type": "DATE",
+   "sentence": "18be7730ed88673cb0fbae5c1fc0e652",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2018-07-01"
+  },
+  {
+   "id": "e2",
+   "entity": "Art.3 Agreement",
+   "role": "DURATION",
+   "value": "P4Y",
+   "raw_text": "for a period of 4 years from its entry into force",
+   "timex_type": "DURATION",
+   "sentence": "e6476614ae744e1c4997dca6943b7d63",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "duration_days": 1460
+  },
+  {
+   "id": "e3",
+   "entity": "Art.3 Agreement",
+   "role": "END",
+   "value": "2022-06-30",
+   "raw_text": "expire on 30 June 2022",
+   "timex_type": "DATE",
+   "sentence": "199693c3f68b28e2d0c4d58d5d05a237",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2022-06-30"
+  },
+  {
+   "id": "e4",
+   "entity": "Art.3 Agreement",
+   "role": "DURATION",
+   "value": "P90D",
+   "raw_text": "at least 90 days before the expiry date",
+   "timex_type": "DURATION",
+   "sentence": "82c97d51d704f5ea9a5528fc59fe95a3",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "duration_days": 90
+  },
+  {
+   "id": "e5",
+   "entity": "Art.3 Agreement",
+   "role": "CONTAINS",
+   "value": "2022-04-01",
+   "raw_text": "latest date for denunciation notice is 1 April 2022",
+   "timex_type": "DATE",
+   "sentence": "9a51d5d2f72513b281a4442b6156bdfd",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2022-04-01"
+  },
+  {
+   "id": "e6",
+   "entity": "Art.3 Negotiations",
+   "role": "DURATION",
+   "value": "P60D",
+   "raw_text": "not exceed 60 days from the date of the denunciation notice",
+   "timex_type": "DURATION",
+   "sentence": "0df48663fd6a3fcf68e646d78175b180",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "duration_days": 60
+  },
+  {
+   "id": "e7",
+   "entity": "Art.4 Protocol",
+   "role": "DURATION",
+   "value": "2018-07-01",
+   "raw_text": "a period of 2 years from 1 July 2018 to 30 June 2020",
+   "timex_type": "DURATION",
+   "sentence": "0d059c134e739ab247c31e4e3417723b",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2018-07-01",
+   "duration_days": 730
+  },
+  {
+   "id": "e8",
+   "entity": "Art.4 Protocol",
+   "role": "DURATION",
+   "value": "P2Y",
+   "raw_text": "a period of 2 years",
+   "timex_type": "DURATION",
+   "sentence": "25f2022240e13546e65ee60b04280a3e",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "duration_days": 730
+  },
+  {
+   "id": "e9",
+   "entity": "Art.4 Protocol",
+   "role": "START",
+   "value": "2020-07-01",
+   "raw_text": "from 1 July 2020",
+   "timex_type": "DATE",
+   "sentence": "4bfd930c84c6521d6a33343b84d2384a",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2020-07-01"
+  },
+  {
+   "id": "e10",
+   "entity": "Art.5 Financial contribution",
+   "role": "CONTAINS",
+   "value": "2018-09-28",
+   "raw_text": "no later than 90 days after the entry into force of this Agreement, that is by 28 September 2018",
+   "timex_type": "DATE",
+   "sentence": "34889a43abdbad280f7d30fab08b90ed",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2018-09-28"
+  },
+  {
+   "id": "e11",
+   "entity": "Art.5 Financial contribution",
+   "role": "CONTAINS",
+   "value": "2019-07-01",
+   "raw_text": "no later than the anniversary date of the entry into force, that is by 1 July 2019",
+   "timex_type": "DATE",
+   "sentence": "d9366c8e1f71c3a698625d4162e75105",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2019-07-01"
+  },
+  {
+   "id": "e12",
+   "entity": "Art.6 Review",
+   "role": "CONTAINS",
+   "value": "2019-12-31",
+   "raw_text": "no later than 31 December 2019",
+   "timex_type": "DATE",
+   "sentence": "c84d5c6bf026dafa7d8dfd23373d5427",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2019-12-31"
+  },
+  {
+   "id": "e13",
+   "entity": "Art.7 Agreement",
+   "role": "DURATION",
+   "value": "P30D",
+   "raw_text": "at least 30 days before the date on which suspension is to take effect",
+   "timex_type": "DURATION",
+   "sentence": "d4df84df41ccbf57e4ff5ecab31f51ed",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "duration_days": 30
+  },
+  {
+   "id": "e14",
+   "entity": "Art.7 Agreement",
+   "role": "DURATION",
+   "value": "P180D",
+   "raw_text": "The maximum suspension period shall be 180 days",
+   "timex_type": "DURATION",
+   "sentence": "15ac5f7b9c2bfa3fc106d7e40007f5e6",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "duration_days": 180
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e1",
+   "to_id": "e3",
+   "constraint_type": "additive",
+   "constraint_expr": "end = start + P4Y",
+   "delta_days": 1460,
+   "confidence": 0.9,
+   "verified": true,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e1",
+   "to_id": "e2",
+   "constraint_type": "additive",
+   "constraint_expr": "duration = end - start",
+   "delta_days": 1460,
+   "confidence": 0.85,
+   "verified": true,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e1",
+   "to_id": "e5",
+   "constraint_type": "interval",
+   "constraint_expr": "e5 in [e1, ...]",
+   "delta_days": null,
+   "confidence": 0.6,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e9",
+   "to_id": "e7",
+   "constraint_type": "additive",
+   "constraint_expr": "duration 2018-07-01 from Art.4 Protocol",
+   "delta_days": 730,
+   "confidence": 0.5,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e1",
+   "to_id": "e10",
+   "constraint_type": "ordering",
+   "constraint_expr": "e10 = e1 + 273 days",
+   "delta_days": 273,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e1",
+   "to_id": "e11",
+   "constraint_type": "ordering",
+   "constraint_expr": "e11 = e1 + 365 days",
+   "delta_days": 365,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e3",
+   "to_id": "e4",
+   "constraint_type": "additive",
+   "constraint_expr": "e4 = e3 - 90 days",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e5",
+   "to_id": "e6",
+   "constraint_type": "additive",
+   "constraint_expr": "e6 = e5 + 60 days",
+   "delta_days": 60,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e1",
+   "to_id": "e7",
+   "constraint_type": "ordering",
+   "constraint_expr": "e7 = e1 + 2 years",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e7",
+   "to_id": "e9",
+   "constraint_type": "ordering",
+   "constraint_expr": "e9 = e7 + 2 years",
+   "delta_days": 365,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e1",
+   "to_id": "e12",
+   "constraint_type": "ordering",
+   "constraint_expr": "e12 = e1 + 547 days",
+   "delta_days": 547,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e1",
+   "to_id": "e13",
+   "constraint_type": "additive",
+   "constraint_expr": "e13 = e1 + 30 days",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ],
+ "edit_scenarios": [
+  {
+   "edit": {
+    "target_id": "e1",
+    "entity": "Art.3 Agreement",
+    "role": "START",
+    "old_value": "2018-07-01",
+    "new_value": "2018-07-31",
+    "delta_days": 30
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e3",
+     "entity": "Art.3 Agreement",
+     "role": "END",
+     "old_value": "2022-06-30",
+     "new_value": "2022-07-30",
+     "constraint": "end = start + P4Y"
+    },
+    {
+     "fact_id": "e2",
+     "entity": "Art.3 Agreement",
+     "role": "DURATION",
+     "old_value": "P4Y",
+     "new_value": "P4Y",
+     "constraint": "duration = end - start"
+    },
+    {
+     "fact_id": "e13",
+     "entity": "Art.7 Agreement",
+     "role": "DURATION",
+     "old_value": "P30D",
+     "new_value": "P30D",
+     "constraint": "e13 = e1 + 30 days"
+    },
+    {
+     "fact_id": "e4",
+     "entity": "Art.3 Agreement",
+     "role": "DURATION",
+     "old_value": "P90D",
+     "new_value": "P90D",
+     "constraint": "e4 = e3 - 90 days"
+    }
+   ],
+   "ripple_depth": 2,
+   "ripple_breadth": 4
+  },
+  {
+   "edit": {
+    "target_id": "e1",
+    "entity": "Art.3 Agreement",
+    "role": "START",
+    "old_value": "2018-07-01",
+    "new_value": "2018-06-01",
+    "delta_days": -30
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e3",
+     "entity": "Art.3 Agreement",
+     "role": "END",
+     "old_value": "2022-06-30",
+     "new_value": "2022-05-31",
+     "constraint": "end = start + P4Y"
+    },
+    {
+     "fact_id": "e2",
+     "entity": "Art.3 Agreement",
+     "role": "DURATION",
+     "old_value": "P4Y",
+     "new_value": "P4Y",
+     "constraint": "duration = end - start"
+    },
+    {
+     "fact_id": "e13",
+     "entity": "Art.7 Agreement",
+     "role": "DURATION",
+     "old_value": "P30D",
+     "new_value": "P30D",
+     "constraint": "e13 = e1 + 30 days"
+    },
+    {
+     "fact_id": "e4",
+     "entity": "Art.3 Agreement",
+     "role": "DURATION",
+     "old_value": "P90D",
+     "new_value": "P90D",
+     "constraint": "e4 = e3 - 90 days"
+    }
+   ],
+   "ripple_depth": 2,
+   "ripple_breadth": 4
+  },
+  {
+   "edit": {
+    "target_id": "e1",
+    "entity": "Art.3 Agreement",
+    "role": "START",
+    "old_value": "2018-07-01",
+    "new_value": "2018-09-29",
+    "delta_days": 90
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e3",
+     "entity": "Art.3 Agreement",
+     "role": "END",
+     "old_value": "2022-06-30",
+     "new_value": "2022-09-28",
+     "constraint": "end = start + P4Y"
+    },
+    {
+     "fact_id": "e2",
+     "entity": "Art.3 Agreement",
+     "role": "DURATION",
+     "old_value": "P4Y",
+     "new_value": "P4Y",
+     "constraint": "duration = end - start"
+    },
+    {
+     "fact_id": "e13",
+     "entity": "Art.7 Agreement",
+     "role": "DURATION",
+     "old_value": "P30D",
+     "new_value": "P30D",
+     "constraint": "e13 = e1 + 30 days"
+    },
+    {
+     "fact_id": "e4",
+     "entity": "Art.3 Agreement",
+     "role": "DURATION",
+     "old_value": "P90D",
+     "new_value": "P90D",
+     "constraint": "e4 = e3 - 90 days"
+    }
+   ],
+   "ripple_depth": 2,
+   "ripple_breadth": 4
+  },
+  {
+   "edit": {
+    "target_id": "e1",
+    "entity": "Art.3 Agreement",
+    "role": "START",
+    "old_value": "2018-07-01",
+    "new_value": "2018-04-02",
+    "delta_days": -90
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e3",
+     "entity": "Art.3 Agreement",
+     "role": "END",
+     "old_value": "2022-06-30",
+     "new_value": "2022-04-01",
+     "constraint": "end = start + P4Y"
+    },
+    {
+     "fact_id": "e2",
+     "entity": "Art.3 Agreement",
+     "role": "DURATION",
+     "old_value": "P4Y",
+     "new_value": "P4Y",
+     "constraint": "duration = end - start"
+    },
+    {
+     "fact_id": "e13",
+     "entity": "Art.7 Agreement",
+     "role": "DURATION",
+     "old_value": "P30D",
+     "new_value": "P30D",
+     "constraint": "e13 = e1 + 30 days"
+    },
+    {
+     "fact_id": "e4",
+     "entity": "Art.3 Agreement",
+     "role": "DURATION",
+     "old_value": "P90D",
+     "new_value": "P90D",
+     "constraint": "e4 = e3 - 90 days"
+    }
+   ],
+   "ripple_depth": 2,
+   "ripple_breadth": 4
+  },
+  {
+   "edit": {
+    "target_id": "e1",
+    "entity": "Art.3 Agreement",
+    "role": "START",
+    "old_value": "2018-07-01",
+    "new_value": "2019-07-01",
+    "delta_days": 365
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e3",
+     "entity": "Art.3 Agreement",
+     "role": "END",
+     "old_value": "2022-06-30",
+     "new_value": "2023-06-30",
+     "constraint": "end = start + P4Y"
+    },
+    {
+     "fact_id": "e2",
+     "entity": "Art.3 Agreement",
+     "role": "DURATION",
+     "old_value": "P4Y",
+     "new_value": "P4Y",
+     "constraint": "duration = end - start"
+    },
+    {
+     "fact_id": "e13",
+     "entity": "Art.7 Agreement",
+     "role": "DURATION",
+     "old_value": "P30D",
+     "new_value": "P30D",
+     "constraint": "e13 = e1 + 30 days"
+    },
+    {
+     "fact_id": "e4",
+     "entity": "Art.3 Agreement",
+     "role": "DURATION",
+     "old_value": "P90D",
+     "new_value": "P90D",
+     "constraint": "e4 = e3 - 90 days"
+    }
+   ],
+   "ripple_depth": 2,
+   "ripple_breadth": 4
+  },
+  {
+   "edit": {
+    "target_id": "e1",
+    "entity": "Art.3 Agreement",
+    "role": "START",
+    "old_value": "2018-07-01",
+    "new_value": "2017-07-01",
+    "delta_days": -365
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e3",
+     "entity": "Art.3 Agreement",
+     "role": "END",
+     "old_value": "2022-06-30",
+     "new_value": "2021-06-30",
+     "constraint": "end = start + P4Y"
+    },
+    {
+     "fact_id": "e2",
+     "entity": "Art.3 Agreement",
+     "role": "DURATION",
+     "old_value": "P4Y",
+     "new_value": "P4Y",
+     "constraint": "duration = end - start"
+    },
+    {
+     "fact_id": "e13",
+     "entity": "Art.7 Agreement",
+     "role": "DURATION",
+     "old_value": "P30D",
+     "new_value": "P30D",
+     "constraint": "e13 = e1 + 30 days"
+    },
+    {
+     "fact_id": "e4",
+     "entity": "Art.3 Agreement",
+     "role": "DURATION",
+     "old_value": "P90D",
+     "new_value": "P90D",
+     "constraint": "e4 = e3 - 90 days"
+    }
+   ],
+   "ripple_depth": 2,
+   "ripple_breadth": 4
+  },
+  {
+   "edit": {
+    "target_id": "e5",
+    "entity": "Art.3 Agreement",
+    "role": "CONTAINS",
+    "old_value": "2022-04-01",
+    "new_value": "2022-05-01",
+    "delta_days": 30
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e6",
+     "entity": "Art.3 Negotiations",
+     "role": "DURATION",
+     "old_value": "P60D",
+     "new_value": "P60D",
+     "constraint": "e6 = e5 + 60 days"
+    }
+   ],
+   "ripple_depth": 1,
+   "ripple_breadth": 1
+  },
+  {
+   "edit": {
+    "target_id": "e5",
+    "entity": "Art.3 Agreement",
+    "role": "CONTAINS",
+    "old_value": "2022-04-01",
+    "new_value": "2022-03-02",
+    "delta_days": -30
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e6",
+     "entity": "Art.3 Negotiations",
+     "role": "DURATION",
+     "old_value": "P60D",
+     "new_value": "P60D",
+     "constraint": "e6 = e5 + 60 days"
+    }
+   ],
+   "ripple_depth": 1,
+   "ripple_breadth": 1
+  },
+  {
+   "edit": {
+    "target_id": "e5",
+    "entity": "Art.3 Agreement",
+    "role": "CONTAINS",
+    "old_value": "2022-04-01",
+    "new_value": "2022-06-30",
+    "delta_days": 90
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e6",
+     "entity": "Art.3 Negotiations",
+     "role": "DURATION",
+     "old_value": "P60D",
+     "new_value": "P60D",
+     "constraint": "e6 = e5 + 60 days"
+    }
+   ],
+   "ripple_depth": 1,
+   "ripple_breadth": 1
+  },
+  {
+   "edit": {
+    "target_id": "e5",
+    "entity": "Art.3 Agreement",
+    "role": "CONTAINS",
+    "old_value": "2022-04-01",
+    "new_value": "2022-01-01",
+    "delta_days": -90
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e6",
+     "entity": "Art.3 Negotiations",
+     "role": "DURATION",
+     "old_value": "P60D",
+     "new_value": "P60D",
+     "constraint": "e6 = e5 + 60 days"
+    }
+   ],
+   "ripple_depth": 1,
+   "ripple_breadth": 1
+  },
+  {
+   "edit": {
+    "target_id": "e5",
+    "entity": "Art.3 Agreement",
+    "role": "CONTAINS",
+    "old_value": "2022-04-01",
+    "new_value": "2023-04-01",
+    "delta_days": 365
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e6",
+     "entity": "Art.3 Negotiations",
+     "role": "DURATION",
+     "old_value": "P60D",
+     "new_value": "P60D",
+     "constraint": "e6 = e5 + 60 days"
+    }
+   ],
+   "ripple_depth": 1,
+   "ripple_breadth": 1
+  },
+  {
+   "edit": {
+    "target_id": "e5",
+    "entity": "Art.3 Agreement",
+    "role": "CONTAINS",
+    "old_value": "2022-04-01",
+    "new_value": "2021-04-01",
+    "delta_days": -365
+   },
+   "expected_cascades": [
+    {
+     "fact_id": "e6",
+     "entity": "Art.3 Negotiations",
+     "role": "DURATION",
+     "old_value": "P60D",
+     "new_value": "P60D",
+     "constraint": "e6 = e5 + 60 days"
+    }
+   ],
+   "ripple_depth": 1,
+   "ripple_breadth": 1
+  }
+ ]
+}

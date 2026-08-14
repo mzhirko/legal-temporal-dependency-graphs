@@ -1,0 +1,29 @@
+{
+ "document_id": "en_contracts_seed4",
+ "catala_status": "success",
+ "scope_name": "ACP_EEC_Signing",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 1,
+  "mismatch": 0,
+  "tdg_only": 1,
+  "catala_only": 0,
+  "match_rate": 1.0
+ },
+ "fields": [
+  {
+   "variable_name": "signing_date",
+   "status": "value_match",
+   "tdg_value": "1979-10-31",
+   "catala_value": "1979-10-31",
+   "delta_days": 0
+  },
+  {
+   "variable_name": "tdg:Council of Ministers:CONTAINS",
+   "status": "tdg_only",
+   "tdg_value": "1979-06-01",
+   "catala_value": null,
+   "delta_days": null
+  }
+ ]
+}

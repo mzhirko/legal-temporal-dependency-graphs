@@ -1,0 +1,9 @@
+{
+ "document_id": "en_contracts_seed29",
+ "scope_name": "AgreementEntryIntoForce",
+ "bindings": {},
+ "unbound": [
+  "latest_notification_date"
+ ],
+ "llm_fallback_used": true
+}

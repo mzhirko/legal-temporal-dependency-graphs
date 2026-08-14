@@ -1,0 +1,40 @@
+# Sustainable Development Commitment
+
+This scope determines if the application of the Economic Partnership Agreement fully accounts for human, cultural, economic, social, health, and environmental best interests, while also adhering to principles of ownership, participation, and dialogue.
+
+```catala
+declaration scope SustainableDevelopmentCheck:
+  input agreement_applies content boolean
+  input human_interests content boolean
+  input cultural_interests content boolean
+  input economic_interests content boolean
+  input social_interests content boolean
+  input health_interests content boolean
+  input environmental_interests content boolean
+  input future_generations content boolean
+  input ownership_principle content boolean
+  input participation_principle content boolean
+  input dialogue_principle content boolean
+  output is_sustainable content boolean
+```
+
+## Sustainable Development Commitment
+
+The commitment is met if the agreement applies and all listed best interests and fundamental principles are fully accounted for.
+
+```catala
+scope SustainableDevelopmentCheck:
+  date round down
+  definition is_sustainable equals
+    (agreement_applies) and
+    (human_interests) and
+    (cultural_interests) and
+    (economic_interests) and
+    (social_interests) and
+    (health_interests) and
+    (environmental_interests) and
+    (future_generations) and
+    (ownership_principle) and
+    (participation_principle) and
+    (dialogue_principle)
+```

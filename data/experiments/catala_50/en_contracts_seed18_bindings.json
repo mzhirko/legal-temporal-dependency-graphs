@@ -1,0 +1,9 @@
+{
+ "document_id": "en_contracts_seed18",
+ "scope_name": "AgreementTimeline",
+ "bindings": {},
+ "unbound": [
+  "agreement_date"
+ ],
+ "llm_fallback_used": true
+}

@@ -1,0 +1,23 @@
+{
+ "document_id": "en_contracts_seed7",
+ "scope_name": "AgreementScope",
+ "bindings": {
+  "notice_period": {
+   "fact_id": "e6",
+   "entity": "Art.7 Agreement",
+   "role": "DURATION",
+   "score": 1.0,
+   "value": {
+    "years": 0,
+    "months": 0,
+    "days": 90
+   },
+   "raw_text": "The termination shall take effect ninety (90) days from the date of notification of termination to the other Party."
+  }
+ },
+ "unbound": [
+  "notification_date",
+  "signature_date"
+ ],
+ "llm_fallback_used": true
+}

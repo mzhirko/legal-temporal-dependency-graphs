@@ -1,0 +1,87 @@
+{
+ "id": "lextime_0071",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "The court's consideration of the PMCS re-pricing contract and plan document language",
+ "event2": "the determination of the payment rate methodology",
+ "relation": "BEFORE",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "pre-suit appeal process",
+   "role": "END",
+   "value": null,
+   "raw_text": "SCV exhausted the pre-suit appeal process to the best of its ability",
+   "timex_type": "DATE",
+   "sentence": "8d1986937a540fe7509240d012897662",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e2",
+   "entity": "administrative records",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "defendants wrongful refusal to provide administrative records / claim file / germane documentation required by federal codes (and / or, for that matter, like records available per insurance contract or florida statute requiring explanation / substantiation to the recipient of an adverse benefits determination, here scv)",
+   "timex_type": "DATE",
+   "sentence": "8d1986937a540fe7509240d012897662",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e3",
+   "entity": "lawsuit",
+   "role": "START",
+   "value": null,
+   "raw_text": "hence, this lawsuit as scvs regrettable last resort.",
+   "timex_type": "DATE",
+   "sentence": "8d1986937a540fe7509240d012897662",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e4",
+   "entity": "PMCS re-pricing contract",
+   "role": "START",
+   "value": null,
+   "raw_text": "the pmcs re-pricing contract (see ex. c) supplanted the plan documents re-pricing formula (see 26, supra)",
+   "timex_type": "DATE",
+   "sentence": "8d1986937a540fe7509240d012897662",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e1",
+   "to_id": "e2",
+   "constraint_type": "ordering",
+   "constraint_expr": "e2 occurs after e1",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e3",
+   "to_id": "e4",
+   "constraint_type": "ordering",
+   "constraint_expr": "e4 = e3 + 0 days",
+   "delta_days": 0,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

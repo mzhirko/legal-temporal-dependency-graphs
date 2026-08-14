@@ -1,0 +1,6 @@
+row_id,document_id,fact_id,quoted_sentence_sha256,extracted_concept,type,our_value,flag,correct (Y/N/Unsure),corrected_value,comment
+era_1996_s111-A01,era_1996_s111,e1,9797ff8e522854ef07ed2b071ae8486c,s. 111(1) Complaint,—,,NO_VALUE (relative ref — not machine-resolvable),,,
+era_1996_s111-A02,era_1996_s111,e2,34b4f510e4f63935273a945f940d1ad6,s. 111(2)(a) Complaint,Time period,P3M,,,,
+era_1996_s111-A03,era_1996_s111,e3,0c35c487d89f79b223a2d5dddfbcaaa2,s. 111(2) Complaint,—,,NO_VALUE (relative ref — not machine-resolvable),,,
+era_1996_s111-A04,era_1996_s111,e4,0dd9fbb7bcd733c8f26437536cec97e7,s. 111(2) Complaint,—,,NO_VALUE (relative ref — not machine-resolvable),,,
+era_1996_s111-A05,era_1996_s111,e5,5bf181490a852d6af592f039a83d2fb3,s. 111(3) Complaint,—,,NO_VALUE (relative ref — not machine-resolvable),,,

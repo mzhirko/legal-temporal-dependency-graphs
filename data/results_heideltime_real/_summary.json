@@ -1,0 +1,712 @@
+{
+ "environment": {
+  "java": "openjdk version \"17.0.20\" 2026-07-21",
+  "py_heideltime": "unknown",
+  "spacy": "3.7.6",
+  "spacy_model": "en_core_web_trf",
+  "heideltime_probe": "2 spans, types=['DATE', 'DURATION']",
+  "python": "3.9.25"
+ },
+ "git": "861887f-dirty",
+ "input_dir": "../data/results_contracts_50",
+ "output_dir": "../data/results_heideltime_real",
+ "n_documents": 45,
+ "n_failures": 0,
+ "failures": [],
+ "totals": {
+  "raw_timex": 1270,
+  "facts": 810,
+  "deps": 11,
+  "dep_types": {
+   "additive": 9,
+   "ordering": 2
+  },
+  "docs_with_deps": 8
+ },
+ "per_document": [
+  {
+   "document_id": "en_contracts_seed0",
+   "source_file": "../data/results_contracts_50/en_contracts_seed0.json",
+   "chars": 15000,
+   "raw_timex": 13,
+   "timex_by_type": {
+    "DATE": 7,
+    "SET": 2,
+    "DURATION": 4
+   },
+   "unique_offsets": 13,
+   "facts": 12,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 6.02
+  },
+  {
+   "document_id": "en_contracts_seed1",
+   "source_file": "../data/results_contracts_50/en_contracts_seed1.json",
+   "chars": 15000,
+   "raw_timex": 44,
+   "timex_by_type": {
+    "DATE": 42,
+    "DURATION": 2
+   },
+   "unique_offsets": 44,
+   "facts": 22,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 6.11
+  },
+  {
+   "document_id": "en_contracts_seed10",
+   "source_file": "../data/results_contracts_50/en_contracts_seed10.json",
+   "chars": 15000,
+   "raw_timex": 10,
+   "timex_by_type": {
+    "DATE": 7,
+    "SET": 1,
+    "DURATION": 2
+   },
+   "unique_offsets": 10,
+   "facts": 10,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 6.16
+  },
+  {
+   "document_id": "en_contracts_seed11",
+   "source_file": "../data/results_contracts_50/en_contracts_seed11.json",
+   "chars": 8321,
+   "raw_timex": 29,
+   "timex_by_type": {
+    "DATE": 25,
+    "DURATION": 2,
+    "SET": 2
+   },
+   "unique_offsets": 29,
+   "facts": 29,
+   "deps": 1,
+   "dep_types": {
+    "additive": 1
+   },
+   "seconds": 4.95
+  },
+  {
+   "document_id": "en_contracts_seed13",
+   "source_file": "../data/results_contracts_50/en_contracts_seed13.json",
+   "chars": 13580,
+   "raw_timex": 7,
+   "timex_by_type": {
+    "DATE": 7
+   },
+   "unique_offsets": 7,
+   "facts": 6,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 5.69
+  },
+  {
+   "document_id": "en_contracts_seed14",
+   "source_file": "../data/results_contracts_50/en_contracts_seed14.json",
+   "chars": 15000,
+   "raw_timex": 7,
+   "timex_by_type": {
+    "DATE": 7
+   },
+   "unique_offsets": 7,
+   "facts": 7,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 6.8
+  },
+  {
+   "document_id": "en_contracts_seed15",
+   "source_file": "../data/results_contracts_50/en_contracts_seed15.json",
+   "chars": 11390,
+   "raw_timex": 8,
+   "timex_by_type": {
+    "DATE": 6,
+    "DURATION": 2
+   },
+   "unique_offsets": 8,
+   "facts": 5,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 5.21
+  },
+  {
+   "document_id": "en_contracts_seed16",
+   "source_file": "../data/results_contracts_50/en_contracts_seed16.json",
+   "chars": 8681,
+   "raw_timex": 36,
+   "timex_by_type": {
+    "DATE": 28,
+    "DURATION": 8
+   },
+   "unique_offsets": 36,
+   "facts": 22,
+   "deps": 1,
+   "dep_types": {
+    "additive": 1
+   },
+   "seconds": 5.51
+  },
+  {
+   "document_id": "en_contracts_seed17",
+   "source_file": "../data/results_contracts_50/en_contracts_seed17.json",
+   "chars": 15000,
+   "raw_timex": 4,
+   "timex_by_type": {
+    "DATE": 1,
+    "DURATION": 3
+   },
+   "unique_offsets": 4,
+   "facts": 4,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 6.15
+  },
+  {
+   "document_id": "en_contracts_seed18",
+   "source_file": "../data/results_contracts_50/en_contracts_seed18.json",
+   "chars": 5770,
+   "raw_timex": 18,
+   "timex_by_type": {
+    "DATE": 18
+   },
+   "unique_offsets": 18,
+   "facts": 10,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 4.32
+  },
+  {
+   "document_id": "en_contracts_seed19",
+   "source_file": "../data/results_contracts_50/en_contracts_seed19.json",
+   "chars": 15000,
+   "raw_timex": 10,
+   "timex_by_type": {
+    "DATE": 2,
+    "DURATION": 8
+   },
+   "unique_offsets": 10,
+   "facts": 9,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 5.89
+  },
+  {
+   "document_id": "en_contracts_seed2",
+   "source_file": "../data/results_contracts_50/en_contracts_seed2.json",
+   "chars": 15000,
+   "raw_timex": 11,
+   "timex_by_type": {
+    "DATE": 8,
+    "DURATION": 3
+   },
+   "unique_offsets": 11,
+   "facts": 11,
+   "deps": 1,
+   "dep_types": {
+    "additive": 1
+   },
+   "seconds": 6.25
+  },
+  {
+   "document_id": "en_contracts_seed20",
+   "source_file": "../data/results_contracts_50/en_contracts_seed20.json",
+   "chars": 5493,
+   "raw_timex": 4,
+   "timex_by_type": {
+    "DATE": 2,
+    "SET": 1,
+    "DURATION": 1
+   },
+   "unique_offsets": 4,
+   "facts": 4,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 4.39
+  },
+  {
+   "document_id": "en_contracts_seed21",
+   "source_file": "../data/results_contracts_50/en_contracts_seed21.json",
+   "chars": 11449,
+   "raw_timex": 4,
+   "timex_by_type": {
+    "SET": 2,
+    "DATE": 2
+   },
+   "unique_offsets": 4,
+   "facts": 4,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 5.65
+  },
+  {
+   "document_id": "en_contracts_seed22",
+   "source_file": "../data/results_contracts_50/en_contracts_seed22.json",
+   "chars": 15000,
+   "raw_timex": 10,
+   "timex_by_type": {
+    "DATE": 5,
+    "DURATION": 5
+   },
+   "unique_offsets": 10,
+   "facts": 10,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 6.72
+  },
+  {
+   "document_id": "en_contracts_seed23",
+   "source_file": "../data/results_contracts_50/en_contracts_seed23.json",
+   "chars": 7187,
+   "raw_timex": 69,
+   "timex_by_type": {
+    "DATE": 69
+   },
+   "unique_offsets": 69,
+   "facts": 42,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 5.51
+  },
+  {
+   "document_id": "en_contracts_seed25",
+   "source_file": "../data/results_contracts_50/en_contracts_seed25.json",
+   "chars": 15000,
+   "raw_timex": 9,
+   "timex_by_type": {
+    "DATE": 9
+   },
+   "unique_offsets": 9,
+   "facts": 8,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 6.95
+  },
+  {
+   "document_id": "en_contracts_seed26",
+   "source_file": "../data/results_contracts_50/en_contracts_seed26.json",
+   "chars": 15000,
+   "raw_timex": 6,
+   "timex_by_type": {
+    "DATE": 3,
+    "DURATION": 3
+   },
+   "unique_offsets": 6,
+   "facts": 6,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 5.98
+  },
+  {
+   "document_id": "en_contracts_seed27",
+   "source_file": "../data/results_contracts_50/en_contracts_seed27.json",
+   "chars": 15000,
+   "raw_timex": 11,
+   "timex_by_type": {
+    "DATE": 6,
+    "DURATION": 5
+   },
+   "unique_offsets": 11,
+   "facts": 11,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 6.42
+  },
+  {
+   "document_id": "en_contracts_seed28",
+   "source_file": "../data/results_contracts_50/en_contracts_seed28.json",
+   "chars": 15000,
+   "raw_timex": 150,
+   "timex_by_type": {
+    "DATE": 149,
+    "DURATION": 1
+   },
+   "unique_offsets": 150,
+   "facts": 84,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 7.17
+  },
+  {
+   "document_id": "en_contracts_seed29",
+   "source_file": "../data/results_contracts_50/en_contracts_seed29.json",
+   "chars": 13159,
+   "raw_timex": 184,
+   "timex_by_type": {
+    "DATE": 176,
+    "DURATION": 8
+   },
+   "unique_offsets": 184,
+   "facts": 89,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 7.46
+  },
+  {
+   "document_id": "en_contracts_seed3",
+   "source_file": "../data/results_contracts_50/en_contracts_seed3.json",
+   "chars": 2862,
+   "raw_timex": 16,
+   "timex_by_type": {
+    "DATE": 16
+   },
+   "unique_offsets": 16,
+   "facts": 9,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 3.94
+  },
+  {
+   "document_id": "en_contracts_seed30",
+   "source_file": "../data/results_contracts_50/en_contracts_seed30.json",
+   "chars": 15000,
+   "raw_timex": 15,
+   "timex_by_type": {
+    "DATE": 13,
+    "DURATION": 2
+   },
+   "unique_offsets": 15,
+   "facts": 14,
+   "deps": 1,
+   "dep_types": {
+    "additive": 1
+   },
+   "seconds": 6.56
+  },
+  {
+   "document_id": "en_contracts_seed31",
+   "source_file": "../data/results_contracts_50/en_contracts_seed31.json",
+   "chars": 1761,
+   "raw_timex": 1,
+   "timex_by_type": {
+    "DATE": 1
+   },
+   "unique_offsets": 1,
+   "facts": 1,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 3.81
+  },
+  {
+   "document_id": "en_contracts_seed33",
+   "source_file": "../data/results_contracts_50/en_contracts_seed33.json",
+   "chars": 15000,
+   "raw_timex": 10,
+   "timex_by_type": {
+    "DATE": 7,
+    "SET": 1,
+    "DURATION": 2
+   },
+   "unique_offsets": 10,
+   "facts": 10,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 5.82
+  },
+  {
+   "document_id": "en_contracts_seed35",
+   "source_file": "../data/results_contracts_50/en_contracts_seed35.json",
+   "chars": 13159,
+   "raw_timex": 184,
+   "timex_by_type": {
+    "DATE": 176,
+    "DURATION": 8
+   },
+   "unique_offsets": 184,
+   "facts": 89,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 7.83
+  },
+  {
+   "document_id": "en_contracts_seed36",
+   "source_file": "../data/results_contracts_50/en_contracts_seed36.json",
+   "chars": 4351,
+   "raw_timex": 12,
+   "timex_by_type": {
+    "DATE": 12
+   },
+   "unique_offsets": 12,
+   "facts": 8,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 4.21
+  },
+  {
+   "document_id": "en_contracts_seed37",
+   "source_file": "../data/results_contracts_50/en_contracts_seed37.json",
+   "chars": 15000,
+   "raw_timex": 3,
+   "timex_by_type": {
+    "DATE": 3
+   },
+   "unique_offsets": 3,
+   "facts": 3,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 5.75
+  },
+  {
+   "document_id": "en_contracts_seed38",
+   "source_file": "../data/results_contracts_50/en_contracts_seed38.json",
+   "chars": 8394,
+   "raw_timex": 29,
+   "timex_by_type": {
+    "DATE": 25,
+    "DURATION": 2,
+    "SET": 2
+   },
+   "unique_offsets": 29,
+   "facts": 29,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 4.72
+  },
+  {
+   "document_id": "en_contracts_seed39",
+   "source_file": "../data/results_contracts_50/en_contracts_seed39.json",
+   "chars": 5434,
+   "raw_timex": 10,
+   "timex_by_type": {
+    "DATE": 10
+   },
+   "unique_offsets": 10,
+   "facts": 8,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 4.39
+  },
+  {
+   "document_id": "en_contracts_seed4",
+   "source_file": "../data/results_contracts_50/en_contracts_seed4.json",
+   "chars": 929,
+   "raw_timex": 3,
+   "timex_by_type": {
+    "DATE": 3
+   },
+   "unique_offsets": 3,
+   "facts": 3,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 3.71
+  },
+  {
+   "document_id": "en_contracts_seed40",
+   "source_file": "../data/results_contracts_50/en_contracts_seed40.json",
+   "chars": 15000,
+   "raw_timex": 26,
+   "timex_by_type": {
+    "DATE": 17,
+    "DURATION": 9
+   },
+   "unique_offsets": 26,
+   "facts": 23,
+   "deps": 3,
+   "dep_types": {
+    "additive": 3
+   },
+   "seconds": 5.92
+  },
+  {
+   "document_id": "en_contracts_seed41",
+   "source_file": "../data/results_contracts_50/en_contracts_seed41.json",
+   "chars": 6412,
+   "raw_timex": 5,
+   "timex_by_type": {
+    "DURATION": 3,
+    "SET": 1,
+    "DATE": 1
+   },
+   "unique_offsets": 5,
+   "facts": 5,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 4.4
+  },
+  {
+   "document_id": "en_contracts_seed42",
+   "source_file": "../data/results_contracts_50/en_contracts_seed42.json",
+   "chars": 8394,
+   "raw_timex": 29,
+   "timex_by_type": {
+    "DATE": 25,
+    "DURATION": 2,
+    "SET": 2
+   },
+   "unique_offsets": 29,
+   "facts": 29,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 5.18
+  },
+  {
+   "document_id": "en_contracts_seed43",
+   "source_file": "../data/results_contracts_50/en_contracts_seed43.json",
+   "chars": 3806,
+   "raw_timex": 10,
+   "timex_by_type": {
+    "DATE": 10
+   },
+   "unique_offsets": 10,
+   "facts": 6,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 4.39
+  },
+  {
+   "document_id": "en_contracts_seed44",
+   "source_file": "../data/results_contracts_50/en_contracts_seed44.json",
+   "chars": 7015,
+   "raw_timex": 11,
+   "timex_by_type": {
+    "DATE": 6,
+    "SET": 2,
+    "DURATION": 3
+   },
+   "unique_offsets": 11,
+   "facts": 11,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 4.79
+  },
+  {
+   "document_id": "en_contracts_seed45",
+   "source_file": "../data/results_contracts_50/en_contracts_seed45.json",
+   "chars": 2401,
+   "raw_timex": 2,
+   "timex_by_type": {
+    "DATE": 2
+   },
+   "unique_offsets": 2,
+   "facts": 2,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 4.09
+  },
+  {
+   "document_id": "en_contracts_seed46",
+   "source_file": "../data/results_contracts_50/en_contracts_seed46.json",
+   "chars": 2690,
+   "raw_timex": 8,
+   "timex_by_type": {
+    "DATE": 8
+   },
+   "unique_offsets": 8,
+   "facts": 5,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 4.1
+  },
+  {
+   "document_id": "en_contracts_seed47",
+   "source_file": "../data/results_contracts_50/en_contracts_seed47.json",
+   "chars": 15000,
+   "raw_timex": 15,
+   "timex_by_type": {
+    "DATE": 12,
+    "SET": 3
+   },
+   "unique_offsets": 15,
+   "facts": 15,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 5.76
+  },
+  {
+   "document_id": "en_contracts_seed48",
+   "source_file": "../data/results_contracts_50/en_contracts_seed48.json",
+   "chars": 13159,
+   "raw_timex": 184,
+   "timex_by_type": {
+    "DATE": 176,
+    "DURATION": 8
+   },
+   "unique_offsets": 184,
+   "facts": 89,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 7.33
+  },
+  {
+   "document_id": "en_contracts_seed49",
+   "source_file": "../data/results_contracts_50/en_contracts_seed49.json",
+   "chars": 2591,
+   "raw_timex": 7,
+   "timex_by_type": {
+    "DATE": 7
+   },
+   "unique_offsets": 7,
+   "facts": 5,
+   "deps": 1,
+   "dep_types": {
+    "ordering": 1
+   },
+   "seconds": 4.14
+  },
+  {
+   "document_id": "en_contracts_seed5",
+   "source_file": "../data/results_contracts_50/en_contracts_seed5.json",
+   "chars": 13597,
+   "raw_timex": 18,
+   "timex_by_type": {
+    "DATE": 14,
+    "DURATION": 2,
+    "SET": 2
+   },
+   "unique_offsets": 18,
+   "facts": 18,
+   "deps": 1,
+   "dep_types": {
+    "ordering": 1
+   },
+   "seconds": 5.55
+  },
+  {
+   "document_id": "en_contracts_seed6",
+   "source_file": "../data/results_contracts_50/en_contracts_seed6.json",
+   "chars": 15000,
+   "raw_timex": 6,
+   "timex_by_type": {
+    "DATE": 6
+   },
+   "unique_offsets": 6,
+   "facts": 6,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 6.84
+  },
+  {
+   "document_id": "en_contracts_seed7",
+   "source_file": "../data/results_contracts_50/en_contracts_seed7.json",
+   "chars": 5516,
+   "raw_timex": 8,
+   "timex_by_type": {
+    "DATE": 8
+   },
+   "unique_offsets": 8,
+   "facts": 8,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 4.74
+  },
+  {
+   "document_id": "en_contracts_seed8",
+   "source_file": "../data/results_contracts_50/en_contracts_seed8.json",
+   "chars": 4461,
+   "raw_timex": 14,
+   "timex_by_type": {
+    "DATE": 10,
+    "DURATION": 4
+   },
+   "unique_offsets": 14,
+   "facts": 9,
+   "deps": 2,
+   "dep_types": {
+    "additive": 2
+   },
+   "seconds": 4.16
+  }
+ ]
+}

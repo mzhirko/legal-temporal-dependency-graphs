@@ -1,0 +1,52 @@
+{
+ "id": "lextime_0217",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "The union members storming meetings and offices during work hours",
+ "event2": "the union's authorization of such concerted action",
+ "relation": "AFTER",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "concerted refusal to pick up extra shifts on holidays",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "the union authorized the union members concerted refusal to pick up extra shifts on holidays.",
+   "timex_type": "DATE",
+   "sentence": "ec9c76e060fe09c2507501c064a5173e",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e2",
+   "entity": "concerted action of storming meetings and offices during work hours",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "upon information and belief, the union authorized the union members concerted action of storming meetings and offices during work hours.",
+   "timex_type": "DATE",
+   "sentence": "ec9c76e060fe09c2507501c064a5173e",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e3",
+   "entity": "document 1 filing",
+   "role": "START",
+   "value": "2023-04-13",
+   "raw_text": "case 3:23-cv-00466 document 1 filed 04/13/23 page 7 of 10 8",
+   "timex_type": "DATE",
+   "sentence": "b01a94fa0f233928afa81f001c2358a7",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2023-04-13"
+  }
+ ],
+ "dependencies": []
+}

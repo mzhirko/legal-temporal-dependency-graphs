@@ -1,0 +1,45 @@
+{
+ "document_id": "en_contracts_seed4",
+ "document_type": "legal",
+ "source_text": "Second ACP-EEC Convention signed at Lomé on 31 October 1979. Declaration of the ACP States on Article 95 of the Convention (Annex XLIII) /* Lomé 2 */ ++++ANNEX XLIII DECLARATION BY THE ACP STATES CONCERNING ARTICLE 95 OF THE CONVENTION WHILE THE ACP STATES HAVE , IN A SPIRIT OF COOPERATION ACCEPTED , FOR THE PURPOSES OF THIS CONVENTION , THE TOTAL AMOUNT OF ASSISTANCE OF 5 607 MILLION EUA , THE ACP STATES WISH TO RECORD THAT IN THEIR OPINION THIS AMOUNT IS NEITHER ADEQUATE NOR FULLY REFLECTS THE UNDERSTANDING REACHED ON THE VOLUME OF FINANCIAL ASSISTANCE BETWEEN THE CO-PRESIDENTS OF THE COUNCIL OF MINISTERS IN THE COURSE OF THE NEGOTIATIONS IN JUNE 1979 . FURTHER , IT IS THE UNDERSTANDING OF THE ACP STATES THAT THE COMMUNITY'S FINANCIAL ASSISTANCE UNDER THIS CONVENTION WILL NOT , IN FACT , BE LESS THAN THE AMOUNT MENTIONED ABOVE .",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "Second ACP-EEC Convention",
+   "role": "START",
+   "value": "1979-10-31",
+   "raw_text": "Second ACP-EEC Convention signed at Lomé on 31 October 1979",
+   "timex_type": "DATE",
+   "sentence": "7a09680330f81d92ec987706146984d0",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "1979-10-31"
+  },
+  {
+   "id": "e2",
+   "entity": "Council of Ministers",
+   "role": "CONTAINS",
+   "value": "1979-06",
+   "raw_text": "negotiations in June 1979",
+   "timex_type": "DATE",
+   "sentence": "4bc74807a15ba61ac1e708c3317d6466",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "1979-06-01"
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e2",
+   "to_id": "e1",
+   "constraint_type": "ordering",
+   "constraint_expr": "e2 precedes e1",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false
+  }
+ ],
+ "edit_scenarios": []
+}

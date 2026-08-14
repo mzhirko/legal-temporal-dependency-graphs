@@ -1,0 +1,11 @@
+{
+ "id": "lextime_0162",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "Ms. Arvan advising Rivera about the weight of the roll and the need to use a roll pusher",
+ "event2": "her noticing his unsafe conduct",
+ "relation": "AFTER",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [],
+ "dependencies": []
+}

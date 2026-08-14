@@ -1,0 +1,123 @@
+{
+ "document_id": "en_contracts_seed43",
+ "document_type": "legal",
+ "source_text": "Avis juridique important | 21995A1212(02) Agreement in the form of an Exchange of Letters between the European Community and the Republic of India on the guaranteed prices for cane sugar for 1994/95 Official Journal L 299 , 12/12/1995 P. 0016 - 0017 AGREEMENT in the form of an exchange of letters between the European Community and the Republic of India on the guaranteed prices for cane sugar for 1994/95A. Letter No 1 Brussels, . . .Sir,The Representatives of India and of the Commission, acting on behalf of the European Community, have agreed within the framework of the negotiations provided for in Article 5 (4) of the Agreement between the European Economic Community and the Republic of India on cane sugar, on the following:For the delivery period 1 July 1994 to 30 June 1995, the guaranteed prices referred to in Article 5 (4) of the Agreement shall, for the purpose of intervention within the terms of Article 6 of the Agreement (1), be:(a) for raw sugar: ECU 52,37 per 100 kilograms;(b) for white sugar: ECU 64,65 per 100 kilograms.These prices shall refer to sugar of standard quality as defined in Community legislation, unpacked, cif, free out of European ports of the Community. The introduction of these prices in no way prejudices the respective positions of the Contracting Parties in respect of the principles appertaining to the determination of the guaranteed prices.I should be obliged if you would acknowledge receipt of this letter and confirm that this letter and your reply constitute an Agreement between your Government and the Community.Please accept, Sir, the assurance of my highest consideration.On behalf of the Council of the European UnionB. Letter No 2 Brussels, . . .Sir,I have the honour to acknowledge receipt of your letter of today which reads as follows:'The Representatives of India and of the Commission, acting on behalf of the European Community, have agreed within the framework of the negotiations provided for in Article 5 (4) of the Agreement between the European Economic Community and the Republic of India on cane sugar, on the following:For the delivery period 1 July 1994 to 30 June 1995, the guaranteed prices referred to in Article 5 (4) of the Agreement shall, for the purpose of intervention within the terms of Article 6 of the Agreement (1), be:(a) for raw sugar: ECU 52,37 per 100 kilograms;(b) for white sugar: ECU 64,65 per 100 kilograms.These prices shall refer to sugar of standard quality as defined in Community legislation, unpacked, cif, free out of European ports of the Community. The introduction of these prices in no way prejudices the respective positions of the Contracting Parties in respect of the principles appertaining to the determination of the guaranteed prices.I should be obliged if you would acknowledge receipt of this letter and confirm that this letter and your reply constitute an Agreement between your Government and the Community.(1) It is understood by both parties that the prices contained in this Agreement are expressed in the ecu as it exists at the time of the Agreement. In terms of the ecus which are applied until 31 January 1995 the prices should be understood as being:(a) for raw sugar: ECU 43,37 per 100 kilograms;(b) for white sugar: ECU 53,54 per 100 kilograms.`I have the honour to confirm the agreement of my Government with the foregoing.Please accept, Sir, the assurance of my highest consideration.For the Government of the Republic of India(1) It is understood by both parties that the prices contained in this Agreement are expressed in the ecu as it exists at the time of the Agreement. In terms of the ecus which are applied until 31 January 1995 the prices should be understood as being:(a) for raw sugar: ECU 43,37 per 100 kilograms;(b) for white sugar: ECU 53,54 per 100 kilograms.",
+ "facts": [
+  {
+   "id": "f1",
+   "entity": "the Republic of India",
+   "role": "DURATION",
+   "value": "1994",
+   "raw_text": "1994",
+   "timex_type": "DATE",
+   "sentence": "71d448b01d03868545f4d7a4b0d04c1f",
+   "confidence": 0.75,
+   "signal_verb": null,
+   "signal_prep": "for",
+   "temporal_content": true,
+   "date_parsed": "1994-08-01"
+  },
+  {
+   "id": "f2",
+   "entity": "the Republic of India",
+   "role": "UNKNOWN",
+   "value": "1995-12-12",
+   "raw_text": "12/12/1995",
+   "timex_type": "DATE",
+   "sentence": "71d448b01d03868545f4d7a4b0d04c1f",
+   "confidence": 0.2,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "1995-12-12"
+  },
+  {
+   "id": "f3",
+   "entity": "the Republic of India",
+   "role": "UNKNOWN",
+   "value": "1994-07-01",
+   "raw_text": "1 July 1994",
+   "timex_type": "DATE",
+   "sentence": "7ed9276e643b1b2259850adac9eede7f",
+   "confidence": 0.2,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "1994-07-01"
+  },
+  {
+   "id": "f4",
+   "entity": "the Republic of India",
+   "role": "UNKNOWN",
+   "value": "1995-06-30",
+   "raw_text": "30 June 1995",
+   "timex_type": "DATE",
+   "sentence": "7ed9276e643b1b2259850adac9eede7f",
+   "confidence": 0.2,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "1995-06-30"
+  },
+  {
+   "id": "f5",
+   "entity": "India",
+   "role": "START",
+   "value": "2020-01-01",
+   "raw_text": "today",
+   "timex_type": "DATE",
+   "sentence": "fe08d55c3e1c97e9765f20e4394c2212",
+   "confidence": 0.6,
+   "signal_verb": null,
+   "signal_prep": "of",
+   "temporal_content": true,
+   "date_parsed": "2020-01-01"
+  },
+  {
+   "id": "f6",
+   "entity": "which",
+   "role": "END",
+   "value": "1995-01-31",
+   "raw_text": "31 January 1995",
+   "timex_type": "DATE",
+   "sentence": "9c340ec82c6cc075be9f20229e7ffcec",
+   "confidence": 0.8,
+   "signal_verb": null,
+   "signal_prep": "until",
+   "temporal_content": true,
+   "date_parsed": "1995-01-31"
+  }
+ ],
+ "dependencies": [],
+ "edit_scenarios": [],
+ "_provenance": {
+  "extractor_backend": "heideltime",
+  "environment": {
+   "java": "openjdk version \"17.0.20\" 2026-07-21",
+   "py_heideltime": "unknown",
+   "spacy": "3.7.6",
+   "spacy_model": "en_core_web_trf",
+   "heideltime_probe": "2 spans, types=['DATE', 'DURATION']",
+   "python": "3.9.25"
+  },
+  "git": "861887f-dirty",
+  "reference_date": "2020-01-01",
+  "spacy_model": "en_core_web_trf",
+  "document_type": "legal",
+  "stage_counts": {
+   "document_id": "en_contracts_seed43",
+   "source_file": "../data/results_contracts_50/en_contracts_seed43.json",
+   "chars": 3806,
+   "raw_timex": 10,
+   "timex_by_type": {
+    "DATE": 10
+   },
+   "unique_offsets": 10,
+   "facts": 6,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 4.39
+  },
+  "input_file": "../data/results_contracts_50/en_contracts_seed43.json"
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "dataset": "tracie",
+ "split": "smoke",
+ "mode": "tdg",
+ "model": "gemma4:e4b",
+ "summary": {
+  "n": 10,
+  "answered": 0,
+  "unparseable_or_abstained": 10,
+  "accuracy_answered": null,
+  "accuracy_all": 0.0,
+  "correct": 0
+ },
+ "rows": [
+  {
+   "id": "tracie_00000",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": null,
+   "match": false
+  },
+  {
+   "id": "tracie_00001",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": null,
+   "match": false
+  },
+  {
+   "id": "tracie_00002",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": null,
+   "match": false
+  },
+  {
+   "id": "tracie_00003",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": null,
+   "match": false
+  },
+  {
+   "id": "tracie_00004",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": null,
+   "match": false
+  },
+  {
+   "id": "tracie_00005",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": null,
+   "match": false
+  },
+  {
+   "id": "tracie_00006",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": null,
+   "match": false
+  },
+  {
+   "id": "tracie_00007",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": null,
+   "match": false
+  },
+  {
+   "id": "tracie_00008",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": null,
+   "match": false
+  },
+  {
+   "id": "tracie_00009",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": null,
+   "match": false
+  }
+ ]
+}

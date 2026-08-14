@@ -1,0 +1,52 @@
+{
+ "id": "lextime_0424",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "Safety Light stopping the payment of premiums",
+ "event2": "PBGC's Financial Operations Department discovering this failure",
+ "relation": "AFTER",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "pension plan",
+   "role": "START",
+   "value": null,
+   "raw_text": "the plan was established by safety light for the exclusive benefit of its employees",
+   "timex_type": "DATE",
+   "sentence": "33344e6a80eef642eaed0da2db770c53",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e2",
+   "entity": "failure to pay required pension plan premiums",
+   "role": "CONTAINS",
+   "value": "2022-03-01",
+   "raw_text": "in march 2022, as a result of a pbgc premium filing review, pbgcs financial operations department (fod) discovered that safety light had failed to pay required pension plan premiums since in response to the referral, cfrd opened a case to investigate further.",
+   "timex_type": "DATE",
+   "sentence": "ffc2804c5e6b0c3ec1386acc6c70f8c4",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2022-03-01"
+  },
+  {
+   "id": "e3",
+   "entity": "operations",
+   "role": "END",
+   "value": null,
+   "raw_text": "safety light ceased operations in 2007/2008",
+   "timex_type": "DATE",
+   "sentence": "21260a8f3baec9bc18531fcbb31bb670",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  }
+ ],
+ "dependencies": []
+}

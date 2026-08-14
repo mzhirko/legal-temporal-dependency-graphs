@@ -1,0 +1,67 @@
+{
+ "document_id": "en_contracts_seed45",
+ "document_type": "legal",
+ "source_text": "Avis juridique important | 21979A1031(29) Second ACP-EEC Convention signed at Lomé on 31 October 1979 - Joint Declaration on shipping (Annex XIX) /* Lomé 2 */ Official Journal L 347 , 22/12/1980 P. 0172 ++++ANNEX XIX JOINT DECLARATION ON SHIPPING 1 . ( A ) THE CONTRACTING PARTIES RECOGNIZE THAT THE HARMONIOUS DEVELOPMENT OF EFFICIENT AND RELIABLE SHIPPING SERVICES ON ECONOMICALLY SATISFACTORY TERMS SHOULD ACCOMPANY THE DEVELOPMENT AND PROMOTION OF TRADE BETWEEN THE ACP STATES AND THE COMMUNITY . ( B ) THEY STRESS THE IMPORTANCE OF THE COMMUNITY'S CONTRIBUTION IN THIS CONTEXT BY THE ADOPTION OF THE REGULATION ON THE UNITED NATIONS CONVENTION ON A CODE OF CONDUCT FOR LINER CONFERENCES . THIS REGULATION IS DESIGNED TO ENSURE THAT DEVELOPING COUNTRIES WHICH ARE PARTIES TO IT SECURE THE BENEFITS OF THE CODE . ( C ) THE COMMUNITY ACKNOWLEDGES THE ASPIRATIONS OF THE ACP STATES FOR GREATER PARTICIPATION IN BULK CARGO SHIPPING . 2 . TO THESE ENDS , THE CONTRACTING PARTIES STATE THEIR READINESS TO EXAMINE , WITHIN THE COUNCIL OF MINISTERS OF THE CONVENTION , SUBJECTS OF COMMON INTEREST RELATING TO THIS FIELD . 3 . THE COMMUNITY RECOGNIZES THE IMPORTANCE OF SHIPPING SERVICES AS ONE OF THE ENGINES OF ECONOMIC GROWTH AND DEVELOPMENT OF THE ACP STATES . IT STATES ITS WILLINGNESS , WITHIN THE INSTRUMENTS OF FINANCIAL AND TECHNICAL COOPERATION SET UP BY THE CONVENTION , TO CONTRIBUTE TO THE DEVELOPMENT OF THIS SECTOR IN THOSE ACP STATES WHICH SO REQUEST . IN PARTICULAR THIS CONTRIBUTION COULD COVER : ( I ) STUDIES AIMED AT IMPROVING THE SHIPPING SERVICES SO AS TO MEET THE ACTUAL AND FUTURE NEEDS OF INTERNATIONAL TRADE , ESPECIALLY BETWEEN ACP STATES AND THE COMMUNITY , AS WELL AS BETWEEN THE ACP STATES THEMSELVES , ON THE BEST POSSIBLE TERMS AND CONDITIONS ; ( II ) THE SETTING UP AND EXTENSION OF SHIPPING COMPANIES OF THE ACP STATES AND , THE ENCOURAGEMENT OF ACP-EEC JOINT VENTURES IN THE FIELD OF SHIPPING ; ( III ) PROVISION OF TECHNICAL ASSISTANCE IN MARITIME TRAINING , IN SHIPPING POLICIES , MARITIME LAW , EXPORT AND IMPORT MATTERS , DOCUMENTATION , MARINE INSURANCE , ETC . ; ( IV ) PROVISION OF FEASIBILITY STUDIES AND TECHNICAL ASSISTANCE AIMED AT THE IMPROVEMENT OF THE EFFICIENCY OF PORTS OF THE ACP STATES , AND THE APPRAISAL OF PROJECTS FOR HARBOURS AND SHIPYARDS . THE COMMUNITY WILL ASSIST ALSO IN STUDYING ANY FURTHER PROBLEMS OF DIFFICULTIES ENCOUNTERED IN SHIPPING .",
+ "facts": [
+  {
+   "id": "f1",
+   "entity": "Lomé",
+   "role": "START",
+   "value": "1979-10-31",
+   "raw_text": "31 October 1979",
+   "timex_type": "DATE",
+   "sentence": "e00b160b3b2b3f623069a92337fdfea8",
+   "confidence": 0.78,
+   "signal_verb": "sign",
+   "signal_prep": "on",
+   "temporal_content": true,
+   "date_parsed": "1979-10-31"
+  },
+  {
+   "id": "f2",
+   "entity": "Lomé",
+   "role": "UNKNOWN",
+   "value": "1980",
+   "raw_text": "1980",
+   "timex_type": "DATE",
+   "sentence": "e00b160b3b2b3f623069a92337fdfea8",
+   "confidence": 0.2,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "1980-08-01"
+  }
+ ],
+ "dependencies": [],
+ "edit_scenarios": [],
+ "_provenance": {
+  "extractor_backend": "heideltime",
+  "environment": {
+   "java": "openjdk version \"17.0.20\" 2026-07-21",
+   "py_heideltime": "unknown",
+   "spacy": "3.7.6",
+   "spacy_model": "en_core_web_trf",
+   "heideltime_probe": "2 spans, types=['DATE', 'DURATION']",
+   "python": "3.9.25"
+  },
+  "git": "861887f-dirty",
+  "reference_date": "2020-01-01",
+  "spacy_model": "en_core_web_trf",
+  "document_type": "legal",
+  "stage_counts": {
+   "document_id": "en_contracts_seed45",
+   "source_file": "../data/results_contracts_50/en_contracts_seed45.json",
+   "chars": 2401,
+   "raw_timex": 2,
+   "timex_by_type": {
+    "DATE": 2
+   },
+   "unique_offsets": 2,
+   "facts": 2,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 4.09
+  },
+  "input_file": "../data/results_contracts_50/en_contracts_seed45.json"
+ }
+}

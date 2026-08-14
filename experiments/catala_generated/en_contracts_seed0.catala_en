@@ -1,0 +1,41 @@
+# Agreement and Consultation Dates
+
+This scope computes the start date of consultations, the effective date of the agreement, and the fixed expiry date.
+
+```catala
+declaration scope AgreementAndConsultations:
+  input request_date content date
+  input signature_date content date
+  output consultation_start_date content date
+  output effective_date content date
+  output expiry_date content date
+```
+
+## Consultation start date
+
+Consultations must begin within one month from the date of the request.
+
+```catala
+scope AgreementAndConsultations:
+  date round down
+  definition consultation_start_date equals
+    request_date + 1 month
+```
+
+## Agreement entry into force
+
+The agreement enters into force on the day of its signature.
+
+```catala
+scope AgreementAndConsultations:
+  definition effective_date equals signature_date
+```
+
+## Agreement expiry date
+
+The agreement is applicable until 31 December 2006.
+
+```catala
+scope AgreementAndConsultations:
+  definition expiry_date equals |2006-12-31|
+```

@@ -1,0 +1,135 @@
+{
+ "document_id": "en_contracts_seed49",
+ "document_type": "legal",
+ "source_text": "Avis juridique important | 21983A1231(03) Agreement in the form of an exchange of letters between the European Economic Community and the Portuguese Republic regarding prepared or preserved tomatoes falling within subheading 20.02 C of the Common Customs Tariff Official Journal L 374 , 31/12/1983 P. 0005 ++++AGREEMENT IN THE FORM OF AN EXCHANGE OF LETTERS BETWEEN THE EUROPEAN ECONOMIC COMMUNITY AND THE PORTUGUESE REPUBLIC REGARDING PREPARED OR PRESERVED TOMATOES FALLING WITHIN SUBHEADING 20.02 C OF THE COMMON CUSTOMS TARIFF LETTER NO 1 BRUSSELS , ... SIR , I HAVE THE HONOUR TO REFER TO ARTICLE 3 OF PROTOCOL 8 TO THE AGREEMENT BETWEEN THE EUROPEAN ECONOMIC COMMUNITY AND THE PORTUGUESE REPUBLIC SIGNED ON 22 JULY 1972 AND TO THE EXCHANGE OF LETTERS OF 5 DECEMBER 1975 . I HAVE THE HONOUR TO INFORM YOU THAT FOR 1984 THE COMMUNITY IS READY TO RENEW THE VOLUME AGREED FOR THE PRECEDING YEAR . ACCORDINGLY , THE PORTUGUESE GOVERNMENT UNDERTAKES TO ADOPT THE NECESSARY MEASURES IN ORDER THAT THE QUANTITIES OF TOMATOES THAT HAVE BEEN PREPARED OR PRESERVED OTHERWISE THAN BY VINEGAR OR ACETIC ACID , FALLING WITHIN SUBHEADING 20.02 C OF THE COMMON CUSTOMS TARIFF AND SUPPLIED TO THE COMMUNITY IN 1984 , DO NOT EXCEED 90 000 TONNES . I SHOULD BE GRATEFUL IF YOU WOULD KINDLY CONFIRM THE AGREEMENT OF YOUR GOVERNMENT TO THE CONTENTS OF THIS LETTER . PLEASE ACCEPT , SIR , THE ASSURANCE OF MY HIGHEST CONSIDERATION . ON BEHALF OF THE COUNCIL OF THE EUROPEAN COMMUNITIES LETTER NO 2 BRUSSELS , ... SIR , I HAVE THE HONOUR TO ACKNOWLEDGE RECEIPT OF YOUR LETTER OF TODAY'S DATE WORDED AS FOLLOWS : \" I HAVE THE HONOUR TO REFER TO ARTICLE 3 OF PROTOCOL 8 TO THE AGREEMENT BETWEEN THE EUROPEAN ECONOMIC COMMUNITY AND THE PORTUGUESE REPUBLIC SIGNED ON 22 JULY 1972 AND TO THE EXCHANGE OF LETTERS OF 5 DECEMBER 1975 . I HAVE THE HONOUR TO INFORM YOU THAT FOR 1984 THE COMMUNITY IS READY TO RENEW THE VOLUME AGREED FOR THE PRECEDING YEAR . ACCORDINGLY , THE PORTUGUESE GOVERNMENT UNDERTAKES TO ADOPT THE NECESSARY MEASURES IN ORDER THAT THE QUANTITIES OF TOMATOES THAT HAVE BEEN PREPARED OR PRESERVED OTHERWISE THAN BY VINEGAR OR ACETIC ACID , FALLING WITHIN SUBHEADING 20.02 C OF THE COMMON CUSTOMS TARIFF AND SUPPLIED TO THE COMMUNITY IN 1984 , DO NOT EXCEED 90 000 TONNES . I SHOULD BE GRATEFUL IF YOU WOULD KINDLY CONFIRM THE AGREEMENT OF YOUR GOVERNMENT TO THE CONTENTS OF THIS LETTER . \" I HAVE THE HONOUR TO CONFIRM THE AGREEMENT OF MY GOVERNMENT WITH THE CONTENTS OF THAT LETTER . PLEASE ACCEPT , SIR , THE ASSURANCE OF MY HIGHEST CONSIDERATION . FOR THE GOVERNMENT OF THE PORTUGUESE REPUBLIC",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "Agreement",
+   "role": "START",
+   "value": "1983-12-31",
+   "raw_text": "Official Journal L 374 , 31/12/1983",
+   "timex_type": "DATE",
+   "sentence": "3293137102ad57fc0d5b19f899712b10",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "1983-12-31"
+  },
+  {
+   "id": "e2",
+   "entity": "Agreement",
+   "role": "START",
+   "value": "1972-07-22",
+   "raw_text": "AGREEMENT BETWEEN THE EUROPEAN ECONOMIC COMMUNITY AND THE PORTUGUESE REPUBLIC SIGNED ON 22 JULY 1972",
+   "timex_type": "DATE",
+   "sentence": "ddf818110a7a51feac6d0fd027befb12",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "1972-07-22"
+  },
+  {
+   "id": "e3",
+   "entity": "Agreement",
+   "role": "START",
+   "value": "1975-12-05",
+   "raw_text": "EXCHANGE OF LETTERS OF 5 DECEMBER 1975",
+   "timex_type": "DATE",
+   "sentence": "ddf818110a7a51feac6d0fd027befb12",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "1975-12-05"
+  },
+  {
+   "id": "e4",
+   "entity": "Agreement",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "FOR 1984 THE COMMUNITY IS READY TO RENEW THE VOLUME AGREED FOR THE PRECEDING YEAR . ACCORDINGLY , THE PORTUGUESE GOVERNMENT UNDERTAKES TO ADOPT THE NECESSARY MEASURES IN ORDER THAT THE QUANTITIES OF TOMATOES THAT HAVE BEEN PREPARED OR PRESERVED OTHERWISE THAN BY VINEGAR OR ACETIC ACID , FALLING WITHIN SUBHEADING 20.02 C OF THE COMMON CUSTOMS TARIFF AND SUPPLIED TO THE COMMUNITY IN 1984 , DO NOT EXCEED 90 000 TONNES .",
+   "timex_type": "DATE",
+   "sentence": "ceb1b92df4b9573d668dbcd918a6bf11",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e1",
+   "to_id": "e4",
+   "constraint_type": "interval",
+   "constraint_expr": "e4 in [e1, ...]",
+   "delta_days": null,
+   "confidence": 0.6,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e2",
+   "to_id": "e4",
+   "constraint_type": "interval",
+   "constraint_expr": "e4 in [e2, ...]",
+   "delta_days": null,
+   "confidence": 0.6,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e3",
+   "to_id": "e4",
+   "constraint_type": "interval",
+   "constraint_expr": "e4 in [e3, ...]",
+   "delta_days": null,
+   "confidence": 0.6,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e2",
+   "to_id": "e3",
+   "constraint_type": "ordering",
+   "constraint_expr": "e3 follows e2",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ],
+ "edit_scenarios": [],
+ "_provenance": {
+  "extractor_backend": "llm:gemma4:e4b",
+  "environment": {
+   "model": "gemma4:e4b",
+   "base_url": "http://localhost:11434/v1",
+   "temperature": 0.0,
+   "max_tokens": 8192,
+   "python": "3.9.25",
+   "git": "861887f-dirty"
+  },
+  "stage_counts": {
+   "document_id": "en_contracts_seed49",
+   "chars": 2591,
+   "facts": 4,
+   "deps": 4,
+   "dep_types": {
+    "interval": 3,
+    "ordering": 1
+   },
+   "seconds": 25.24,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed49.json"
+  },
+  "llm_status": "ok",
+  "input_file": "../data/results_contracts_50/en_contracts_seed49.json"
+ }
+}

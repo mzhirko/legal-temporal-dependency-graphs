@@ -1,0 +1,11 @@
+{
+ "id": "lextime_0039",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "Rivera noticing Ms. Salome and Clint Kelch approaching him",
+ "event2": "Ms. Salome advises Rivera that she needs to speak with him",
+ "relation": "BEFORE",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [],
+ "dependencies": []
+}

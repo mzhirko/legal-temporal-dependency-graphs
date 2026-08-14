@@ -1,0 +1,74 @@
+{
+ "id": "lextime_0429",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "The union's act of not providing notice to the hospital regarding any allegation of material breach of the contracts",
+ "event2": "the union continuing to prosecute grievances",
+ "relation": "AFTER",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "grievance",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "the union submitted a grievance over that issue, but did not pursue it.",
+   "timex_type": "DATE",
+   "sentence": "ae242f64b8f8893924b8093d0880e101",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e2",
+   "entity": "grievances",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "at all times relevant to this complaint, the union has continued to prosecute grievances and other rights under the contracts.",
+   "timex_type": "DATE",
+   "sentence": "10572498327cae872ae15b131bcf88a3",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e3",
+   "entity": "complaint",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "Case 3:23-cv-00466 document 1 filed 04/13/23 page 4 of 10",
+   "timex_type": "DATE",
+   "sentence": "19a40b79fb4738c2f908c23a7e267ac3",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e2",
+   "to_id": "e1",
+   "constraint_type": "ordering",
+   "constraint_expr": null,
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e3",
+   "to_id": "e2",
+   "constraint_type": "interval",
+   "constraint_expr": null,
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

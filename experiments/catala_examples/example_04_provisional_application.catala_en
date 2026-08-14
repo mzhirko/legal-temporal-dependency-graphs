@@ -1,0 +1,33 @@
+# Provisional Application
+
+This scope computes the earliest date on which a provisionally
+applied agreement can be terminated, given a required advance
+notice period.
+
+Source pattern: exchange-of-letters agreements applied de facto
+before formal entry into force, common in EU textile and trade
+agreements.
+Example: "the European Community is prepared to apply de facto,
+from 1 January 1995, the modifications [...] on the
+understanding that either Party may at any time terminate this
+de facto application of the amended Agreement provided that one
+hundred and twenty days notice is given."
+
+```catala
+declaration scope ProvisionalApplication:
+  input provisional_start content date
+  input termination_notice content duration
+  output earliest_termination content date
+```
+
+## Earliest termination
+
+The earliest date on which the agreement can be terminated is
+the provisional start date plus the required notice period.
+
+```catala
+scope ProvisionalApplication:
+  date round down
+  definition earliest_termination equals
+    provisional_start + termination_notice
+```

@@ -1,0 +1,52 @@
+{
+ "id": "lextime_0165",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "Preparing for the remedy hearing",
+ "event2": "holding a remedy hearing",
+ "relation": "BEFORE",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "remedy hearing",
+   "role": "CONTAINS",
+   "value": "2022-03-03",
+   "raw_text": "on march 3, 2022, cdrt and the union held a remedy hearing before arbitrator mark c. travis in louisville, kentucky.",
+   "timex_type": "DATE",
+   "sentence": "5c443123a68dffe431af73674ae08678",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2022-03-03"
+  },
+  {
+   "id": "e2",
+   "entity": "damages award",
+   "role": "CONTAINS",
+   "value": "2022-06-27",
+   "raw_text": "on june 27, 2022, the arbitrator issued an award (the damages award).",
+   "timex_type": "DATE",
+   "sentence": "d3f735beaba2d3641686c97b64f65bc6",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2022-06-27"
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e1",
+   "to_id": "e2",
+   "constraint_type": "ordering",
+   "constraint_expr": null,
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

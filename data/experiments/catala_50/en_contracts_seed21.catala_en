@@ -1,0 +1,21 @@
+# Reporting Cycle Calculation
+
+This scope calculates the next required reporting date based on a previous report date and a specified frequency.
+
+```catala
+declaration scope ReportingCycle:
+  input last_report_date content date
+  input reporting_frequency content duration
+  output next_report_date content date
+```
+
+## Calculate Next Reporting Date
+
+The next report date is determined by adding the reporting frequency to the last report date.
+
+```catala
+scope ReportingCycle:
+  date round down
+  definition next_report_date equals
+    last_report_date + reporting_frequency
+```

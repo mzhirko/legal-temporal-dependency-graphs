@@ -1,0 +1,27 @@
+{
+ "document_id": "en_contracts_seed16",
+ "catala_status": "success",
+ "actions": [
+  {
+   "variable": "denunciation_deadline",
+   "action": "review",
+   "catala_value": "1998-06-30",
+   "tdg_value": "1999-12-31",
+   "delta_days": 549
+  },
+  {
+   "variable": "automatic_extension_end",
+   "action": "verify",
+   "catala_value": "1999-12-31",
+   "tdg_value": "1999-12-31",
+   "delta_days": null
+  },
+  {
+   "variable": "provisional_termination_date",
+   "action": "review",
+   "catala_value": "1996-07-01",
+   "tdg_value": "1998-12-31",
+   "delta_days": 913
+  }
+ ]
+}

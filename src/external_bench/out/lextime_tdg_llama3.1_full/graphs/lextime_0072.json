@@ -1,0 +1,89 @@
+{
+ "id": "lextime_0072",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "The misuse of union funds",
+ "event2": "the complaint sets out the spurious reasons for first-class air travel",
+ "relation": "BEFORE",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "complaint",
+   "role": "CONTAINS",
+   "value": "2021-03",
+   "raw_text": "the applicant sandra gardner learned of the misuse of union funds only in march 2021",
+   "timex_type": "DATE",
+   "sentence": "4bc15f9210a03af2ac45f13880405c59",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2021-03-01"
+  },
+  {
+   "id": "e2",
+   "entity": "union_inducing_conduct",
+   "role": "START",
+   "value": "2022-05",
+   "raw_text": "the union has engaged in such conduct beginning in may 2022",
+   "timex_type": "DATE",
+   "sentence": "540f6a7f93f975d64050fc1121cf6086",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2022-05-01"
+  },
+  {
+   "id": "e3",
+   "entity": "union_inducing_conduct",
+   "role": "END",
+   "value": "null",
+   "raw_text": "as recently as march 15",
+   "timex_type": "DATE",
+   "sentence": "540f6a7f93f975d64050fc1121cf6086",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e4",
+   "entity": "cervantes_move",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "upon becoming an international officer of iam, cervantes was moved at considerable iam expense to upper marlboro, maryland",
+   "timex_type": "DATE",
+   "sentence": "69fb4b4e18667e3a51b83791fee0a318",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e2",
+   "to_id": "e3",
+   "constraint_type": "ordering",
+   "constraint_expr": "e3 = e2",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e1",
+   "to_id": "e2",
+   "constraint_type": "ordering",
+   "constraint_expr": "e2 = e1 + 30 days",
+   "delta_days": 30,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "id": "lextime_0472",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "The review of the policy",
+ "event2": "the plaintiff has satisfied all conditions precedent to be eligible to receive the benefits",
+ "relation": "AFTER",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "administrative remedies",
+   "role": "END",
+   "value": null,
+   "raw_text": "the plaintiff has exhausted the administrative remedies of the plan.",
+   "timex_type": "DATE",
+   "sentence": "c675ba44d160c15aa162feae4ae63947",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e2",
+   "entity": "benefits",
+   "role": "START",
+   "value": null,
+   "raw_text": "the plaintiff is entitled to these benefits because the benefits are permitted under the policy issued by the defendants;",
+   "timex_type": "DATE",
+   "sentence": "3651eec45ef42c2bf06cabb5a4348cc1",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e3",
+   "entity": "conditions precedent",
+   "role": "END",
+   "value": null,
+   "raw_text": "the plaintiff has satisfied all conditions precedent to be eligible to receive the benefits and",
+   "timex_type": "DATE",
+   "sentence": "2b086e84e99b4ec0e3ef7ba614290653",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  }
+ ],
+ "dependencies": []
+}

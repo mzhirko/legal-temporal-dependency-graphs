@@ -1,0 +1,71 @@
+{
+ "document_id": "en_contracts_seed1",
+ "catala_status": "success",
+ "scope_name": "TextileAgreementAmendment",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 0,
+  "mismatch": 1,
+  "tdg_only": 7,
+  "catala_only": 0,
+  "match_rate": 0.0
+ },
+ "fields": [
+  {
+   "variable_name": "termination_deadline",
+   "status": "mismatch",
+   "tdg_value": "1995-02-28",
+   "catala_value": "1995-05-01",
+   "delta_days": 62
+  },
+  {
+   "variable_name": "tdg:Agreement on trade in textile products:START",
+   "status": "tdg_only",
+   "tdg_value": "1986-07-19",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Amendment by exchange of letters:START",
+   "status": "tdg_only",
+   "tdg_value": "1992-11-27",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Likely accession of countries:CONTAINS",
+   "status": "tdg_only",
+   "tdg_value": "1995-01-01",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Period for quantitative restrictions replacement:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "null",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Provisional application of the Agreement:START",
+   "status": "tdg_only",
+   "tdg_value": "1995-01-01",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:De facto application of the modified Agreement:START",
+   "status": "tdg_only",
+   "tdg_value": "1995-01-01",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Termination notice period:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "P120D",
+   "catala_value": null,
+   "delta_days": null
+  }
+ ]
+}

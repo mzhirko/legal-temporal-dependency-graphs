@@ -1,0 +1,11 @@
+{
+ "id": "lextime_0075",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "Ms. Arvan approaching Rivera",
+ "event2": "her intention to address his unsafe behavior",
+ "relation": "SIM",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [],
+ "dependencies": []
+}

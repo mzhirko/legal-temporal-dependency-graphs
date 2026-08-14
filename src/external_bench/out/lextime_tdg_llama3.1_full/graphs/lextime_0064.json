@@ -1,0 +1,74 @@
+{
+ "id": "lextime_0064",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "Safety Light's neglect of their payment responsibilities",
+ "event2": "their failure to make required pension plan contributions",
+ "relation": "BEFORE",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "pension plan premiums",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "since 2018 and has also failed to make required pension plan contributions since",
+   "timex_type": "DATE",
+   "sentence": "aa006a8e16285a0980cde6bb0aa2e82e",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e2",
+   "entity": "investigation",
+   "role": "START",
+   "value": null,
+   "raw_text": "pbgc commenced an investigation into safety lights failure to make necessary payments to the pension plan",
+   "timex_type": "DATE",
+   "sentence": "aa006a8e16285a0980cde6bb0aa2e82e",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e3",
+   "entity": "pbgg premium filing review",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "in march 2022, as a result of a pbgc premium filing review",
+   "timex_type": "DATE",
+   "sentence": "8b441326a47a94c44e942f42c150cbee",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e3",
+   "to_id": "e1",
+   "constraint_type": "ordering",
+   "constraint_expr": null,
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e2",
+   "to_id": "e1",
+   "constraint_type": "ordering",
+   "constraint_expr": "e1 = e2 + 4 years",
+   "delta_days": 4,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

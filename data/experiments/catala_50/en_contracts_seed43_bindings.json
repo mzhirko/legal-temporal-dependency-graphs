@@ -1,0 +1,19 @@
+{
+ "document_id": "en_contracts_seed43",
+ "scope_name": "SugarPriceAgreement",
+ "bindings": {
+  "delivery_start": {
+   "fact_id": "e1",
+   "entity": "UNKNOWN",
+   "role": "START",
+   "score": 1.0,
+   "method": "role_unique",
+   "value": "1995-12-12",
+   "raw_text": "Agreement in the form of an Exchange of Letters between the European Community and the Republic of India on the guaranteed prices for cane sugar for 1994/95"
+  }
+ },
+ "unbound": [
+  "delivery_end"
+ ],
+ "llm_fallback_used": true
+}

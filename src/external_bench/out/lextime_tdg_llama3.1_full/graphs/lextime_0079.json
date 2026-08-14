@@ -1,0 +1,89 @@
+{
+ "id": "lextime_0079",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "Metropolitan Life Insurance Company's cancellation of the plaintiff's disability benefits",
+ "event2": "the plaintiff became disabled under the terms of the plan's policy",
+ "relation": "AFTER",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "disability benefits",
+   "role": "START",
+   "value": "2018-04-07",
+   "raw_text": "plaintiff became disabled under the terms of the plans policy on or about april 7, 2018",
+   "timex_type": "DATE",
+   "sentence": "b8085d5dd052ee04614c86d1a2a7252c",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2018-04-07"
+  },
+  {
+   "id": "e2",
+   "entity": "disability benefits",
+   "role": "END",
+   "value": "2021-04-10",
+   "raw_text": "april 10, 2021 metropolitan life insurance company cancelled plaintiffs disability benefits.",
+   "timex_type": "DATE",
+   "sentence": "207f91ae8d52caf48543e624f78373be",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2021-04-10"
+  },
+  {
+   "id": "e3",
+   "entity": "disability benefits appeal",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "plaintiff appealed metropolitan life insurance companys decision, but metropolitan life insurance company denied plaintiffs appeal",
+   "timex_type": "DATE",
+   "sentence": "19d1f96d3f5135cdb94c2fa6a6f05d65",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e4",
+   "entity": "disability benefits denial",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "metropolitan life insurance companys decision to deny disability benefits was arbitrary, capricious, unreasonable, irrational, wrongful, contrary to the terms of the plan, contrary to the evidence and contrary to law",
+   "timex_type": "DATE",
+   "sentence": "ae6b0983f0f0686349ff0f0ac755bdb3",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e1",
+   "to_id": "e2",
+   "constraint_type": "ordering",
+   "constraint_expr": "e1 precedes e2 by 1099 days",
+   "delta_days": 1099,
+   "confidence": 0.7,
+   "verified": true,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e3",
+   "to_id": "e4",
+   "constraint_type": "interval",
+   "constraint_expr": "e4 occurs during the appeal process",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

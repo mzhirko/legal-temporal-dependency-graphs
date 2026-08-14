@@ -1,0 +1,54 @@
+{
+ "id": "lextime_0401",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "Holding a remedy hearing",
+ "event2": "the issuance of an award by the arbitrator",
+ "relation": "AFTER",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "remedy hearing",
+   "role": "CONTAINS",
+   "value": "2022-03-03",
+   "raw_text": "on march 3, 2022, cdrt and the union held a remedy hearing before arbitrator mark c. travis in louisville, kentucky.",
+   "timex_type": "DATE",
+   "sentence": "5c443123a68dffe431af73674ae08678",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2022-03-03"
+  },
+  {
+   "id": "e2",
+   "entity": "damages award",
+   "role": "CONTAINS",
+   "value": "2022-06-27",
+   "raw_text": "on june 27, 2022, the arbitrator issued an award (the damages award).",
+   "timex_type": "DATE",
+   "sentence": "d3f735beaba2d3641686c97b64f65bc6",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2022-06-27"
+  },
+  {
+   "id": "e3",
+   "entity": "merits award",
+   "role": "CONTAINS",
+   "value": "2019-07-24",
+   "raw_text": "the july 24, 2019 merits award",
+   "timex_type": "DATE",
+   "sentence": "86ed9d8398e4361c559e8b82197a9c8b",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2019-07-24"
+  }
+ ],
+ "dependencies": []
+}

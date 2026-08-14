@@ -1,0 +1,64 @@
+{
+ "document_id": "en_contracts_seed11",
+ "catala_status": "success",
+ "scope_name": "AgreementTimeline",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 0,
+  "mismatch": 0,
+  "tdg_only": 4,
+  "catala_only": 1,
+  "match_rate": null
+ },
+ "fields": [
+  {
+   "variable_name": "transition_period",
+   "status": "catala_only",
+   "tdg_value": null,
+   "catala_value": "2003-12-31",
+   "delta_days": null
+  },
+  {
+   "variable_name": "termination_date",
+   "status": "placeholder",
+   "tdg_value": "2002-12-31",
+   "catala_value": "1970-03-01",
+   "delta_days": null
+  },
+  {
+   "variable_name": "agreement_duration",
+   "status": "placeholder",
+   "tdg_value": "P1Y",
+   "catala_value": "{'days': -11989.0}",
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Joint Action 2002/210/CFSP:CONTAINS",
+   "status": "tdg_only",
+   "tdg_value": "2002-03-11",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Agreement on EUPM activities:CONTAINS",
+   "status": "tdg_only",
+   "tdg_value": "2002-10-04",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Art.3.1 Secondment period start:START",
+   "status": "tdg_only",
+   "tdg_value": "2003-01-01",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Art.7 Termination notice period:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "P60D",
+   "catala_value": null,
+   "delta_days": null
+  }
+ ]
+}

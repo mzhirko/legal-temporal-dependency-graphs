@@ -1,0 +1,50 @@
+{
+ "document_id": "en_contracts_seed2",
+ "catala_status": "success",
+ "scope_name": "AgreementTimeline",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 1,
+  "mismatch": 0,
+  "tdg_only": 4,
+  "catala_only": 0,
+  "match_rate": 1.0
+ },
+ "fields": [
+  {
+   "variable_name": "notification_deadline",
+   "status": "semantic_match",
+   "tdg_value": "P1M",
+   "catala_value": "2002-05-30",
+   "delta_days": 30
+  },
+  {
+   "variable_name": "tdg:Agreement:START",
+   "status": "tdg_only",
+   "tdg_value": "1994-04-15",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Agreement:START",
+   "status": "tdg_only",
+   "tdg_value": "1996-01-01",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Art.2 Notification:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "P1M",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Art.6 Review:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "P5Y",
+   "catala_value": null,
+   "delta_days": null
+  }
+ ]
+}

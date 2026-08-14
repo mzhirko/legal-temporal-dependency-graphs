@@ -1,0 +1,23 @@
+# Agreement Duration and Renewal Cycle
+
+This scope calculates the initial expiry date and subsequent renewal dates for the cooperation agreement.
+
+```catala
+declaration scope AgreementDuration:
+  input start_date content date
+  input initial_duration content duration
+  input renewal_duration content duration
+  output initial_expiry_date content date
+  output next_renewal_date content date
+```
+
+The initial expiry date is determined by adding the initial period of 10 years to the date the parties specify for entry into force.
+
+```catala
+scope AgreementDuration:
+  date round down
+  definition initial_expiry_date equals start_date + initial_duration
+  definition next_renewal_date equals initial_expiry_date + renewal_duration
+```
+
+The agreement shall be automatically renewed for five-year periods, and the next renewal date is calculated by adding the renewal duration to the initial expiry date.

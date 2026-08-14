@@ -1,0 +1,58 @@
+{
+ "2026_EAT_64_s111": {
+  "anchor_date": "2022-06-08",
+  "rule_description": "s. 111(2) complaint = effective date of termination + 3m - 1 day",
+  "match_confidence": null,
+  "acas_applied": false,
+  "raw_verdict": "LATE",
+  "explanation": ""
+ },
+ "2026_EAT_64_s123": {
+  "anchor_date": "2022-06-08",
+  "rule_description": "complaint filing deadline = date of the act + 3m - 1 day",
+  "match_confidence": null,
+  "acas_applied": false,
+  "raw_verdict": "LATE",
+  "explanation": ""
+ },
+ "2025_EAT_155": {
+  "anchor_date": "2020-07-11",
+  "rule_description": "s. 111(2) complaint = effective date of termination + 3m - 1 day",
+  "match_confidence": null,
+  "acas_applied": false,
+  "raw_verdict": "LATE",
+  "explanation": ""
+ },
+ "2026_EAT_14": {
+  "anchor_date": "2022-09-29",
+  "rule_description": "s. 111(2) complaint = effective date of termination + 3m - 1 day",
+  "match_confidence": null,
+  "acas_applied": false,
+  "raw_verdict": "LATE",
+  "explanation": ""
+ },
+ "2026_EAT_76": {
+  "anchor_date": "2018-04-12",
+  "rule_description": "complaint filing deadline = date of the act + 3m - 1 day",
+  "match_confidence": null,
+  "acas_applied": false,
+  "raw_verdict": "LATE",
+  "explanation": "single act, continuing-act argument rejected; j&e refused"
+ },
+ "2026_EAT_59": {
+  "anchor_date": "2024-02-18",
+  "rule_description": "s. 111(2) complaint = effective date of termination + 3m - 1 day",
+  "match_confidence": null,
+  "acas_applied": false,
+  "raw_verdict": "LATE",
+  "explanation": "in-time conclusion stated but NO deadline date recited anywhere in the EAT judgment (prior deadline_stated 2024-07-20 was unsupported - removed 2026-07-06); EC Day A/B also not recited - engine cannot reproduce. Rare in-time row, verdict-only."
+ },
+ "kj_2026_EAT_46": {
+  "anchor_date": "2021-11-22",
+  "rule_description": "complaint filing deadline = date of the act + 3m - 1 day",
+  "match_confidence": null,
+  "acas_applied": true,
+  "raw_verdict": "TIMELY",
+  "explanation": "continuing-act anchor (s.123(3)(a) period end, as found); judge-stated boundary 2021-09-15 with formula recited; engine forward computation reproduces boundary to the day; in time by 4 days on primary period alone. Promoted from pool 2026-07-06 - remove from unread extraction split."
+ }
+}

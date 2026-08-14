@@ -1,0 +1,11 @@
+{
+ "id": "lextime_0116",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "Ms. Arvan telling Rivera about the rolls being too heavy to be pushed with his hands",
+ "event2": "Rivera responding that she was picking on him",
+ "relation": "BEFORE",
+ "pair_type": "both-explicit",
+ "facts": [],
+ "dependencies": []
+}

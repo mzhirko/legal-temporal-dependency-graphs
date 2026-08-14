@@ -1,0 +1,22 @@
+{
+ "document_id": "en_contracts_seed26",
+ "catala_status": "success",
+ "scope_name": "ExtraditionTransitScope",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 0,
+  "mismatch": 0,
+  "tdg_only": 0,
+  "catala_only": 1,
+  "match_rate": null
+ },
+ "fields": [
+  {
+   "variable_name": "is_timely_transit_request",
+   "status": "catala_only",
+   "tdg_value": null,
+   "catala_value": "True",
+   "delta_days": null
+  }
+ ]
+}

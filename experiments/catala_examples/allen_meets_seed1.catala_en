@@ -1,0 +1,50 @@
+# Allen Relation: MEETS / MET-BY
+#
+# MEETS: interval A ends at the exact moment interval B begins.
+#   A meets B  iff  A.end = B.start
+#
+# MET-BY: the symmetric inverse — B is met-by A.
+#   B met-by A  iff  B.start = A.end
+#
+# Legal patterns that trigger MEETS:
+#   "whilst awaiting [...] coming into force of the amended Agreement"
+#   "provisionally applied until [...] enters into force"
+#   "on the first day of the month following notification"
+#   "the new agreement replaces the old agreement as of"
+#   seamless succession of one legal regime by another
+#
+# Grounded example (en_contracts_seed1, Appendix VIII):
+#   Provisional de facto application period [1.1.1995, entry_into_force)
+#   MEETS formal agreement period [entry_into_force, expiry].
+#   No gap and no overlap between the two validity periods.
+
+```catala
+declaration scope AllenMeets:
+  input interval_a_start content date   # start of the first period
+  input interval_a_end content date     # end of the first period
+  input interval_b_start content date   # start of the succeeding period
+  input interval_b_end content date     # end of the succeeding period
+  output is_meets content boolean       # A ends exactly when B starts
+  output is_met_by content boolean      # B starts exactly when A ends (symmetric)
+```
+
+## MEETS
+
+Interval A ends at the exact moment interval B begins.
+
+```catala
+scope AllenMeets:
+  date round down
+  definition is_meets equals
+    interval_a_end = interval_b_start
+```
+
+## MET-BY
+
+The symmetric statement from B's perspective.
+
+```catala
+scope AllenMeets:
+  definition is_met_by equals
+    interval_b_start = interval_a_end
+```

@@ -1,0 +1,70 @@
+{
+ "document_id": "cli_input",
+ "document_type": "legal",
+ "source_text": "111 Complaints to employment tribunal. (1) A complaint may be presented to an employment tribunal against an employer by any person that he was unfairly dismissed by the employer. (2) Subject to the following provisions of this section, an employment tribunal shall not consider a complaint under this section unless it is presented to the tribunal — (a) before the end of the period of three months beginning with the effective date of termination, or (b) within such further period as the tribunal considers reasonable in a case where it is satisfied that it was not reasonably practicable for the complaint to be presented before the end of that period of three months. (2A) Section 207B (extension of time limits to facilitate conciliation before institution of proceedings) applies for the purposes of subsection (2)(a). (3) Where a dismissal is with notice, an employment tribunal shall consider a complaint under this section if it is presented after the notice is given but before the effective date of termination.",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "Art.111 complaint",
+   "role": "START",
+   "value": null,
+   "raw_text": "A complaint may be presented to an employment tribunal against an employer by any person that he was unfairly dismissed by the employer.",
+   "timex_type": "DATE",
+   "sentence": "07ed649dc48d13b4d53075b762af07af",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null
+  },
+  {
+   "id": "e2",
+   "entity": "Art.111 complaint",
+   "role": "DURATION",
+   "value": "P3M",
+   "raw_text": "before the end of the period of three months beginning with the effective date of termination",
+   "timex_type": "DURATION",
+   "sentence": "78f74fecbcd1e9a246b2e132e36f1036",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "duration_days": 90
+  },
+  {
+   "id": "e3",
+   "entity": "Art.111 complaint",
+   "role": "DURATION",
+   "value": null,
+   "raw_text": "within such further period as the tribunal considers reasonable",
+   "timex_type": "DATE",
+   "sentence": "78f74fecbcd1e9a246b2e132e36f1036",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null
+  },
+  {
+   "id": "e4",
+   "entity": "Art.111 complaint",
+   "role": "START",
+   "value": null,
+   "raw_text": "if it is presented after the notice is given but before the effective date of termination.",
+   "timex_type": "DATE",
+   "sentence": "afa4ed7f3dbd114fa81cf597a03d3a07",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e2",
+   "to_id": "e1",
+   "constraint_type": "additive",
+   "constraint_expr": "e1 = e2",
+   "delta_days": 90,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ],
+ "edit_scenarios": []
+}

@@ -1,0 +1,13 @@
+{
+ "document_id": "en_contracts_seed1",
+ "catala_status": "success",
+ "actions": [
+  {
+   "variable": "termination_deadline",
+   "action": "review",
+   "catala_value": "1995-05-01",
+   "tdg_value": "1995-02-28",
+   "delta_days": 62
+  }
+ ]
+}

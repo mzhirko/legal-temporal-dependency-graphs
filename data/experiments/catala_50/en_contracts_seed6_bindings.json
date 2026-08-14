@@ -1,0 +1,19 @@
+{
+ "document_id": "en_contracts_seed6",
+ "scope_name": "SustainableDevelopmentCheck",
+ "bindings": {},
+ "unbound": [
+  "agreement_applies",
+  "cultural_interests",
+  "dialogue_principle",
+  "economic_interests",
+  "environmental_interests",
+  "future_generations",
+  "health_interests",
+  "human_interests",
+  "ownership_principle",
+  "participation_principle",
+  "social_interests"
+ ],
+ "llm_fallback_used": true
+}

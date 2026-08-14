@@ -1,0 +1,43 @@
+# Agreement Duration and Transition Dates
+
+This scope calculates key temporal milestones, including the transition period for personnel coverage, the notice period for termination, and the overall duration of the agreement.
+
+```catala
+declaration scope AgreementTimeline:
+  input end_date_planning_team content date   # End date of the first agreement (31 December 2002)
+  input start_date_eu_bih content date       # Start date of the second agreement (4 October 2002)
+  input date_of_failure content date         # Date of non-compliance
+  input contribution_start_date content date # Start date of contribution
+  input contribution_end_date content date   # End date of contribution
+  output transition_period content date      # The date marking the transition
+  output termination_date content date       # Date termination can occur
+  output agreement_duration content duration # Duration of the agreement
+```
+
+## Personnel Coverage Transition
+
+The personnel coverage transitions from the first agreement ending on 31 December 2002 to the second agreement starting on 4 October 2002.
+
+```catala
+scope AgreementTimeline:
+  date round down
+  definition transition_period equals end_date_planning_team
+```
+
+## Termination Notice Period
+
+If a party fails to comply, the other party has the right to terminate the agreement by serving two months' notice.
+
+```catala
+scope AgreementTimeline:
+  definition termination_date equals date_of_failure + 2 month
+```
+
+## Agreement Duration
+
+The agreement remains in force for the duration of the contribution of the Republic of Latvia to the EUPM.
+
+```catala
+scope AgreementTimeline:
+  definition agreement_duration equals contribution_end_date - contribution_start_date
+```

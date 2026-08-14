@@ -1,0 +1,20 @@
+# Delivery Arrival Date Calculation
+
+This scope calculates the actual date of delivery when the expected arrival date and the duration of transit are known.
+
+```catala
+declaration scope DeliveryArrival:
+  input expected_arrival_date content date
+  input transit_duration content duration
+  output actual_arrival_date content date
+```
+
+## Actual Delivery Date
+
+The actual date of delivery is determined by adding the transit duration to the expected arrival date.
+
+```catala
+scope DeliveryArrival:
+  date round down
+  definition actual_arrival_date equals expected_arrival_date + transit_duration
+```

@@ -1,0 +1,100 @@
+{
+ "document_id": "en_contracts_seed43",
+ "document_type": "legal",
+ "source_text": "Avis juridique important | 21995A1212(02) Agreement in the form of an Exchange of Letters between the European Community and the Republic of India on the guaranteed prices for cane sugar for 1994/95 Official Journal L 299 , 12/12/1995 P. 0016 - 0017 AGREEMENT in the form of an exchange of letters between the European Community and the Republic of India on the guaranteed prices for cane sugar for 1994/95A. Letter No 1 Brussels, . . .Sir,The Representatives of India and of the Commission, acting on behalf of the European Community, have agreed within the framework of the negotiations provided for in Article 5 (4) of the Agreement between the European Economic Community and the Republic of India on cane sugar, on the following:For the delivery period 1 July 1994 to 30 June 1995, the guaranteed prices referred to in Article 5 (4) of the Agreement shall, for the purpose of intervention within the terms of Article 6 of the Agreement (1), be:(a) for raw sugar: ECU 52,37 per 100 kilograms;(b) for white sugar: ECU 64,65 per 100 kilograms.These prices shall refer to sugar of standard quality as defined in Community legislation, unpacked, cif, free out of European ports of the Community. The introduction of these prices in no way prejudices the respective positions of the Contracting Parties in respect of the principles appertaining to the determination of the guaranteed prices.I should be obliged if you would acknowledge receipt of this letter and confirm that this letter and your reply constitute an Agreement between your Government and the Community.Please accept, Sir, the assurance of my highest consideration.On behalf of the Council of the European UnionB. Letter No 2 Brussels, . . .Sir,I have the honour to acknowledge receipt of your letter of today which reads as follows:'The Representatives of India and of the Commission, acting on behalf of the European Community, have agreed within the framework of the negotiations provided for in Article 5 (4) of the Agreement between the European Economic Community and the Republic of India on cane sugar, on the following:For the delivery period 1 July 1994 to 30 June 1995, the guaranteed prices referred to in Article 5 (4) of the Agreement shall, for the purpose of intervention within the terms of Article 6 of the Agreement (1), be:(a) for raw sugar: ECU 52,37 per 100 kilograms;(b) for white sugar: ECU 64,65 per 100 kilograms.These prices shall refer to sugar of standard quality as defined in Community legislation, unpacked, cif, free out of European ports of the Community. The introduction of these prices in no way prejudices the respective positions of the Contracting Parties in respect of the principles appertaining to the determination of the guaranteed prices.I should be obliged if you would acknowledge receipt of this letter and confirm that this letter and your reply constitute an Agreement between your Government and the Community.(1) It is understood by both parties that the prices contained in this Agreement are expressed in the ecu as it exists at the time of the Agreement. In terms of the ecus which are applied until 31 January 1995 the prices should be understood as being:(a) for raw sugar: ECU 43,37 per 100 kilograms;(b) for white sugar: ECU 53,54 per 100 kilograms.`I have the honour to confirm the agreement of my Government with the foregoing.Please accept, Sir, the assurance of my highest consideration.For the Government of the Republic of India(1) It is understood by both parties that the prices contained in this Agreement are expressed in the ecu as it exists at the time of the Agreement. In terms of the ecus which are applied until 31 January 1995 the prices should be understood as being:(a) for raw sugar: ECU 43,37 per 100 kilograms;(b) for white sugar: ECU 53,54 per 100 kilograms.",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "Agreement",
+   "role": "START",
+   "value": "1995-12-12",
+   "raw_text": "AGREEMENT in the form of an exchange of letters between the European Community and the Republic of India on the guaranteed prices for cane sugar for 1994/95",
+   "timex_type": "DATE",
+   "sentence": "7a56ead9903cb2a3ebd1dcb674f7fb60",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "1995-12-12"
+  },
+  {
+   "id": "e2",
+   "entity": "delivery period",
+   "role": "DURATION",
+   "value": "1994-07-01",
+   "raw_text": "For the delivery period 1 July 1994 to 30 June 1995",
+   "timex_type": "DATE",
+   "sentence": "7ed9276e643b1b2259850adac9eede7f",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "1994-07-01"
+  },
+  {
+   "id": "e3",
+   "entity": "price application period",
+   "role": "DURATION",
+   "value": "1995-01-31",
+   "raw_text": "applied until 31 January 1995",
+   "timex_type": "DATE",
+   "sentence": "deb9e88c1111fe9517c51d5a45f11d36",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "1995-01-31"
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e1",
+   "to_id": "e2",
+   "constraint_type": "interval",
+   "constraint_expr": null,
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e1",
+   "to_id": "e3",
+   "constraint_type": "ordering",
+   "constraint_expr": null,
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ],
+ "edit_scenarios": [],
+ "_provenance": {
+  "extractor_backend": "llm:gemma4:e4b",
+  "environment": {
+   "model": "gemma4:e4b",
+   "base_url": "http://localhost:11434/v1",
+   "temperature": 0.0,
+   "max_tokens": 8192,
+   "python": "3.9.25",
+   "git": "861887f-dirty"
+  },
+  "stage_counts": {
+   "document_id": "en_contracts_seed43",
+   "chars": 3806,
+   "facts": 3,
+   "deps": 2,
+   "dep_types": {
+    "interval": 1,
+    "ordering": 1
+   },
+   "seconds": 20.84,
+   "status": "ok",
+   "input_file": "../data/results_contracts_50/en_contracts_seed43.json"
+  },
+  "llm_status": "ok",
+  "input_file": "../data/results_contracts_50/en_contracts_seed43.json"
+ }
+}

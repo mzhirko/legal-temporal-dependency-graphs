@@ -1,0 +1,121 @@
+[
+ {
+  "case_id": "2026_EAT_64_s111",
+  "presented": "2023-01-10",
+  "deadline": "2022-09-07",
+  "last_date": "2022-09-07",
+  "verdict": "out_of_time",
+  "delta_days": 125,
+  "complied": false,
+  "statuses": {
+   "presented": "engine",
+   "deadline": "engine",
+   "last_date": "engine",
+   "verdict": "engine",
+   "delta_days": "engine",
+   "complied": "engine"
+  }
+ },
+ {
+  "case_id": "2026_EAT_64_s123",
+  "presented": "2023-01-10",
+  "deadline": "2022-09-07",
+  "last_date": "2022-09-07",
+  "verdict": "out_of_time",
+  "delta_days": 125,
+  "complied": false,
+  "statuses": {
+   "presented": "engine",
+   "deadline": "engine",
+   "last_date": "engine",
+   "verdict": "engine",
+   "delta_days": "engine",
+   "complied": "engine"
+  }
+ },
+ {
+  "case_id": "2025_EAT_155",
+  "presented": "2020-12-10",
+  "deadline": "2020-10-10",
+  "last_date": "2020-10-10",
+  "verdict": "out_of_time",
+  "delta_days": 61,
+  "complied": false,
+  "statuses": {
+   "presented": "engine",
+   "deadline": "engine",
+   "last_date": "engine",
+   "verdict": "engine",
+   "delta_days": "engine",
+   "complied": "engine"
+  }
+ },
+ {
+  "case_id": "2026_EAT_14",
+  "presented": "2023-02-06",
+  "deadline": "2022-12-28",
+  "last_date": "2022-12-28",
+  "verdict": "out_of_time",
+  "delta_days": 40,
+  "complied": false,
+  "statuses": {
+   "presented": "engine",
+   "deadline": "engine",
+   "last_date": "engine",
+   "verdict": "engine",
+   "delta_days": "engine",
+   "complied": "engine"
+  }
+ },
+ {
+  "case_id": "2026_EAT_76",
+  "presented": "2020-02-28",
+  "deadline": "2018-07-11",
+  "last_date": "2018-07-11",
+  "verdict": "out_of_time",
+  "delta_days": 597,
+  "complied": false,
+  "statuses": {
+   "presented": "engine",
+   "deadline": "engine",
+   "last_date": "engine",
+   "verdict": "engine",
+   "delta_days": "engine",
+   "complied": "engine"
+  }
+ },
+ {
+  "case_id": "2026_EAT_59",
+  "presented": "2024-07-09",
+  "deadline": "2024-05-17",
+  "last_date": "2024-05-17",
+  "verdict": "out_of_time",
+  "delta_days": 53,
+  "complied": false,
+  "statuses": {
+   "presented": "engine",
+   "deadline": "engine",
+   "last_date": "engine",
+   "verdict": "engine",
+   "delta_days": "engine",
+   "complied": "engine"
+  }
+ },
+ {
+  "case_id": "kj_2026_EAT_46",
+  "presented": "2022-02-17",
+  "deadline": "2022-04-27",
+  "last_date": "2022-04-27",
+  "verdict": "in_time",
+  "delta_days": -69,
+  "complied": true,
+  "statuses": {
+   "presented": "engine",
+   "deadline": "engine",
+   "last_date": "engine",
+   "verdict": "engine",
+   "delta_days": "engine",
+   "complied": "engine"
+  }
+ }
+]

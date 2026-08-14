@@ -1,0 +1,43 @@
+{
+ "document_id": "en_contracts_seed29",
+ "catala_status": "success",
+ "scope_name": "AgreementEntryIntoForce",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 0,
+  "mismatch": 0,
+  "tdg_only": 3,
+  "catala_only": 1,
+  "match_rate": null
+ },
+ "fields": [
+  {
+   "variable_name": "entry_into_force_date",
+   "status": "catala_only",
+   "tdg_value": null,
+   "catala_value": "2012-12-21",
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Agreement in the form of an Exchange of Letters:START",
+   "status": "tdg_only",
+   "tdg_value": "2013-03-13",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Letter from the European Union:START",
+   "status": "tdg_only",
+   "tdg_value": "2012-12-07",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Submission of notice by US:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "P30D",
+   "catala_value": null,
+   "delta_days": null
+  }
+ ]
+}

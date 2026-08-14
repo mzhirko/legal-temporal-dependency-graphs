@@ -1,0 +1,43 @@
+{
+ "document_id": "en_contracts_seed25",
+ "catala_status": "success",
+ "scope_name": "InformationSubmissionDeadline",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 0,
+  "mismatch": 0,
+  "tdg_only": 3,
+  "catala_only": 1,
+  "match_rate": null
+ },
+ "fields": [
+  {
+   "variable_name": "submission_deadline",
+   "status": "catala_only",
+   "tdg_value": null,
+   "catala_value": "2024-04-23",
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Agreement:START",
+   "status": "tdg_only",
+   "tdg_value": "1975-01-16",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Resolution:START",
+   "status": "tdg_only",
+   "tdg_value": "1974-07-16",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Unit of Account:START",
+   "status": "tdg_only",
+   "tdg_value": "1975-04-21",
+   "catala_value": null,
+   "delta_days": null
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+row_id,document_id,dependency,claim_to_check,based_on_sentences_sha256,our_relation,correct (Y/N/Unsure),comment
+era_1996_s111-B01,era_1996_s111,e1 -> e3,"""s. 111(2) Complaint"" happens after ""s. 111(1) Complaint"".",b10521cf11e1b2ae709cc21fb8e8edac,e3 must consider e1,,
+era_1996_s111-B02,era_1996_s111,e2 -> e3,"""s. 111(2) Complaint"" is computed from ""s. 111(2)(a) Complaint"".",00f86ff25b85ce96b80af6d332a277cb,e3 must occur within e2,,
+era_1996_s111-B03,era_1996_s111,e5 -> e3,"""s. 111(2) Complaint"" happens after ""s. 111(3) Complaint"".",424e27f1135ebf14f81bf25cd56f2d87,e3 must occur between notice and e5,,

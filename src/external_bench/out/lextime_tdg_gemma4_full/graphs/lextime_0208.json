@@ -1,0 +1,78 @@
+{
+ "id": "lextime_0208",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "The plaintiff becoming disabled under the terms of the plan's policy",
+ "event2": "Metropolitan Life Insurance Company's decision to cancel the plaintiff's disability benefits",
+ "relation": "BEFORE",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "disability status",
+   "role": "START",
+   "value": "2018-04-07",
+   "raw_text": "on or about april 7, 2018 and continues to be disabled",
+   "timex_type": "DATE",
+   "sentence": "b8085d5dd052ee04614c86d1a2a7252c",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2018-04-07"
+  },
+  {
+   "id": "e2",
+   "entity": "benefits entitlement",
+   "role": "DURATION",
+   "value": null,
+   "raw_text": "is entitled to benefits under the terms of the plan",
+   "timex_type": "DATE",
+   "sentence": "431de4671cf273e281adf498e6be1171",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e3",
+   "entity": "disability benefits",
+   "role": "END",
+   "value": "2021-04-10",
+   "raw_text": "metropolitan life insurance company cancelled plaintiffs disability benefits",
+   "timex_type": "DATE",
+   "sentence": "5b5dcbf96463563e19ec1f50483a3a63",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2021-04-10"
+  },
+  {
+   "id": "e4",
+   "entity": "disability benefits appeal",
+   "role": "END",
+   "value": "null",
+   "raw_text": "denied plaintiffs appeal on february 9",
+   "timex_type": "DATE",
+   "sentence": "a593904a263408e0df239bc05e5c3d26",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e3",
+   "to_id": "e4",
+   "constraint_type": "ordering",
+   "constraint_expr": "e4 occurs after e3",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

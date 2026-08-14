@@ -1,0 +1,135 @@
+{
+ "schema_version": "coherence-1.0.0",
+ "cases_total": 7,
+ "cases_complete": 6,
+ "coverage": 0.8571428571428571,
+ "cases_scored": 6,
+ "incoherent": 6,
+ "incoherence_rate": 1.0,
+ "format_only": 0,
+ "per_constraint": {
+  "K1": {
+   "independent": true,
+   "description": "last permissible date equals the effective deadline",
+   "evaluable": 6,
+   "violations": 4,
+   "rate": 0.6666666666666666,
+   "cases": [
+    "2025_EAT_155",
+    "2026_EAT_76",
+    "2026_EAT_64_s111",
+    "2026_EAT_64_s123"
+   ]
+  },
+  "K2": {
+   "independent": true,
+   "description": "delta_days equals presented minus deadline",
+   "evaluable": 6,
+   "violations": 6,
+   "rate": 1.0,
+   "cases": [
+    "2026_EAT_59",
+    "2025_EAT_155",
+    "2026_EAT_76",
+    "2026_EAT_64_s111",
+    "2026_EAT_64_s123",
+    "2026_EAT_14"
+   ]
+  },
+  "K3": {
+   "independent": true,
+   "description": "verdict agrees with the sign of delta_days",
+   "evaluable": 6,
+   "violations": 3,
+   "rate": 0.5,
+   "cases": [
+    "2026_EAT_76",
+    "2026_EAT_64_s123",
+    "2026_EAT_14"
+   ]
+  },
+  "K5": {
+   "independent": true,
+   "description": "compliance flag agrees with the verdict (paraphrase control)",
+   "evaluable": 6,
+   "violations": 0,
+   "rate": 0.0,
+   "cases": []
+  },
+  "K4": {
+   "independent": false,
+   "description": "verdict agrees with presented vs last permissible date (DERIVED from K1+K2+K3; redundancy check only)",
+   "evaluable": 6,
+   "violations": 3,
+   "rate": 0.5,
+   "cases": [
+    "2026_EAT_59",
+    "2025_EAT_155",
+    "2026_EAT_64_s111"
+   ]
+  }
+ },
+ "incoherent_cases": [
+  "2026_EAT_59",
+  "2025_EAT_155",
+  "2026_EAT_76",
+  "2026_EAT_64_s111",
+  "2026_EAT_64_s123",
+  "2026_EAT_14"
+ ],
+ "_note": "Rates are over complete batteries only. K4 is derived and excluded from incoherence_rate.",
+ "mode": "single_prompt",
+ "call_errors_infra": 0,
+ "missing_raw_files": 0,
+ "accuracy": [
+  {
+   "case_id": "2026_EAT_64_s111",
+   "presented_exact": true,
+   "deadline_exact": false,
+   "deadline_error_days": 125,
+   "verdict_match": false
+  },
+  {
+   "case_id": "2026_EAT_64_s123",
+   "presented_exact": true,
+   "deadline_exact": false,
+   "deadline_error_days": 92,
+   "verdict_match": true
+  },
+  {
+   "case_id": "2025_EAT_155",
+   "presented_exact": true,
+   "deadline_exact": null,
+   "deadline_error_days": null,
+   "verdict_match": false
+  },
+  {
+   "case_id": "2026_EAT_14",
+   "presented_exact": true,
+   "deadline_exact": null,
+   "deadline_error_days": null,
+   "verdict_match": true
+  },
+  {
+   "case_id": "2026_EAT_76",
+   "presented_exact": true,
+   "deadline_exact": null,
+   "deadline_error_days": null,
+   "verdict_match": true
+  },
+  {
+   "case_id": "2026_EAT_59",
+   "presented_exact": true,
+   "deadline_exact": null,
+   "deadline_error_days": null,
+   "verdict_match": true
+  },
+  {
+   "case_id": "kj_2026_EAT_46",
+   "presented_exact": null,
+   "deadline_exact": null,
+   "deadline_error_days": null,
+   "verdict_match": null
+  }
+ ]
+}

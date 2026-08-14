@@ -1,0 +1,38 @@
+{
+ "id": "lextime_0002",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "The union members' concerted refusal to work",
+ "event2": "the hospital being notified about their actions",
+ "relation": "BEFORE",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "concerted refusal to pick up extra shifts on holidays",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "the union authorized the union members concerted refusal to pick up extra shifts on holidays.",
+   "timex_type": "DATE",
+   "sentence": "ec9c76e060fe09c2507501c064a5173e",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e2",
+   "entity": "concerted action of storming meetings and offices during work hours",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "upon information and belief, the union authorized the union members concerted action of storming meetings and offices during work hours.",
+   "timex_type": "DATE",
+   "sentence": "ec9c76e060fe09c2507501c064a5173e",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  }
+ ],
+ "dependencies": []
+}

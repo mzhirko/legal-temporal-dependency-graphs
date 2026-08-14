@@ -1,0 +1,29 @@
+{
+ "document_id": "en_contracts_seed49",
+ "catala_status": "success",
+ "scope_name": "TomatoAgreementDates",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 0,
+  "mismatch": 0,
+  "tdg_only": 1,
+  "catala_only": 0,
+  "match_rate": null
+ },
+ "fields": [
+  {
+   "variable_name": "agreement_active",
+   "status": "type_mismatch",
+   "tdg_value": "1972-07-22",
+   "catala_value": "True",
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Exchange of letters:START",
+   "status": "tdg_only",
+   "tdg_value": "1975-12-05",
+   "catala_value": null,
+   "delta_days": null
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "document_id": "en_contracts_seed35",
+ "catala_status": "success",
+ "actions": [
+  {
+   "variable": "entry_into_force_date",
+   "action": "fill",
+   "catala_value": "2013-03-27",
+   "tdg_value": null,
+   "delta_days": null
+  },
+  {
+   "variable": "us_submission_deadline",
+   "action": "review",
+   "catala_value": "2013-04-17",
+   "tdg_value": "P30D",
+   "delta_days": 21
+  }
+ ]
+}

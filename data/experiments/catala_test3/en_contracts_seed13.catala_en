@@ -1,0 +1,16 @@
+Agreement establishing a double-checking system for steel products.
+
+```catala
+declaration scope DoubleCheckingSystem:
+  input startDate content date
+  input endDate content date
+  output systemDuration content duration
+```
+
+Calculating the duration of the double-checking system.
+
+```catala
+scope DoubleCheckingSystem:
+  date round down
+  definition systemDuration equals endDate - startDate
+```

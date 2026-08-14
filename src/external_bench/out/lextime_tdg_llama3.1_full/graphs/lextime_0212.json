@@ -1,0 +1,74 @@
+{
+ "id": "lextime_0212",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "The decision to stay the arbitration pending the final disposition in the United States courts",
+ "event2": "the filing of a dispute",
+ "relation": "AFTER",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "grievance",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "January 8 grievance is currently pending to be arbitrated.",
+   "timex_type": "DATE",
+   "sentence": "a020c5fea44bb20acd045787e2cb8d9b",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e2",
+   "entity": "grievance",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "January 8 grievance should be arbitrated or pursued through the plan.",
+   "timex_type": "DATE",
+   "sentence": "810983fd947cfaf8e84527429f42b7cb",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e3",
+   "entity": "arbitration",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "the parties have agreed to stay the arbitration pending the final disposition of this action in the United States courts.",
+   "timex_type": "DATE",
+   "sentence": "897ffbeac2cb80582b6825738b19d582",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e1",
+   "to_id": "e2",
+   "constraint_type": "ordering",
+   "constraint_expr": null,
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e3",
+   "to_id": "e2",
+   "constraint_type": "interval",
+   "constraint_expr": null,
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

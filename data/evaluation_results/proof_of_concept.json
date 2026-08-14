@@ -1,0 +1,2190 @@
+{
+ "config": {
+  "model": "gemma4:e4b",
+  "base_url": "http://localhost:11434/v1",
+  "minus_one_day": false
+ },
+ "benchmark": [
+  {
+   "item_id": "deadline_00",
+   "task": "deadline",
+   "difficulty": {
+    "hops": 1,
+    "offset_form": "digit",
+    "locality": "single"
+   },
+   "documents": [
+    [
+     "deadline_00",
+     "The Claimant's employment ended on 30 November 2024. Under the governing rule, a complaint must be presented to the tribunal within 3 months of the date employment ended. The Claimant presented the complaint on 25 February 2025."
+    ]
+   ],
+   "question": "What is the deadline for presenting the complaint, and was the complaint presented in time? Answer with the deadline date and the verdict TIMELY or LATE.",
+   "gold": {
+    "deadline": "2025-02-28",
+    "action_date": "2025-02-25",
+    "verdict": "TIMELY",
+    "days_over": -3
+   },
+   "notes": "anchor 2024-11-30 + Offset(years=0, months=3, days=0) -> deadline 2025-02-28; action 2025-02-25"
+  },
+  {
+   "item_id": "deadline_01",
+   "task": "deadline",
+   "difficulty": {
+    "hops": 1,
+    "offset_form": "digit",
+    "locality": "single"
+   },
+   "documents": [
+    [
+     "deadline_01",
+     "The Claimant's employment ended on 30 November 2024. Under the governing rule, a complaint must be presented to the tribunal within 3 months of the date employment ended. The Claimant presented the complaint on 5 March 2025."
+    ]
+   ],
+   "question": "What is the deadline for presenting the complaint, and was the complaint presented in time? Answer with the deadline date and the verdict TIMELY or LATE.",
+   "gold": {
+    "deadline": "2025-02-28",
+    "action_date": "2025-03-05",
+    "verdict": "LATE",
+    "days_over": 5
+   },
+   "notes": "anchor 2024-11-30 + Offset(years=0, months=3, days=0) -> deadline 2025-02-28; action 2025-03-05"
+  },
+  {
+   "item_id": "deadline_02",
+   "task": "deadline",
+   "difficulty": {
+    "hops": 1,
+    "offset_form": "natural",
+    "locality": "single"
+   },
+   "documents": [
+    [
+     "deadline_02",
+     "The Claimant's employment ended on 30 November 2024. Under the governing rule, a complaint must be presented to the tribunal within three months of the date employment ended. The Claimant presented the complaint on 25 February 2025."
+    ]
+   ],
+   "question": "What is the deadline for presenting the complaint, and was the complaint presented in time? Answer with the deadline date and the verdict TIMELY or LATE.",
+   "gold": {
+    "deadline": "2025-02-28",
+    "action_date": "2025-02-25",
+    "verdict": "TIMELY",
+    "days_over": -3
+   },
+   "notes": "anchor 2024-11-30 + Offset(years=0, months=3, days=0) -> deadline 2025-02-28; action 2025-02-25"
+  },
+  {
+   "item_id": "deadline_03",
+   "task": "deadline",
+   "difficulty": {
+    "hops": 1,
+    "offset_form": "natural",
+    "locality": "single"
+   },
+   "documents": [
+    [
+     "deadline_03",
+     "The Claimant's employment ended on 30 November 2024. Under the governing rule, a complaint must be presented to the tribunal within three months of the date employment ended. The Claimant presented the complaint on 5 March 2025."
+    ]
+   ],
+   "question": "What is the deadline for presenting the complaint, and was the complaint presented in time? Answer with the deadline date and the verdict TIMELY or LATE.",
+   "gold": {
+    "deadline": "2025-02-28",
+    "action_date": "2025-03-05",
+    "verdict": "LATE",
+    "days_over": 5
+   },
+   "notes": "anchor 2024-11-30 + Offset(years=0, months=3, days=0) -> deadline 2025-02-28; action 2025-03-05"
+  },
+  {
+   "item_id": "deadline_04",
+   "task": "deadline",
+   "difficulty": {
+    "hops": 1,
+    "offset_form": "vague",
+    "locality": "single"
+   },
+   "documents": [
+    [
+     "deadline_04",
+     "The Claimant's employment ended on 30 November 2024. Under the governing rule, a complaint must be presented to the tribunal within a quarter of a year of the date employment ended. The Claimant presented the complaint on 25 February 2025."
+    ]
+   ],
+   "question": "What is the deadline for presenting the complaint, and was the complaint presented in time? Answer with the deadline date and the verdict TIMELY or LATE.",
+   "gold": {
+    "deadline": "2025-02-28",
+    "action_date": "2025-02-25",
+    "verdict": "TIMELY",
+    "days_over": -3
+   },
+   "notes": "anchor 2024-11-30 + Offset(years=0, months=3, days=0) -> deadline 2025-02-28; action 2025-02-25"
+  },
+  {
+   "item_id": "deadline_05",
+   "task": "deadline",
+   "difficulty": {
+    "hops": 1,
+    "offset_form": "vague",
+    "locality": "single"
+   },
+   "documents": [
+    [
+     "deadline_05",
+     "The Claimant's employment ended on 30 November 2024. Under the governing rule, a complaint must be presented to the tribunal within a quarter of a year of the date employment ended. The Claimant presented the complaint on 5 March 2025."
+    ]
+   ],
+   "question": "What is the deadline for presenting the complaint, and was the complaint presented in time? Answer with the deadline date and the verdict TIMELY or LATE.",
+   "gold": {
+    "deadline": "2025-02-28",
+    "action_date": "2025-03-05",
+    "verdict": "LATE",
+    "days_over": 5
+   },
+   "notes": "anchor 2024-11-30 + Offset(years=0, months=3, days=0) -> deadline 2025-02-28; action 2025-03-05"
+  },
+  {
+   "item_id": "deadline_06",
+   "task": "deadline",
+   "difficulty": {
+    "hops": 1,
+    "offset_form": "digit",
+    "locality": "single"
+   },
+   "documents": [
+    [
+     "deadline_06",
+     "The Claimant's employment ended on 1 December 2023. Under the governing rule, a complaint must be presented to the tribunal within 1 year and 1 day of the date employment ended. The Claimant presented the complaint on 29 November 2024."
+    ]
+   ],
+   "question": "What is the deadline for presenting the complaint, and was the complaint presented in time? Answer with the deadline date and the verdict TIMELY or LATE.",
+   "gold": {
+    "deadline": "2024-12-02",
+    "action_date": "2024-11-29",
+    "verdict": "TIMELY",
+    "days_over": -3
+   },
+   "notes": "anchor 2023-12-01 + Offset(years=1, months=0, days=1) -> deadline 2024-12-02; action 2024-11-29"
+  },
+  {
+   "item_id": "deadline_07",
+   "task": "deadline",
+   "difficulty": {
+    "hops": 1,
+    "offset_form": "digit",
+    "locality": "single"
+   },
+   "documents": [
+    [
+     "deadline_07",
+     "The Claimant's employment ended on 1 December 2023. Under the governing rule, a complaint must be presented to the tribunal within 1 year and 1 day of the date employment ended. The Claimant presented the complaint on 7 December 2024."
+    ]
+   ],
+   "question": "What is the deadline for presenting the complaint, and was the complaint presented in time? Answer with the deadline date and the verdict TIMELY or LATE.",
+   "gold": {
+    "deadline": "2024-12-02",
+    "action_date": "2024-12-07",
+    "verdict": "LATE",
+    "days_over": 5
+   },
+   "notes": "anchor 2023-12-01 + Offset(years=1, months=0, days=1) -> deadline 2024-12-02; action 2024-12-07"
+  },
+  {
+   "item_id": "deadline_08",
+   "task": "deadline",
+   "difficulty": {
+    "hops": 1,
+    "offset_form": "natural",
+    "locality": "single"
+   },
+   "documents": [
+    [
+     "deadline_08",
+     "The Claimant's employment ended on 1 December 2023. Under the governing rule, a complaint must be presented to the tribunal within one year and one day of the date employment ended. The Claimant presented the complaint on 29 November 2024."
+    ]
+   ],
+   "question": "What is the deadline for presenting the complaint, and was the complaint presented in time? Answer with the deadline date and the verdict TIMELY or LATE.",
+   "gold": {
+    "deadline": "2024-12-02",
+    "action_date": "2024-11-29",
+    "verdict": "TIMELY",
+    "days_over": -3
+   },
+   "notes": "anchor 2023-12-01 + Offset(years=1, months=0, days=1) -> deadline 2024-12-02; action 2024-11-29"
+  },
+  {
+   "item_id": "deadline_09",
+   "task": "deadline",
+   "difficulty": {
+    "hops": 1,
+    "offset_form": "natural",
+    "locality": "single"
+   },
+   "documents": [
+    [
+     "deadline_09",
+     "The Claimant's employment ended on 1 December 2023. Under the governing rule, a complaint must be presented to the tribunal within one year and one day of the date employment ended. The Claimant presented the complaint on 7 December 2024."
+    ]
+   ],
+   "question": "What is the deadline for presenting the complaint, and was the complaint presented in time? Answer with the deadline date and the verdict TIMELY or LATE.",
+   "gold": {
+    "deadline": "2024-12-02",
+    "action_date": "2024-12-07",
+    "verdict": "LATE",
+    "days_over": 5
+   },
+   "notes": "anchor 2023-12-01 + Offset(years=1, months=0, days=1) -> deadline 2024-12-02; action 2024-12-07"
+  },
+  {
+   "item_id": "deadline_10",
+   "task": "deadline",
+   "difficulty": {
+    "hops": 1,
+    "offset_form": "vague",
+    "locality": "single"
+   },
+   "documents": [
+    [
+     "deadline_10",
+     "The Claimant's employment ended on 1 December 2023. Under the governing rule, a complaint must be presented to the tribunal within a year and a day of the date employment ended. The Claimant presented the complaint on 29 November 2024."
+    ]
+   ],
+   "question": "What is the deadline for presenting the complaint, and was the complaint presented in time? Answer with the deadline date and the verdict TIMELY or LATE.",
+   "gold": {
+    "deadline": "2024-12-02",
+    "action_date": "2024-11-29",
+    "verdict": "TIMELY",
+    "days_over": -3
+   },
+   "notes": "anchor 2023-12-01 + Offset(years=1, months=0, days=1) -> deadline 2024-12-02; action 2024-11-29"
+  },
+  {
+   "item_id": "deadline_11",
+   "task": "deadline",
+   "difficulty": {
+    "hops": 1,
+    "offset_form": "vague",
+    "locality": "single"
+   },
+   "documents": [
+    [
+     "deadline_11",
+     "The Claimant's employment ended on 1 December 2023. Under the governing rule, a complaint must be presented to the tribunal within a year and a day of the date employment ended. The Claimant presented the complaint on 7 December 2024."
+    ]
+   ],
+   "question": "What is the deadline for presenting the complaint, and was the complaint presented in time? Answer with the deadline date and the verdict TIMELY or LATE.",
+   "gold": {
+    "deadline": "2024-12-02",
+    "action_date": "2024-12-07",
+    "verdict": "LATE",
+    "days_over": 5
+   },
+   "notes": "anchor 2023-12-01 + Offset(years=1, months=0, days=1) -> deadline 2024-12-02; action 2024-12-07"
+  },
+  {
+   "item_id": "deadline_12",
+   "task": "deadline",
+   "difficulty": {
+    "hops": 1,
+    "offset_form": "digit",
+    "locality": "single"
+   },
+   "documents": [
+    [
+     "deadline_12",
+     "The Claimant's employment ended on 31 January 2024. Under the governing rule, a complaint must be presented to the tribunal within 6 months of the date employment ended. The Claimant presented the complaint on 28 July 2024."
+    ]
+   ],
+   "question": "What is the deadline for presenting the complaint, and was the complaint presented in time? Answer with the deadline date and the verdict TIMELY or LATE.",
+   "gold": {
+    "deadline": "2024-07-31",
+    "action_date": "2024-07-28",
+    "verdict": "TIMELY",
+    "days_over": -3
+   },
+   "notes": "anchor 2024-01-31 + Offset(years=0, months=6, days=0) -> deadline 2024-07-31; action 2024-07-28"
+  },
+  {
+   "item_id": "deadline_13",
+   "task": "deadline",
+   "difficulty": {
+    "hops": 1,
+    "offset_form": "digit",
+    "locality": "single"
+   },
+   "documents": [
+    [
+     "deadline_13",
+     "The Claimant's employment ended on 31 January 2024. Under the governing rule, a complaint must be presented to the tribunal within 6 months of the date employment ended. The Claimant presented the complaint on 5 August 2024."
+    ]
+   ],
+   "question": "What is the deadline for presenting the complaint, and was the complaint presented in time? Answer with the deadline date and the verdict TIMELY or LATE.",
+   "gold": {
+    "deadline": "2024-07-31",
+    "action_date": "2024-08-05",
+    "verdict": "LATE",
+    "days_over": 5
+   },
+   "notes": "anchor 2024-01-31 + Offset(years=0, months=6, days=0) -> deadline 2024-07-31; action 2024-08-05"
+  },
+  {
+   "item_id": "deadline_14",
+   "task": "deadline",
+   "difficulty": {
+    "hops": 1,
+    "offset_form": "natural",
+    "locality": "single"
+   },
+   "documents": [
+    [
+     "deadline_14",
+     "The Claimant's employment ended on 31 January 2024. Under the governing rule, a complaint must be presented to the tribunal within six months of the date employment ended. The Claimant presented the complaint on 28 July 2024."
+    ]
+   ],
+   "question": "What is the deadline for presenting the complaint, and was the complaint presented in time? Answer with the deadline date and the verdict TIMELY or LATE.",
+   "gold": {
+    "deadline": "2024-07-31",
+    "action_date": "2024-07-28",
+    "verdict": "TIMELY",
+    "days_over": -3
+   },
+   "notes": "anchor 2024-01-31 + Offset(years=0, months=6, days=0) -> deadline 2024-07-31; action 2024-07-28"
+  },
+  {
+   "item_id": "deadline_15",
+   "task": "deadline",
+   "difficulty": {
+    "hops": 1,
+    "offset_form": "natural",
+    "locality": "single"
+   },
+   "documents": [
+    [
+     "deadline_15",
+     "The Claimant's employment ended on 31 January 2024. Under the governing rule, a complaint must be presented to the tribunal within six months of the date employment ended. The Claimant presented the complaint on 5 August 2024."
+    ]
+   ],
+   "question": "What is the deadline for presenting the complaint, and was the complaint presented in time? Answer with the deadline date and the verdict TIMELY or LATE.",
+   "gold": {
+    "deadline": "2024-07-31",
+    "action_date": "2024-08-05",
+    "verdict": "LATE",
+    "days_over": 5
+   },
+   "notes": "anchor 2024-01-31 + Offset(years=0, months=6, days=0) -> deadline 2024-07-31; action 2024-08-05"
+  },
+  {
+   "item_id": "deadline_16",
+   "task": "deadline",
+   "difficulty": {
+    "hops": 1,
+    "offset_form": "vague",
+    "locality": "single"
+   },
+   "documents": [
+    [
+     "deadline_16",
+     "The Claimant's employment ended on 31 January 2024. Under the governing rule, a complaint must be presented to the tribunal within half a year of the date employment ended. The Claimant presented the complaint on 28 July 2024."
+    ]
+   ],
+   "question": "What is the deadline for presenting the complaint, and was the complaint presented in time? Answer with the deadline date and the verdict TIMELY or LATE.",
+   "gold": {
+    "deadline": "2024-07-31",
+    "action_date": "2024-07-28",
+    "verdict": "TIMELY",
+    "days_over": -3
+   },
+   "notes": "anchor 2024-01-31 + Offset(years=0, months=6, days=0) -> deadline 2024-07-31; action 2024-07-28"
+  },
+  {
+   "item_id": "deadline_17",
+   "task": "deadline",
+   "difficulty": {
+    "hops": 1,
+    "offset_form": "vague",
+    "locality": "single"
+   },
+   "documents": [
+    [
+     "deadline_17",
+     "The Claimant's employment ended on 31 January 2024. Under the governing rule, a complaint must be presented to the tribunal within half a year of the date employment ended. The Claimant presented the complaint on 5 August 2024."
+    ]
+   ],
+   "question": "What is the deadline for presenting the complaint, and was the complaint presented in time? Answer with the deadline date and the verdict TIMELY or LATE.",
+   "gold": {
+    "deadline": "2024-07-31",
+    "action_date": "2024-08-05",
+    "verdict": "LATE",
+    "days_over": 5
+   },
+   "notes": "anchor 2024-01-31 + Offset(years=0, months=6, days=0) -> deadline 2024-07-31; action 2024-08-05"
+  },
+  {
+   "item_id": "cascade_00",
+   "task": "cascade",
+   "difficulty": {
+    "hops": 2,
+    "offset_form": "digit",
+    "locality": "single"
+   },
+   "documents": [
+    [
+     "cascade_00_A",
+     "The dismissal took effect on 1 June 2025. The notice deadline falls 14 days after the dismissal, on 15 June 2025. The grievance window falls 30 days after the notice deadline, on 15 July 2025."
+    ]
+   ],
+   "question": "The dismissal date is corrected from 1 June 2025 to 1 July 2025. Give the corrected date of every other dated event that depends on it.",
+   "gold": {
+    "edit": {
+     "fact": "f1",
+     "old": "2025-06-01",
+     "new": "2025-07-01"
+    },
+    "updates": {
+     "notice deadline": "2025-07-15",
+     "grievance window": "2025-08-14"
+    }
+   },
+   "notes": "chain [(0, 0, 14), (0, 0, 30)] form=digit single"
+  },
+  {
+   "item_id": "cascade_01",
+   "task": "cascade",
+   "difficulty": {
+    "hops": 2,
+    "offset_form": "natural",
+    "locality": "single"
+   },
+   "documents": [
+    [
+     "cascade_01_A",
+     "The dismissal took effect on 1 June 2025. The notice deadline falls fourteen days after the dismissal, on 15 June 2025. The grievance window falls thirty days after the notice deadline, on 15 July 2025."
+    ]
+   ],
+   "question": "The dismissal date is corrected from 1 June 2025 to 1 July 2025. Give the corrected date of every other dated event that depends on it.",
+   "gold": {
+    "edit": {
+     "fact": "f1",
+     "old": "2025-06-01",
+     "new": "2025-07-01"
+    },
+    "updates": {
+     "notice deadline": "2025-07-15",
+     "grievance window": "2025-08-14"
+    }
+   },
+   "notes": "chain [(0, 0, 14), (0, 0, 30)] form=natural single"
+  },
+  {
+   "item_id": "cascade_02",
+   "task": "cascade",
+   "difficulty": {
+    "hops": 2,
+    "offset_form": "digit",
+    "locality": "single"
+   },
+   "documents": [
+    [
+     "cascade_02_A",
+     "The dismissal took effect on 30 January 2025. The notice deadline falls 14 days after the dismissal, on 13 February 2025. The grievance window falls 30 days after the notice deadline, on 15 March 2025."
+    ]
+   ],
+   "question": "The dismissal date is corrected from 30 January 2025 to 27 February 2025. Give the corrected date of every other dated event that depends on it.",
+   "gold": {
+    "edit": {
+     "fact": "f1",
+     "old": "2025-01-30",
+     "new": "2025-02-27"
+    },
+    "updates": {
+     "notice deadline": "2025-03-13",
+     "grievance window": "2025-04-12"
+    }
+   },
+   "notes": "chain [(0, 0, 14), (0, 0, 30)] form=digit single"
+  },
+  {
+   "item_id": "cascade_03",
+   "task": "cascade",
+   "difficulty": {
+    "hops": 2,
+    "offset_form": "digit",
+    "locality": "cross"
+   },
+   "documents": [
+    [
+     "cascade_03_A",
+     "The dismissal took effect on 1 June 2025. The notice deadline falls 14 days after the dismissal, on 15 June 2025. The grievance window falls 30 days after the notice deadline, on 15 July 2025."
+    ],
+    [
+     "cascade_03_B",
+     "Per the internal record, the grievance window is not reached until about a month and a half after the dismissal of 1 June 2025, placing it in July 2025."
+    ]
+   ],
+   "question": "The dismissal date is corrected from 1 June 2025 to 1 July 2025. Give the corrected date of every other dated event that depends on it, including the one named in the internal record.",
+   "gold": {
+    "edit": {
+     "fact": "f1",
+     "old": "2025-06-01",
+     "new": "2025-07-01"
+    },
+    "updates": {
+     "notice deadline": "2025-07-15",
+     "grievance window": "2025-08-14"
+    }
+   },
+   "notes": "chain [(0, 0, 14), (0, 0, 30)] form=digit cross"
+  },
+  {
+   "item_id": "cascade_04",
+   "task": "cascade",
+   "difficulty": {
+    "hops": 2,
+    "offset_form": "natural",
+    "locality": "cross"
+   },
+   "documents": [
+    [
+     "cascade_04_A",
+     "The dismissal took effect on 1 June 2025. The notice deadline falls fourteen days after the dismissal, on 15 June 2025. The grievance window falls thirty days after the notice deadline, on 15 July 2025."
+    ],
+    [
+     "cascade_04_B",
+     "Per the internal record, the grievance window is not reached until about a month and a half after the dismissal of 1 June 2025, placing it in July 2025."
+    ]
+   ],
+   "question": "The dismissal date is corrected from 1 June 2025 to 1 July 2025. Give the corrected date of every other dated event that depends on it, including the one named in the internal record.",
+   "gold": {
+    "edit": {
+     "fact": "f1",
+     "old": "2025-06-01",
+     "new": "2025-07-01"
+    },
+    "updates": {
+     "notice deadline": "2025-07-15",
+     "grievance window": "2025-08-14"
+    }
+   },
+   "notes": "chain [(0, 0, 14), (0, 0, 30)] form=natural cross"
+  },
+  {
+   "item_id": "cascade_05",
+   "task": "cascade",
+   "difficulty": {
+    "hops": 3,
+    "offset_form": "digit",
+    "locality": "single"
+   },
+   "documents": [
+    [
+     "cascade_05_A",
+     "The dismissal took effect on 31 January 2024. The notice deadline falls 14 days after the dismissal, on 14 February 2024. The grievance window falls 1 month after the notice deadline, on 14 March 2024. The appeal deadline falls 3 months after the grievance window, on 14 June 2024."
+    ]
+   ],
+   "question": "The dismissal date is corrected from 31 January 2024 to 31 March 2024. Give the corrected date of every other dated event that depends on it.",
+   "gold": {
+    "edit": {
+     "fact": "f1",
+     "old": "2024-01-31",
+     "new": "2024-03-31"
+    },
+    "updates": {
+     "notice deadline": "2024-04-14",
+     "grievance window": "2024-05-14",
+     "appeal deadline": "2024-08-14"
+    }
+   },
+   "notes": "chain [(0, 0, 14), (0, 1, 0), (0, 3, 0)] form=digit single"
+  },
+  {
+   "item_id": "cascade_06",
+   "task": "cascade",
+   "difficulty": {
+    "hops": 3,
+    "offset_form": "natural",
+    "locality": "single"
+   },
+   "documents": [
+    [
+     "cascade_06_A",
+     "The dismissal took effect on 31 January 2024. The notice deadline falls fourteen days after the dismissal, on 14 February 2024. The grievance window falls one month after the notice deadline, on 14 March 2024. The appeal deadline falls three months after the grievance window, on 14 June 2024."
+    ]
+   ],
+   "question": "The dismissal date is corrected from 31 January 2024 to 31 March 2024. Give the corrected date of every other dated event that depends on it.",
+   "gold": {
+    "edit": {
+     "fact": "f1",
+     "old": "2024-01-31",
+     "new": "2024-03-31"
+    },
+    "updates": {
+     "notice deadline": "2024-04-14",
+     "grievance window": "2024-05-14",
+     "appeal deadline": "2024-08-14"
+    }
+   },
+   "notes": "chain [(0, 0, 14), (0, 1, 0), (0, 3, 0)] form=natural single"
+  },
+  {
+   "item_id": "cascade_07",
+   "task": "cascade",
+   "difficulty": {
+    "hops": 3,
+    "offset_form": "digit",
+    "locality": "cross"
+   },
+   "documents": [
+    [
+     "cascade_07_A",
+     "The dismissal took effect on 31 January 2024. The notice deadline falls 14 days after the dismissal, on 14 February 2024. The grievance window falls 1 month after the notice deadline, on 14 March 2024. The appeal deadline falls 3 months after the grievance window, on 14 June 2024."
+    ],
+    [
+     "cascade_07_B",
+     "Per the internal record, the appeal deadline is not reached until about four months or so after the dismissal of 31 January 2024, placing it in June 2024."
+    ]
+   ],
+   "question": "The dismissal date is corrected from 31 January 2024 to 31 March 2024. Give the corrected date of every other dated event that depends on it, including the one named in the internal record.",
+   "gold": {
+    "edit": {
+     "fact": "f1",
+     "old": "2024-01-31",
+     "new": "2024-03-31"
+    },
+    "updates": {
+     "notice deadline": "2024-04-14",
+     "grievance window": "2024-05-14",
+     "appeal deadline": "2024-08-14"
+    }
+   },
+   "notes": "chain [(0, 0, 14), (0, 1, 0), (0, 3, 0)] form=digit cross"
+  }
+ ],
+ "answers": {
+  "structured": [
+   {
+    "item_id": "deadline_00",
+    "task": "deadline",
+    "deadline": "2025-02-28",
+    "verdict": "TIMELY",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "anchor=date employment ended (2024-11-30) + [date employment ended + 3m] = deadline 2025-02-28. action=complaint presented to the tribunal (2025-02-25, via target-match) -> 3d before/at deadline -> TIMELY",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_01",
+    "task": "deadline",
+    "deadline": "2025-02-28",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "anchor=date employment ended (2024-11-30) + [date employment ended + 3m] = deadline 2025-02-28. action=complaint presented to the tribunal (2025-03-05, via target-match) -> 5d after deadline -> LATE",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_02",
+    "task": "deadline",
+    "deadline": "2025-02-28",
+    "verdict": "TIMELY",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "anchor=date employment ended (2024-11-30) + [date employment ended + 3m] = deadline 2025-02-28. action=complaint presented to the tribunal (2025-02-25, via target-match) -> 3d before/at deadline -> TIMELY",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_03",
+    "task": "deadline",
+    "deadline": "2025-02-28",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "anchor=date employment ended (2024-11-30) + [date employment ended + 3m] = deadline 2025-02-28. action=complaint presented to the tribunal (2025-03-05, via target-match) -> 5d after deadline -> LATE",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_04",
+    "task": "deadline",
+    "deadline": "2025-02-28",
+    "verdict": "TIMELY",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "anchor=date employment ended (2024-11-30) + [date employment ended + 3m] = deadline 2025-02-28. action=complaint presented to the tribunal (2025-02-25, via target-match) -> 3d before/at deadline -> TIMELY",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_05",
+    "task": "deadline",
+    "deadline": "2025-02-28",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "anchor=date employment ended (2024-11-30) + [date employment ended + 3m] = deadline 2025-02-28. action=complaint presented to the tribunal (2025-03-05, via target-match) -> 5d after deadline -> LATE",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_06",
+    "task": "deadline",
+    "deadline": "2024-12-02",
+    "verdict": "TIMELY",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "anchor=date employment ended (2023-12-01) + [date employment ended + 1y+1d] = deadline 2024-12-02. action=complaint presented to the tribunal (2024-11-29, via action-cue) -> 3d before/at deadline -> TIMELY",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_07",
+    "task": "deadline",
+    "deadline": "2024-12-02",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "anchor=date employment ended (2023-12-01) + [date employment ended + 1y+1d] = deadline 2024-12-02. action=complaint presented to the tribunal (2024-12-07, via action-cue) -> 5d after deadline -> LATE",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_08",
+    "task": "deadline",
+    "deadline": "2024-12-02",
+    "verdict": "TIMELY",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "anchor=date employment ended (2023-12-01) + [date employment ended + 1y+1d] = deadline 2024-12-02. action=complaint presented to the tribunal (2024-11-29, via action-cue) -> 3d before/at deadline -> TIMELY",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_09",
+    "task": "deadline",
+    "deadline": "2024-12-02",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "anchor=date employment ended (2023-12-01) + [date employment ended + 1y+1d] = deadline 2024-12-02. action=complaint presented to the tribunal (2024-12-07, via action-cue) -> 5d after deadline -> LATE",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_10",
+    "task": "deadline",
+    "deadline": "2024-12-02",
+    "verdict": "TIMELY",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "anchor=date employment ended (2023-12-01) + [date employment ended + 1y+1d] = deadline 2024-12-02. action=complaint presented to the tribunal (2024-11-29, via target-match) -> 3d before/at deadline -> TIMELY",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_11",
+    "task": "deadline",
+    "deadline": "2024-12-02",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "anchor=date employment ended (2023-12-01) + [date employment ended + 1y+1d] = deadline 2024-12-02. action=complaint presented to the tribunal (2024-12-07, via target-match) -> 5d after deadline -> LATE",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_12",
+    "task": "deadline",
+    "deadline": "2024-07-31",
+    "verdict": "TIMELY",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "anchor=date employment ended (2024-01-31) + [date employment ended + 6m] = deadline 2024-07-31. action=complaint presented to the tribunal (2024-07-28, via target-match) -> 3d before/at deadline -> TIMELY",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_13",
+    "task": "deadline",
+    "deadline": "2024-07-31",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "anchor=date employment ended (2024-01-31) + [date employment ended + 6m] = deadline 2024-07-31. action=complaint presented to the tribunal (2024-08-05, via target-match) -> 5d after deadline -> LATE",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_14",
+    "task": "deadline",
+    "deadline": "2024-07-31",
+    "verdict": "TIMELY",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "anchor=date employment ended (2024-01-31) + [date employment ended + 6m] = deadline 2024-07-31. action=complaint presented to the tribunal (2024-07-28, via target-match) -> 3d before/at deadline -> TIMELY",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_15",
+    "task": "deadline",
+    "deadline": "2024-07-31",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "anchor=date employment ended (2024-01-31) + [date employment ended + 6m] = deadline 2024-07-31. action=complaint presented to the tribunal (2024-08-05, via target-match) -> 5d after deadline -> LATE",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_16",
+    "task": "deadline",
+    "deadline": "2024-07-31",
+    "verdict": "TIMELY",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "anchor=date employment ended (2024-01-31) + [date employment ended + 6m] = deadline 2024-07-31. action=complaint presented to the tribunal (2024-07-28, via target-match) -> 3d before/at deadline -> TIMELY",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_17",
+    "task": "deadline",
+    "deadline": "2024-07-31",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "anchor=date employment ended (2024-01-31) + [date employment ended + 6m] = deadline 2024-07-31. action=complaint presented to the tribunal (2024-08-05, via target-match) -> 5d after deadline -> LATE",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "cascade_00",
+    "task": "cascade",
+    "deadline": null,
+    "verdict": null,
+    "updates": {
+     "notice deadline": "2025-07-15",
+     "grievance window": "2025-08-14"
+    },
+    "score": {
+     "fully_correct": true,
+     "n_fields": 2,
+     "n_correct": 2
+    },
+    "trace": "notice deadline: 2025-06-15 -> 2025-07-15; grievance window: 2025-07-15 -> 2025-08-14",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "cascade_01",
+    "task": "cascade",
+    "deadline": null,
+    "verdict": null,
+    "updates": {
+     "notice deadline": "2025-07-15",
+     "grievance window": "2025-08-14"
+    },
+    "score": {
+     "fully_correct": true,
+     "n_fields": 2,
+     "n_correct": 2
+    },
+    "trace": "notice deadline: 2025-06-15 -> 2025-07-15; grievance window: 2025-07-15 -> 2025-08-14",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "cascade_02",
+    "task": "cascade",
+    "deadline": null,
+    "verdict": null,
+    "updates": {
+     "notice deadline": "2025-03-13",
+     "grievance window": "2025-04-12"
+    },
+    "score": {
+     "fully_correct": true,
+     "n_fields": 2,
+     "n_correct": 2
+    },
+    "trace": "notice deadline: 2025-02-13 -> 2025-03-13; grievance window: 2025-03-15 -> 2025-04-12",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "cascade_03",
+    "task": "cascade",
+    "deadline": null,
+    "verdict": null,
+    "updates": {
+     "notice deadline": "2025-07-15",
+     "grievance window": "2025-08-14"
+    },
+    "score": {
+     "fully_correct": true,
+     "n_fields": 2,
+     "n_correct": 2
+    },
+    "trace": "notice deadline: 2025-06-15 -> 2025-07-15; grievance window: 2025-07-15 -> 2025-08-14; grievance window: 2025-07-15 -> 2025-08-14",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "cascade_04",
+    "task": "cascade",
+    "deadline": null,
+    "verdict": null,
+    "updates": {
+     "notice deadline": "2025-07-15",
+     "grievance window": "2025-08-14"
+    },
+    "score": {
+     "fully_correct": true,
+     "n_fields": 2,
+     "n_correct": 2
+    },
+    "trace": "notice deadline: 2025-06-15 -> 2025-07-15; grievance window: 2025-07-15 -> 2025-08-14; grievance window: 2025-07-15 -> 2025-08-14",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "cascade_05",
+    "task": "cascade",
+    "deadline": null,
+    "verdict": null,
+    "updates": {
+     "notice deadline": "2024-04-14",
+     "grievance window": "2024-05-14",
+     "appeal deadline": "2024-08-14"
+    },
+    "score": {
+     "fully_correct": true,
+     "n_fields": 3,
+     "n_correct": 3
+    },
+    "trace": "notice deadline: 2024-02-14 -> 2024-04-14; grievance window: 2024-03-14 -> 2024-05-14; appeal deadline: 2024-06-14 -> 2024-08-14",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "cascade_06",
+    "task": "cascade",
+    "deadline": null,
+    "verdict": null,
+    "updates": {
+     "notice deadline": "2024-04-14",
+     "grievance window": "2024-05-14",
+     "appeal deadline": "2024-08-14"
+    },
+    "score": {
+     "fully_correct": true,
+     "n_fields": 3,
+     "n_correct": 3
+    },
+    "trace": "notice deadline: 2024-02-14 -> 2024-04-14; grievance window: 2024-03-14 -> 2024-05-14; appeal deadline: 2024-06-14 -> 2024-08-14",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "cascade_07",
+    "task": "cascade",
+    "deadline": null,
+    "verdict": null,
+    "updates": {
+     "notice deadline": "2024-04-14",
+     "grievance window": "2024-05-14",
+     "appeal deadline": "2024-08-14"
+    },
+    "score": {
+     "fully_correct": true,
+     "n_fields": 3,
+     "n_correct": 3
+    },
+    "trace": "notice deadline: 2024-02-14 -> 2024-04-14; grievance window: 2024-03-14 -> 2024-05-14; appeal deadline: 2024-06-14 -> 2024-08-14; appeal deadline: 2024-06-14 -> 2024-08-14",
+    "raw": "",
+    "error": null
+   }
+  ],
+  "calendar_naive": [
+   {
+    "item_id": "deadline_00",
+    "task": "deadline",
+    "deadline": "2025-02-28",
+    "verdict": "TIMELY",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "naive: 2024-11-30 + 90d",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_01",
+    "task": "deadline",
+    "deadline": "2025-02-28",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "naive: 2024-11-30 + 90d",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_02",
+    "task": "deadline",
+    "deadline": "2025-02-28",
+    "verdict": "TIMELY",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "naive: 2024-11-30 + 90d",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_03",
+    "task": "deadline",
+    "deadline": "2025-02-28",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "naive: 2024-11-30 + 90d",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_04",
+    "task": "deadline",
+    "deadline": "2025-02-28",
+    "verdict": "TIMELY",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "naive: 2024-11-30 + 90d",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_05",
+    "task": "deadline",
+    "deadline": "2025-02-28",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "naive: 2024-11-30 + 90d",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_06",
+    "task": "deadline",
+    "deadline": "2024-12-01",
+    "verdict": "TIMELY",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": false,
+     "fully_correct": false,
+     "n_fields": 1,
+     "n_correct": 0
+    },
+    "trace": "naive: 2023-12-01 + 366d",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_07",
+    "task": "deadline",
+    "deadline": "2024-12-01",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": false,
+     "fully_correct": false,
+     "n_fields": 1,
+     "n_correct": 0
+    },
+    "trace": "naive: 2023-12-01 + 366d",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_08",
+    "task": "deadline",
+    "deadline": "2024-12-01",
+    "verdict": "TIMELY",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": false,
+     "fully_correct": false,
+     "n_fields": 1,
+     "n_correct": 0
+    },
+    "trace": "naive: 2023-12-01 + 366d",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_09",
+    "task": "deadline",
+    "deadline": "2024-12-01",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": false,
+     "fully_correct": false,
+     "n_fields": 1,
+     "n_correct": 0
+    },
+    "trace": "naive: 2023-12-01 + 366d",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_10",
+    "task": "deadline",
+    "deadline": "2024-12-01",
+    "verdict": "TIMELY",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": false,
+     "fully_correct": false,
+     "n_fields": 1,
+     "n_correct": 0
+    },
+    "trace": "naive: 2023-12-01 + 366d",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_11",
+    "task": "deadline",
+    "deadline": "2024-12-01",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": false,
+     "fully_correct": false,
+     "n_fields": 1,
+     "n_correct": 0
+    },
+    "trace": "naive: 2023-12-01 + 366d",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_12",
+    "task": "deadline",
+    "deadline": "2024-07-29",
+    "verdict": "TIMELY",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": false,
+     "fully_correct": false,
+     "n_fields": 1,
+     "n_correct": 0
+    },
+    "trace": "naive: 2024-01-31 + 180d",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_13",
+    "task": "deadline",
+    "deadline": "2024-07-29",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": false,
+     "fully_correct": false,
+     "n_fields": 1,
+     "n_correct": 0
+    },
+    "trace": "naive: 2024-01-31 + 180d",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_14",
+    "task": "deadline",
+    "deadline": "2024-07-29",
+    "verdict": "TIMELY",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": false,
+     "fully_correct": false,
+     "n_fields": 1,
+     "n_correct": 0
+    },
+    "trace": "naive: 2024-01-31 + 180d",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_15",
+    "task": "deadline",
+    "deadline": "2024-07-29",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": false,
+     "fully_correct": false,
+     "n_fields": 1,
+     "n_correct": 0
+    },
+    "trace": "naive: 2024-01-31 + 180d",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_16",
+    "task": "deadline",
+    "deadline": "2024-07-29",
+    "verdict": "TIMELY",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": false,
+     "fully_correct": false,
+     "n_fields": 1,
+     "n_correct": 0
+    },
+    "trace": "naive: 2024-01-31 + 180d",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "deadline_17",
+    "task": "deadline",
+    "deadline": "2024-07-29",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": false,
+     "fully_correct": false,
+     "n_fields": 1,
+     "n_correct": 0
+    },
+    "trace": "naive: 2024-01-31 + 180d",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "cascade_00",
+    "task": "cascade",
+    "deadline": null,
+    "verdict": null,
+    "updates": {
+     "notice deadline": "2025-07-15",
+     "grievance window": "2025-08-14"
+    },
+    "score": {
+     "fully_correct": true,
+     "n_fields": 2,
+     "n_correct": 2
+    },
+    "trace": "",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "cascade_01",
+    "task": "cascade",
+    "deadline": null,
+    "verdict": null,
+    "updates": {
+     "notice deadline": "2025-07-15",
+     "grievance window": "2025-08-14"
+    },
+    "score": {
+     "fully_correct": true,
+     "n_fields": 2,
+     "n_correct": 2
+    },
+    "trace": "",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "cascade_02",
+    "task": "cascade",
+    "deadline": null,
+    "verdict": null,
+    "updates": {
+     "notice deadline": "2025-03-13",
+     "grievance window": "2025-04-12"
+    },
+    "score": {
+     "fully_correct": true,
+     "n_fields": 2,
+     "n_correct": 2
+    },
+    "trace": "",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "cascade_03",
+    "task": "cascade",
+    "deadline": null,
+    "verdict": null,
+    "updates": {
+     "notice deadline": "2025-07-15",
+     "grievance window": "2025-08-14"
+    },
+    "score": {
+     "fully_correct": true,
+     "n_fields": 2,
+     "n_correct": 2
+    },
+    "trace": "",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "cascade_04",
+    "task": "cascade",
+    "deadline": null,
+    "verdict": null,
+    "updates": {
+     "notice deadline": "2025-07-15",
+     "grievance window": "2025-08-14"
+    },
+    "score": {
+     "fully_correct": true,
+     "n_fields": 2,
+     "n_correct": 2
+    },
+    "trace": "",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "cascade_05",
+    "task": "cascade",
+    "deadline": null,
+    "verdict": null,
+    "updates": {
+     "notice deadline": "2024-04-14",
+     "grievance window": "2024-05-14",
+     "appeal deadline": "2024-08-12"
+    },
+    "score": {
+     "fully_correct": false,
+     "n_fields": 3,
+     "n_correct": 2
+    },
+    "trace": "",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "cascade_06",
+    "task": "cascade",
+    "deadline": null,
+    "verdict": null,
+    "updates": {
+     "notice deadline": "2024-04-14",
+     "grievance window": "2024-05-14",
+     "appeal deadline": "2024-08-12"
+    },
+    "score": {
+     "fully_correct": false,
+     "n_fields": 3,
+     "n_correct": 2
+    },
+    "trace": "",
+    "raw": "",
+    "error": null
+   },
+   {
+    "item_id": "cascade_07",
+    "task": "cascade",
+    "deadline": null,
+    "verdict": null,
+    "updates": {
+     "notice deadline": "2024-04-14",
+     "grievance window": "2024-05-14",
+     "appeal deadline": "2024-08-12"
+    },
+    "score": {
+     "fully_correct": false,
+     "n_fields": 3,
+     "n_correct": 2
+    },
+    "trace": "",
+    "raw": "",
+    "error": null
+   }
+  ],
+  "baseline_llm": [
+   {
+    "item_id": "deadline_00",
+    "task": "deadline",
+    "deadline": "2025-02-28",
+    "verdict": "TIMELY",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "",
+    "raw": "{\"deadline\": \"2025-02-28\", \"verdict\": \"TIMELY\"}",
+    "error": null
+   },
+   {
+    "item_id": "deadline_01",
+    "task": "deadline",
+    "deadline": "2025-02-28",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "",
+    "raw": "{\"deadline\": \"2025-02-28\", \"verdict\": \"LATE\"}",
+    "error": null
+   },
+   {
+    "item_id": "deadline_02",
+    "task": "deadline",
+    "deadline": "2025-02-28",
+    "verdict": "TIMELY",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "",
+    "raw": "{\"deadline\": \"2025-02-28\", \"verdict\": \"TIMELY\"}",
+    "error": null
+   },
+   {
+    "item_id": "deadline_03",
+    "task": "deadline",
+    "deadline": "2025-02-28",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "",
+    "raw": "{\"deadline\": \"2025-02-28\", \"verdict\": \"LATE\"}",
+    "error": null
+   },
+   {
+    "item_id": "deadline_04",
+    "task": "deadline",
+    "deadline": "31-05-2025",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": false,
+     "deadline_correct": false,
+     "fully_correct": false,
+     "n_fields": 1,
+     "n_correct": 0
+    },
+    "trace": "",
+    "raw": "{\"deadline\": \"31-05-2025\", \"verdict\": \"LATE\"}",
+    "error": null
+   },
+   {
+    "item_id": "deadline_05",
+    "task": "deadline",
+    "deadline": "31-02-2025",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": false,
+     "fully_correct": false,
+     "n_fields": 1,
+     "n_correct": 0
+    },
+    "trace": "",
+    "raw": "{\"deadline\": \"31-02-2025\", \"verdict\": \"LATE\"}",
+    "error": null
+   },
+   {
+    "item_id": "deadline_06",
+    "task": "deadline",
+    "deadline": "2024-01-02",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": false,
+     "deadline_correct": false,
+     "fully_correct": false,
+     "n_fields": 1,
+     "n_correct": 0
+    },
+    "trace": "",
+    "raw": "{\"deadline\": \"2024-01-02\", \"verdict\": \"LATE\"}",
+    "error": null
+   },
+   {
+    "item_id": "deadline_07",
+    "task": "deadline",
+    "deadline": "2024-01-02",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": false,
+     "fully_correct": false,
+     "n_fields": 1,
+     "n_correct": 0
+    },
+    "trace": "",
+    "raw": "{\"deadline\": \"2024-01-02\", \"verdict\": \"LATE\"}",
+    "error": null
+   },
+   {
+    "item_id": "deadline_08",
+    "task": "deadline",
+    "deadline": "2024-01-02",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": false,
+     "deadline_correct": false,
+     "fully_correct": false,
+     "n_fields": 1,
+     "n_correct": 0
+    },
+    "trace": "",
+    "raw": "{\"deadline\": \"2024-01-02\", \"verdict\": \"LATE\"}",
+    "error": null
+   },
+   {
+    "item_id": "deadline_09",
+    "task": "deadline",
+    "deadline": "2024-12-02",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "",
+    "raw": "{\"deadline\": \"2024-12-02\", \"verdict\": \"LATE\"}",
+    "error": null
+   },
+   {
+    "item_id": "deadline_10",
+    "task": "deadline",
+    "deadline": "2024-01-02",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": false,
+     "deadline_correct": false,
+     "fully_correct": false,
+     "n_fields": 1,
+     "n_correct": 0
+    },
+    "trace": "",
+    "raw": "{\"deadline\": \"2024-01-02\", \"verdict\": \"LATE\"}",
+    "error": null
+   },
+   {
+    "item_id": "deadline_11",
+    "task": "deadline",
+    "deadline": "2024-12-02",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "",
+    "raw": "{\"deadline\": \"2024-12-02\", \"verdict\": \"LATE\"}",
+    "error": null
+   },
+   {
+    "item_id": "deadline_12",
+    "task": "deadline",
+    "deadline": "2024-07-31",
+    "verdict": "TIMELY",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "",
+    "raw": "{\"deadline\": \"2024-07-31\", \"verdict\": \"TIMELY\"}",
+    "error": null
+   },
+   {
+    "item_id": "deadline_13",
+    "task": "deadline",
+    "deadline": "2024-07-31",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "",
+    "raw": "{\"deadline\": \"2024-07-31\", \"verdict\": \"LATE\"}",
+    "error": null
+   },
+   {
+    "item_id": "deadline_14",
+    "task": "deadline",
+    "deadline": "2024-07-31",
+    "verdict": "TIMELY",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "",
+    "raw": "{\"deadline\": \"2024-07-31\", \"verdict\": \"TIMELY\"}",
+    "error": null
+   },
+   {
+    "item_id": "deadline_15",
+    "task": "deadline",
+    "deadline": "2024-07-31",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "",
+    "raw": "{\"deadline\": \"2024-07-31\", \"verdict\": \"LATE\"}",
+    "error": null
+   },
+   {
+    "item_id": "deadline_16",
+    "task": "deadline",
+    "deadline": "2024-07-31",
+    "verdict": "TIMELY",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": true,
+     "fully_correct": true,
+     "n_fields": 1,
+     "n_correct": 1
+    },
+    "trace": "",
+    "raw": "{\"deadline\": \"2024-07-31\", \"verdict\": \"TIMELY\"}",
+    "error": null
+   },
+   {
+    "item_id": "deadline_17",
+    "task": "deadline",
+    "deadline": "31-07-2024",
+    "verdict": "LATE",
+    "updates": {},
+    "score": {
+     "verdict_correct": true,
+     "deadline_correct": false,
+     "fully_correct": false,
+     "n_fields": 1,
+     "n_correct": 0
+    },
+    "trace": "",
+    "raw": "{\"deadline\": \"31-07-2024\", \"verdict\": \"LATE\"}",
+    "error": null
+   },
+   {
+    "item_id": "cascade_00",
+    "task": "cascade",
+    "deadline": null,
+    "verdict": null,
+    "updates": {
+     "grievance window": "2025-08-14",
+     "notice deadline": "2025-07-15"
+    },
+    "score": {
+     "fully_correct": true,
+     "n_fields": 2,
+     "n_correct": 2
+    },
+    "trace": "",
+    "raw": "```json\n{\"grievance window\": \"2025-08-14\", \"notice deadline\": \"2025-07-15\"}\n```",
+    "error": null
+   },
+   {
+    "item_id": "cascade_01",
+    "task": "cascade",
+    "deadline": null,
+    "verdict": null,
+    "updates": {
+     "grievance window": "2025-08-14",
+     "notice deadline": "2025-07-15"
+    },
+    "score": {
+     "fully_correct": true,
+     "n_fields": 2,
+     "n_correct": 2
+    },
+    "trace": "",
+    "raw": "```json\n{\"grievance window\": \"2025-08-14\", \"notice deadline\": \"2025-07-15\"}\n```",
+    "error": null
+   },
+   {
+    "item_id": "cascade_02",
+    "task": "cascade",
+    "deadline": null,
+    "verdict": null,
+    "updates": {
+     "grievance window": "2025-04-12",
+     "notice deadline": "2025-03-13"
+    },
+    "score": {
+     "fully_correct": true,
+     "n_fields": 2,
+     "n_correct": 2
+    },
+    "trace": "",
+    "raw": "{\"grievance window\": \"2025-04-12\", \"notice deadline\": \"2025-03-13\"}",
+    "error": null
+   },
+   {
+    "item_id": "cascade_03",
+    "task": "cascade",
+    "deadline": null,
+    "verdict": null,
+    "updates": {
+     "grievance window": "2025-08-14",
+     "notice deadline": "2025-07-15"
+    },
+    "score": {
+     "fully_correct": true,
+     "n_fields": 2,
+     "n_correct": 2
+    },
+    "trace": "",
+    "raw": "{\"grievance window\": \"2025-08-14\", \"notice deadline\": \"2025-07-15\"}",
+    "error": null
+   },
+   {
+    "item_id": "cascade_04",
+    "task": "cascade",
+    "deadline": null,
+    "verdict": null,
+    "updates": {
+     "grievance window": "2025-08-14",
+     "notice deadline": "2025-07-15"
+    },
+    "score": {
+     "fully_correct": true,
+     "n_fields": 2,
+     "n_correct": 2
+    },
+    "trace": "",
+    "raw": "```json\n{\"grievance window\": \"2025-08-14\", \"notice deadline\": \"2025-07-15\"}\n```",
+    "error": null
+   },
+   {
+    "item_id": "cascade_05",
+    "task": "cascade",
+    "deadline": null,
+    "verdict": null,
+    "updates": {
+     "appeal deadline": "2024-08-14",
+     "grievance window": "2024-05-14",
+     "notice deadline": "2024-04-14"
+    },
+    "score": {
+     "fully_correct": true,
+     "n_fields": 3,
+     "n_correct": 3
+    },
+    "trace": "",
+    "raw": "```json\n{\"appeal deadline\": \"2024-08-14\", \"grievance window\": \"2024-05-14\", \"notice deadline\": \"2024-04-14\"}\n```",
+    "error": null
+   },
+   {
+    "item_id": "cascade_06",
+    "task": "cascade",
+    "deadline": null,
+    "verdict": null,
+    "updates": {
+     "appeal deadline": "2024-08-14",
+     "grievance window": "2024-05-14",
+     "notice deadline": "2024-04-14"
+    },
+    "score": {
+     "fully_correct": true,
+     "n_fields": 3,
+     "n_correct": 3
+    },
+    "trace": "",
+    "raw": "```json\n{\"appeal deadline\": \"2024-08-14\", \"grievance window\": \"2024-05-14\", \"notice deadline\": \"2024-04-14\"}\n```",
+    "error": null
+   },
+   {
+    "item_id": "cascade_07",
+    "task": "cascade",
+    "deadline": null,
+    "verdict": null,
+    "updates": {
+     "appeal deadline": "2024-08-14",
+     "grievance window": "2024-05-14",
+     "notice deadline": "2024-04-14"
+    },
+    "score": {
+     "fully_correct": true,
+     "n_fields": 3,
+     "n_correct": 3
+    },
+    "trace": "",
+    "raw": "{\"appeal deadline\": \"2024-08-14\", \"grievance window\": \"2024-05-14\", \"notice deadline\": \"2024-04-14\"}",
+    "error": null
+   }
+  ]
+ },
+ "buckets": {
+  "structured": {
+   "deadline / offset=digit": [
+    6,
+    6,
+    6,
+    6
+   ],
+   "deadline / offset=natural": [
+    6,
+    6,
+    6,
+    6
+   ],
+   "deadline / offset=vague": [
+    6,
+    6,
+    6,
+    6
+   ],
+   "cascade / hops=2 / single": [
+    3,
+    3,
+    6,
+    6
+   ],
+   "cascade / hops=2 / cross": [
+    2,
+    2,
+    4,
+    4
+   ],
+   "cascade / hops=3 / single": [
+    2,
+    2,
+    6,
+    6
+   ],
+   "cascade / hops=3 / cross": [
+    1,
+    1,
+    3,
+    3
+   ]
+  },
+  "calendar_naive": {
+   "deadline / offset=digit": [
+    2,
+    6,
+    2,
+    6
+   ],
+   "deadline / offset=natural": [
+    2,
+    6,
+    2,
+    6
+   ],
+   "deadline / offset=vague": [
+    2,
+    6,
+    2,
+    6
+   ],
+   "cascade / hops=2 / single": [
+    3,
+    3,
+    6,
+    6
+   ],
+   "cascade / hops=2 / cross": [
+    2,
+    2,
+    4,
+    4
+   ],
+   "cascade / hops=3 / single": [
+    0,
+    2,
+    4,
+    6
+   ],
+   "cascade / hops=3 / cross": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  "baseline_llm": {
+   "deadline / offset=digit": [
+    4,
+    6,
+    4,
+    6
+   ],
+   "deadline / offset=natural": [
+    5,
+    6,
+    5,
+    6
+   ],
+   "deadline / offset=vague": [
+    2,
+    6,
+    2,
+    6
+   ],
+   "cascade / hops=2 / single": [
+    3,
+    3,
+    6,
+    6
+   ],
+   "cascade / hops=2 / cross": [
+    2,
+    2,
+    4,
+    4
+   ],
+   "cascade / hops=3 / single": [
+    2,
+    2,
+    6,
+    6
+   ],
+   "cascade / hops=3 / cross": [
+    1,
+    1,
+    3,
+    3
+   ]
+  }
+ },
+ "real": {
+  "rule": "s. 111(2) complaint = effective date of termination + 3m - 1 day",
+  "scored": 2,
+  "correct": 2,
+  "rows": [
+   {
+    "case": "et_b7d67901",
+    "expected": "LATE",
+    "verdict": "LATE",
+    "match": true,
+    "deadline": "2021-04-18",
+    "anchor": "2021-01-19",
+    "action": "2022-10-12",
+    "days_over": 542
+   },
+   {
+    "case": "et_37a93baf",
+    "expected": "LATE",
+    "verdict": "LATE",
+    "match": true,
+    "deadline": "2024-03-10",
+    "anchor": "2023-12-11",
+    "action": "2024-06-18",
+    "days_over": 100
+   }
+  ]
+ }
+}

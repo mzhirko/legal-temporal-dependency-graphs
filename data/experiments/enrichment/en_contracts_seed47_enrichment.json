@@ -1,0 +1,20 @@
+{
+ "document_id": "en_contracts_seed47",
+ "catala_status": "success",
+ "actions": [
+  {
+   "variable": "valid_start_date",
+   "action": "review",
+   "catala_value": "1999-01-01",
+   "tdg_value": "2002-01-01",
+   "delta_days": 1096
+  },
+  {
+   "variable": "valid_end_date",
+   "action": "review",
+   "catala_value": "1999-12-31",
+   "tdg_value": "2002-01-01",
+   "delta_days": 732
+  }
+ ]
+}

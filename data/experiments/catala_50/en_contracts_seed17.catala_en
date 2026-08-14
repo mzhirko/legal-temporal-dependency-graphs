@@ -1,0 +1,28 @@
+# Duration of the Association Stages
+
+This scope defines the fixed durations for the preparatory and transitional stages of the Association between the European Economic Community and Turkey.
+
+```catala
+declaration scope AssociationStages:
+  output prep_stage_duration content duration
+  output max_transitional_duration content duration
+```
+
+## Preparatory Stage Duration
+
+The preparatory stage shall last five years, unless extended by agreement.
+
+```catala
+scope AssociationStages:
+  date round down
+  definition prep_stage_duration equals 5 year
+```
+
+## Maximum Transitional Stage Duration
+
+The transitional stage shall last not more than twelve years.
+
+```catala
+scope AssociationStages:
+  definition max_transitional_duration equals 12 year
+```

@@ -1,0 +1,20 @@
+# Agreement Period
+
+This scope computes the total duration of the concerted action projects as defined by the agreement.
+
+```catala
+declaration scope AgreementPeriod:
+  input start_date content date
+  input end_date content date
+  output duration_length content duration
+```
+
+## Agreement Duration
+
+The agreement period runs from the start date to the end date.
+
+```catala
+scope AgreementPeriod:
+  date round down
+  definition duration_length equals end_date - start_date
+```

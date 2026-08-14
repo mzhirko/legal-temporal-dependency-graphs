@@ -1,0 +1,10 @@
+{
+ "document_id": "en_contracts_seed25",
+ "scope_name": "InformationSubmissionDeadline",
+ "bindings": {},
+ "unbound": [
+  "preliminary_contact_date",
+  "request_date"
+ ],
+ "llm_fallback_used": true
+}

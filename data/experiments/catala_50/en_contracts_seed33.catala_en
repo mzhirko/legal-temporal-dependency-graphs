@@ -1,0 +1,18 @@
+# Determining the initial expiry date of the cooperation agreement.
+
+```catala
+declaration scope InitialExpiryCalculation:
+  input entry_into_force_date content date
+  input initial_term content duration
+  output initial_expiry_date content date
+```
+
+## Initial Expiry Date
+
+The initial expiry date is calculated by adding the initial term duration to the date the agreement enters into force.
+
+```catala
+scope InitialExpiryCalculation:
+  date round down
+  definition initial_expiry_date equals entry_into_force_date + initial_term
+```

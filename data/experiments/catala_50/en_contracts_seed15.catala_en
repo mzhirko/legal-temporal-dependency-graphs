@@ -1,0 +1,20 @@
+# Agreement Duration Calculation
+
+This scope computes the total duration for which the textile trade agreement is applicable.
+
+```catala
+declaration scope AgreementDuration:
+  input start_date content date
+  input end_date content date
+  output agreement_duration content duration
+```
+
+## Agreement Duration
+
+The agreement applies from the start date to the end date, defining the total duration.
+
+```catala
+scope AgreementDuration:
+  date round down
+  definition agreement_duration equals end_date - start_date
+```

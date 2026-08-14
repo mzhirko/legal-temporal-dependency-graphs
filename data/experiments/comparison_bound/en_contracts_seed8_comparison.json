@@ -1,0 +1,29 @@
+{
+ "document_id": "en_contracts_seed8",
+ "catala_status": "success",
+ "scope_name": "AgreementExtension",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 0,
+  "mismatch": 1,
+  "tdg_only": 1,
+  "catala_only": 0,
+  "match_rate": 0.0
+ },
+ "fields": [
+  {
+   "variable_name": "end_date",
+   "status": "mismatch",
+   "tdg_value": "1986-03-15",
+   "catala_value": "1986-04-01",
+   "delta_days": 17
+  },
+  {
+   "variable_name": "tdg:Agreement on fishing:START",
+   "status": "tdg_only",
+   "tdg_value": "1986-01-01",
+   "catala_value": null,
+   "delta_days": null
+  }
+ ]
+}

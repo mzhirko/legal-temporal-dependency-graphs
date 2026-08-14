@@ -1,0 +1,346 @@
+{
+ "documents": {
+  "era_1996_s111": {
+   "document_id": "era_1996_s111",
+   "gt_fact_count": 3,
+   "llm_fact_count": 4,
+   "gt_dep_count": 1,
+   "llm_dep_count": 1,
+   "fact_matches": [
+    {
+     "gt_id": "l1",
+     "llm_id": "e2",
+     "gt_entity": "complaint time limit",
+     "llm_entity": "Art.111 complaint",
+     "entity_similarity": 0.267,
+     "role_correct": true,
+     "gt_role": "DURATION",
+     "llm_role": "DURATION",
+     "value_matched": true
+    }
+   ],
+   "fact_misses": [],
+   "dep_matches": [],
+   "dep_misses": [
+    {
+     "gt_edge": "l3→l1",
+     "constraint_type": "additive",
+     "reason": "endpoint not found in LLM (from=MISSING, to=found)"
+    }
+   ],
+   "metrics": {
+    "fact_recall": 1.0,
+    "avg_entity_similarity": 0.267,
+    "role_accuracy": 1.0,
+    "dep_recall": 0.0
+   }
+  },
+  "ahmed_v_newcastle": {
+   "document_id": "ahmed_v_newcastle",
+   "gt_fact_count": 7,
+   "llm_fact_count": 9,
+   "gt_dep_count": 4,
+   "llm_dep_count": 1,
+   "fact_matches": [
+    {
+     "gt_id": "a2",
+     "llm_id": "e2",
+     "gt_entity": "effective date of termination",
+     "llm_entity": "employment",
+     "entity_similarity": 0.0,
+     "role_correct": true,
+     "gt_role": "END",
+     "llm_role": "END",
+     "value_matched": true
+    },
+    {
+     "gt_id": "a3",
+     "llm_id": "e9",
+     "gt_entity": "complaint time limit",
+     "llm_entity": "section 111(2)(a) of the Employment Rights Act 1996 claim",
+     "entity_similarity": 0.362,
+     "role_correct": true,
+     "gt_role": "DURATION",
+     "llm_role": "DURATION",
+     "value_matched": true
+    },
+    {
+     "gt_id": "a4",
+     "llm_id": "e3",
+     "gt_entity": "early conciliation",
+     "llm_entity": "conciliation",
+     "entity_similarity": 0.4,
+     "role_correct": true,
+     "gt_role": "START",
+     "llm_role": "START",
+     "value_matched": true
+    },
+    {
+     "gt_id": "a5",
+     "llm_id": "e4",
+     "gt_entity": "early conciliation",
+     "llm_entity": "conciliation certificate",
+     "entity_similarity": 0.267,
+     "role_correct": false,
+     "gt_role": "END",
+     "llm_role": "START",
+     "value_matched": true
+    },
+    {
+     "gt_id": "a6",
+     "llm_id": "e6",
+     "gt_entity": "filing deadline",
+     "llm_entity": "claim form",
+     "entity_similarity": 0.362,
+     "role_correct": true,
+     "gt_role": "END",
+     "llm_role": "END",
+     "value_matched": true
+    },
+    {
+     "gt_id": "a7",
+     "llm_id": "e5",
+     "gt_entity": "ET1 presented",
+     "llm_entity": "ET1",
+     "entity_similarity": 0.4,
+     "role_correct": false,
+     "gt_role": "CONTAINS",
+     "llm_role": "START",
+     "value_matched": true
+    }
+   ],
+   "fact_misses": [
+    {
+     "gt_id": "a1",
+     "gt_entity": "employment",
+     "gt_role": "START",
+     "gt_value": "1994-06-01"
+    }
+   ],
+   "dep_matches": [
+    {
+     "gt_edge": "a2→a3",
+     "llm_edge": "e2→e9",
+     "constraint_type": "additive"
+    }
+   ],
+   "dep_misses": [
+    {
+     "gt_edge": "a2→a6",
+     "constraint_type": "additive",
+     "reason": "endpoints matched but no edge between them"
+    },
+    {
+     "gt_edge": "a4→a5",
+     "constraint_type": "ordering",
+     "reason": "endpoints matched but no edge between them"
+    },
+    {
+     "gt_edge": "a6→a7",
+     "constraint_type": "ordering",
+     "reason": "endpoints matched but no edge between them"
+    }
+   ],
+   "metrics": {
+    "fact_recall": 0.8571428571428571,
+    "avg_entity_similarity": 0.2985,
+    "role_accuracy": 0.6666666666666666,
+    "dep_recall": 0.25
+   }
+  },
+  "zegay_v_boylan": {
+   "document_id": "zegay_v_boylan",
+   "gt_fact_count": 7,
+   "llm_fact_count": 10,
+   "gt_dep_count": 4,
+   "llm_dep_count": 4,
+   "fact_matches": [
+    {
+     "gt_id": "z1",
+     "llm_id": "e1",
+     "gt_entity": "effective date of termination",
+     "llm_entity": "termination",
+     "entity_similarity": 0.267,
+     "role_correct": false,
+     "gt_role": "END",
+     "llm_role": "START",
+     "value_matched": true
+    },
+    {
+     "gt_id": "z2",
+     "llm_id": "e8",
+     "gt_entity": "complaint time limit",
+     "llm_entity": "section 111(2) of the Employment Rights Act 1996 complaint period",
+     "entity_similarity": 0.2,
+     "role_correct": true,
+     "gt_role": "DURATION",
+     "llm_role": "DURATION",
+     "value_matched": true
+    },
+    {
+     "gt_id": "z3",
+     "llm_id": "e2",
+     "gt_entity": "early conciliation",
+     "llm_entity": "date",
+     "entity_similarity": 0.0,
+     "role_correct": true,
+     "gt_role": "START",
+     "llm_role": "START",
+     "value_matched": true
+    },
+    {
+     "gt_id": "z4",
+     "llm_id": "e3",
+     "gt_entity": "early conciliation",
+     "llm_entity": "date",
+     "entity_similarity": 0.0,
+     "role_correct": false,
+     "gt_role": "END",
+     "llm_role": "START",
+     "value_matched": true
+    },
+    {
+     "gt_id": "z5",
+     "llm_id": "e4",
+     "gt_entity": "conciliation pause",
+     "llm_entity": "period",
+     "entity_similarity": 0.0,
+     "role_correct": true,
+     "gt_role": "DURATION",
+     "llm_role": "DURATION",
+     "value_matched": true
+    },
+    {
+     "gt_id": "z6",
+     "llm_id": "e6",
+     "gt_entity": "filing deadline",
+     "llm_entity": "time limit",
+     "entity_similarity": 0.0,
+     "role_correct": true,
+     "gt_role": "END",
+     "llm_role": "END",
+     "value_matched": true
+    },
+    {
+     "gt_id": "z7",
+     "llm_id": "e7",
+     "gt_entity": "ET1 presented",
+     "llm_entity": "claimant's ET1",
+     "entity_similarity": 0.267,
+     "role_correct": false,
+     "gt_role": "CONTAINS",
+     "llm_role": "START",
+     "value_matched": true
+    }
+   ],
+   "fact_misses": [],
+   "dep_matches": [
+    {
+     "gt_edge": "z1→z2",
+     "llm_edge": "e1→e8",
+     "constraint_type": "additive"
+    }
+   ],
+   "dep_misses": [
+    {
+     "gt_edge": "z1→z6",
+     "constraint_type": "additive",
+     "reason": "endpoints matched but no edge between them"
+    },
+    {
+     "gt_edge": "z3→z4",
+     "constraint_type": "ordering",
+     "reason": "endpoints matched but no edge between them"
+    },
+    {
+     "gt_edge": "z6→z7",
+     "constraint_type": "ordering",
+     "reason": "endpoints matched but no edge between them"
+    }
+   ],
+   "metrics": {
+    "fact_recall": 1.0,
+    "avg_entity_similarity": 0.10485714285714286,
+    "role_accuracy": 0.5714285714285714,
+    "dep_recall": 0.25
+   }
+  }
+ },
+ "cross_doc": {
+  "gt_link_count": 9,
+  "found_link_count": 11,
+  "recovered": [
+   {
+    "gt_type": "coreference",
+    "gt_concept": "P3M complaint time limit",
+    "found_type": "coreference",
+    "found_conf": 1.0,
+    "found_explanation": "Same concept: complaint (DURATION) with matching values"
+   },
+   {
+    "gt_type": "coreference",
+    "gt_concept": "P3M complaint time limit",
+    "found_type": "coreference",
+    "found_conf": 0.55,
+    "found_explanation": "Same concept: complaint (DURATION) with matching values"
+   },
+   {
+    "gt_type": "coreference",
+    "gt_concept": "P3M complaint time limit",
+    "found_type": "coreference",
+    "found_conf": 0.583,
+    "found_explanation": "Same concept: claim (DURATION) with matching values"
+   },
+   {
+    "gt_type": "coreference",
+    "gt_concept": "effective date of termination",
+    "found_type": "coreference",
+    "found_conf": 0.583,
+    "found_explanation": "Same concept: claim (DURATION) with matching values"
+   },
+   {
+    "gt_type": "coreference",
+    "gt_concept": "early conciliation start",
+    "found_type": "coreference",
+    "found_conf": 0.583,
+    "found_explanation": "Same concept: claim (DURATION) with matching values"
+   },
+   {
+    "gt_type": "coreference",
+    "gt_concept": "early conciliation end",
+    "found_type": "coreference",
+    "found_conf": 0.583,
+    "found_explanation": "Same concept: claim (DURATION) with matching values"
+   },
+   {
+    "gt_type": "coreference",
+    "gt_concept": "filing deadline",
+    "found_type": "coreference",
+    "found_conf": 0.583,
+    "found_explanation": "Same concept: claim (DURATION) with matching values"
+   },
+   {
+    "gt_type": "coreference",
+    "gt_concept": "ET1 presented",
+    "found_type": "coreference",
+    "found_conf": 0.583,
+    "found_explanation": "Same concept: claim (DURATION) with matching values"
+   }
+  ],
+  "missed": [
+   {
+    "gt_type": "structural_analogy",
+    "gt_concept": "EDT → +3M → deadline → ET1 out of time",
+    "gt_docs": "ahmed_v_newcastle ↔ zegay_v_boylan"
+   }
+  ],
+  "link_recall": 0.8888888888888888
+ },
+ "summary": {
+  "avg_fact_recall": 0.9523809523809524,
+  "avg_entity_similarity": 0.22345238095238096,
+  "avg_role_accuracy": 0.746031746031746,
+  "avg_dep_recall": 0.16666666666666666,
+  "cross_doc_link_recall": 0.8888888888888888
+ }
+}

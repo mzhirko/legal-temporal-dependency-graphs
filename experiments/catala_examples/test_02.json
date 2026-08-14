@@ -1,0 +1,9 @@
+{
+ "trigger_date": "1995-12-31",
+ "notification_window": {
+  "years": 0,
+  "months": 0,
+  "days": 31
+ },
+ "deadline_is_before_trigger": true
+}

@@ -1,0 +1,26 @@
+{
+ "document_id": "en_contracts_seed15",
+ "scope_name": "AgreementDuration",
+ "bindings": {
+  "end_date": {
+   "fact_id": "e2",
+   "entity": "Agreement",
+   "role": "END",
+   "score": 1.0,
+   "method": "role_unique",
+   "value": "1991-12-31",
+   "raw_text": "to 31 December 1991"
+  },
+  "start_date": {
+   "fact_id": "e1",
+   "entity": "Agreement",
+   "role": "START",
+   "score": 1.0,
+   "method": "role_unique",
+   "value": "1987-01-01",
+   "raw_text": "This Agreement shall apply from 1 January 1987"
+  }
+ },
+ "unbound": [],
+ "llm_fallback_used": false
+}

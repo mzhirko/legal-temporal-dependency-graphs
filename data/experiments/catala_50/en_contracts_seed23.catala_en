@@ -1,0 +1,19 @@
+# Agreement Entry into Force
+
+This scope determines the date on which the amended agreement takes effect based on the signature date.
+
+```catala
+declaration scope AgreementEntryIntoForce:
+  input signature_date content date
+  output effective_date content date
+```
+
+## Entry into Force
+
+The agreement enters into force on the day of its signature.
+
+```catala
+scope AgreementEntryIntoForce:
+  date round down
+  definition effective_date equals signature_date
+```

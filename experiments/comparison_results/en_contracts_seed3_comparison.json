@@ -1,0 +1,22 @@
+{
+ "document_id": "en_contracts_seed3",
+ "catala_status": "success",
+ "scope_name": "ProvisionalApplicationPeriod",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 1,
+  "mismatch": 0,
+  "tdg_only": 0,
+  "catala_only": 0,
+  "match_rate": 1.0
+ },
+ "fields": [
+  {
+   "variable_name": "period_duration",
+   "status": "duration_match",
+   "tdg_value": "P2Y",
+   "catala_value": "{'days': 730.0}",
+   "delta_days": 0
+  }
+ ]
+}

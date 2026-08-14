@@ -1,0 +1,50 @@
+{
+ "document_id": "en_contracts_seed3",
+ "catala_status": "success",
+ "scope_name": "ProvisionalProtocolApplication",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 0,
+  "mismatch": 0,
+  "tdg_only": 4,
+  "catala_only": 1,
+  "match_rate": null
+ },
+ "fields": [
+  {
+   "variable_name": "provisional_duration",
+   "status": "catala_only",
+   "tdg_value": null,
+   "catala_value": "{'days': 730.0}",
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Protocol:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "1990-05-03",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Protocol:START",
+   "status": "tdg_only",
+   "tdg_value": "1990-04-04",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Protocol:START",
+   "status": "tdg_only",
+   "tdg_value": "1990-05-03",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Art.2 financial compensation:END",
+   "status": "tdg_only",
+   "tdg_value": "1990-09-30",
+   "catala_value": null,
+   "delta_days": null
+  }
+ ]
+}

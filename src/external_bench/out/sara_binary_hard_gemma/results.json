@@ -1,0 +1,256 @@
+{
+ "dataset": "sara_binary",
+ "split": "hard",
+ "mode": "endpoint",
+ "model": "gemma4:e4b",
+ "summary": {
+  "n": 30,
+  "answered": 30,
+  "unparseable_or_abstained": 0,
+  "accuracy_answered": 0.5667,
+  "accuracy_all": 0.5667,
+  "correct": 17
+ },
+ "rows": [
+  {
+   "id": "s1_a_1_i_pos",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "s1_a_2_ii_neg",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "s1_a_2_iv_pos",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "s1_c_iii_neg",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "s2_a_2_B_neg",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "s2_b_1_A_ii_pos",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "s2_b_1_B_neg",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "s2_b_2_C_pos",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "s63_c_2_A_ii_neg",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "s63_f_3_pos",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "s68_a_2_pos",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "s68_b_1_C_neg",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "s151_b_pos",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "s152_a_pos",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "s152_b_1_neg",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "s152_c_1_pos",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "s152_c_2_A_neg",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "s152_c_2_neg",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "s152_d_1_D_pos",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "s152_d_2_A_neg",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "s152_d_2_D_neg",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "s152_d_2_F_neg",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "s152_d_2_H_pos",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "s3306_a_1_B_pos",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "s3306_a_2_B_neg",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "s3306_a_2_B_pos",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "s3306_b_10_B_neg",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "s3306_c_1_pos",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "s3306_c_2_neg",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "s3306_c_10_A_ii_neg",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  }
+ ]
+}

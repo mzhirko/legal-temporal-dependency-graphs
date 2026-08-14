@@ -1,0 +1,1617 @@
+{
+ "dataset": "tracie",
+ "split": "smoke",
+ "mode": "endpoint",
+ "model": "llama3.1:8b",
+ "summary": {
+  "n": 200,
+  "answered": 199,
+  "call_errors_infra": 0,
+  "unparseable_or_abstained": 1,
+  "accuracy_answered": 0.6432,
+  "accuracy_all": 0.64,
+  "correct": 128
+ },
+ "rows": [
+  {
+   "id": "tracie_00000",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00001",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00002",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00003",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00004",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00005",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00006",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00007",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00008",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00009",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00010",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00011",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00012",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00013",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00014",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00015",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00016",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00017",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00018",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00019",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00020",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00021",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00022",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00023",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00024",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00025",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00026",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00027",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00028",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00029",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00030",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00031",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00032",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00033",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00034",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00035",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00036",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00037",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00038",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00039",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00040",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00041",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00042",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00043",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00044",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00045",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00046",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00047",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00048",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00049",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00050",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": null,
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00051",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00052",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00053",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00054",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00055",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00056",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00057",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00058",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00059",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00060",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00061",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00062",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00063",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00064",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00065",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00066",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00067",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00068",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00069",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00070",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00071",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00072",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00073",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00074",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00075",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00076",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00077",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00078",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00079",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00080",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00081",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00082",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00083",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00084",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00085",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00086",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00087",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00088",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00089",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00090",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00091",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00092",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00093",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00094",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00095",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00096",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00097",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00098",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00099",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00100",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00101",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00102",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00103",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00104",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00105",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00106",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00107",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00108",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00109",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00110",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00111",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00112",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00113",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00114",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00115",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00116",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00117",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00118",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00119",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00120",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00121",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00122",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00123",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00124",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00125",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00126",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00127",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00128",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00129",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00130",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00131",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00132",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00133",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00134",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00135",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00136",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00137",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00138",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00139",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00140",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00141",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00142",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00143",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00144",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00145",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00146",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00147",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00148",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00149",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00150",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00151",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00152",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00153",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00154",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00155",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00156",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00157",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00158",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00159",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00160",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00161",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00162",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00163",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00164",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00165",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00166",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00167",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00168",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00169",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00170",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00171",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00172",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00173",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00174",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00175",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00176",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00177",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00178",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00179",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00180",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00181",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00182",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00183",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00184",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00185",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00186",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00187",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00188",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00189",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00190",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00191",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00192",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00193",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00194",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00195",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00196",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "YES",
+   "note": "",
+   "match": true
+  },
+  {
+   "id": "tracie_00197",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "YES",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00198",
+   "kind": "binary",
+   "gold": "YES",
+   "pred": "NO",
+   "note": "",
+   "match": false
+  },
+  {
+   "id": "tracie_00199",
+   "kind": "binary",
+   "gold": "NO",
+   "pred": "NO",
+   "note": "",
+   "match": true
+  }
+ ]
+}

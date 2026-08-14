@@ -1,0 +1,21 @@
+# Declaration of the ACP States on Article 95 of the Convention
+
+This scope records the key dates and financial details related to the ACP States' declaration concerning Article 95 of the Convention.
+
+```catala
+declaration scope ACPDeclaration:
+  input signing_date content date
+  input official_journal_date content date
+  input assistance_amount content money
+  output declaration_date content date
+```
+
+## Declaration Date
+
+The declaration was published in the Official Journal on 22 December 1980.
+
+```catala
+scope ACPDeclaration:
+  date round down
+  definition declaration_date equals official_journal_date
+```

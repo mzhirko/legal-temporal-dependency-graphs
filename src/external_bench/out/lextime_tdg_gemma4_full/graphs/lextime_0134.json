@@ -1,0 +1,51 @@
+{
+ "id": "lextime_0134",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "IP Martinez's advice about the office closure and relocation",
+ "event2": "the event of the office functioning importantly due to its proximity",
+ "relation": "AFTER",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "office closure notice",
+   "role": "CONTAINS",
+   "value": "2021-01-26",
+   "raw_text": "by letter dated january 26, 2021, ip martinez advised pantoja that the transportation department s washington, dc office was to be closed and moved back to iam headquarters by march of 2021",
+   "timex_type": "DATE",
+   "sentence": "98f099da3a75a6b4cb68d5a6c2b21e43",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2021-01-26"
+  },
+  {
+   "id": "e2",
+   "entity": "office closure notice",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "by march of 2021",
+   "timex_type": "DATE",
+   "sentence": "98f099da3a75a6b4cb68d5a6c2b21e43",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e1",
+   "to_id": "e2",
+   "constraint_type": "ordering",
+   "constraint_expr": "e2 = e1 + unknown duration (by March 2021)",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

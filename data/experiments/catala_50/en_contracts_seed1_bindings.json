@@ -1,0 +1,44 @@
+{
+ "document_id": "en_contracts_seed1",
+ "scope_name": "TextileAgreementAmendment",
+ "bindings": {
+  "termination_notice_period": {
+   "fact_id": "e10",
+   "entity": "Termination notice period",
+   "role": "DURATION",
+   "score": 3.75,
+   "value": {
+    "years": 0,
+    "months": 0,
+    "days": 120
+   },
+   "raw_text": "provided that one hundred and twenty days notice is given"
+  },
+  "initial_agreement_date": {
+   "fact_id": "e1",
+   "entity": "Agreement on trade in textile products",
+   "role": "START",
+   "score": 1.5,
+   "value": "1986-07-19",
+   "raw_text": "initialled on 19 July 1986"
+  },
+  "provisional_start_date": {
+   "fact_id": "e7",
+   "entity": "Provisional application of the Agreement",
+   "role": "START",
+   "score": 1.5,
+   "value": "1995-01-01",
+   "raw_text": "applied provisionally from 1 January 1995"
+  },
+  "last_amendment_date": {
+   "fact_id": "e2",
+   "entity": "Amendment by exchange of letters",
+   "role": "START",
+   "score": 1.0,
+   "value": "1992-11-27",
+   "raw_text": "initialled on 27 November 1992"
+  }
+ },
+ "unbound": [],
+ "llm_fallback_used": false
+}

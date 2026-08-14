@@ -1,0 +1,13 @@
+{
+ "document_id": "en_contracts_seed39",
+ "catala_status": "success",
+ "actions": [
+  {
+   "variable": "signing_date",
+   "action": "verify",
+   "catala_value": "1999-02-10",
+   "tdg_value": "1999-02-10",
+   "delta_days": null
+  }
+ ]
+}

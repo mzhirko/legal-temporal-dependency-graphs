@@ -1,0 +1,74 @@
+{
+ "id": "lextime_0438",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "The defendants' acceptance and receipt of the benefit conferred by SCV",
+ "event2": "SCV conferred a direct benefit by providing medical services to the insured",
+ "relation": "BEFORE",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "benefit_conferred",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "SCV conferred a direct benefit on defendants by providing defendants insured / member (r.c.) with medical services to which the insured was entitled under the insurance policy (covered) as evidenced by defendants partial payment.",
+   "timex_type": "DATE",
+   "sentence": "acbe4bf8dbea9556627a2e261a368d6e",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e2",
+   "entity": "benefit_accepted",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "defendants voluntarily accepted and received the benefit conferred by scv, with the knowledge that scv expected to be paid the reasonable value of its services;",
+   "timex_type": "DATE",
+   "sentence": "379dde31d1cad8232412a1b8bcf19a6e",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e3",
+   "entity": "future_medical_expense_minimized",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "was it not of benefit to defendants that scv minimized (if not entirely eliminated, actually) r.c.s future medical expense (and insurance claims to defendants) relating to the subject conditions such as prolonged alternative treatments or a return for more (and perhaps more complex) surgery due to complications arising out of some other inferior treatment regimen?",
+   "timex_type": "DATE",
+   "sentence": "81f419c36dcfac312f801abb220aceb8",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e1",
+   "to_id": "e2",
+   "constraint_type": "ordering",
+   "constraint_expr": "Benefit accepted after benefit conferred",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e3",
+   "to_id": "e2",
+   "constraint_type": "interval",
+   "constraint_expr": "Future medical expense minimized during benefit acceptance",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

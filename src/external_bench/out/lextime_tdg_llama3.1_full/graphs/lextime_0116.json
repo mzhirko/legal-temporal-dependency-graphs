@@ -1,0 +1,87 @@
+{
+ "id": "lextime_0116",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "Ms. Arvan telling Rivera about the rolls being too heavy to be pushed with his hands",
+ "event2": "Rivera responding that she was picking on him",
+ "relation": "BEFORE",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "unsafe behavior",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "pushing the rolls of paper (which weigh thousands of pounds) with his hands.",
+   "timex_type": "DATE",
+   "sentence": "4984c34d16f2479aa227b61b620e074f",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e2",
+   "entity": "safety discussion",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "ms. arvan, consistent with the the companys requirement that managers intervene when they observe unsafe behavior, approached rivera to address his unsafe conduct.",
+   "timex_type": "DATE",
+   "sentence": "60367ed4b0af0e13151d7e5ce38e7bad",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e3",
+   "entity": "safety discussion",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "she advised him that he needed to use a roll pusher.",
+   "timex_type": "DATE",
+   "sentence": "746068e6e8e968d902d41771450bb6ee",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e4",
+   "entity": "unsafe behavior",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "he became more agitated and disrespectful and rolled his eyes at ms. arvan.",
+   "timex_type": "DATE",
+   "sentence": "e841d70dbe485b09d4322b5b3ef2d947",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e1",
+   "to_id": "e2",
+   "constraint_type": "ordering",
+   "constraint_expr": null,
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e2",
+   "to_id": "e3",
+   "constraint_type": "ordering",
+   "constraint_expr": null,
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

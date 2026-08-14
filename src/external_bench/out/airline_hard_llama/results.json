@@ -1,0 +1,657 @@
+{
+ "dataset": "airline",
+ "split": "hard",
+ "mode": "endpoint",
+ "model": "llama3.1:8b",
+ "summary": {
+  "n": 80,
+  "answered": 73,
+  "unparseable_or_abstained": 7,
+  "exact_match": 0,
+  "within_1pct": 1,
+  "within_10pct": 7,
+  "exact_match_rate_all": 0.0
+ },
+ "rows": [
+  {
+   "id": "airline_cases_complexity_0_airline_cases_2",
+   "kind": "numeric",
+   "gold": 1166.0,
+   "pred": 876.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_0_airline_cases_3",
+   "kind": "numeric",
+   "gold": 949.0,
+   "pred": 619.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_0_airline_cases_7",
+   "kind": "numeric",
+   "gold": 1131.0,
+   "pred": 471.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_0_airline_cases_12",
+   "kind": "numeric",
+   "gold": 1203.0,
+   "pred": 1453.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_0_airline_cases_13",
+   "kind": "numeric",
+   "gold": 992.0,
+   "pred": 412.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_0_airline_cases_14",
+   "kind": "numeric",
+   "gold": 1097.0,
+   "pred": 487.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_0_airline_cases_15",
+   "kind": "numeric",
+   "gold": 1317.0,
+   "pred": 942.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_0_airline_cases_16",
+   "kind": "numeric",
+   "gold": 1017.0,
+   "pred": 857.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_0_airline_cases_21",
+   "kind": "numeric",
+   "gold": 972.0,
+   "pred": 507.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_0_airline_cases_29",
+   "kind": "numeric",
+   "gold": 970.0,
+   "pred": 1920.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_0_airline_cases_34",
+   "kind": "numeric",
+   "gold": 1022.0,
+   "pred": 862.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_0_airline_cases_46",
+   "kind": "numeric",
+   "gold": 1243.0,
+   "pred": 1203.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_0_airline_cases_52",
+   "kind": "numeric",
+   "gold": 751.0,
+   "pred": 481.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_0_airline_cases_59",
+   "kind": "numeric",
+   "gold": 695.0,
+   "pred": 755.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_0_airline_cases_64",
+   "kind": "numeric",
+   "gold": 991.0,
+   "pred": 301.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_0_airline_cases_66",
+   "kind": "numeric",
+   "gold": 1702.0,
+   "pred": 1422.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_0_airline_cases_67",
+   "kind": "numeric",
+   "gold": 1256.0,
+   "pred": 886.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_0_airline_cases_73",
+   "kind": "numeric",
+   "gold": 1279.0,
+   "pred": 919.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_0_airline_cases_75",
+   "kind": "numeric",
+   "gold": 903.0,
+   "pred": 1223.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_0_airline_cases_76",
+   "kind": "numeric",
+   "gold": 1019.0,
+   "pred": 539.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_0_airline_cases_85",
+   "kind": "numeric",
+   "gold": 969.0,
+   "pred": 759.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_0_airline_cases_96",
+   "kind": "numeric",
+   "gold": 1349.0,
+   "pred": 1449.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_0_airline_cases_100",
+   "kind": "numeric",
+   "gold": 1421.0,
+   "pred": 691.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_1_airline_cases_2",
+   "kind": "numeric",
+   "gold": 2375.0,
+   "pred": null,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_1_airline_cases_7",
+   "kind": "numeric",
+   "gold": 3585.0,
+   "pred": 895.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_1_airline_cases_8",
+   "kind": "numeric",
+   "gold": 3183.0,
+   "pred": 1963.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_1_airline_cases_10",
+   "kind": "numeric",
+   "gold": 3539.0,
+   "pred": 1949.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_1_airline_cases_12",
+   "kind": "numeric",
+   "gold": 2564.0,
+   "pred": 1514.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_1_airline_cases_16",
+   "kind": "numeric",
+   "gold": 3115.0,
+   "pred": 1935.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_1_airline_cases_25",
+   "kind": "numeric",
+   "gold": 2421.0,
+   "pred": 2341.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_1_airline_cases_30",
+   "kind": "numeric",
+   "gold": 2961.0,
+   "pred": 1701.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_1_airline_cases_42",
+   "kind": "numeric",
+   "gold": 2425.0,
+   "pred": 1435.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_1_airline_cases_43",
+   "kind": "numeric",
+   "gold": 2243.0,
+   "pred": 1083.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_1_airline_cases_49",
+   "kind": "numeric",
+   "gold": 1826.0,
+   "pred": 1821.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_1_airline_cases_56",
+   "kind": "numeric",
+   "gold": 2375.0,
+   "pred": 1445.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_1_airline_cases_57",
+   "kind": "numeric",
+   "gold": 2131.0,
+   "pred": 751.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_1_airline_cases_62",
+   "kind": "numeric",
+   "gold": 1870.0,
+   "pred": 445.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_1_airline_cases_67",
+   "kind": "numeric",
+   "gold": 2257.0,
+   "pred": 277.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_1_airline_cases_72",
+   "kind": "numeric",
+   "gold": 2449.0,
+   "pred": 1019.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_1_airline_cases_73",
+   "kind": "numeric",
+   "gold": 2918.0,
+   "pred": 1058.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_1_airline_cases_79",
+   "kind": "numeric",
+   "gold": 2665.0,
+   "pred": 1205.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_1_airline_cases_80",
+   "kind": "numeric",
+   "gold": 2798.0,
+   "pred": 1608.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_1_airline_cases_83",
+   "kind": "numeric",
+   "gold": 2266.0,
+   "pred": 996.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_1_airline_cases_88",
+   "kind": "numeric",
+   "gold": 2147.0,
+   "pred": 567.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_1_airline_cases_91",
+   "kind": "numeric",
+   "gold": 3294.0,
+   "pred": 2244.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_1_airline_cases_100",
+   "kind": "numeric",
+   "gold": 2157.0,
+   "pred": 1447.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_2",
+   "kind": "numeric",
+   "gold": 3762.0,
+   "pred": 1782.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_11",
+   "kind": "numeric",
+   "gold": 3056.0,
+   "pred": 1326.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_12",
+   "kind": "numeric",
+   "gold": 2880.0,
+   "pred": 510.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_16",
+   "kind": "numeric",
+   "gold": 3465.0,
+   "pred": 4225.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_26",
+   "kind": "numeric",
+   "gold": 4578.0,
+   "pred": 5008.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_30",
+   "kind": "numeric",
+   "gold": 3695.0,
+   "pred": null,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_33",
+   "kind": "numeric",
+   "gold": 2786.0,
+   "pred": 2706.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_35",
+   "kind": "numeric",
+   "gold": 3268.0,
+   "pred": 1058.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_37",
+   "kind": "numeric",
+   "gold": 2981.0,
+   "pred": null,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_38",
+   "kind": "numeric",
+   "gold": 2443.0,
+   "pred": 283.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_39",
+   "kind": "numeric",
+   "gold": 3164.0,
+   "pred": 1294.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_40",
+   "kind": "numeric",
+   "gold": 3768.0,
+   "pred": 1018.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_41",
+   "kind": "numeric",
+   "gold": 4293.0,
+   "pred": 1123.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_46",
+   "kind": "numeric",
+   "gold": 4994.0,
+   "pred": 1984.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_49",
+   "kind": "numeric",
+   "gold": 2504.0,
+   "pred": null,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_50",
+   "kind": "numeric",
+   "gold": 3834.0,
+   "pred": 2744.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_52",
+   "kind": "numeric",
+   "gold": 3303.0,
+   "pred": 1733.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_54",
+   "kind": "numeric",
+   "gold": 2685.0,
+   "pred": 1635.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_56",
+   "kind": "numeric",
+   "gold": 2826.0,
+   "pred": 1046.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_58",
+   "kind": "numeric",
+   "gold": 5393.0,
+   "pred": 1803.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_59",
+   "kind": "numeric",
+   "gold": 2603.0,
+   "pred": 453.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_60",
+   "kind": "numeric",
+   "gold": 3234.0,
+   "pred": 1494.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_61",
+   "kind": "numeric",
+   "gold": 2565.0,
+   "pred": null,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_66",
+   "kind": "numeric",
+   "gold": 5039.0,
+   "pred": 3619.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_67",
+   "kind": "numeric",
+   "gold": 4849.0,
+   "pred": 3219.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_69",
+   "kind": "numeric",
+   "gold": 3120.0,
+   "pred": 1180.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_70",
+   "kind": "numeric",
+   "gold": 4475.0,
+   "pred": 1730.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_75",
+   "kind": "numeric",
+   "gold": 4938.0,
+   "pred": 3558.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_81",
+   "kind": "numeric",
+   "gold": 2764.0,
+   "pred": 434.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_86",
+   "kind": "numeric",
+   "gold": 3220.0,
+   "pred": 1670.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_87",
+   "kind": "numeric",
+   "gold": 5388.0,
+   "pred": null,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_93",
+   "kind": "numeric",
+   "gold": 5162.0,
+   "pred": 1532.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_99",
+   "kind": "numeric",
+   "gold": 3028.0,
+   "pred": 998.0,
+   "note": "",
+   "match": null
+  },
+  {
+   "id": "airline_cases_complexity_2_airline_cases_100",
+   "kind": "numeric",
+   "gold": 2970.0,
+   "pred": null,
+   "note": "",
+   "match": null
+  }
+ ]
+}

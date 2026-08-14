@@ -1,0 +1,43 @@
+{
+ "document_id": "en_contracts_seed14",
+ "catala_status": "success",
+ "scope_name": "MovementCertificateDeadline",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 1,
+  "mismatch": 0,
+  "tdg_only": 3,
+  "catala_only": 0,
+  "match_rate": 1.0
+ },
+ "fields": [
+  {
+   "variable_name": "submission_deadline",
+   "status": "semantic_match",
+   "tdg_value": "P6M",
+   "catala_value": "1976-01-19",
+   "delta_days": 184
+  },
+  {
+   "variable_name": "tdg:Agreement:START",
+   "status": "tdg_only",
+   "tdg_value": "1975-07-19",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Agreement:START",
+   "status": "tdg_only",
+   "tdg_value": "1972-11-30",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Art.13 Agreement:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "P6M",
+   "catala_value": null,
+   "delta_days": null
+  }
+ ]
+}

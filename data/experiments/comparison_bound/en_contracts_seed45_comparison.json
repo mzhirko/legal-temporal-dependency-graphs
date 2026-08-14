@@ -1,0 +1,29 @@
+{
+ "document_id": "en_contracts_seed45",
+ "catala_status": "success",
+ "scope_name": "ShippingDeclaration",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 0,
+  "mismatch": 0,
+  "tdg_only": 1,
+  "catala_only": 0,
+  "match_rate": null
+ },
+ "fields": [
+  {
+   "variable_name": "declaration_active",
+   "status": "type_mismatch",
+   "tdg_value": "1979-10-31",
+   "catala_value": "True",
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Joint Declaration on shipping:CONTAINS",
+   "status": "tdg_only",
+   "tdg_value": "1980-12-22",
+   "catala_value": null,
+   "delta_days": null
+  }
+ ]
+}

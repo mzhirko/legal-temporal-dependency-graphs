@@ -1,0 +1,31 @@
+{
+ "document_id": "en_contracts_seed4",
+ "document_type": "legal",
+ "source_text": "Avis juridique important | 21979A1031(53) Second ACP-EEC Convention signed at Lomé on 31 October 1979 - Declaration of the ACP States on Article 95 of the Convention (Annex XLIII) /* Lomé 2 */ Official Journal L 347 , 22/12/1980 P. 0180 ++++ANNEX XLIII DECLARATION BY THE ACP STATES CONCERNING ARTICLE 95 OF THE CONVENTION WHILE THE ACP STATES HAVE , IN A SPIRIT OF COOPERATION ACCEPTED , FOR THE PURPOSES OF THIS CONVENTION , THE TOTAL AMOUNT OF ASSISTANCE OF 5 607 MILLION EUA , THE ACP STATES WISH TO RECORD THAT IN THEIR OPINION THIS AMOUNT IS NEITHER ADEQUATE NOR FULLY REFLECTS THE UNDERSTANDING REACHED ON THE VOLUME OF FINANCIAL ASSISTANCE BETWEEN THE CO-PRESIDENTS OF THE COUNCIL OF MINISTERS IN THE COURSE OF THE NEGOTIATIONS IN JUNE 1979 . FURTHER , IT IS THE UNDERSTANDING OF THE ACP STATES THAT THE COMMUNITY'S FINANCIAL ASSISTANCE UNDER THIS CONVENTION WILL NOT , IN FACT , BE LESS THAN THE AMOUNT MENTIONED ABOVE .",
+ "facts": [],
+ "dependencies": [],
+ "edit_scenarios": [],
+ "_provenance": {
+  "extractor_backend": "llm:gemma4:e4b",
+  "environment": {
+   "model": "gemma4:e4b",
+   "base_url": "http://localhost:11434/v1",
+   "temperature": 0.0,
+   "max_tokens": 8192,
+   "python": "3.9.25",
+   "git": "861887f-dirty"
+  },
+  "stage_counts": {
+   "document_id": "en_contracts_seed4",
+   "chars": 929,
+   "facts": 0,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 14.44,
+   "status": "extract-zero-events",
+   "input_file": "../data/results_contracts_50/en_contracts_seed4.json"
+  },
+  "llm_status": "extract-zero-events",
+  "input_file": "../data/results_contracts_50/en_contracts_seed4.json"
+ }
+}

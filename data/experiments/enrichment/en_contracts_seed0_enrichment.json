@@ -1,0 +1,27 @@
+{
+ "document_id": "en_contracts_seed0",
+ "catala_status": "success",
+ "actions": [
+  {
+   "variable": "effective_date",
+   "action": "review",
+   "catala_value": "2005-09-08",
+   "tdg_value": "2006-12-31",
+   "delta_days": 479
+  },
+  {
+   "variable": "expiry_date",
+   "action": "verify",
+   "catala_value": "2006-12-31",
+   "tdg_value": "2006-12-31",
+   "delta_days": null
+  },
+  {
+   "variable": "denunciation_deadline",
+   "action": "review",
+   "catala_value": "2006-06-30",
+   "tdg_value": "2006-12-31",
+   "delta_days": 184
+  }
+ ]
+}

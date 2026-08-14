@@ -1,0 +1,18 @@
+# Agreement Minutes Date
+
+This scope identifies the official publication date of the agreement minutes.
+
+```catala
+declaration scope AgreementMinutes:
+  output agreement_date content date
+```
+
+## Publication Date
+
+The agreement minutes were published on the date specified in the official journal.
+
+```catala
+scope AgreementMinutes:
+  date round down
+  definition agreement_date equals |1994-02-18|
+```

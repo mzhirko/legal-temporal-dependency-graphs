@@ -1,0 +1,10 @@
+{
+ "document_id": "en_contracts_seed21",
+ "scope_name": "ReportingCycle",
+ "bindings": {},
+ "unbound": [
+  "last_report_date",
+  "reporting_frequency"
+ ],
+ "llm_fallback_used": true
+}

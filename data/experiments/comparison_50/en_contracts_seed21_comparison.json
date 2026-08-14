@@ -1,0 +1,50 @@
+{
+ "document_id": "en_contracts_seed21",
+ "catala_status": "success",
+ "scope_name": "ReportingCycle",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 0,
+  "mismatch": 1,
+  "tdg_only": 4,
+  "catala_only": 0,
+  "match_rate": 0.0
+ },
+ "fields": [
+  {
+   "variable_name": "next_report_date",
+   "status": "mismatch",
+   "tdg_value": "2006-12-31",
+   "catala_value": "2024-01-18",
+   "delta_days": 6227
+  },
+  {
+   "variable_name": "tdg:aid supplies:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "P6M",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Art.3 Delivery commencement period:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "P20D",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Art.6 Loading delay period:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "P30D",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Certificate submission deadline:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "P15D",
+   "catala_value": null,
+   "delta_days": null
+  }
+ ]
+}

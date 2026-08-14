@@ -1,0 +1,121 @@
+[
+ {
+  "case_id": "2026_EAT_64_s111",
+  "presented": null,
+  "deadline": null,
+  "last_date": null,
+  "verdict": null,
+  "delta_days": null,
+  "complied": null,
+  "statuses": {
+   "presented": "engine_abstained",
+   "deadline": "engine_abstained",
+   "last_date": "engine_abstained",
+   "verdict": "engine_abstained",
+   "delta_days": "engine_abstained",
+   "complied": "engine_abstained"
+  }
+ },
+ {
+  "case_id": "2026_EAT_64_s123",
+  "presented": null,
+  "deadline": null,
+  "last_date": null,
+  "verdict": null,
+  "delta_days": null,
+  "complied": null,
+  "statuses": {
+   "presented": "engine_abstained",
+   "deadline": "engine_abstained",
+   "last_date": "engine_abstained",
+   "verdict": "engine_abstained",
+   "delta_days": "engine_abstained",
+   "complied": "engine_abstained"
+  }
+ },
+ {
+  "case_id": "2025_EAT_155",
+  "presented": null,
+  "deadline": null,
+  "last_date": null,
+  "verdict": null,
+  "delta_days": null,
+  "complied": null,
+  "statuses": {
+   "presented": "engine_abstained",
+   "deadline": "engine_abstained",
+   "last_date": "engine_abstained",
+   "verdict": "engine_abstained",
+   "delta_days": "engine_abstained",
+   "complied": "engine_abstained"
+  }
+ },
+ {
+  "case_id": "2026_EAT_14",
+  "presented": "2023-02-06",
+  "deadline": "2022-11-25",
+  "last_date": "2022-11-25",
+  "verdict": "out_of_time",
+  "delta_days": 73,
+  "complied": false,
+  "statuses": {
+   "presented": "engine",
+   "deadline": "engine",
+   "last_date": "engine",
+   "verdict": "engine",
+   "delta_days": "engine",
+   "complied": "engine"
+  }
+ },
+ {
+  "case_id": "2026_EAT_76",
+  "presented": null,
+  "deadline": null,
+  "last_date": null,
+  "verdict": null,
+  "delta_days": null,
+  "complied": null,
+  "statuses": {
+   "presented": "engine_abstained",
+   "deadline": "engine_abstained",
+   "last_date": "engine_abstained",
+   "verdict": "engine_abstained",
+   "delta_days": "engine_abstained",
+   "complied": "engine_abstained"
+  }
+ },
+ {
+  "case_id": "2026_EAT_59",
+  "presented": null,
+  "deadline": null,
+  "last_date": null,
+  "verdict": null,
+  "delta_days": null,
+  "complied": null,
+  "statuses": {
+   "presented": "engine_abstained",
+   "deadline": "engine_abstained",
+   "last_date": "engine_abstained",
+   "verdict": "engine_abstained",
+   "delta_days": "engine_abstained",
+   "complied": "engine_abstained"
+  }
+ },
+ {
+  "case_id": "kj_2026_EAT_46",
+  "presented": null,
+  "deadline": null,
+  "last_date": null,
+  "verdict": null,
+  "delta_days": null,
+  "complied": null,
+  "statuses": {
+   "presented": "engine_abstained",
+   "deadline": "engine_abstained",
+   "last_date": "engine_abstained",
+   "verdict": "engine_abstained",
+   "delta_days": "engine_abstained",
+   "complied": "engine_abstained"
+  }
+ }
+]

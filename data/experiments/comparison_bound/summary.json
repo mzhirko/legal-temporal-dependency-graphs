@@ -1,0 +1,1968 @@
+{
+ "total_documents": 45,
+ "catala_success": 40,
+ "catala_repair_failed": 2,
+ "catala_typecheck_error": 0,
+ "catala_interpret_error": 3,
+ "field_totals": {
+  "match": 14,
+  "mismatch": 6,
+  "tdg_only": 116,
+  "catala_only": 23,
+  "placeholder": 18,
+  "semantic_match": 3,
+  "value_match": 6,
+  "duration_match": 0,
+  "duration_mismatch": 0,
+  "type_mismatch": 5
+ },
+ "avg_match_rate": 0.7395833333333333,
+ "docs_with_comparable_fields": 16,
+ "total_elapsed_seconds": 911.5,
+ "documents": [
+  {
+   "document_id": "en_contracts_seed0",
+   "catala_status": "success",
+   "scope_name": "TradeAgreementLifecycle",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 1,
+    "mismatch": 2,
+    "tdg_only": 8,
+    "catala_only": 0,
+    "match_rate": 0.3333333333333333
+   },
+   "fields": [
+    {
+     "variable_name": "effective_date",
+     "status": "mismatch",
+     "tdg_value": "2006-12-31",
+     "catala_value": "2005-09-08",
+     "delta_days": 479
+    },
+    {
+     "variable_name": "expiry_date",
+     "status": "match",
+     "tdg_value": "2006-12-31",
+     "catala_value": "2006-12-31",
+     "delta_days": null
+    },
+    {
+     "variable_name": "denunciation_deadline",
+     "status": "mismatch",
+     "tdg_value": "2006-12-31",
+     "catala_value": "2006-06-30",
+     "delta_days": 184
+    },
+    {
+     "variable_name": "tdg:Art.21.4 imports into the Community from Kazakhstan:CONTAINS",
+     "status": "tdg_only",
+     "tdg_value": "2005-01-01",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.31.3 quantitative limits:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "P1Y",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.31.3 notification deadline:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "null",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.31.4 quantitative limit adjustment:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "P1Y",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.31.4 notification deadline:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "null",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.9 consultations:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "P1M",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.9 consultations:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "P1M",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.11.3 denunciation notice period:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "P6M",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed1",
+   "catala_status": "success",
+   "scope_name": "TextileAgreementAmendment",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 1,
+    "tdg_only": 7,
+    "catala_only": 0,
+    "match_rate": 0.0
+   },
+   "fields": [
+    {
+     "variable_name": "termination_deadline",
+     "status": "mismatch",
+     "tdg_value": "1995-02-28",
+     "catala_value": "1995-05-01",
+     "delta_days": 62
+    },
+    {
+     "variable_name": "tdg:Agreement on trade in textile products:START",
+     "status": "tdg_only",
+     "tdg_value": "1986-07-19",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Amendment by exchange of letters:START",
+     "status": "tdg_only",
+     "tdg_value": "1992-11-27",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Likely accession of countries:CONTAINS",
+     "status": "tdg_only",
+     "tdg_value": "1995-01-01",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Period for quantitative restrictions replacement:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "null",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Provisional application of the Agreement:START",
+     "status": "tdg_only",
+     "tdg_value": "1995-01-01",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:De facto application of the modified Agreement:START",
+     "status": "tdg_only",
+     "tdg_value": "1995-01-01",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Termination notice period:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "P120D",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed10",
+   "catala_status": "success",
+   "scope_name": "AgreementDuration",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 1,
+    "mismatch": 0,
+    "tdg_only": 1,
+    "catala_only": 1,
+    "match_rate": 1.0
+   },
+   "fields": [
+    {
+     "variable_name": "initial_expiry_date",
+     "status": "catala_only",
+     "tdg_value": null,
+     "catala_value": "2015-06-07",
+     "delta_days": null
+    },
+    {
+     "variable_name": "termination_deadline",
+     "status": "value_match",
+     "tdg_value": "2005-06-07",
+     "catala_value": "2005-06-07",
+     "delta_days": 0
+    },
+    {
+     "variable_name": "tdg:Agreement:START",
+     "status": "tdg_only",
+     "tdg_value": "1995-01-23",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed11",
+   "catala_status": "success",
+   "scope_name": "AgreementTimeline",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 4,
+    "catala_only": 1,
+    "match_rate": null
+   },
+   "fields": [
+    {
+     "variable_name": "transition_period",
+     "status": "catala_only",
+     "tdg_value": null,
+     "catala_value": "2002-12-31",
+     "delta_days": null
+    },
+    {
+     "variable_name": "termination_date",
+     "status": "placeholder",
+     "tdg_value": "2002-12-31",
+     "catala_value": "1970-03-01",
+     "delta_days": null
+    },
+    {
+     "variable_name": "agreement_duration",
+     "status": "placeholder",
+     "tdg_value": "P1Y",
+     "catala_value": "{'days': -11989.0}",
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Joint Action 2002/210/CFSP:CONTAINS",
+     "status": "tdg_only",
+     "tdg_value": "2002-03-11",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Agreement on EUPM activities:CONTAINS",
+     "status": "tdg_only",
+     "tdg_value": "2002-10-04",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.3.1 Secondment period start:START",
+     "status": "tdg_only",
+     "tdg_value": "2003-01-01",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.7 Termination notice period:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "P60D",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed13",
+   "catala_status": "success",
+   "scope_name": "DoubleCheckingSystemPeriod",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 2,
+    "mismatch": 0,
+    "tdg_only": 4,
+    "catala_only": 0,
+    "match_rate": 1.0
+   },
+   "fields": [
+    {
+     "variable_name": "system_period_start",
+     "status": "value_match",
+     "tdg_value": "2002-07-22",
+     "catala_value": "2002-07-22",
+     "delta_days": 0
+    },
+    {
+     "variable_name": "system_period_end",
+     "status": "value_match",
+     "tdg_value": "2004-12-31",
+     "catala_value": "2004-12-31",
+     "delta_days": 0
+    },
+    {
+     "variable_name": "tdg:ANNEX 1.2 export document application:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "2004-12-31",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:ANNEX 1.2 export document presentation:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "null",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:2.1 statistical information transmission:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "P30D",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:2.2 statistical information transmission:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "P30D",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed14",
+   "catala_status": "success",
+   "scope_name": "MovementCertificateDeadline",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 1,
+    "mismatch": 0,
+    "tdg_only": 3,
+    "catala_only": 0,
+    "match_rate": 1.0
+   },
+   "fields": [
+    {
+     "variable_name": "submission_deadline",
+     "status": "semantic_match",
+     "tdg_value": "P6M",
+     "catala_value": "1976-01-19",
+     "delta_days": 184
+    },
+    {
+     "variable_name": "tdg:Agreement:START",
+     "status": "tdg_only",
+     "tdg_value": "1975-07-19",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Agreement:START",
+     "status": "tdg_only",
+     "tdg_value": "1972-11-30",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.13 Agreement:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "P6M",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed15",
+   "catala_status": "success",
+   "scope_name": "AgreementDuration",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 2,
+    "catala_only": 1,
+    "match_rate": null
+   },
+   "fields": [
+    {
+     "variable_name": "agreement_duration",
+     "status": "catala_only",
+     "tdg_value": null,
+     "catala_value": "{'days': 1825.0}",
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Agreement:START",
+     "status": "tdg_only",
+     "tdg_value": "1987-01-01",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Agreement:END",
+     "status": "tdg_only",
+     "tdg_value": "1991-12-31",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed16",
+   "catala_status": "success",
+   "scope_name": "AgreementLifecycle",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 1,
+    "mismatch": 1,
+    "tdg_only": 8,
+    "catala_only": 1,
+    "match_rate": 0.5
+   },
+   "fields": [
+    {
+     "variable_name": "denunciation_deadline",
+     "status": "catala_only",
+     "tdg_value": null,
+     "catala_value": "1998-06-30",
+     "delta_days": null
+    },
+    {
+     "variable_name": "automatic_extension_end",
+     "status": "match",
+     "tdg_value": "1999-12-31",
+     "catala_value": "1999-12-31",
+     "delta_days": null
+    },
+    {
+     "variable_name": "provisional_termination_date",
+     "status": "mismatch",
+     "tdg_value": "1998-12-31",
+     "catala_value": "1996-04-30",
+     "delta_days": 975
+    },
+    {
+     "variable_name": "tdg:Agreement on trade in textile products:START",
+     "status": "tdg_only",
+     "tdg_value": "1993-09-28",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Agreement in the form of an Exchange of Letters:START",
+     "status": "tdg_only",
+     "tdg_value": "1995-10-18",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Agreement in the form of an Exchange of Letters:START",
+     "status": "tdg_only",
+     "tdg_value": "1995-12-30",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Agreement on trade in textile products:END",
+     "status": "tdg_only",
+     "tdg_value": "1995-12-31",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Agreement on trade in textile products:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "1995-12-31",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Agreement on trade in textile products:START",
+     "status": "tdg_only",
+     "tdg_value": "1996-01-01",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Agreement on trade in textile products:START",
+     "status": "tdg_only",
+     "tdg_value": "1996-01-01",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:notice period:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "P120D",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed17",
+   "catala_status": "success",
+   "scope_name": "AssociationStages",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 2,
+    "catala_only": 0,
+    "match_rate": null
+   },
+   "fields": [
+    {
+     "variable_name": "prep_stage_duration",
+     "status": "type_mismatch",
+     "tdg_value": "P5Y",
+     "catala_value": "{'years': 5.0}",
+     "delta_days": null
+    },
+    {
+     "variable_name": "max_transitional_duration",
+     "status": "type_mismatch",
+     "tdg_value": "P6M",
+     "catala_value": "{'years': 12.0}",
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Agreement establishing an Association:START",
+     "status": "tdg_only",
+     "tdg_value": "1963-09-12",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.24 Council of Association term of office:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "P6M",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed18",
+   "catala_status": "success",
+   "scope_name": "AgreementTimeline",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 1,
+    "mismatch": 0,
+    "tdg_only": 9,
+    "catala_only": 2,
+    "match_rate": 1.0
+   },
+   "fields": [
+    {
+     "variable_name": "agreement_effective_date",
+     "status": "match",
+     "tdg_value": "1995-12-22",
+     "catala_value": "1995-12-22",
+     "delta_days": null
+    },
+    {
+     "variable_name": "review_start_date",
+     "status": "catala_only",
+     "tdg_value": null,
+     "catala_value": "1996-01-01",
+     "delta_days": null
+    },
+    {
+     "variable_name": "withdrawal_request_date",
+     "status": "catala_only",
+     "tdg_value": null,
+     "catala_value": "1995-11-01",
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:reviewing the representative price system:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "null",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:developing a cumulative recovery system:START",
+     "status": "tdg_only",
+     "tdg_value": "null",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:sharing relevant data:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "null",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:determining Community duties on imports of rice:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "null",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:withdrawal of current request:START",
+     "status": "tdg_only",
+     "tdg_value": "null",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:effective implementation of the provisions:START",
+     "status": "tdg_only",
+     "tdg_value": "null",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:ongoing negotiations on these products:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "null",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:consultation regarding market share increase:START",
+     "status": "tdg_only",
+     "tdg_value": "null",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:reserving WTO rights:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "null",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed19",
+   "catala_status": "success",
+   "scope_name": "DenunciationEffectivity",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 0,
+    "catala_only": 0,
+    "match_rate": null
+   },
+   "fields": [
+    {
+     "variable_name": "denunciation_effectivity_date",
+     "status": "placeholder",
+     "tdg_value": "1974-09-17",
+     "catala_value": "1970-07-01",
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed2",
+   "catala_status": "success",
+   "scope_name": "AgreementTimeline",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 1,
+    "mismatch": 0,
+    "tdg_only": 4,
+    "catala_only": 0,
+    "match_rate": 1.0
+   },
+   "fields": [
+    {
+     "variable_name": "notification_deadline",
+     "status": "semantic_match",
+     "tdg_value": "P1M",
+     "catala_value": "1996-02-01",
+     "delta_days": 31
+    },
+    {
+     "variable_name": "tdg:Agreement:START",
+     "status": "tdg_only",
+     "tdg_value": "1994-04-15",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Agreement:START",
+     "status": "tdg_only",
+     "tdg_value": "1996-01-01",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.2 Notification:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "P1M",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.6 Review:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "P5Y",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed20",
+   "catala_status": "success",
+   "scope_name": "DeliveryArrival",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 0,
+    "catala_only": 0,
+    "match_rate": null
+   },
+   "fields": [
+    {
+     "variable_name": "actual_arrival_date",
+     "status": "placeholder",
+     "tdg_value": null,
+     "catala_value": "1970-01-01",
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed21",
+   "catala_status": "success",
+   "scope_name": "ReportingCycle",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 1,
+    "tdg_only": 4,
+    "catala_only": 0,
+    "match_rate": 0.0
+   },
+   "fields": [
+    {
+     "variable_name": "next_report_date",
+     "status": "mismatch",
+     "tdg_value": "2006-12-31",
+     "catala_value": "2024-01-18",
+     "delta_days": 6227
+    },
+    {
+     "variable_name": "tdg:aid supplies:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "P6M",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.3 Delivery commencement period:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "P20D",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.6 Loading delay period:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "P30D",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Certificate submission deadline:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "P15D",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed22",
+   "catala_status": "repair_failed",
+   "scope_name": null,
+   "repair_attempts": 3,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 0,
+    "catala_only": 0,
+    "match_rate": null
+   },
+   "fields": []
+  },
+  {
+   "document_id": "en_contracts_seed23",
+   "catala_status": "success",
+   "scope_name": "AgreementEntryIntoForce",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 1,
+    "mismatch": 0,
+    "tdg_only": 2,
+    "catala_only": 0,
+    "match_rate": 1.0
+   },
+   "fields": [
+    {
+     "variable_name": "effective_date",
+     "status": "value_match",
+     "tdg_value": "2002-07-09",
+     "catala_value": "2002-07-09",
+     "delta_days": 0
+    },
+    {
+     "variable_name": "tdg:Treaty expiration:END",
+     "status": "tdg_only",
+     "tdg_value": "2002-07-23",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.2 Imports into the Community from Russia:CONTAINS",
+     "status": "tdg_only",
+     "tdg_value": "2003-01-01",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed25",
+   "catala_status": "success",
+   "scope_name": "InformationSubmissionDeadline",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 3,
+    "catala_only": 1,
+    "match_rate": null
+   },
+   "fields": [
+    {
+     "variable_name": "submission_deadline",
+     "status": "catala_only",
+     "tdg_value": null,
+     "catala_value": "2024-04-23",
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Agreement:START",
+     "status": "tdg_only",
+     "tdg_value": "1975-01-16",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Resolution:START",
+     "status": "tdg_only",
+     "tdg_value": "1974-07-16",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Unit of Account:START",
+     "status": "tdg_only",
+     "tdg_value": "1975-04-21",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed26",
+   "catala_status": "success",
+   "scope_name": "ExtraditionTransitScope",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 0,
+    "catala_only": 1,
+    "match_rate": null
+   },
+   "fields": [
+    {
+     "variable_name": "is_timely_transit_request",
+     "status": "catala_only",
+     "tdg_value": null,
+     "catala_value": "True",
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed27",
+   "catala_status": "success",
+   "scope_name": "AgreementEntryIntoForce",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 0,
+    "catala_only": 0,
+    "match_rate": null
+   },
+   "fields": [
+    {
+     "variable_name": "entry_into_force_date",
+     "status": "placeholder",
+     "tdg_value": null,
+     "catala_value": "1970-03-01",
+     "delta_days": null
+    },
+    {
+     "variable_name": "end_date_bunderfleisch",
+     "status": "placeholder",
+     "tdg_value": null,
+     "catala_value": "1973-03-01",
+     "delta_days": null
+    },
+    {
+     "variable_name": "end_date_union_3yr",
+     "status": "placeholder",
+     "tdg_value": null,
+     "catala_value": "1973-03-01",
+     "delta_days": null
+    },
+    {
+     "variable_name": "end_date_swiss_5yr",
+     "status": "placeholder",
+     "tdg_value": null,
+     "catala_value": "1975-03-01",
+     "delta_days": null
+    },
+    {
+     "variable_name": "end_date_union_5yr",
+     "status": "placeholder",
+     "tdg_value": null,
+     "catala_value": "1975-03-01",
+     "delta_days": null
+    },
+    {
+     "variable_name": "end_date_grana",
+     "status": "placeholder",
+     "tdg_value": null,
+     "catala_value": "1976-03-01",
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed28",
+   "catala_status": "success",
+   "scope_name": "AgreementCommencement",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 0,
+    "catala_only": 0,
+    "match_rate": null
+   },
+   "fields": [
+    {
+     "variable_name": "provisional_start_date",
+     "status": "placeholder",
+     "tdg_value": null,
+     "catala_value": "1970-01-01",
+     "delta_days": null
+    },
+    {
+     "variable_name": "consultation_start_date",
+     "status": "placeholder",
+     "tdg_value": null,
+     "catala_value": "1969-11-01",
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed29",
+   "catala_status": "success",
+   "scope_name": "AgreementEntryIntoForce",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 3,
+    "catala_only": 1,
+    "match_rate": null
+   },
+   "fields": [
+    {
+     "variable_name": "entry_into_force_date",
+     "status": "catala_only",
+     "tdg_value": null,
+     "catala_value": "2012-12-21",
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Agreement in the form of an Exchange of Letters:START",
+     "status": "tdg_only",
+     "tdg_value": "2013-03-13",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Letter from the European Union:START",
+     "status": "tdg_only",
+     "tdg_value": "2012-12-07",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Submission of notice by US:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "P30D",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed3",
+   "catala_status": "success",
+   "scope_name": "ProvisionalProtocolApplication",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 4,
+    "catala_only": 1,
+    "match_rate": null
+   },
+   "fields": [
+    {
+     "variable_name": "provisional_duration",
+     "status": "catala_only",
+     "tdg_value": null,
+     "catala_value": "{'days': 730.0}",
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Protocol:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "1990-05-03",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Protocol:START",
+     "status": "tdg_only",
+     "tdg_value": "1990-04-04",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Protocol:START",
+     "status": "tdg_only",
+     "tdg_value": "1990-05-03",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.2 financial compensation:END",
+     "status": "tdg_only",
+     "tdg_value": "1990-09-30",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed30",
+   "catala_status": "interpret_error",
+   "scope_name": "CotonouExpirationCheck",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 0,
+    "catala_only": 0,
+    "match_rate": null
+   },
+   "fields": []
+  },
+  {
+   "document_id": "en_contracts_seed31",
+   "catala_status": "success",
+   "scope_name": "AgreementMinutes",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 0,
+    "catala_only": 1,
+    "match_rate": null
+   },
+   "fields": [
+    {
+     "variable_name": "agreement_date",
+     "status": "catala_only",
+     "tdg_value": null,
+     "catala_value": "1994-02-18",
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed33",
+   "catala_status": "success",
+   "scope_name": "InitialExpiryCalculation",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 2,
+    "catala_only": 1,
+    "match_rate": null
+   },
+   "fields": [
+    {
+     "variable_name": "initial_expiry_date",
+     "status": "catala_only",
+     "tdg_value": null,
+     "catala_value": "2005-01-23",
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Agreement:START",
+     "status": "tdg_only",
+     "tdg_value": "1995-01-23",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Agreement:START",
+     "status": "tdg_only",
+     "tdg_value": "2005-06-07",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed35",
+   "catala_status": "success",
+   "scope_name": "TradeAgreementEntry",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 1,
+    "mismatch": 0,
+    "tdg_only": 2,
+    "catala_only": 1,
+    "match_rate": 1.0
+   },
+   "fields": [
+    {
+     "variable_name": "entry_into_force_date",
+     "status": "catala_only",
+     "tdg_value": null,
+     "catala_value": "2013-03-27",
+     "delta_days": null
+    },
+    {
+     "variable_name": "us_submission_deadline",
+     "status": "semantic_match",
+     "tdg_value": "P30D",
+     "catala_value": "2013-04-26",
+     "delta_days": 30
+    },
+    {
+     "variable_name": "tdg:Agreement in the form of an Exchange of Letters:START",
+     "status": "tdg_only",
+     "tdg_value": "2013-03-13",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Letter from the European Union:START",
+     "status": "tdg_only",
+     "tdg_value": "2012-12-07",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed36",
+   "catala_status": "success",
+   "scope_name": "SugarPricePeriod",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 1,
+    "mismatch": 0,
+    "tdg_only": 2,
+    "catala_only": 1,
+    "match_rate": 1.0
+   },
+   "fields": [
+    {
+     "variable_name": "start_date",
+     "status": "match",
+     "tdg_value": "1984-07-01",
+     "catala_value": "1984-07-01",
+     "delta_days": null
+    },
+    {
+     "variable_name": "end_date",
+     "status": "catala_only",
+     "tdg_value": null,
+     "catala_value": "1985-06-30",
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Agreement:START",
+     "status": "tdg_only",
+     "tdg_value": "1984-07-01",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Agreement:END",
+     "status": "tdg_only",
+     "tdg_value": "1985-06-30",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed37",
+   "catala_status": "success",
+   "scope_name": "CooperationPeriod",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 1,
+    "mismatch": 0,
+    "tdg_only": 0,
+    "catala_only": 0,
+    "match_rate": 1.0
+   },
+   "fields": [
+    {
+     "variable_name": "end_date",
+     "status": "value_match",
+     "tdg_value": "1993-12-20",
+     "catala_value": "1993-12-20",
+     "delta_days": 0
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed38",
+   "catala_status": "success",
+   "scope_name": "TerminationNotice",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 8,
+    "catala_only": 0,
+    "match_rate": null
+   },
+   "fields": [
+    {
+     "variable_name": "termination_date",
+     "status": "placeholder",
+     "tdg_value": null,
+     "catala_value": "1970-03-01",
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Joint Action 2002/210/CFSP:CONTAINS",
+     "status": "tdg_only",
+     "tdg_value": "2002-03-11",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Agreement on EUPM activities:CONTAINS",
+     "status": "tdg_only",
+     "tdg_value": "2002-10-04",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.3.1 Secondment period coverage:END",
+     "status": "tdg_only",
+     "tdg_value": "2002-12-31",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.3.1 Secondment period coverage:START",
+     "status": "tdg_only",
+     "tdg_value": "2003-01-01",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.2.1 Minimum secondment duration:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "P1Y",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.6.3 Formal communication of contribution:CONTAINS",
+     "status": "tdg_only",
+     "tdg_value": "2002-11-15",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.6.3 Financial arrangement conclusion:CONTAINS",
+     "status": "tdg_only",
+     "tdg_value": "2002-12-15",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.7 Termination of agreement:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "P60D",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed39",
+   "catala_status": "success",
+   "scope_name": "AgreementSigningDate",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 1,
+    "mismatch": 0,
+    "tdg_only": 1,
+    "catala_only": 0,
+    "match_rate": 1.0
+   },
+   "fields": [
+    {
+     "variable_name": "signing_date",
+     "status": "match",
+     "tdg_value": "1999-02-10",
+     "catala_value": "1999-02-10",
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Regulation:START",
+     "status": "tdg_only",
+     "tdg_value": "1997-06-02",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed4",
+   "catala_status": "interpret_error",
+   "scope_name": "ACPDeclaration",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 0,
+    "catala_only": 0,
+    "match_rate": null
+   },
+   "fields": []
+  },
+  {
+   "document_id": "en_contracts_seed40",
+   "catala_status": "success",
+   "scope_name": "AgreementMilestones",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 3,
+    "catala_only": 2,
+    "match_rate": null
+   },
+   "fields": [
+    {
+     "variable_name": "info_deadline",
+     "status": "catala_only",
+     "tdg_value": null,
+     "catala_value": "1998-06-01",
+     "delta_days": null
+    },
+    {
+     "variable_name": "review_date",
+     "status": "catala_only",
+     "tdg_value": null,
+     "catala_value": "2000-09-01",
+     "delta_days": null
+    },
+    {
+     "variable_name": "effective_date",
+     "status": "placeholder",
+     "tdg_value": null,
+     "catala_value": "1970-03-01",
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:application for participation:CONTAINS",
+     "status": "tdg_only",
+     "tdg_value": "1994-03-01",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:decision of the Luxembourg European Council:CONTAINS",
+     "status": "tdg_only",
+     "tdg_value": "1997-12-01",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:accession negotiations:START",
+     "status": "tdg_only",
+     "tdg_value": "1998-03-01",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed41",
+   "catala_status": "success",
+   "scope_name": "ArticleVIIIReporting",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 5,
+    "catala_only": 2,
+    "match_rate": null
+   },
+   "fields": [
+    {
+     "variable_name": "report_30_days_due",
+     "status": "placeholder",
+     "tdg_value": null,
+     "catala_value": "1970-01-31",
+     "delta_days": null
+    },
+    {
+     "variable_name": "report_1_month_due",
+     "status": "placeholder",
+     "tdg_value": null,
+     "catala_value": "1970-02-01",
+     "delta_days": null
+    },
+    {
+     "variable_name": "is_30_days_late",
+     "status": "catala_only",
+     "tdg_value": null,
+     "catala_value": "True",
+     "delta_days": null
+    },
+    {
+     "variable_name": "is_1_month_late",
+     "status": "catala_only",
+     "tdg_value": null,
+     "catala_value": "True",
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.Vlll reporting shipment details:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "P30D",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.IX approval of aid usage:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "P120D",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.5 Community informing of estimated date of arrival:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "P10D",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.2 captain informing of probable date of arrival:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "P72H",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.3 Community informing of date of discharge:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "P10D",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed42",
+   "catala_status": "repair_failed",
+   "scope_name": null,
+   "repair_attempts": 3,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 0,
+    "catala_only": 0,
+    "match_rate": null
+   },
+   "fields": []
+  },
+  {
+   "document_id": "en_contracts_seed43",
+   "catala_status": "success",
+   "scope_name": "SugarPriceAgreement",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 1,
+    "mismatch": 0,
+    "tdg_only": 1,
+    "catala_only": 0,
+    "match_rate": 1.0
+   },
+   "fields": [
+    {
+     "variable_name": "special_price_cutoff",
+     "status": "value_match",
+     "tdg_value": "1995-01-31",
+     "catala_value": "1995-01-31",
+     "delta_days": 0
+    },
+    {
+     "variable_name": "is_delivery_period_valid",
+     "status": "type_mismatch",
+     "tdg_value": "1994-07-01",
+     "catala_value": "False",
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:UNKNOWN:START",
+     "status": "tdg_only",
+     "tdg_value": "1995-12-12",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed44",
+   "catala_status": "interpret_error",
+   "scope_name": "AgreementTimeline",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 0,
+    "catala_only": 0,
+    "match_rate": null
+   },
+   "fields": []
+  },
+  {
+   "document_id": "en_contracts_seed45",
+   "catala_status": "success",
+   "scope_name": "ShippingDeclaration",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 1,
+    "catala_only": 0,
+    "match_rate": null
+   },
+   "fields": [
+    {
+     "variable_name": "declaration_active",
+     "status": "type_mismatch",
+     "tdg_value": "1979-10-31",
+     "catala_value": "True",
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Joint Declaration on shipping:CONTAINS",
+     "status": "tdg_only",
+     "tdg_value": "1980-12-22",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed46",
+   "catala_status": "success",
+   "scope_name": "ProvisionalApplication",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 3,
+    "catala_only": 0,
+    "match_rate": null
+   },
+   "fields": [
+    {
+     "variable_name": "provisional_duration",
+     "status": "placeholder",
+     "tdg_value": null,
+     "catala_value": "{'days': -6226.0}",
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Agreement:START",
+     "status": "tdg_only",
+     "tdg_value": "1986-12-03",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Provisional application:START",
+     "status": "tdg_only",
+     "tdg_value": "1987-01-18",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.3 Financial compensation:CONTAINS",
+     "status": "tdg_only",
+     "tdg_value": "1987-05-31",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed47",
+   "catala_status": "success",
+   "scope_name": "EcopointsValidity",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 4,
+    "catala_only": 2,
+    "match_rate": null
+   },
+   "fields": [
+    {
+     "variable_name": "valid_start_date",
+     "status": "catala_only",
+     "tdg_value": null,
+     "catala_value": "1999-01-01",
+     "delta_days": null
+    },
+    {
+     "variable_name": "valid_end_date",
+     "status": "catala_only",
+     "tdg_value": null,
+     "catala_value": "1999-12-31",
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Agreement:START",
+     "status": "tdg_only",
+     "tdg_value": "1999-01-01",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:ecopoints system:START",
+     "status": "tdg_only",
+     "tdg_value": "2002-01-01",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:ecopoints validity period:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "null",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:COP document requirement:START",
+     "status": "tdg_only",
+     "tdg_value": "1990-10-01",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed48",
+   "catala_status": "success",
+   "scope_name": "AgreementEntry",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 3,
+    "catala_only": 1,
+    "match_rate": null
+   },
+   "fields": [
+    {
+     "variable_name": "effective_date",
+     "status": "catala_only",
+     "tdg_value": null,
+     "catala_value": "2012-12-21",
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Agreement in the form of an Exchange of Letters:START",
+     "status": "tdg_only",
+     "tdg_value": "2013-03-13",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Letter from the European Union:START",
+     "status": "tdg_only",
+     "tdg_value": "2012-12-07",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Submission of notice by US:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "P30D",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed49",
+   "catala_status": "success",
+   "scope_name": "TomatoAgreementDates",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 1,
+    "catala_only": 0,
+    "match_rate": null
+   },
+   "fields": [
+    {
+     "variable_name": "agreement_active",
+     "status": "type_mismatch",
+     "tdg_value": "1972-07-22",
+     "catala_value": "True",
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Exchange of letters:START",
+     "status": "tdg_only",
+     "tdg_value": "1975-12-05",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed5",
+   "catala_status": "success",
+   "scope_name": "AgreementPeriod",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 7,
+    "catala_only": 1,
+    "match_rate": null
+   },
+   "fields": [
+    {
+     "variable_name": "duration_length",
+     "status": "catala_only",
+     "tdg_value": null,
+     "catala_value": "{'days': 1095.0}",
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.1 Agreement:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "1984-01-01",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Decision:CONTAINS",
+     "status": "tdg_only",
+     "tdg_value": "1982-08-17",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.7 Agreement:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "1971-11-23",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.7 Ministerial conference:CONTAINS",
+     "status": "tdg_only",
+     "tdg_value": "1971-11-22",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.5 Evaluation:CONTAINS",
+     "status": "tdg_only",
+     "tdg_value": "1984-01-01",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.5 Evaluation:CONTAINS",
+     "status": "tdg_only",
+     "tdg_value": "1985-01-01",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.2 Annual contribution payment:END",
+     "status": "tdg_only",
+     "tdg_value": "null",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed6",
+   "catala_status": "success",
+   "scope_name": "SustainableDevelopmentCheck",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 2,
+    "catala_only": 1,
+    "match_rate": null
+   },
+   "fields": [
+    {
+     "variable_name": "is_sustainable",
+     "status": "catala_only",
+     "tdg_value": null,
+     "catala_value": "False",
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Cotonou Agreement:CONTAINS",
+     "status": "tdg_only",
+     "tdg_value": "2000-06-23",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Cotonou Agreement:CONTAINS",
+     "status": "tdg_only",
+     "tdg_value": "2005-06-25",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed7",
+   "catala_status": "success",
+   "scope_name": "AgreementScope",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 2,
+    "catala_only": 0,
+    "match_rate": null
+   },
+   "fields": [
+    {
+     "variable_name": "termination_date",
+     "status": "placeholder",
+     "tdg_value": "2004-05-17",
+     "catala_value": "1970-04-01",
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Undertakings:CONTAINS",
+     "status": "tdg_only",
+     "tdg_value": "2004-05-11",
+     "catala_value": null,
+     "delta_days": null
+    },
+    {
+     "variable_name": "tdg:Art.7 Agreement:DURATION",
+     "status": "tdg_only",
+     "tdg_value": "P90D",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  },
+  {
+   "document_id": "en_contracts_seed8",
+   "catala_status": "success",
+   "scope_name": "AgreementExtension",
+   "repair_attempts": 0,
+   "summary": {
+    "match": 0,
+    "mismatch": 1,
+    "tdg_only": 1,
+    "catala_only": 0,
+    "match_rate": 0.0
+   },
+   "fields": [
+    {
+     "variable_name": "end_date",
+     "status": "mismatch",
+     "tdg_value": "1986-03-15",
+     "catala_value": "1986-04-01",
+     "delta_days": 17
+    },
+    {
+     "variable_name": "tdg:Agreement on fishing:START",
+     "status": "tdg_only",
+     "tdg_value": "1986-01-01",
+     "catala_value": null,
+     "delta_days": null
+    }
+   ]
+  }
+ ]
+}

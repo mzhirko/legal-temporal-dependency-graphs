@@ -1,0 +1,11 @@
+{
+ "id": "lextime_0305",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "The union members' concerted refusal to work",
+ "event2": "the disruption of normal operations at the hospital",
+ "relation": "AFTER",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [],
+ "dependencies": []
+}

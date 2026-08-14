@@ -1,0 +1,14 @@
+# Agreement between the European Community and the Swiss Confederation on certain aspects of government procurement.
+
+This scope tracks the key dates associated with the agreement's entry into force.
+```catala
+declaration scope ProcurementAgreement:
+  input signing_date content date
+  output effective_date content date
+```
+The agreement enters into force on the date of signing.
+```catala
+scope ProcurementAgreement:
+  date round down
+  definition effective_date equals signing_date
+```

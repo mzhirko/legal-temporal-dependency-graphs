@@ -1,0 +1,40 @@
+# Agreement Deadlines and Milestones
+
+This scope computes key deadlines related to the agreement's entry into force, including the deadline for national information network reporting and the date for reviewing the agreement's functioning.
+
+```catala
+declaration scope AgreementMilestones:
+  input entry_date content date
+  input last_notification_date content date
+  output info_deadline content date
+  output review_date content date
+  output effective_date content date
+```
+
+# Article 4 Deadline
+
+Hungary must inform the Agency of its national information networks within three months of the agreement entering into force.
+
+```catala
+scope AgreementMilestones:
+  date round down
+  definition info_deadline equals entry_date + 3 month
+```
+
+# Article 15.1 Review Date
+
+The parties must review the functioning of the agreement six months before the expiry of the third year from the entry into force.
+
+```catala
+scope AgreementMilestones:
+  definition review_date equals (entry_date + 3 year) - 6 month
+```
+
+# Article 18 Entry into Force
+
+The agreement enters into force on the first day of the second month following the date the last party delivers its notification of completion.
+
+```catala
+scope AgreementMilestones:
+  definition effective_date equals last_notification_date + 2 month
+```

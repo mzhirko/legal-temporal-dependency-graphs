@@ -1,0 +1,64 @@
+{
+ "document_id": "en_contracts_seed13",
+ "catala_status": "success",
+ "scope_name": "DoubleCheckingSystem",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 0,
+  "mismatch": 0,
+  "tdg_only": 6,
+  "catala_only": 1,
+  "match_rate": null
+ },
+ "fields": [
+  {
+   "variable_name": "systemDuration",
+   "status": "catala_only",
+   "tdg_value": null,
+   "catala_value": "{'days': 893.0}",
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:Agreement:START",
+   "status": "tdg_only",
+   "tdg_value": "2002-07-22",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:ANNEX 1.1 surveillance document application:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "2004-12-31",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:ANNEX 1.2 export document application:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "2004-12-31",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:ANNEX 1.2 export document presentation:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "null",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:2.1 statistical information transmission:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "P30D",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:2.2 statistical information transmission:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "P30D",
+   "catala_value": null,
+   "delta_days": null
+  }
+ ]
+}

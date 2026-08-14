@@ -1,0 +1,65 @@
+{
+ "document_id": "en_caselaw_seed4",
+ "document_type": "legal",
+ "source_text": "25.6.2011 EN Official Journal of the European Union C 186/10 Order of the Court of 18 March 2011 (reference for a preliminary ruling from the Tribunal Superior de Justicia de la Comunidad Valenciana (Spain)) — David Montoya Medina v Fondo de Garantia Salarial and Universidad de Alicante (Case C-273/10) (1) (Article 104(3) of the Rules of Procedure - Social policy - Directive 1999/70/EC - Clause 4 of the Framework Agreement on fixed-term work - Fixed-term employment contracts in the public sector - Entitlement to triennial seniority bonuses - Principle of non-discrimination) 2011/C 186/16 Language of the case: Spanish Referring court Tribunal Superior de Justicia de la Comunidad Valenciana (Spain) Parties to the main proceedings Applicant: David Montoya Medina Defendants: Fondo de Garantia Salarial and Universidad de Alicante Re: Reference for a preliminary ruling — Tribunal Superior de Justicia de la Comunidad Valenciana — Interpretation of Clause 4(4) of the Annex to Council Directive 1999/70/EC of 28 June 1999 concerning the framework agreement on fixed-term work concluded by ETUC, UNICE and CEEP (OJ 1999 L 175, p. 43) — Contracts of employment as a university lecturer and researcher concluded with State universities — Exclusion of certain benefits from fixed-term contracts Operative part of the order Clause 4(1) of the Framework Agreement on fixed-term work, concluded on 18 March 1999, which is annexed to Council Directive 1999/70/EC of 28 June 1999 concerning the framework agreement on fixed-term work concluded by ETUC, UNICE and CEEP, must be interpreted as precluding national legislation which, without any objective justification, restricts the right to receive a seniority bonus to university lecturers on permanent contracts, excluding lecturers on fixed-term contracts where, as regards receipt of that bonus, those two categories of workers are in comparable situations. (1) OJ C 221, 14.8.2010.",
+ "facts": [
+  {
+   "id": "f1",
+   "entity": "the Tribunal Superior de Justicia de la Comunidad Valenciana",
+   "role": "START",
+   "value": "2011-03-18",
+   "raw_text": "18 March 2011",
+   "timex_type": "DATE",
+   "sentence": "dcf2fa23c9827aeddf6202b22667fb5e",
+   "confidence": 0.6,
+   "signal_verb": null,
+   "signal_prep": "of",
+   "temporal_content": true,
+   "date_parsed": "2011-03-18"
+  },
+  {
+   "id": "f2",
+   "entity": "Universidad de Alicante",
+   "role": "UNKNOWN",
+   "value": "1999-06-28",
+   "raw_text": "28 June 1999",
+   "timex_type": "DATE",
+   "sentence": "e211e928a37a6a29c086045de4791201",
+   "confidence": 0.2,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "1999-06-28"
+  },
+  {
+   "id": "f3",
+   "entity": "State",
+   "role": "END",
+   "value": "1999-03-18",
+   "raw_text": "18 March 1999",
+   "timex_type": "DATE",
+   "sentence": "e211e928a37a6a29c086045de4791201",
+   "confidence": 0.78,
+   "signal_verb": "conclude",
+   "signal_prep": "on",
+   "temporal_content": true,
+   "date_parsed": "1999-03-18"
+  },
+  {
+   "id": "f4",
+   "entity": "State",
+   "role": "START",
+   "value": "1999-06-28",
+   "raw_text": "28 June 1999",
+   "timex_type": "DATE",
+   "sentence": "e211e928a37a6a29c086045de4791201",
+   "confidence": 0.6,
+   "signal_verb": null,
+   "signal_prep": "of",
+   "temporal_content": true,
+   "date_parsed": "1999-06-28"
+  }
+ ],
+ "dependencies": [],
+ "edit_scenarios": []
+}

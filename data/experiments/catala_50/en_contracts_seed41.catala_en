@@ -1,0 +1,47 @@
+# Reporting Deadlines for Aid Distribution
+
+This scope calculates the required deadlines for reporting aid distribution activities based on the date of arrival and the date of delivery completion.
+
+```catala
+declaration scope ArticleVIIIReporting:
+  input arrival_date content date
+  input delivery_completion_date content date
+  input reference_date content date
+  output report_30_days_due content date
+  output report_1_month_due content date
+  output is_30_days_late content boolean
+  output is_1_month_late content boolean
+```
+
+## 30-Day Reporting Deadline
+
+The first report must be submitted no later than 30 days after the arrival of each shipment at the place of delivery.
+
+```catala
+scope ArticleVIIIReporting:
+  date round down
+  definition report_30_days_due equals
+    arrival_date + 30 day
+```
+
+## One-Month Reporting Deadline
+
+The second report must be submitted one month after the completion of the delivery.
+
+```catala
+scope ArticleVIIIReporting:
+  definition report_1_month_due equals
+    delivery_completion_date + 1 month
+```
+
+## Checking Reporting Lateness
+
+This scope checks whether the reference date indicates that either the 30-day or the one-month reporting deadline has passed.
+
+```catala
+scope ArticleVIIIReporting:
+  definition is_30_days_late equals
+    reference_date > report_30_days_due
+  definition is_1_month_late equals
+    reference_date > report_1_month_due
+```

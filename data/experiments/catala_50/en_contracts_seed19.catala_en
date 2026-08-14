@@ -1,0 +1,19 @@
+# Denunciation Effectivity Date
+
+This scope computes the date on which a denunciation of the Agreement takes effect.
+
+```catala
+declaration scope DenunciationEffectivity:
+  input notification_receipt_date content date
+  output denunciation_effectivity_date content date
+```
+
+## Denunciation Effectivity
+
+The denunciation takes effect six months after the date of receipt of the notification.
+
+```catala
+scope DenunciationEffectivity:
+  date round down
+  definition denunciation_effectivity_date equals notification_receipt_date + 6 month
+```

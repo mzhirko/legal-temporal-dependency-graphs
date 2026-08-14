@@ -1,0 +1,13 @@
+{
+ "document_id": "en_contracts_seed25",
+ "catala_status": "success",
+ "actions": [
+  {
+   "variable": "submission_deadline",
+   "action": "fill",
+   "catala_value": "2024-04-23",
+   "tdg_value": null,
+   "delta_days": null
+  }
+ ]
+}

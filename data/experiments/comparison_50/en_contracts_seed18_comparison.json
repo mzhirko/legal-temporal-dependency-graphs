@@ -1,0 +1,99 @@
+{
+ "document_id": "en_contracts_seed18",
+ "catala_status": "success",
+ "scope_name": "AgreementTimeline",
+ "repair_attempts": 0,
+ "summary": {
+  "match": 1,
+  "mismatch": 0,
+  "tdg_only": 9,
+  "catala_only": 2,
+  "match_rate": 1.0
+ },
+ "fields": [
+  {
+   "variable_name": "agreement_effective_date",
+   "status": "match",
+   "tdg_value": "1995-12-22",
+   "catala_value": "1995-12-22",
+   "delta_days": null
+  },
+  {
+   "variable_name": "review_start_date",
+   "status": "catala_only",
+   "tdg_value": null,
+   "catala_value": "1996-01-01",
+   "delta_days": null
+  },
+  {
+   "variable_name": "withdrawal_request_date",
+   "status": "catala_only",
+   "tdg_value": null,
+   "catala_value": "1995-11-01",
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:reviewing the representative price system:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "null",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:developing a cumulative recovery system:START",
+   "status": "tdg_only",
+   "tdg_value": "null",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:sharing relevant data:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "null",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:determining Community duties on imports of rice:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "null",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:withdrawal of current request:START",
+   "status": "tdg_only",
+   "tdg_value": "null",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:effective implementation of the provisions:START",
+   "status": "tdg_only",
+   "tdg_value": "null",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:ongoing negotiations on these products:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "null",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:consultation regarding market share increase:START",
+   "status": "tdg_only",
+   "tdg_value": "null",
+   "catala_value": null,
+   "delta_days": null
+  },
+  {
+   "variable_name": "tdg:reserving WTO rights:DURATION",
+   "status": "tdg_only",
+   "tdg_value": "null",
+   "catala_value": null,
+   "delta_days": null
+  }
+ ]
+}

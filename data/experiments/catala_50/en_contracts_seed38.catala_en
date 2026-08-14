@@ -1,0 +1,19 @@
+# Termination Notice Period
+
+Calculates the date by which the agreement can be terminated following a failure to comply.
+
+```catala
+declaration scope TerminationNotice:
+  input date_of_failure content date
+  output termination_date content date
+```
+
+## Termination Notice Period
+
+The termination date is calculated by adding two months to the date of failure.
+
+```catala
+scope TerminationNotice:
+  date round down
+  definition termination_date equals date_of_failure + 2 month
+```

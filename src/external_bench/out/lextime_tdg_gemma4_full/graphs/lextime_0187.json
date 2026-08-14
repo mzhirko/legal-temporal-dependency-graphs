@@ -1,0 +1,80 @@
+{
+ "id": "lextime_0187",
+ "gold": "YES",
+ "kind": "binary",
+ "event1": "Maxim submitting a claim on behalf of Albert Lou for daily skilled nursing services rendered to Audrey",
+ "event2": "BCBSIL denying the claim",
+ "relation": "BEFORE",
+ "pair_type": "both-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "claim submission",
+   "role": "CONTAINS",
+   "value": "2021-10-19",
+   "raw_text": "on october 19, 2021 maxim submitted a claim on behalf of albert lou for daily skilled nursing services rendered to audrey from may 1, 2021",
+   "timex_type": "DATE",
+   "sentence": "74c860c0d095af4a195d5d68fcb041e1",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2021-10-19"
+  },
+  {
+   "id": "e2",
+   "entity": "services rendered period",
+   "role": "DURATION",
+   "value": "P1Y",
+   "raw_text": "from may 1, 2021 through december 31",
+   "timex_type": "DURATION",
+   "sentence": "74c860c0d095af4a195d5d68fcb041e1",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "duration_days": 365
+  },
+  {
+   "id": "e3",
+   "entity": "denial of benefits",
+   "role": "CONTAINS",
+   "value": "2021-11-02",
+   "raw_text": "bcbsil denied the claim, stating only that the services requested were not a covered benefit",
+   "timex_type": "DATE",
+   "sentence": "6e313e27fa2c9fe2f618a27d4ab5dd94",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2021-11-02"
+  },
+  {
+   "id": "e4",
+   "entity": "appeal filing",
+   "role": "START",
+   "value": "2021-11-05",
+   "raw_text": "maxim appealed bcbsils denial of benefits dated november 2",
+   "timex_type": "DATE",
+   "sentence": "e0372959e5bb39258e61a6d4f58ad37a",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "2021-11-05"
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e3",
+   "to_id": "e4",
+   "constraint_type": "ordering",
+   "constraint_expr": "e4 = e3 + 3 days (implied)",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

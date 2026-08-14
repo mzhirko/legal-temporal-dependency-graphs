@@ -1,0 +1,52 @@
+# Agreement Lifecycle
+
+This scope computes key dates in an agreement's lifecycle:
+entry into force on the day of signature, a fixed expiry date,
+and the latest date by which a party must give notice of
+denunciation for it to take effect before expiry.
+
+Source pattern: EU trade agreements with a fixed end date and
+a required notice period before denunciation takes effect.
+Example: "This Agreement shall enter into force on the day of
+its signature. It shall be applicable until 31 December 2006.
+Either Party may denounce this Agreement, provided that at
+least six months' notice is given."
+
+```catala
+declaration scope AgreementLifecycle:
+  input signature_date content date
+  input notice_period content duration
+  output effective_date content date
+  output expiry_date content date
+  output denunciation_deadline content date
+```
+
+## Entry into force
+
+The agreement enters into force on the day of its signature.
+
+```catala
+scope AgreementLifecycle:
+  date round down
+  definition effective_date equals signature_date
+```
+
+## Expiry
+
+The agreement is applicable until 31 December 2006.
+
+```catala
+scope AgreementLifecycle:
+  definition expiry_date equals |2006-12-31|
+```
+
+## Denunciation deadline
+
+A party wishing to denounce must give notice at least
+notice_period in advance of the expiry date.
+
+```catala
+scope AgreementLifecycle:
+  definition denunciation_deadline equals
+    expiry_date - notice_period
+```

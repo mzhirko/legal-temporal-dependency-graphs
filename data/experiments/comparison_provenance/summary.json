@@ -1,0 +1,38 @@
+{
+ "total_documents": 1,
+ "catala_success": 0,
+ "catala_repair_failed": 1,
+ "catala_typecheck_error": 0,
+ "catala_interpret_error": 0,
+ "field_totals": {
+  "match": 0,
+  "mismatch": 0,
+  "tdg_only": 0,
+  "catala_only": 0,
+  "placeholder": 0,
+  "semantic_match": 0,
+  "value_match": 0,
+  "duration_match": 0,
+  "duration_mismatch": 0,
+  "type_mismatch": 0
+ },
+ "avg_match_rate": null,
+ "docs_with_comparable_fields": 0,
+ "total_elapsed_seconds": 94.9,
+ "documents": [
+  {
+   "document_id": "en_contracts_seed16",
+   "catala_status": "repair_failed",
+   "scope_name": null,
+   "repair_attempts": 3,
+   "summary": {
+    "match": 0,
+    "mismatch": 0,
+    "tdg_only": 0,
+    "catala_only": 0,
+    "match_rate": null
+   },
+   "fields": []
+  }
+ ]
+}

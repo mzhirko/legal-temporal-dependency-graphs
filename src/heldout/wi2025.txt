@@ -1,0 +1,472 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Werkinstructie SUA Openbaar 
+ 
+Aan Directeuren IND 
+cc DDMB 
+Van Directeur-Generaal IND 
+ 
+Nummer & Titel  WI 2025/7 Beoordelen evidente staatloosheid 
+ 
+Kenmerk (digijust)  
+Hoofdtaak Regulier, Asiel en Bescherming, Nederlanderschap  
+InformIND Thema beleid geldend voor (staatloze) Palestijnen, procesoverstijgende 
+thema’s, vaststelling staatloosheid 
+ 
+Relatie met Stb. 2023/230 (Wet vaststellingsprcedure staatloosheid) 
+ 
+Geldig vanaf 16-09-2025 
+Geldig tot en met 16-03-2026 
+ 
+ 
+ 
+ Pagina 1 van 8 
+ 
+Inhoudsopgave 
+LEESWIJZER ............................................................................................................... 1 
+INLEIDING ................................................................................................................. 2 
+INHOUD ..................................................................................................................... 2 
+1. Vaststelling van de identiteit .................................................................................. 2 
+2. Wanneer is iemand evident staatloos ...................................................................... 3 
+2.1 A-grond: betrokkene beschikt over een buitenlandse vaststelling .............................. 3 
+2.2 B-grond: het kind is geboren in Nederland en de ouders zijn staatloos ...................... 4 
+2.3 C-grond: het kind is in Nederland geboren en de vader is staatloos ........................... 4 
+2.4 D-grond: het kind is in Nederland geboren en heeft geen juridische vader ................. 5 
+2.5 E-grond: betrokkene heeft de nationaliteit van een niet-erkende staat ...................... 5 
+3. Wanneer wordt een identificatiedocument voor staatlozen verleend ............................ 6 
+4. Procedures waarin toetsing van staatloosheid aan de orde kan zijn ............................. 7 
+5. Rechtsmiddelen .................................................................................................... 8 
+6. Afstemming ......................................................................................................... 8 
+ 
+ 
+LEESWIJZER  
+Ben je een medewerker die evidente staatloosheid moet vaststellen dan vind je in deze 
+instructie nadere uitleg bij elke grond van artikel 1 Besluit Evidente Staatloosheid (hierna: 
+Bes). Ook worden de voorwaarden voor het verstekken van een identifcatiedocument voor 
+staatlozen en de procedures waarin toetsing van staatloosheid aan de orde kan zijn 
+besproken. 
+ 
+Werkinstructie Strategie en Uitvoeringsadvies (SUA) 
+2 
+ 
+INLEIDING  
+De Wet vaststellingsprocedure staatloosheid (hierna Wvs) bevat een procedure om 
+staatloosheid vast te laten stellen door de rechtbank Den Haag (civiele kamer). Als de 
+uitspraak (beschikking) waarin staatloosheid wordt vastgesteld onherroepelijk is is elk 
+orgaan dat met de uitvoering van enige wettelijke regeling is belast daaraan gebonden.
+1 
+ 
+Op grond van artikel 5 van de Wvs kan een bestuursorgaan (o.a. de gemeenten en de IND) 
+buiten de rechterlijke vaststellingsprocedure om, evidente staatloosheid vaststellen. Gelet op 
+de uitspraak van 18 maart 2025 van de rechtbank Den Haag ECLI:NL:RBDHA:2025:4231
+ 
+gaat het om een alternatieve mogelijkheid om evidente staatloosheid vast te stellen. Er is 
+geen sprake van een getrapte bevoegdheid waarbij eerst het bestuursorgaan bevoegd is om 
+te beslissen en daarna pas de rechtbank. Wel heeft het de voorkeur om de procedure eerst 
+bij het bestuursorgaan te doorlopen ter ontlasting van de rechtbank. Het vaststellen van 
+evidente staatloosheid wordt nader geregeld in het Bes. Als geen sprake is van evidente 
+staatloosheid, moet de vreemdeling zich voor vaststelling van zijn staatloosheid wenden tot 
+de rechtbank Den Haag. 
+ 
+Vreemdelingen die voor de inwerkingtreding van de Wvs reeds in de basisregistratie 
+personen (hierna: brp) stonden ingeschreven als zijnde staatloos, blijven ingeschreven als 
+zijnde staatloos. Op deze personen is de Wvs en het Bes niet van toepassing.  
+ 
+Vastgestelde staatloosheid levert onder meer de volgende rechten op: 
+• recht op een identificatiedocument voor staatlozen (enkel bij onrechtmatig verblijf) 
+• inschrijving in de basisregistratie als ‘staatloze’ (enkel bij rechtmatig verblijf) 
+• het kunnen afleggen van een optieverklaring indien kinderen staatloos in Nederland 
+zijn geboren 
+• het kunnen indienen van een verzoek om naturalisatie met een kortere termijn 
+(enkel bij rechtmatig verblijf) en 
+• het kunnen verkrijgen van reisdocumenten voor niet-Nederlanders (enkel bij 
+rechtmatig verblijf).  
+ 
+ 
+INHOUD 
+1. Vaststelling van de identiteit 
+Voordat kan worden beoordeeld of een vreemdeling evident staatloos is of in het bezit moet 
+worden gesteld van een identificatiedocument voor staatlozen is eerst van belang om de 
+identiteit van die vreemdeling vast te stellen. De vastgestelde staatloosheid wordt namelijk 
+gekoppeld aan de identiteit door deze te vermelden in de brp, op het verblijfsdocument of 
+het identificatiedocument.  
+ 
+De vreemdeling moet daarom zijn identiteit of de afstamming/identiteit van zijn kinderen 
+aannemelijk maken. Dat doet hij op de eerste plaats met officiële brondocumenten. Kan hij 
+die onmogelijk verstrekken dan moet hij de identiteit aannemelijk maken met andere 
+middelen. Alle aangevoerde bewijsmiddelen moeten daarbij afzonderlijk en in onderlinge 
+samenhang kenbaar worden bezien. 
+ 
+Bewijswaarde 
+De IND kent een sterkere bewijswaarde toe aan documenten, wanneer deze door de 
+autoriteiten van het land van afgifte zijn afgegeven en er voldoende identificerende gegevens 
+(zoals een foto, geboortedata en (achter)namen) van de vreemdeling op het document 
+staan. 
+ 
+Documenten die niet zijn afgegeven door de daartoe bevoegde autoriteiten, en documenten 
+met weinig identificerende gegevens, hebben in de regel een zwakkere bewijswaarde. 
+ 
+1Een zaak is onherroeppelijk als drie maanden na de uitspraak zijn verstreken zonder dat 
+cassatie is ingesteld of, als cassatie is ingesteld, de Hoge Raad daarop arrest heeft gewezen. 
+ 
+Werkinstructie Strategie en Uitvoeringsadvies (SUA) 
+3 
+ 
+ 
+Bij het toekennen van bewijswaarde aan deze documenten beziet de IND de manier van 
+afgifte van het document, waarbij van belang is of het document op basis van (eigen) 
+verklaringen of op basis van nader onderzoek door (welke) autoriteiten, is opgesteld, waarbij 
+rekening wordt gehouden met de persoonlijke omstandigheden van de vreemdeling en de 
+administratieve praktijken van het land van herkomst of in het land van afgifte. 
+ 
+Indien de identiteit niet voldoende aannemelijk is (op basis van de overgelegde stukken), 
+kan de staatloosheid niet worden vastgesteld en dient het verzoek om vaststelling evidente 
+staatloosheid te worden afgewezen. 
+ 
+2. Wanneer is iemand evident staatloos 
+Evidente staatloosheid wordt aangenomen in de volgende gevallen (artikel 1 Bes): 
+a. de betrokkene beschikt over een document waaruit de vaststelling van staatloosheid 
+blijkt d oor een land dat bij ministeriële regeling is  aangewezen; 
+b. de betrokkene is een in Nederland geboren kind van ouders die staatloos zijn als 
+bedoeld in artikel 4 of 5 van de Wvs en beschikt over een geboorteakte in de zin van 
+artikel 2.3 van de Wet basisregistratie personen; 
+c. de betrokkene is een in Nederland geboren kind dat geen vader heeft in de zin van 
+artikel 199 van boek 1 van het Burgerlijk Wetboek, wiens moeder uitsluitend de 
+nationaliteit heeft van een land dat bij ministeriële regeling is aangewezen of staatloos 
+is, en beschikt over een geboorteakte in de zin van artikel 2.3 van de Wet 
+basisregistratie personen; 
+d. de betrokkene is een in Nederland geboren kind van een vader die staatloos is als 
+bedoeld in artikel 4 of 5 van de Wvs, wiens moeder uitsluitend de nationaliteit heeft van 
+een land dat bij ministeriële regeling is aangewezen of staatloos is, en beschikt over 
+een geboorteakte in de zin van artikel 2.3 van de Wet basisregistratie personen; 
+e. de betrokkene heeft uitsluitend de nationaliteit van een staat die niet door Nederland 
+wordt erkend. 
+ 
+In paragraaf 2.1 tot en met 2.5 van deze werkinstructie wordt voor elke categorie uit artikel 
+1 Bes uitgelegd aan welke voorwaarden moet zijn voldaan voordat wordt aangenomen dat 
+van de geschetste situatie sprake is. 
+ 
+2.1 A-grond: betrokkene beschikt over een 
+buitenlandse vaststelling 
+ 
+Er moet sprake zijn van: 
+- Origineel buitenlands document (besluit overheidsorgaan of rechterlijke 
+uitspraak) waaruit staatloosheid blijkt;   
+- Afgegeven door een land met een vaststellingsprocedure.  
+Hoe stel je vast of sprake is van een vaststellingsprocedure? 
+• Uit artikel 1 Regeling betreffende evidente staatloosheid en het 
+identificatiedocument voor staatlozen volgt welke landen een 
+vaststellingsprocedure voor staatloosheid hebben.  
+• Enkel als één van de genoemde landen een bewijs van 
+staatloosheid heeft afgegeven kan een beroep op artikel 1 
+onder a Bes worden gedaan. 
+ 
+Is de vreemdeling in het bezit van een document waaruit blijkt dat hij staatloos is afgegeven 
+door een land dat niet in de Regeling betreffende evidente staatloosheid en het 
+identificatiedocument voor staatlozen staat, kan de vreemdeling geen geslaagd beroep 
+doen op artikel 1 onder a Bes. Denk hierbij bijvoorbeeld aan de situatie dat de vreemdeling 
+een verblijfsvergunning heeft van een ander land waarop vermeld staat dat de vreemdeling 
+staatloos is. Deze verblijfsvergunning kan niet worden gebruikt als bewijs dat de 
+vreemdeling evident staatloos is op grond van artikel 1 onder a Bes, omdat de wijze van 
+ 
+Werkinstructie Strategie en Uitvoeringsadvies (SUA) 
+4 
+ 
+vaststelling door het andere land ontbreekt. Staatloosheid kan in dit geval alleen worden 
+vastgesteld in de vaststellingsprocedure bij de rechtbank Den Haag, tenzij sprake is van een 
+andere grond voor evidente staatloosheid (zie toelichting ad b, c, d en e). 
+ 
+Indien het document waaruit staatloosheid blijkt niet is opgesteld in de Nederlandse, 
+Engelse, Franse of Duitse taal, dan moet dit vertaald worden door een beëdigde vertaler in 
+een van de genoemde talen. Ook moet het document gelegaliseerd dan wel geapostilleerd 
+zijn. 
+ 
+Let op! Van evidente staatloosheid is geen sprake als blijkt dat betrokkene inmiddels een 
+nationaliteit heeft verkregen.  
+2.2 B-grond: het kind is geboren in Nederland en de 
+ouders zijn staatloos 
+ 
+Hier gelden de volgende cumulatieve voorwaarden: 
+- Het kind is in Nederland geboren: Dit wordt aangetoond met een Nederlandse 
+geboorteakte. Een dergelijke akte wordt ook opgemaakt als de ouders niet rechtmatig in 
+Nederland verblijven; en 
+- Beide ouders zijn staatloos: Dit kan op de volgende manieren worden aangetoond: 
+a. met een onherroepelijk geworden uitspraak van de rechtbank Den Haag in de 
+vaststellingsprocedure; of  
+b. evidente staatloosheid is vastgesteld (zie toelichting ad a, c, d en e); of 
+c. de ouders staan voor 1 oktober 2023 ingeschreven in de brp als staatlozen (artikel 9 
+Wvs), tenzij blijkt dat één van de ouders of beiden (inmiddels) een nationaliteit bezit 
+of bezitten. 
+ 
+Het is niet vereist dat de vreemdeling op het moment dat de evidente staatloosheid wordt 
+aangenomen nog minderjarig is. 
+2.3 C-grond: het kind is in Nederland geboren en de 
+vader is staatloos 
+ 
+Hier gelden de volgende cumulatieve voorwaarden: 
+- Het kind is in Nederland geboren: Dit wordt aangetoond met een Nederlandse 
+geboorteakte. Een dergelijke akte wordt ook opgemaakt als de ouders niet rechtmatig in 
+Nederland verblijven; en 
+- De juridische vader van het kind is staatloos. Dit kan op de volgende manieren 
+worden aangetoond: 
+a. met een onherroepelijk geworden uitspraak van de rechtbank Den Haag in de 
+vaststellingsprocedure; of  
+b. evidente staatloosheid is vastgesteld (zie toelichting ad a, b, d en e); of  
+c. de vader staat voor 1 oktober 2023 ingeschreven in de brp als staatloze (artikel 9 
+Wvs), tenzij blijkt dat de vader (inmiddels) een nationaliteit bezit; enH 
+- De moeder is niet staatloos en heeft een nationaliteit maar kan haar 
+nationaliteit niet doorgeven. 
+• Kan de moeder haar nationaliteit op grond van het nationaliteitsrecht van dat land 
+doorgeven aan haar kind? 
+o Zie hiervoor de Regeling betreffende evidente staatloosheid en het 
+identificatiedocument voor staatlozen bijlage 2. In deze ministeriële regeling 
+is vastgelegd ten aanzien van welke landen in hun nationaliteitsrecht 
+vaststaat dat het nationaliteitsrecht eraan in de weg staat dat de nationaliteit 
+via de vrouwelijke lijn aan haar kind wordt doorgegeven en dat op die regel 
+geen uitzonderingen zijn. Hierbij wordt aangesloten bij de lijst landen die de 
+UNHCR hierover bijhoudt.  
+o Nationaliteit van de moeder: staat die in de landenlijst Regeling betreffende 
+evidente staatloosheid en het identificatiedocument voor staatlozen?  
+ Ja  de moeder kan haar nationaliteit niet doorgeven, het kind is 
+staatloos. 
+ Nee  moeder kan haar nationaliteit doorgeven, het kind is niet 
+ 
+Werkinstructie Strategie en Uitvoeringsadvies (SUA) 
+5 
+ 
+staatloos. 
+ 
+2.4 D-grond: het kind is in Nederland geboren en 
+heeft geen juridische vader 
+ 
+Hier gelden de volgende cumulatieve voorwaarden: 
+- Het kind is in Nederland geboren: Dit wordt aangetoond met een Nederlandse 
+geboorteakte. Een dergelijke akte wordt ook opgemaakt als de ouders niet rechtmatig in 
+Nederland verblijven; en 
+-    Het kind heeft geen juridische vader. Hoe stel je vast dat het kind geen vader heeft: 
+a.  Het kind is in Nederland geboren en de vader is voor de geboorte van het kind    
+overleden. Verder kent het van toepassing zijnde buitenlandse recht niet de 
+mogelijkheid dat het kind de nationaliteit van zijn overleden vader kan verkrijgen; of 
+b. Het kind is in Nederland geboren niet staande een huwelijk en de vader heeft het 
+kind bijvoorbeeld niet erkend. Dit blijkt uit de geboorteakte van het kind waarin dan 
+alleen de moeder staat vermeld.  
+- De moeder van het kind is staatloos of de moeder heeft een nationaliteit maar 
+kan haar nationaliteit niet doorgeven.  
+- De moeder van het kind is staatloos. Dit toont zij aan: 
+a. met een onherroepelijk geworden uitspraak van de rechtbank Den Haag in de 
+vaststellingsprocedure;  
+b. evidente staatloosheid is vastgesteld (zie toelichting ad a, b, c, en e); of 
+c. de moeder staat voor 1 oktober 2023 ingeschreven in de brp als staatloze (artikel 9 
+Wvs) tenzij blijkt dat moeder (inmiddels) een nationaliteit bezit. 
+ 
+De moeder heeft een nationaliteit maar kan haar nationaliteit niet doorgeven. 
+• Kan de moeder haar nationaliteit op grond van het nationaliteitsrecht van dat land 
+doorgeven aan haar kind? 
+o Zie hiervoor de Regeling betreffende evidente staatloosheid en het 
+identificatiedocument voor staatlozen bijlage 2. In deze ministeriële regeling 
+is vastgelegd ten aanzien van welke landen vaststaat dat het 
+nationaliteitsrecht eraan in de weg staat dat de nationaliteit via de 
+vrouwelijke lijn aan haar kind wordt doorgegeven en dat daarop geen 
+uitzonderingen kent. Hierbij is aansluiting gezocht bij de lijst landen die de 
+UNHCR hierover bijhoudt. Nationaliteit van de moeder: staat die in de 
+landenlijst Regeling betreffende evidente staatloosheid en het 
+identificatiedocument voor staatlozen?  
+ Ja  de moeder kan haar nationaliteit niet doorgeven, het kind is 
+staatloos. 
+ Nee  moeder kan haar nationaliteit doorgeven, het kind is niet 
+staatloos. 
+ 
+ 
+2.5 E-grond: betrokkene heeft de nationaliteit van 
+een door nederland niet-erkende staat 
+Er moet dus worden voldaan aan twee vereisten: 
+1. De vreemdeling heeft aangetoond dat hij in het bezit is van een nationaliteit 
+van een staat die niet door Nederland wordt erkend. 
+Palestijnen: Kijk in WI 2020/19 Palestijnen of de vreemdeling in het 
+bezit is van de Palestijnse nationaliteit.  
+Let op: bezit een Palestijn de nationaliteit van het land van herkomst of 
+geboorte, dan is hij/zij niet staatloos. Denk hierbij bijvoorbeeld aan een 
+Palestijn afkomstig uit Syrië die over een Syrisch paspoort kan 
+beschikken met in de machineleesbare strook de code SYR=Syrische 
+nationaliteit. Als in de machineleesbare strook XXB staat, dan is het een 
+ 
+Werkinstructie Strategie en Uitvoeringsadvies (SUA) 
+6 
+ 
+Syrisch vluchtelingenpaspoort en dan heeft de persoon niet de Syrische 
+nationaliteit. 
+- Overige nationaliteiten: Per geval moet aan de hand van wat bekend is 
+over het land van herkomst worden vastgesteld of de vreemdeling de 
+nationaliteit heeft van een land dat niet door Nederland wordt erkend. 
+ 
+2. De vreemdeling is uitsluitend in het bezit van deze nationaliteit. 
+Vragen die je dan kan stellen zijn: 
+- Heeft de vreemdeling bij zijn geboorte door afstamming van zijn 
+ouder(s) een nationaliteit verkregen of heeft hij later een nationaliteit 
+ontleend aan zijn ouder(s) door bijvoorbeeld erkenning, wettiging of 
+adoptie?  
+- Welke nationaliteit(en) hebben de ouders van de vreemdeling? Let op: 
+Als de ouders een onbekende nationaliteit hebben is dat geen bewijs 
+dat zij staatloos zijn. 
+- In welk land is de vreemdeling geboren en heeft hij door geboorte op 
+het grondgebied of registratie na geboorte of door naturalisatie de 
+nationaliteit van dat land verkregen of kunnen hebben verkregen? 
+- Heeft de vreemdeling langere tijd in een ander land dan zijn 
+geboorteland verbleven en is het mogelijk dat de vreemdeling daar is 
+genaturaliseerd? 
+ 
+Als aan beide voorwaarden is voldaan wordt een vreemdeling als evident staatloos 
+aangemerkt. 
+Let op! Voor deze categorie is het niet vereist dat de betrokkene in Nederland is geboren. 
+ 
+3. Wanneer wordt een identificatiedocument voor 
+staatlozen verleend 
+ 
+In artikel 6 van de Wet vaststellingsprocedure staatloosheid staat dat aan de vreemdeling 
+een identificatiedocument wordt verleend als: 
+ 
+1) hij geen rechtmatig verblijf heeft in de zin van de Vreemdelingenwet; 
+2) vastgesteld staatloos is als bedoeld in artikel 4 of 5 van de Wet 
+vaststellingsprocedure staatloosheid; 
+3) er biometrische gegevens beschikbaar zijn als bedoeld in artikel 106a van de 
+Vreemdelingenwet; en 
+4) de leges zijn betaald. 
+ 
+Let op: het identificatiedocument voor staatlozen is geen identiteitsdocument in de zin van 
+de Wet identificatieplicht en geeft ook uitdrukkelijk geen verblijfsrecht. Het pasje is bedoeld 
+voor staatlozen zonder rechtmatig verblijf. Het aanvragen van dit document is bovendien 
+niet verplicht. Het pasje wordt in persoon aangevraagd en verstrekt bij het IND-loket. 
+ 
+Ad. 1 
+Er is sprake van rechtmatig verblijf als één van de situaties als bedoeld in artikel 8 van de 
+Vreemdelingenwet van toepassing is. Daarvan is onder meer sprake wanneer de vreemdeling 
+in het bezit is van een verblijfsvergunning of die heeft aangevraagd en nog in afwachting is 
+van een beslissing op die aanvraag. 
+ 
+Ad. 2 
+Staatloosheid kan op twee manieren worden vastgesteld, namelijk in de gerechtelijke 
+procedure bij de rechtbank Den Haag (art. 4) en in een niet-judiciële procedure bij een 
+bestuursorgaan, zoals de gemeente of de IND (art. 5).  
+ 
+Werkinstructie Strategie en Uitvoeringsadvies (SUA) 
+7 
+ 
+ 
+De staatloosheid is vastgesteld als de vreemdeling een vaststellingsbeschikking overlegt van 
+de rechtbank die onherroepelijk is dan wel een document overlegt waaruit evidente 
+staatloosheid blijkt. 
+ 
+Ad. 3 
+De IND kan alleen een identificatiedocument aanmaken als het over de biometrische 
+gegevens van de vreemdeling beschikt. Die worden namelijk op het pasje gezet. Vaak staan 
+die gegevens al in de Basis Voorziening Vreemdelingen (BVV).  
+ 
+Indien er nog geen BVV gegevens bekend zijn, dan dient de betreffende vreemdeling zich, 
+teneinde zijn biometrische gegevens te laten registreren ten behoeve van het pasje, te 
+melden bij de Afdeling Vreemdelingenpolitie, Identificatie en Mensenhandel van de 
+Nederlandse politie (AVIM). Het AVIM zal vingerafdrukken afnemen en een gezichtsopname 
+maken en deze gegevens in de BVV zetten, zodat de IND deze gegevens vervolgens kan 
+gebruiken voor het pasje.  
+ 
+Ad. 4 
+De vreemdeling zal eerst leges moeten betalen voordat een identificatiedocument kan 
+worden verstrekt. De hoogte van de leges zijn opgenomen in de Regeling betreffende 
+evidente staatloosheid en het identificatiedocument voor staatlozen.  
+ 
+Als de leges niet worden betaald, wordt de aanvraag niet in behandeling genomen. 
+ 
+4. Procedures waarin toetsing van staatloosheid 
+aan de orde kan zijn 
+1. Op de eerste plaats volgt uit de Wet vaststellingsprocedure staatloosheid dat een 
+vreemdeling zonder verblijfsrecht die vastgesteld staatloos is (in de procedure bij de 
+rechtbank Den Haag of bij evidente staatloosheid) bij de IND een aanvraag kan doen 
+voor een identificatiedocument waaruit de staatloosheid blijkt.  
+ 
+Indien in deze procedure blijkt dat de vreemdeling niet valt onder één van de categorieën 
+van evidente staatloosheid, kan de staatloosheid alleen worden vastgesteld in de 
+vaststellingsprocedure bij de rechtbank Den Haag. De aanvraag voor het 
+identificatiedocument wordt dan in beginsel afgewezen, tenzij het gerechtvaardigd is om 
+de aanvraag aan te houden totdat de rechter op de evidente staatloosheid heeft beslist. 
+ 
+Heeft de gemeente de evidente staatloosheid vastgesteld dan wordt in beginsel van deze 
+gegevens uitgegaan en kan een identificatiedocument worden verstrekt. Dit is anders in 
+het geval gedurende een procedure bij de IND: 
+- een buitenlands paspoort/identiteitskaart wordt overgelegd; of  
+- een nationaliteitsverklaring is afgelegd of overgelegd, waaruit blijkt dat de vreemdeling 
+een nationaliteit bezit.  
+ 
+In deze twee gevallen wordt afgeweken van de vastgestelde staatloosheid geregistreerd 
+in de BRP en wordt een terugmelding ex artikel 2.34 lid 1 Wet BRP gedaan aan de 
+gemeente van inschrijving.
+2  
+ 
+2.  Op de tweede plaats kan de vreemdeling in een verblijfsprocedure aangeven dat 
+hij staatloos is. In dat geval beoordeelt de IND-medewerker, als dat voor de 
+desbetreffende procedure van belang is, ambtshalve aan de hand van de criteria van 
+artikel 5 Wet vaststellingsprocedure staatloosheid (zie ook paragraaf 2) – naast de vraag 
+of de vreemdeling in aanmerking komt voor de gevraagde verblijfsvergunning – of de 
+vreemdeling evident staatloos is.  
+ 
+Blijkt de vreemdeling evident staatloos te zijn, dan wordt het ontbreken van een paspoort 
+of ander identiteitsdocument niet tegengeworpen bij het beoordelen van de aanvraag 
+ 
+2 WI 2021/19 Beleidslijn bij afwijkende gegevens IND-BRP - Immigratie- en Naturalisatiedienst 
+(pucoverheid.nl) 
+ 
+Werkinstructie Strategie en Uitvoeringsadvies (SUA) 
+8 
+ 
+zolang de identiteit met andere officiële documenten of andere middelen aannemelijk is 
+gemaakt. Voldoet de vreemdeling aan alle overige voorwaarden, dan kan een 
+verblijfsvergunning worden verleend. Op het verblijfsdocument komt dan te staan dat de 
+vreemdeling staatloos is. Voldoet de vreemdeling niet aan de overige voorwaarden, dan 
+wordt de aanvraag afgewezen. In dat geval kan hem op aanvraag een 
+identificatiedocument voor staatlozen worden verstrekt.   
+ 
+Blijkt de vreemdeling niet evident staatloos te zijn, dan wordt het gebrek aan 
+identificerende documenten wel tegengeworpen bij het beoordelen van de aanvraag. De 
+aanvraag kan in dat geval worden afgewezen en er wordt géén identificatiedocument voor 
+staatlozen verstrekt.  
+ 
+5. Rechtsmiddelen 
+Wat de rechtsmiddelen betreft zijn er twee varianten: 
+ 
+1. Een afwijzing van een aanvraag om een identificatiedocument voor staatlozen is een 
+besluit in de zin van de Algemene wet bestuursrecht. Er kan dus bezwaar worden 
+ingediend bij de IND en (vooralsnog) beroep bij de bestuursrechter. In bezwaar vindt 
+een herbeoordeling plaats, tenzij de aanvraag wegens het niet betalen van de leges niet 
+in behandeling is genomen. In het laatste geval vindt een beoordeling plaats of de 
+aanvraag terecht niet in behandeling is genomen wegens het niet betalen van de leges. 
+ 
+2. Tegen een beslissing (ongeacht wat deze beslissing is) van een verblijfsaanvraag kunnen 
+alleen rechtsmiddelen worden aangewend tegen de beslissing over het verblijf. Tegen de 
+niet-erkenning van evidente staatloosheid kan geen bezwaar worden gemaakt. Dat komt 
+omdat de staatloosheid in die zaken geen wettelijk criterium is. In dat geval staat het de 
+vreemdeling vrij om zich te richten tot de rechtbank Den Haag om daar de gerechtelijke 
+vaststellingsprocedure te doorlopen. 
+ 
+Voor bezwaar en beroep tegen de afwijzing van de aanvraag om een identificatiedocument 
+geldt de algemene Awb-termijn van 6 weken (art. 6:7 Awb). 
+ 
+6. Afstemming 
+Deze werkinstructie is afgestemd met DMB, SUA, JZ, RVN, A&B en DV. 
+ 
+ 
+ 
+ 
+ 
+ 
+Disclaimer  
+De Immigratie- en Naturalisatiedienst (IND) gebruikt werkinstructies om een breder onderwerp toe te lichten voor medewerkers van de IND 
+ter ondersteuning van hun werkzaamheden en met als doel om het beleid op een correcte en eenduidige wijze uit te voeren.  Deze 
+instructies zijn nadrukkelijk géén beleidsregels, maar procedurele instructies en zijn dan ook niet bedoeld als vervanging van de bepalingen 
+in de Vreemdelingencirculaire 2000 of de Handleiding Rijkswet op het Nederlanderschap. Er kunnen overigens goede redenen bestaan om 
+in een individueel geval maatwerk te leveren en van een instructie af te wijken. 
+ 
+ 
+ 

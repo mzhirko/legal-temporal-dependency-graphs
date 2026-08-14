@@ -1,0 +1,74 @@
+{
+ "id": "lextime_0259",
+ "gold": "NO",
+ "kind": "binary",
+ "event1": "Safety Light's neglect of their payment responsibilities",
+ "event2": "their failure to pay pension plan premiums",
+ "relation": "AFTER",
+ "pair_type": "one-implicit-one-explicit",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "pbgc premium filing review",
+   "role": "CONTAINS",
+   "value": null,
+   "raw_text": "in march 2022, as a result of a pbgc premium filing review",
+   "timex_type": "DATE",
+   "sentence": "c3d87f656fb399cf16e2cfd925162d6b",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  },
+  {
+   "id": "e2",
+   "entity": "pbgc investigation",
+   "role": "START",
+   "value": null,
+   "raw_text": "in response to this finding, pbgc commenced an investigation into safety lights failure to make necessary payments to the pension plan",
+   "timex_type": "DATE",
+   "sentence": "ca539a09f8343bb1db47cebe5ea66f18",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": false
+  },
+  {
+   "id": "e3",
+   "entity": "safety light's failure to pay premiums and contributions",
+   "role": "END",
+   "value": null,
+   "raw_text": "pbgc discovered that safety light has failed to pay required pension plan premiums since 2018 and has also failed to make required pension plan contributions",
+   "timex_type": "DATE",
+   "sentence": "e22a417261c50c81b36f47f87573ee4d",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e1",
+   "to_id": "e2",
+   "constraint_type": "ordering",
+   "constraint_expr": null,
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  },
+  {
+   "from_id": "e3",
+   "to_id": "e2",
+   "constraint_type": "ordering",
+   "constraint_expr": "e2 = e3 + 4 years",
+   "delta_days": 4,
+   "confidence": 0.85,
+   "verified": false,
+   "allen_relation": null,
+   "corroboration_count": 1
+  }
+ ]
+}

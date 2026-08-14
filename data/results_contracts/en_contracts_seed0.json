@@ -1,0 +1,70 @@
+{
+ "document_id": "en_contracts_seed0",
+ "document_type": "legal",
+ "source_text": "All other consultations shall be governed by the following provisions:. any request for consultations shall be notified in writing to the other Party,. where appropriate, the request shall be followed within a reasonable period by a report setting out the reasons for the consultations,. consultations shall begin within one month from the date of the request,. consultations shall arrive at a mutually acceptable result within one month of their commencement, unless the period is extended by agreement between the Parties.4. Specific additional consultations may also be held by agreement between the Parties.Article 10Both Parties aim at achieving complete liberalisation of trade in steel products and recognise that it is an important condition for promoting trade between them that competition, State aid and environment provisions applicable within each Party must be compatible. To this end, and upon request from Kazakhstan, the Community shall provide technical assistance to help Kazakhstan to adopt and implement legislative provisions compatible with those adopted and applied by the Community. Such assistance shall be specified in projects to be agreed by both Parties and identifying clearly, inter alia, the objectives, the means and the calendar.Article 111. This Agreement shall enter into force on the day of its signature. It shall be applicable until 31 December 2006 unless it is denounced or terminated in accordance with, respectively, the provisions of paragraph 3 or 4.2.",
+ "facts": [
+  {
+   "id": "e1",
+   "entity": "consultations",
+   "role": "DURATION",
+   "value": "P1M",
+   "raw_text": "shall begin within one month from the date of the request",
+   "timex_type": "DURATION",
+   "sentence": "f0b76a7081aba3654cc1e622a22f8d3c",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "duration_days": 30
+  },
+  {
+   "id": "e2",
+   "entity": "consultations",
+   "role": "DURATION",
+   "value": "P1M",
+   "raw_text": "arrive at a mutually acceptable result within one month of their commencement",
+   "timex_type": "DURATION",
+   "sentence": "02bfd6767d5978ede06269e50e88a8d4",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "duration_days": 30
+  },
+  {
+   "id": "e3",
+   "entity": "Agreement",
+   "role": "START",
+   "value": "N/A",
+   "raw_text": "on the day of its signature",
+   "timex_type": "DATE",
+   "sentence": "531b5386ab6c19e1bf75b42b8a6790bc",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null
+  },
+  {
+   "id": "e4",
+   "entity": "Agreement",
+   "role": "END",
+   "value": "2006-12-31",
+   "raw_text": "until 31 December 2006",
+   "timex_type": "DATE",
+   "sentence": "aec3b34be58d6a3d8b63a7c175dd6899",
+   "confidence": 0.9,
+   "signal_verb": null,
+   "signal_prep": null,
+   "date_parsed": "2006-12-31"
+  }
+ ],
+ "dependencies": [
+  {
+   "from_id": "e1",
+   "to_id": "e2",
+   "constraint_type": "ordering",
+   "constraint_expr": "e2 starts after e1",
+   "delta_days": null,
+   "confidence": 0.85,
+   "verified": false
+  }
+ ],
+ "edit_scenarios": []
+}

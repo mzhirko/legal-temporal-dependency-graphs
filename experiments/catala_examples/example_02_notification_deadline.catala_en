@@ -1,0 +1,48 @@
+# Notification Deadline
+
+This scope computes a notification deadline relative to a
+trigger date. It handles both "no later than X before event"
+and "no later than X after event" patterns.
+
+Source pattern: carryover and transfer notifications in EU
+trade agreements.
+Example: "Kazakhstan shall notify the Community no later than
+31 March of the following year if it intends to make use of
+this provision."
+Example: "Kazakhstan shall notify the Community no later than
+31 May if it intends to make use of this provision."
+
+```catala
+declaration scope NotificationDeadline:
+  input trigger_date content date
+  input notification_window content duration
+  input deadline_is_before_trigger content boolean
+  output notification_deadline content date
+```
+
+## Deadline before trigger
+
+When the deadline falls before the trigger date (e.g. "no
+later than X days before end of year").
+
+```catala
+scope NotificationDeadline:
+  date round down
+  definition notification_deadline under condition
+    deadline_is_before_trigger
+  consequence equals
+    trigger_date - notification_window
+```
+
+## Deadline after trigger
+
+When the deadline falls after the trigger date (e.g. "within
+X days of the request").
+
+```catala
+scope NotificationDeadline:
+  definition notification_deadline under condition
+    not deadline_is_before_trigger
+  consequence equals
+    trigger_date + notification_window
+```

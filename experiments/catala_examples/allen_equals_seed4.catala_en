@@ -1,0 +1,41 @@
+# Allen Relation: EQUALS
+#
+# EQUALS: A and B begin and end at exactly the same time.
+#   A equals B  iff  A.start = B.start and A.end = B.end
+#
+# For point-in-time events (instantaneous), A.start = A.end and B.start = B.end,
+# so EQUALS reduces to: event_a_date = event_b_date.
+#
+# Legal patterns that trigger EQUALS:
+#   two legal acts occurring on the same date (signing + declaration)
+#   "simultaneously", "on the same date as", "as of the same date"
+#   a regulation and its implementing decree entering force together
+#   "the amendment takes effect on the same date as the original"
+#   multiple instruments signed at the same ceremony
+#
+# Grounded example (en_contracts_seed4):
+#   Signing of Second ACP-EEC Convention [1979-10-31, 1979-10-31]
+#   EQUALS declaration of understanding [1979-10-31, 1979-10-31].
+#   Both are instantaneous events on 31 October 1979.
+
+```catala
+declaration scope AllenEquals:
+  input interval_a_start content date   # start of the first period
+  input interval_a_end content date     # end of the first period
+  input interval_b_start content date   # start of the second period
+  input interval_b_end content date     # end of the second period
+  output is_equals content boolean      # both periods share start and end
+```
+
+## EQUALS
+
+Both intervals share the same start and end dates.
+For instantaneous events, set start = end for both.
+
+```catala
+scope AllenEquals:
+  date round down
+  definition is_equals equals
+    (interval_a_start = interval_b_start) and
+    (interval_a_end = interval_b_end)
+```

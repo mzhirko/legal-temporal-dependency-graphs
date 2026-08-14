@@ -1,0 +1,81 @@
+{
+ "document_id": "en_contracts_seed4",
+ "document_type": "legal",
+ "source_text": "Avis juridique important | 21979A1031(53) Second ACP-EEC Convention signed at Lomé on 31 October 1979 - Declaration of the ACP States on Article 95 of the Convention (Annex XLIII) /* Lomé 2 */ Official Journal L 347 , 22/12/1980 P. 0180 ++++ANNEX XLIII DECLARATION BY THE ACP STATES CONCERNING ARTICLE 95 OF THE CONVENTION WHILE THE ACP STATES HAVE , IN A SPIRIT OF COOPERATION ACCEPTED , FOR THE PURPOSES OF THIS CONVENTION , THE TOTAL AMOUNT OF ASSISTANCE OF 5 607 MILLION EUA , THE ACP STATES WISH TO RECORD THAT IN THEIR OPINION THIS AMOUNT IS NEITHER ADEQUATE NOR FULLY REFLECTS THE UNDERSTANDING REACHED ON THE VOLUME OF FINANCIAL ASSISTANCE BETWEEN THE CO-PRESIDENTS OF THE COUNCIL OF MINISTERS IN THE COURSE OF THE NEGOTIATIONS IN JUNE 1979 . FURTHER , IT IS THE UNDERSTANDING OF THE ACP STATES THAT THE COMMUNITY'S FINANCIAL ASSISTANCE UNDER THIS CONVENTION WILL NOT , IN FACT , BE LESS THAN THE AMOUNT MENTIONED ABOVE .",
+ "facts": [
+  {
+   "id": "f1",
+   "entity": "Lomé",
+   "role": "START",
+   "value": "1979-10-31",
+   "raw_text": "31 October 1979",
+   "timex_type": "DATE",
+   "sentence": "9ce74139e1fb4824bc4454b5c454efd5",
+   "confidence": 0.78,
+   "signal_verb": "sign",
+   "signal_prep": "on",
+   "temporal_content": true,
+   "date_parsed": "1979-10-31"
+  },
+  {
+   "id": "f2",
+   "entity": "THE ACP STATES",
+   "role": "UNKNOWN",
+   "value": "1980",
+   "raw_text": "1980",
+   "timex_type": "DATE",
+   "sentence": "9ce74139e1fb4824bc4454b5c454efd5",
+   "confidence": 0.2,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "1980-08-01"
+  },
+  {
+   "id": "f3",
+   "entity": "Lomé",
+   "role": "UNKNOWN",
+   "value": "1979",
+   "raw_text": "1979",
+   "timex_type": "DATE",
+   "sentence": "9ce74139e1fb4824bc4454b5c454efd5",
+   "confidence": 0.2,
+   "signal_verb": null,
+   "signal_prep": null,
+   "temporal_content": true,
+   "date_parsed": "1979-08-01"
+  }
+ ],
+ "dependencies": [],
+ "edit_scenarios": [],
+ "_provenance": {
+  "extractor_backend": "heideltime",
+  "environment": {
+   "java": "openjdk version \"17.0.20\" 2026-07-21",
+   "py_heideltime": "unknown",
+   "spacy": "3.7.6",
+   "spacy_model": "en_core_web_trf",
+   "heideltime_probe": "2 spans, types=['DATE', 'DURATION']",
+   "python": "3.9.25"
+  },
+  "git": "861887f-dirty",
+  "reference_date": "2020-01-01",
+  "spacy_model": "en_core_web_trf",
+  "document_type": "legal",
+  "stage_counts": {
+   "document_id": "en_contracts_seed4",
+   "source_file": "../data/results_contracts_50/en_contracts_seed4.json",
+   "chars": 929,
+   "raw_timex": 3,
+   "timex_by_type": {
+    "DATE": 3
+   },
+   "unique_offsets": 3,
+   "facts": 3,
+   "deps": 0,
+   "dep_types": {},
+   "seconds": 3.71
+  },
+  "input_file": "../data/results_contracts_50/en_contracts_seed4.json"
+ }
+}

@@ -1,0 +1,17 @@
+# Deadline for presenting the movement certificate.
+
+```catala
+declaration scope MovementCertificateDeadline:
+  input issue_date content date
+  output submission_deadline content date
+```
+
+## Submission Deadline
+
+The movement certificate must be produced within six months from the date of issue of the original movement certificate.
+
+```catala
+scope MovementCertificateDeadline:
+  date round down
+  definition submission_deadline equals issue_date + 6 month
+```

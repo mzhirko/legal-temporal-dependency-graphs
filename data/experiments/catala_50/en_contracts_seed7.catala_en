@@ -1,0 +1,22 @@
+# Agreement on PNR data processing and transfer
+
+This scope computes the date the agreement enters into force and the date of termination based on notice.
+
+```catala
+declaration scope AgreementScope:
+  input signature_date content date
+  input notification_date content date
+  input notice_period content duration
+  output termination_date content date
+```
+
+## Termination Date
+
+The termination takes effect ninety days from the date of notification of termination.
+
+```catala
+scope AgreementScope:
+  date round down
+  definition termination_date equals
+    notification_date + 90 day
+```
