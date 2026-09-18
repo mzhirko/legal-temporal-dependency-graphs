@@ -121,7 +121,21 @@ Run `scan` over the whole tree, including code and logs, before any release.
 
 ## Citing
 
-See `CITATION.cff`.
+See `CITATION.cff`
+
+*OR*
+
+```
+@misc{zhyrko2026timestructuretemporaldependency,
+      title={Time as Structure: Temporal Dependency Graphs for Verifiable Deadline Computation over Legal Documents}, 
+      author={Maryia Zhyrko and Lifeng Han and Suzan Verberne},
+      year={2026},
+      eprint={2608.15270},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2608.15270}, 
+}
+```
 
 ## The gold set
 
